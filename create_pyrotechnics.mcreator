@@ -1,5 +1,34 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Bevsguitestingidk",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bevsguitestingidk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsguitestingidkMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsguitestingidkScreen.java"
+        ]
+      },
+      "path": "~/basic setup"
+    },
+    {
+      "name": "Bevsslotsgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bevsslotsgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsslotsguiScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsslotsguiMenu.java"
+        ]
+      },
+      "path": "~/basic setup"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
@@ -51,6 +80,10 @@
       },
       {
         "name": "salvage",
+        "children": []
+      },
+      {
+        "name": "basic setup",
         "children": []
       }
     ]
