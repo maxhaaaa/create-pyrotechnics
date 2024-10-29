@@ -1,30 +1,11 @@
 {
-  "mod_elements": [
-    {
-      "name": "Setting",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "setting",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/block/setting.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/setting.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/SettingBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/setting.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/setting.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "block.create_pyrotechnics.setting": "Setting"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
