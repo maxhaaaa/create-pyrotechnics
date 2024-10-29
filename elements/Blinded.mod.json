@@ -1,0 +1,13 @@
+{
+  "_fv": 69,
+  "_type": "attribute",
+  "definition": {
+    "name": "Blinded",
+    "minValue": 0.0,
+    "maxValue": 1.0,
+    "defaultValue": 0.0,
+    "addToAllEntities": false,
+    "addToPlayers": true,
+    "entities": []
+  }
+}

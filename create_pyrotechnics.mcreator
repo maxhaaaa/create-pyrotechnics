@@ -27,6 +27,122 @@
         ]
       },
       "path": "~/basic setup"
+    },
+    {
+      "name": "Explosion",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/particles/explosion.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ExplosionParticle.java"
+        ]
+      },
+      "path": "~/salvage"
+    },
+    {
+      "name": "Prototypenuke",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prototypenuke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PrototypenukeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/salvage"
+    },
+    {
+      "name": "Blinded",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blinded",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/salvage"
+    },
+    {
+      "name": "BlindinghudDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindinghud_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BlindinghudDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/hud things"
+    },
+    {
+      "name": "Blindinghud",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindinghud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/screens/BlindinghudOverlay.java"
+        ]
+      },
+      "path": "~/hud things"
+    },
+    {
+      "name": "Nukeproj",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nukeproj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/NukeprojEntity.java"
+        ]
+      },
+      "path": "~/salvage"
+    },
+    {
+      "name": "Debugstick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugstick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/debugstick.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/DebugstickItem.java"
+        ]
+      },
+      "path": "~/salvage"
     }
   ],
   "variable_elements": [],
@@ -34,7 +150,10 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.create_pyrotechnics.debugstick": "Debugstick",
+      "attribute.create_pyrotechnics.blinded": "Blinded"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -84,6 +203,10 @@
       },
       {
         "name": "basic setup",
+        "children": []
+      },
+      {
+        "name": "hud things",
         "children": []
       }
     ]

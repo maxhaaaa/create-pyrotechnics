@@ -1,1 +1,4 @@
-{}
+{
+  "item.create_pyrotechnics.debugstick": "Debugstick",
+  "attribute.create_pyrotechnics.blinded": "Blinded"
+}
