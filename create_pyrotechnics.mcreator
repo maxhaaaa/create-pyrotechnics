@@ -143,6 +143,52 @@
         ]
       },
       "path": "~/salvage"
+    },
+    {
+      "name": "Createpyrotechnics",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "createpyrotechnics",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Computerblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/computerblock.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/computerblock.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/computerblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/ComputerblockBlock.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ComputerblockBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/computerblock.json"
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Datawireblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datawireblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawireblock.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/datawireblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/DatawireblockBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/datawireblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/DatawireblockBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/datawireblock.json"
+        ]
+      },
+      "path": "~/computer stuff"
     }
   ],
   "variable_elements": [],
@@ -152,7 +198,10 @@
   "language_map": {
     "en_us": {
       "item.create_pyrotechnics.debugstick": "Debugstick",
-      "attribute.create_pyrotechnics.blinded": "Blinded"
+      "block.create_pyrotechnics.computerblock": "ballisitics computer",
+      "attribute.create_pyrotechnics.blinded": "Blinded",
+      "block.create_pyrotechnics.datawireblock": "Datawireblock",
+      "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Create pyrotechnics",
+    "icon": {
+      "value": "CUSTOM:Debugstick"
+    },
+    "showSearch": true
+  }
+}

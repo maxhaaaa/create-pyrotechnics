@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "create_pyrotechnics:block/datawireblock"
+    },
+    "face=floor,facing=east": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "x": 90
+    },
+    "face=wall,facing=east": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=south": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "create_pyrotechnics:block/datawireblock",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

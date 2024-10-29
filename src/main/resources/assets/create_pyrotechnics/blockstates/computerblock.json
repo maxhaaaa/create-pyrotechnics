@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create_pyrotechnics:block/computerblock",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_pyrotechnics:block/computerblock"
+    },
+    "axis=z": {
+      "model": "create_pyrotechnics:block/computerblock",
+      "x": 90
+    }
+  }
+}

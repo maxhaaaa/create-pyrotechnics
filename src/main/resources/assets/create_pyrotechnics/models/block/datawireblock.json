@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/copper_block",
+    "up": "minecraft:block/cut_copper",
+    "north": "create_pyrotechnics:block/front_placeholder",
+    "east": "minecraft:block/copper_block",
+    "south": "minecraft:block/copper_block",
+    "west": "minecraft:block/copper_block",
+    "particle": "minecraft:block/copper_block"
+  },
+  "render_type": "solid"
+}

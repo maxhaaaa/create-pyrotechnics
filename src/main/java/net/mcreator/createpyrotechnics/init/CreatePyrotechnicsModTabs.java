@@ -1,0 +1,23 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.createpyrotechnics.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
+
+import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
+
+public class CreatePyrotechnicsModTabs {
+	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreatePyrotechnicsMod.MODID);
+	public static final RegistryObject<CreativeModeTab> CREATEPYROTECHNICS = REGISTRY.register("createpyrotechnics",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.create_pyrotechnics.createpyrotechnics")).icon(() -> new ItemStack(CreatePyrotechnicsModItems.DEBUGSTICK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CreatePyrotechnicsModBlocks.COMPUTERBLOCK.get().asItem());
+			}).withSearchBar().build());
+}

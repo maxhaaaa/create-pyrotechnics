@@ -17,10 +17,13 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModTabs;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModParticleTypes;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModMenus;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModItems;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlocks;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlockEntities;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModAttributes;
 
 import java.util.function.Supplier;
@@ -43,8 +46,12 @@ public class CreatePyrotechnicsMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		CreatePyrotechnicsModBlocks.REGISTRY.register(bus);
+		CreatePyrotechnicsModBlockEntities.REGISTRY.register(bus);
 		CreatePyrotechnicsModItems.REGISTRY.register(bus);
 		CreatePyrotechnicsModEntities.REGISTRY.register(bus);
+
+		CreatePyrotechnicsModTabs.REGISTRY.register(bus);
 
 		CreatePyrotechnicsModParticleTypes.REGISTRY.register(bus);
 

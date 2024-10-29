@@ -1,4 +1,7 @@
 {
   "item.create_pyrotechnics.debugstick": "Debugstick",
-  "attribute.create_pyrotechnics.blinded": "Blinded"
+  "block.create_pyrotechnics.computerblock": "ballisitics computer",
+  "attribute.create_pyrotechnics.blinded": "Blinded",
+  "block.create_pyrotechnics.datawireblock": "Datawireblock",
+  "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics"
 }
