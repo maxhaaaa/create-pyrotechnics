@@ -9,7 +9,51 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "computer stuff",
+        "children": []
+      },
+      {
+        "name": "ballisitics",
+        "children": [
+          {
+            "name": "silo",
+            "children": [
+              {
+                "name": "mortars",
+                "children": []
+              },
+              {
+                "name": "missle",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "free fall bombs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "hangar",
+        "children": [
+          {
+            "name": "bombers",
+            "children": []
+          },
+          {
+            "name": "planes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "salvage",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "create_pyrotechnics",

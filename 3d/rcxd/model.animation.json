@@ -1,0 +1,67 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rcxd.idle": {
+			"loop": true
+		},
+		"animation.rcxd.falling": {
+			"animation_length": 0.25,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"vector": [-25, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, 0]
+					}
+				}
+			}
+		},
+		"animation.rcxd.explode": {
+			"animation_length": 1.0417,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": ["math.sin(q.anim_time * 3000) * 3", 0, "math.cos(q.anim_time * 2000) * 3"]
+						},
+						"1.0417": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.1667": {
+							"vector": [1.0075, 1.0075, 1.0075]
+						},
+						"0.3333": {
+							"vector": [1.02, 1.02, 1.02]
+						},
+						"0.5": {
+							"vector": [1.045, 1.045, 1.045]
+						},
+						"0.6667": {
+							"vector": [1.08, 1.08, 1.08]
+						},
+						"0.8333": {
+							"vector": [1.13, 1.13, 1.13]
+						},
+						"1.0": {
+							"vector": [1.2, 1.2, 1.2]
+						},
+						"1.0417": {"pre": {"vector": [1.6, 1.6, 1.6]}, "post": {"vector": [0, 0, 0]}}
+					}
+				}
+			}
+		},
+		"animation.rcxd.new": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}

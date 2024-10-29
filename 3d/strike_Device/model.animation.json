@@ -1,0 +1,170 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.strike_device.idle": {
+			"loop": true
+		},
+		"animation.strike_device.open_lid": {
+			"animation_length": 0.125,
+			"bones": {
+				"casetop": {
+					"rotation": {
+						"0.0": {
+							"vector": [-80, 0, 0]
+						},
+						"0.125": {
+							"vector": [7.5, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.strike_device.closed_lid": {
+			"loop": true,
+			"bones": {
+				"casetop": {
+					"rotation": {
+						"vector": [-82.5, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.strike_device.close_lid": {
+			"loop": true,
+			"animation_length": 0.25,
+			"bones": {
+				"casetop": {
+					"rotation": {
+						"vector": [-82.5, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.strike_device.opened_lid": {
+			"loop": true,
+			"bones": {
+				"casetop": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.strike_device.use": {
+			"animation_length": 0.25,
+			"bones": {
+				"everything": {
+					"position": {
+						"0.125": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [0, -1, -1]
+						},
+						"0.2083": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"casetop": {
+					"rotation": {
+						"0.0417": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [-20, 0, 0]
+						},
+						"0.2083": {
+							"vector": [-5, 0, 0]
+						}
+					}
+				},
+				"button1": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, -1, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.strike_device.card_in": {
+			"loop": true,
+			"bones": {
+				"everything": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"card": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.strike_device.no_card": {
+			"loop": true,
+			"bones": {
+				"card": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.strike_device.putting_card": {
+			"animation_length": 0.25,
+			"bones": {
+				"everything": {
+					"position": {
+						"0.0833": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, -1, -1]
+						},
+						"0.1667": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"casetop": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [-20, 0, 0]
+						},
+						"0.1667": {
+							"vector": [-5, 0, 0]
+						}
+					}
+				},
+				"card": {
+					"rotation": {
+						"0.0": {
+							"vector": [-37.5, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 5, 2]
+						},
+						"0.125": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

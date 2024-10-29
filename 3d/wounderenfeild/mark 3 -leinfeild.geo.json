@@ -1,0 +1,62 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "all",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "base",
+					"parent": "all",
+					"pivot": [0, 3, 0],
+					"cubes": [
+						{"origin": [-2, 2, -8], "size": [4, 3, 16], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bolt",
+					"parent": "all",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{"origin": [-1, 4, -3], "size": [2, 2, 10], "uv": [0, 19]},
+						{"origin": [-3, 4, 5], "size": [2, 2, 2], "uv": [14, 19]}
+					]
+				},
+				{
+					"name": "magazine",
+					"parent": "all",
+					"pivot": [0, 2, 4],
+					"cubes": [
+						{"origin": [-1, 0, 1], "size": [2, 2, 5], "uv": [0, 7]}
+					]
+				},
+				{
+					"name": "sights",
+					"parent": "all",
+					"pivot": [0, 6, -8],
+					"cubes": [
+						{"origin": [-1, 5, -9], "size": [2, 2, 2], "uv": [0, 19]}
+					]
+				},
+				{
+					"name": "clip",
+					"parent": "all",
+					"pivot": [1, 4, 3],
+					"cubes": [
+						{"origin": [-1, 2, 1], "size": [2, 2, 5], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

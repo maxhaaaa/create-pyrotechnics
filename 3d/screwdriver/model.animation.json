@@ -1,0 +1,75 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.screwdriver.idle": {
+			"loop": true
+		},
+		"animation.screwdriver.action": {
+			"animation_length": 1,
+			"bones": {
+				"screwdriver": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [4.09918, -2.86544, 34.89743],
+							"easing": "easeInElastic"
+						},
+						"0.5": {
+							"vector": [0.22, -5, 87.49],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [0.22, -5, 87.49],
+							"easing": "easeInSine"
+						},
+						"0.6667": {
+							"vector": [-1.91838, -4.62343, 112.57706],
+							"easing": "easeInSine"
+						},
+						"0.75": {
+							"vector": [-1.92, -4.62, 112.58]
+						},
+						"0.7917": {
+							"vector": [0.38636, -4.88718, 86.32393]
+						},
+						"0.8333": {
+							"vector": [-78.84788, -88.04939, 191.26687]
+						},
+						"0.875": {
+							"vector": [-193.57065, -60.87095, 320.1425]
+						},
+						"0.9167": {
+							"vector": [-178.07137, 7.11859, 292.66438]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 1, 0],
+							"easing": "easeInElastic"
+						},
+						"0.5": {
+							"vector": [0, 4, 0],
+							"easing": "linear"
+						},
+						"0.6667": {
+							"vector": [0, 8, 0],
+							"easing": "easeInSine"
+						},
+						"0.75": {
+							"vector": [0, 8, 0]
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
