@@ -19,5 +19,8 @@ public class CreatePyrotechnicsModTabs {
 	public static final RegistryObject<CreativeModeTab> CREATEPYROTECHNICS = REGISTRY.register("createpyrotechnics",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.create_pyrotechnics.createpyrotechnics")).icon(() -> new ItemStack(CreatePyrotechnicsModItems.DEBUGSTICK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CreatePyrotechnicsModBlocks.COMPUTERBLOCK.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.DATAWIREBLOCK.get().asItem());
+				tabData.accept(CreatePyrotechnicsModItems.BALLISTICSBUILDINGTOOL.get());
+				tabData.accept(CreatePyrotechnicsModBlocks.SILO_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.createpyrotechnics.item.DebugstickItem;
+import net.mcreator.createpyrotechnics.item.BallisticsbuildingtoolItem;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class CreatePyrotechnicsModItems {
@@ -20,6 +21,9 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> DEBUGSTICK = REGISTRY.register("debugstick", () -> new DebugstickItem());
 	public static final RegistryObject<Item> COMPUTERBLOCK = block(CreatePyrotechnicsModBlocks.COMPUTERBLOCK);
 	public static final RegistryObject<Item> DATAWIREBLOCK = block(CreatePyrotechnicsModBlocks.DATAWIREBLOCK);
+	public static final RegistryObject<Item> DATAWIRESTOPPER = block(CreatePyrotechnicsModBlocks.DATAWIRESTOPPER);
+	public static final RegistryObject<Item> BALLISTICSBUILDINGTOOL = REGISTRY.register("ballisticsbuildingtool", () -> new BallisticsbuildingtoolItem());
+	public static final RegistryObject<Item> SILO_BLOCK = block(CreatePyrotechnicsModBlocks.SILO_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
 import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
@@ -24,6 +25,8 @@ public class CreatePyrotechnicsModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, CreatePyrotechnicsMod.MODID);
 	public static final RegistryObject<EntityType<NukeprojEntity>> NUKEPROJ = register("nukeproj",
 			EntityType.Builder.<NukeprojEntity>of(NukeprojEntity::new, MobCategory.MISC).setCustomClientFactory(NukeprojEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<TestingMortarEntity>> TESTING_MORTAR = register("testing_mortar",
+			EntityType.Builder.<TestingMortarEntity>of(TestingMortarEntity::new, MobCategory.MISC).setCustomClientFactory(TestingMortarEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -1,0 +1,71 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "value here (0)",
+          "name": "valueentering",
+          "width": 120,
+          "height": 20,
+          "x": 153,
+          "y": 124
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "your custom variable name here",
+          "name": "input",
+          "width": 120,
+          "height": 20,
+          "x": 153,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_your_custom_varible",
+          "text": {
+            "fixedValue": "your_custom_varible"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 157,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_enter",
+          "text": "enter",
+          "isUndecorated": false,
+          "width": 51,
+          "height": 20,
+          "x": 187,
+          "y": 157
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

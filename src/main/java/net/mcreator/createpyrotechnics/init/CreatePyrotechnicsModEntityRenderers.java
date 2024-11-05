@@ -16,5 +16,6 @@ public class CreatePyrotechnicsModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.NUKEPROJ.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.TESTING_MORTAR.get(), ThrownItemRenderer::new);
 	}
 }

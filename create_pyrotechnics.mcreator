@@ -189,6 +189,267 @@
         ]
       },
       "path": "~/computer stuff"
+    },
+    {
+      "name": "Computernavigator",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computernavigator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ComputernavigatorMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/network/ComputernavigatorButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ComputernavigatorScreen.java"
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "ComputerblockBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computerblock_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ComputerblockBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Navigateup",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "navigateup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/NavigateupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Returnvirtualblock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnvirtualblock",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnvirtualblockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Datawirestopper",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datawirestopper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawirestopper.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/DatawirestopperBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/datawirestopper.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/datawirestopper.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/datawirestopper.json"
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "BallisticsbuildingtoolRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ballisticsbuildingtool_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BallisticsbuildingtoolRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Ballisticsbuildingtool",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ballisticsbuildingtool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/BallisticsbuildingtoolItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/ballisticsbuildingtool.json"
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "SiloBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silo_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/block/silo_block.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/SiloBlockBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/silo_block.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/silo_block.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/SiloBlockBlock.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/silo_block.json"
+        ]
+      },
+      "path": "~/ballisitics/silo"
+    },
+    {
+      "name": "Siloguinew",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siloguinew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/SiloguinewMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/SiloguinewScreen.java"
+        ]
+      },
+      "path": "~/ballisitics/silo"
+    },
+    {
+      "name": "TestingMortarProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing_mortar_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestingMortarProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ballisitics/silo"
+    },
+    {
+      "name": "TestingMortar",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing_mortar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/TestingMortarEntity.java"
+        ]
+      },
+      "path": "~/ballisitics/silo"
+    },
+    {
+      "name": "Valueenteringgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valueenteringgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ValueenteringguiMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ValueenteringguiScreen.java"
+        ]
+      },
+      "path": "~/computer stuff"
     }
   ],
   "variable_elements": [],
@@ -197,10 +458,27 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.create_pyrotechnics.debugstick": "Debugstick",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
+      "gui.create_pyrotechnics.computernavigator.button_empty": "^",
+      "gui.create_pyrotechnics.computernavigator.button_up_on_y_axis": "up- on y axis",
+      "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
+      "gui.create_pyrotechnics.computernavigator.button_down_on_the_y_axis": "down- on the y axis",
+      "gui.create_pyrotechnics.computernavigator.button_execute": "open",
+      "gui.create_pyrotechnics.valueenteringgui.button_enter": "enter",
+      "item.create_pyrotechnics.debugstick": "Debugstick",
+      "item.create_pyrotechnics.ballisticsbuildingtool": "Ballisticsbuildingtool",
+      "gui.create_pyrotechnics.computernavigator.button_empty1": "\u003e",
       "attribute.create_pyrotechnics.blinded": "Blinded",
       "block.create_pyrotechnics.datawireblock": "Datawireblock",
+      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
+      "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
+      "gui.create_pyrotechnics.computernavigator.button_return_to_original_block": "return to original block",
+      "block.create_pyrotechnics.datawirestopper": "Datawirestopper",
+      "block.create_pyrotechnics.silo_block": "Silo Block",
+      "gui.create_pyrotechnics.valueenteringgui.valueentering": "value here (0)",
+      "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
+      "gui.create_pyrotechnics.computernavigator.button_v": "V",
+      "gui.create_pyrotechnics.valueenteringgui.label_your_custom_varible": "your_custom_varible",
       "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics"
     }
   },
@@ -256,6 +534,14 @@
       },
       {
         "name": "hud things",
+        "children": []
+      },
+      {
+        "name": "explosions",
+        "children": []
+      },
+      {
+        "name": "tools",
         "children": []
       }
     ]

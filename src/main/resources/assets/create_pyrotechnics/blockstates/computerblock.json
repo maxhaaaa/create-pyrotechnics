@@ -1,14 +1,25 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "create_pyrotechnics:block/computerblock",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
+    "facing=north": {
       "model": "create_pyrotechnics:block/computerblock"
     },
-    "axis=z": {
+    "facing=east": {
+      "model": "create_pyrotechnics:block/computerblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "create_pyrotechnics:block/computerblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_pyrotechnics:block/computerblock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "create_pyrotechnics:block/computerblock",
+      "x": 270
+    },
+    "facing=down": {
       "model": "create_pyrotechnics:block/computerblock",
       "x": 90
     }

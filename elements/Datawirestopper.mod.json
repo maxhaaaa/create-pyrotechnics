@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:copper_block",
-    "textureTop": "minecraft:cut_copper",
-    "textureLeft": "minecraft:copper_block",
-    "textureFront": "front_placeholder",
-    "textureRight": "minecraft:copper_block",
-    "textureBack": "minecraft:copper_block",
+    "texture": "minecraft:iron_block",
+    "textureTop": "minecraft:iron_block",
+    "textureLeft": "minecraft:iron_block",
+    "textureFront": "minecraft:structure_block_load",
+    "textureRight": "minecraft:iron_block",
+    "textureBack": "minecraft:structure_block_load",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 2,
@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Datawireblock",
+    "name": "Datawirestopper",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,11 +42,7 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:Createpyrotechnics"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -57,7 +53,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "NONE"
     },
@@ -84,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -105,12 +101,12 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 0,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": false,
+    "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],

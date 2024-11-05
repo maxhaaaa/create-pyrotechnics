@@ -2,10 +2,10 @@
   "parent": "block/cube",
   "textures": {
     "down": "minecraft:block/iron_block",
-    "up": "create_pyrotechnics:block/computer_block_face_up",
-    "north": "create_pyrotechnics:block/front_placeholder",
+    "up": "minecraft:block/iron_block",
+    "north": "minecraft:block/structure_block_load",
     "east": "minecraft:block/iron_block",
-    "south": "minecraft:block/iron_block",
+    "south": "minecraft:block/structure_block_load",
     "west": "minecraft:block/iron_block",
     "particle": "minecraft:block/iron_block"
   },

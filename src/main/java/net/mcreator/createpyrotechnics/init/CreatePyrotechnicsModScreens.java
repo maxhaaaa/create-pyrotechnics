@@ -11,6 +11,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.createpyrotechnics.client.gui.ValueenteringguiScreen;
+import net.mcreator.createpyrotechnics.client.gui.SiloguinewScreen;
+import net.mcreator.createpyrotechnics.client.gui.ComputernavigatorScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsslotsguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsguitestingidkScreen;
 
@@ -21,6 +24,9 @@ public class CreatePyrotechnicsModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(CreatePyrotechnicsModMenus.BEVSGUITESTINGIDK.get(), BevsguitestingidkScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.BEVSSLOTSGUI.get(), BevsslotsguiScreen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.COMPUTERNAVIGATOR.get(), ComputernavigatorScreen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.SILOGUINEW.get(), SiloguinewScreen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.VALUEENTERINGGUI.get(), ValueenteringguiScreen::new);
 		});
 	}
 }
