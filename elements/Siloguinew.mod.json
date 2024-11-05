@@ -29,15 +29,48 @@
         }
       },
       {
-        "type": "button",
+        "type": "label",
         "data": {
-          "name": "button_launch",
-          "text": "launch",
-          "isUndecorated": false,
-          "width": 56,
-          "height": 20,
-          "x": 142,
-          "y": 84
+          "name": "label_currently_listening_for_launch_p",
+          "text": {
+            "fixedValue": "listening for arming"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pin",
+          "text": {
+            "fixedValue": "pin 5"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_return_pin",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 155,
+          "y": 53
         }
       }
     ],

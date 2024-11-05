@@ -18,7 +18,7 @@
           "width": 120,
           "height": 20,
           "x": 153,
-          "y": 124
+          "y": 95
         }
       },
       {
@@ -37,14 +37,15 @@
         "data": {
           "name": "label_your_custom_varible",
           "text": {
-            "fixedValue": "your_custom_varible"
+            "fixedValue": "your_custom_varible",
+            "name": "Returnprevvarb"
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 157,
-          "y": 47
+          "x": 190,
+          "y": 48
         }
       },
       {
@@ -53,10 +54,39 @@
           "name": "button_enter",
           "text": "enter",
           "isUndecorated": false,
+          "onClick": {
+            "name": "Variblegenerator"
+          },
           "width": 51,
           "height": 20,
           "x": 187,
           "y": 157
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_current_varb_number",
+          "text": {
+            "fixedValue": "current:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 142,
+          "y": 49
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "assignment pin",
+          "name": "pinmode",
+          "width": 120,
+          "height": 20,
+          "x": 153,
+          "y": 124
         }
       }
     ],

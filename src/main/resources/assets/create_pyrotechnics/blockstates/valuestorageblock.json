@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "create_pyrotechnics:block/valuestorageblock"
+    },
+    "facing=east": {
+      "model": "create_pyrotechnics:block/valuestorageblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "create_pyrotechnics:block/valuestorageblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_pyrotechnics:block/valuestorageblock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "create_pyrotechnics:block/valuestorageblock",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "create_pyrotechnics:block/valuestorageblock",
+      "x": 90
+    }
+  }
+}

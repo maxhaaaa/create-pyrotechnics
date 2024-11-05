@@ -22,5 +22,7 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.DATAWIREBLOCK.get().asItem());
 				tabData.accept(CreatePyrotechnicsModItems.BALLISTICSBUILDINGTOOL.get());
 				tabData.accept(CreatePyrotechnicsModBlocks.SILO_BLOCK.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.VALUESTORAGEBLOCK.get().asItem());
+				tabData.accept(CreatePyrotechnicsModItems.PINASSIGNER.get());
 			}).withSearchBar().build());
 }

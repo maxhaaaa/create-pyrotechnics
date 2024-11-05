@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.createpyrotechnics.block.ValuestorageblockBlock;
 import net.mcreator.createpyrotechnics.block.SiloBlockBlock;
 import net.mcreator.createpyrotechnics.block.DatawirestopperBlock;
 import net.mcreator.createpyrotechnics.block.DatawireblockBlock;
@@ -22,6 +23,7 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> DATAWIREBLOCK = REGISTRY.register("datawireblock", () -> new DatawireblockBlock());
 	public static final RegistryObject<Block> DATAWIRESTOPPER = REGISTRY.register("datawirestopper", () -> new DatawirestopperBlock());
 	public static final RegistryObject<Block> SILO_BLOCK = REGISTRY.register("silo_block", () -> new SiloBlockBlock());
+	public static final RegistryObject<Block> VALUESTORAGEBLOCK = REGISTRY.register("valuestorageblock", () -> new ValuestorageblockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

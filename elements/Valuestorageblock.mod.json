@@ -2,10 +2,10 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "artboard_1_3",
-    "textureTop": "minecraft:composter_top",
+    "texture": "minecraft:bee_nest_top",
+    "textureTop": "minecraft:bee_nest_top",
     "textureLeft": "artboard_1_3",
-    "textureFront": "artboard_1_3",
+    "textureFront": "computer_block_face_up",
     "textureRight": "artboard_1_3",
     "textureBack": "artboard_1_3",
     "renderType": 10,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Silo Block",
+    "name": "Valuestorageblock",
     "specialInformation": {
       "fixedValue": []
     },
@@ -108,8 +108,8 @@
     "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 1,
-    "inventoryStackSize": 1,
+    "inventorySize": 0,
+    "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
@@ -122,9 +122,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "SiloBlockOnTickUpdate"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

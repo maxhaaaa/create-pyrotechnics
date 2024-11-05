@@ -6,7 +6,6 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.createpyrotechnics.world.inventory.SiloguinewMenu;
@@ -20,7 +19,6 @@ public class SiloguinewScreen extends AbstractContainerScreen<SiloguinewMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_launch;
 
 	public SiloguinewScreen(SiloguinewMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -62,14 +60,13 @@ public class SiloguinewScreen extends AbstractContainerScreen<SiloguinewMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.siloguinew.label_currently_listening_for_launch_p"), 8, 4, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.siloguinew.label_pin"), 8, 16, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.siloguinew.label_return_pin"), 29, 16, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		button_launch = Button.builder(Component.translatable("gui.create_pyrotechnics.siloguinew.button_launch"), e -> {
-		}).bounds(this.leftPos + 16, this.topPos + 47, 56, 20).build();
-		guistate.put("button:button_launch", button_launch);
-		this.addRenderableWidget(button_launch);
 	}
 }

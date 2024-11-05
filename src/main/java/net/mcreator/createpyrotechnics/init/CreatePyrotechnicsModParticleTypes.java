@@ -16,4 +16,5 @@ import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 public class CreatePyrotechnicsModParticleTypes {
 	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, CreatePyrotechnicsMod.MODID);
 	public static final RegistryObject<SimpleParticleType> EXPLOSION = REGISTRY.register("explosion", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> PARTICLEHEAVY = REGISTRY.register("particleheavy", () -> new SimpleParticleType(true));
 }
