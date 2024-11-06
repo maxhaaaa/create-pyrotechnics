@@ -1,6 +1,7 @@
 {
   "block.create_pyrotechnics.computerblock": "ballisitics computer",
   "block.create_pyrotechnics.valuestorageblock": "Valuestorageblock",
+  "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
   "gui.create_pyrotechnics.computernavigator.button_empty": "^",
   "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
   "gui.create_pyrotechnics.computernavigator.button_up_on_y_axis": "up- on y axis",
@@ -17,6 +18,7 @@
   "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
   "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
   "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
+  "entity.create_pyrotechnics.designator": "DESIGNATOR",
   "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
   "gui.create_pyrotechnics.computernavigator.button_return_to_original_block": "return to original block",
   "block.create_pyrotechnics.datawirestopper": "Datawirestopper",
@@ -25,8 +27,11 @@
   "item.create_pyrotechnics.pinassigner": "Pinassigner",
   "gui.create_pyrotechnics.valueenteringgui.pinmode": "assignment pin",
   "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
+  "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
+  "item.create_pyrotechnics.designator_spawn_egg": "DESIGNATOR Spawn Egg",
   "gui.create_pyrotechnics.siloguinew.label_currently_listening_for_launch_p": "listening for arming",
   "gui.create_pyrotechnics.computernavigator.button_v": "V",
+  "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
   "gui.create_pyrotechnics.valueenteringgui.label_your_custom_varible": "your_custom_varible",
   "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics"
 }

@@ -22,13 +22,13 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.createpyrotechnics.world.inventory.SiloguinewMenu;
-import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModParticleTypes;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
 import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
+import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -45,7 +45,7 @@ public class SiloBlockOnTickUpdateProcedure {
 					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, BlockPos.containing(x, y - 1, z), ("pinmode" + 5)) == 1) {
+		}.getValue(world, BlockPos.containing(x, y - 1, z), ("pinmode" + Math.round(5))) == 1) {
 			if ((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -56,7 +56,7 @@ public class SiloBlockOnTickUpdateProcedure {
 				}
 			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == Blocks.TNT.asItem()) {
 				for (int index0 = 0; index0 < 20; index0++) {
-					world.addParticle((SimpleParticleType) (CreatePyrotechnicsModParticleTypes.EXPLOSION.get()), x, y, z, 0, (Mth.nextDouble(RandomSource.create(), 0, 0.5)), 0);
+					world.addParticle(ParticleTypes.LARGE_SMOKE, x, y, z, 0, (Mth.nextDouble(RandomSource.create(), 0, 0.5)), 0);
 				}
 				if (world instanceof ServerLevel projectileLevel) {
 					Projectile _entityToSpawn = new Object() {
@@ -90,7 +90,7 @@ public class SiloBlockOnTickUpdateProcedure {
 								return blockEntity.getPersistentData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, BlockPos.containing(x, y, z), ("pinmode" + 4))) * 5 + 100), (new Object() {
+					}.getValue(world, BlockPos.containing(x, y - 1, z), ("pinmode" + 4))) * 5 + 100), (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -98,7 +98,7 @@ public class SiloBlockOnTickUpdateProcedure {
 							return -1;
 						}
 					}.getValue(world, BlockPos.containing(x, y - 1, z), ("pinmode" + 3))));
-					_entityToSpawn.shoot(0, (-1), 0, 1, 0);
+					_entityToSpawn.shoot(0, 0, 0, 1, 0);
 					projectileLevel.addFreshEntity(_entityToSpawn);
 				}
 				{
@@ -131,6 +131,14 @@ public class SiloBlockOnTickUpdateProcedure {
 					}
 				}, _bpos);
 			}
+			CreatePyrotechnicsMod.LOGGER.info("pin not set!. pinmode 5 expected 1 found: " + ("pinmode" + Math.round(5)) + (new Object() {
+				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+					BlockEntity blockEntity = world.getBlockEntity(pos);
+					if (blockEntity != null)
+						return blockEntity.getPersistentData().getDouble(tag);
+					return -1;
+				}
+			}.getValue(world, BlockPos.containing(x, y - 1, z), ("pinmode" + Math.round(5)))));
 		}
 	}
 }

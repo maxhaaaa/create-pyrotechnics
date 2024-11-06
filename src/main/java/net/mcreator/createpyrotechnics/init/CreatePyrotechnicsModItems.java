@@ -7,12 +7,14 @@ package net.mcreator.createpyrotechnics.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.createpyrotechnics.item.PinassignerItem;
+import net.mcreator.createpyrotechnics.item.LazerdesignatorItem;
 import net.mcreator.createpyrotechnics.item.DebugstickItem;
 import net.mcreator.createpyrotechnics.item.BallisticsbuildingtoolItem;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
@@ -27,6 +29,9 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> SILO_BLOCK = block(CreatePyrotechnicsModBlocks.SILO_BLOCK);
 	public static final RegistryObject<Item> VALUESTORAGEBLOCK = block(CreatePyrotechnicsModBlocks.VALUESTORAGEBLOCK);
 	public static final RegistryObject<Item> PINASSIGNER = REGISTRY.register("pinassigner", () -> new PinassignerItem());
+	public static final RegistryObject<Item> LAZERDESIGNATOR = REGISTRY.register("lazerdesignator", () -> new LazerdesignatorItem());
+	public static final RegistryObject<Item> MORTARORMISSLESHOOTER_SPAWN_EGG = REGISTRY.register("mortarormissleshooter_spawn_egg", () -> new ForgeSpawnEggItem(CreatePyrotechnicsModEntities.MORTARORMISSLESHOOTER, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> DESIGNATOR_SPAWN_EGG = REGISTRY.register("designator_spawn_egg", () -> new ForgeSpawnEggItem(CreatePyrotechnicsModEntities.DESIGNATOR, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -24,5 +24,7 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.SILO_BLOCK.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.VALUESTORAGEBLOCK.get().asItem());
 				tabData.accept(CreatePyrotechnicsModItems.PINASSIGNER.get());
+				tabData.accept(CreatePyrotechnicsModItems.LAZERDESIGNATOR.get());
+				tabData.accept(CreatePyrotechnicsModItems.DESIGNATOR_SPAWN_EGG.get());
 			}).withSearchBar().build());
 }

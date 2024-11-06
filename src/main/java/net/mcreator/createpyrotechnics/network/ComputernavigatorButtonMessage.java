@@ -12,7 +12,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.createpyrotechnics.world.inventory.ComputernavigatorMenu;
-import net.mcreator.createpyrotechnics.procedures.NavigateupProcedure;
+import net.mcreator.createpyrotechnics.procedures.ExecutebuttonProcedure;
+import net.mcreator.createpyrotechnics.procedures.CallmaxesmenulibsrightProcedure;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 import java.util.function.Supplier;
@@ -62,9 +63,13 @@ public class ComputernavigatorButtonMessage {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 0) {
+		if (buttonID == 1) {
 
-			NavigateupProcedure.execute(world, x, y, z);
+			CallmaxesmenulibsrightProcedure.execute(world, x, y, z);
+		}
+		if (buttonID == 4) {
+
+			ExecutebuttonProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

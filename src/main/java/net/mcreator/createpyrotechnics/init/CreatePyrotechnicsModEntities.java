@@ -18,6 +18,8 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
 import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
+import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
+import net.mcreator.createpyrotechnics.entity.DESIGNATOREntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -27,6 +29,15 @@ public class CreatePyrotechnicsModEntities {
 			EntityType.Builder.<NukeprojEntity>of(NukeprojEntity::new, MobCategory.MISC).setCustomClientFactory(NukeprojEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<TestingMortarEntity>> TESTING_MORTAR = register("testing_mortar",
 			EntityType.Builder.<TestingMortarEntity>of(TestingMortarEntity::new, MobCategory.MISC).setCustomClientFactory(TestingMortarEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<MortarormissleshooterEntity>> MORTARORMISSLESHOOTER = register("mortarormissleshooter",
+			EntityType.Builder.<MortarormissleshooterEntity>of(MortarormissleshooterEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(MortarormissleshooterEntity::new)
+
+					.sized(0.4f, 0.7f));
+	public static final RegistryObject<EntityType<DESIGNATOREntity>> DESIGNATOR = register("designator",
+			EntityType.Builder.<DESIGNATOREntity>of(DESIGNATOREntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DESIGNATOREntity::new)
+
+					.sized(0.4f, 0.3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -35,10 +46,14 @@ public class CreatePyrotechnicsModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			MortarormissleshooterEntity.init();
+			DESIGNATOREntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(MORTARORMISSLESHOOTER.get(), MortarormissleshooterEntity.createAttributes().build());
+		event.put(DESIGNATOR.get(), DESIGNATOREntity.createAttributes().build());
 	}
 }

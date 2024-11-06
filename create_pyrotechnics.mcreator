@@ -241,12 +241,28 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "navigateup",
+      "registry_name": "navigateright",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/NavigateupProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "dvirtualtargetchange",
+            "type": "number"
+          },
+          {
+            "name": "dx_change",
+            "type": "number"
+          },
+          {
+            "name": "dy_change",
+            "type": "number"
+          },
+          {
+            "name": "dz_change",
+            "type": "number"
+          },
           {
             "name": "x",
             "type": "number"
@@ -258,6 +274,26 @@
           {
             "name": "z",
             "type": "number"
+          },
+          {
+            "name": "dtargetvirtualblock",
+            "type": "string"
+          },
+          {
+            "name": "dvirtualblock",
+            "type": "string"
+          },
+          {
+            "name": "dvirtualblockx",
+            "type": "string"
+          },
+          {
+            "name": "dvirtualblocky",
+            "type": "string"
+          },
+          {
+            "name": "dvirtualblockz",
+            "type": "string"
           },
           {
             "name": "world",
@@ -450,7 +486,7 @@
           "src/main/java/net/mcreator/createpyrotechnics/client/gui/ValueenteringguiScreen.java"
         ]
       },
-      "path": "~/computer stuff"
+      "path": "~/tools/pin assigner"
     },
     {
       "name": "Variblegenerator",
@@ -485,7 +521,7 @@
           }
         ]
       },
-      "path": "~/computer stuff"
+      "path": "~/tools/pin assigner"
     },
     {
       "name": "Returnprevvarb",
@@ -574,7 +610,7 @@
           }
         ]
       },
-      "path": "~/tools"
+      "path": "~/tools/pin assigner"
     },
     {
       "name": "Pinassigner",
@@ -588,7 +624,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/item/pinassigner.json"
         ]
       },
-      "path": "~/tools"
+      "path": "~/tools/pin assigner"
     },
     {
       "name": "SiloBlockOnTickUpdate",
@@ -638,6 +674,199 @@
         ]
       },
       "path": "~/explosions"
+    },
+    {
+      "name": "Exectuablefound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exectuablefound",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ExectuablefoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Executebutton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "executebutton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ExecutebuttonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "LazerdesignatorRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lazerdesignator_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/LazerdesignatorRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/lazer_designator"
+    },
+    {
+      "name": "Lazerdesignator",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lazerdesignator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/LazerdesignatorItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/lazerdesignator.json"
+        ]
+      },
+      "path": "~/tools/lazer_designator"
+    },
+    {
+      "name": "Mortarormissleshooter",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortarormissleshooter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/MortarormissleshooterEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/mortarormissleshooter_spawn_egg.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/MortarormissleshooterRenderer.java"
+        ]
+      },
+      "path": "~/ballisitics/silo/mortar_shooter_entity"
+    },
+    {
+      "name": "TestingMortarWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing_mortar_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestingMortarWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ballisitics/silo"
+    },
+    {
+      "name": "DESIGNATOR",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "designator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/DESIGNATORRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/DESIGNATOREntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/designator_spawn_egg.json",
+          "src/main/resources/data/create_pyrotechnics/forge/biome_modifier/designator_biome_modifier.json"
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Callmaxesmenulibsright",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "callmaxesmenulibsright",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CallmaxesmenulibsrightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
     }
   ],
   "variable_elements": [],
@@ -648,6 +877,7 @@
     "en_us": {
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
       "block.create_pyrotechnics.valuestorageblock": "Valuestorageblock",
+      "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
       "gui.create_pyrotechnics.computernavigator.button_empty": "^",
       "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
       "gui.create_pyrotechnics.computernavigator.button_up_on_y_axis": "up- on y axis",
@@ -664,6 +894,7 @@
       "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
       "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
+      "entity.create_pyrotechnics.designator": "DESIGNATOR",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
       "gui.create_pyrotechnics.computernavigator.button_return_to_original_block": "return to original block",
       "block.create_pyrotechnics.datawirestopper": "Datawirestopper",
@@ -672,8 +903,11 @@
       "item.create_pyrotechnics.pinassigner": "Pinassigner",
       "gui.create_pyrotechnics.valueenteringgui.pinmode": "assignment pin",
       "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
+      "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
+      "item.create_pyrotechnics.designator_spawn_egg": "DESIGNATOR Spawn Egg",
       "gui.create_pyrotechnics.siloguinew.label_currently_listening_for_launch_p": "listening for arming",
       "gui.create_pyrotechnics.computernavigator.button_v": "V",
+      "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
       "gui.create_pyrotechnics.valueenteringgui.label_your_custom_varible": "your_custom_varible",
       "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics"
     }
@@ -697,6 +931,10 @@
               },
               {
                 "name": "missle",
+                "children": []
+              },
+              {
+                "name": "mortar_shooter_entity",
                 "children": []
               }
             ]
@@ -738,7 +976,16 @@
       },
       {
         "name": "tools",
-        "children": []
+        "children": [
+          {
+            "name": "pin assigner",
+            "children": []
+          },
+          {
+            "name": "lazer_designator",
+            "children": []
+          }
+        ]
       },
       {
         "name": "crafting",

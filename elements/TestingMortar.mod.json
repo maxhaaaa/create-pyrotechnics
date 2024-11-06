@@ -19,6 +19,9 @@
     "modelHeight": 0.5,
     "onHitsBlock": {
       "name": "TestingMortarProjectileHitsBlock"
+    },
+    "onFlyingTick": {
+      "name": "TestingMortarWhileProjectileFlyingTick"
     }
   }
 }

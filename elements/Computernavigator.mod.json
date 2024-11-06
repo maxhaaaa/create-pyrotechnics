@@ -16,9 +16,6 @@
           "name": "button_empty",
           "text": "^",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Navigateup"
-          },
           "width": 30,
           "height": 20,
           "x": 200,
@@ -31,6 +28,9 @@
           "name": "button_empty1",
           "text": ">",
           "isUndecorated": false,
+          "onClick": {
+            "name": "Callmaxesmenulibsright"
+          },
           "width": 30,
           "height": 20,
           "x": 259,
@@ -67,6 +67,12 @@
           "name": "button_execute",
           "text": "open",
           "isUndecorated": false,
+          "onClick": {
+            "name": "Executebutton"
+          },
+          "displayCondition": {
+            "name": "Exectuablefound"
+          },
           "width": 61,
           "height": 20,
           "x": 183,
@@ -99,6 +105,9 @@
           "color": {
             "value": -65485,
             "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Exectuablefound"
           },
           "x": 144,
           "y": 135

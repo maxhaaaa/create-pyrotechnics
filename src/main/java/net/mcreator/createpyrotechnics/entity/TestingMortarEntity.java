@@ -20,6 +20,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.createpyrotechnics.procedures.TestingMortarWhileProjectileFlyingTickProcedure;
 import net.mcreator.createpyrotechnics.procedures.TestingMortarProjectileHitsBlockProcedure;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlocks;
@@ -75,6 +76,7 @@ public class TestingMortarEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void tick() {
 		super.tick();
+		TestingMortarWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 		if (this.inGround)
 			this.discard();
 	}

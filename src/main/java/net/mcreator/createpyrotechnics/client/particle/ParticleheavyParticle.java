@@ -42,7 +42,7 @@ public class ParticleheavyParticle extends TextureSheetParticle {
 		this.xd = vx * 1;
 		this.yd = vy * 1;
 		this.zd = vz * 1;
-		this.setSpriteFromAge(spriteSet);
+		this.pickSprite(spriteSet);
 	}
 
 	@Override
@@ -53,8 +53,5 @@ public class ParticleheavyParticle extends TextureSheetParticle {
 	@Override
 	public void tick() {
 		super.tick();
-		if (!this.removed) {
-			this.setSprite(this.spriteSet.get((this.age / 1) % 1 + 1, 1));
-		}
 	}
 }

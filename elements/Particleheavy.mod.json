@@ -3,7 +3,7 @@
   "_type": "particle",
   "definition": {
     "texture": "nuclear_smoke",
-    "animate": true,
+    "animate": false,
     "frameDuration": 1,
     "width": 0.2,
     "height": 0.2,

@@ -11,6 +11,7 @@ import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.createpyrotechnics.world.inventory.ComputernavigatorMenu;
 import net.mcreator.createpyrotechnics.procedures.ReturnvirtualblockProcedure;
+import net.mcreator.createpyrotechnics.procedures.ExectuablefoundProcedure;
 import net.mcreator.createpyrotechnics.network.ComputernavigatorButtonMessage;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
@@ -73,21 +74,22 @@ public class ComputernavigatorScreen extends AbstractContainerScreen<Computernav
 		guiGraphics.drawString(this.font,
 
 				ReturnvirtualblockProcedure.execute(world, x, y, z), 4, 51, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected"), 18, 98, -65485, false);
+		if (ExectuablefoundProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected"), 18, 98, -65485, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
 		button_empty = Button.builder(Component.translatable("gui.create_pyrotechnics.computernavigator.button_empty"), e -> {
-			if (true) {
-				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(0, x, y, z));
-				ComputernavigatorButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
 		}).bounds(this.leftPos + 74, this.topPos + 10, 30, 20).build();
 		guistate.put("button:button_empty", button_empty);
 		this.addRenderableWidget(button_empty);
 		button_empty1 = Button.builder(Component.translatable("gui.create_pyrotechnics.computernavigator.button_empty1"), e -> {
+			if (true) {
+				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(1, x, y, z));
+				ComputernavigatorButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}).bounds(this.leftPos + 133, this.topPos + 71, 30, 20).build();
 		guistate.put("button:button_empty1", button_empty1);
 		this.addRenderableWidget(button_empty1);
@@ -100,7 +102,17 @@ public class ComputernavigatorScreen extends AbstractContainerScreen<Computernav
 		guistate.put("button:button_v", button_v);
 		this.addRenderableWidget(button_v);
 		button_execute = Button.builder(Component.translatable("gui.create_pyrotechnics.computernavigator.button_execute"), e -> {
-		}).bounds(this.leftPos + 57, this.topPos + 72, 61, 20).build();
+			if (ExectuablefoundProcedure.execute(world, x, y, z)) {
+				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(4, x, y, z));
+				ComputernavigatorButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + 57, this.topPos + 72, 61, 20).build(builder -> new Button(builder) {
+			@Override
+			public void renderWidget(GuiGraphics guiGraphics, int gx, int gy, float ticks) {
+				this.visible = ExectuablefoundProcedure.execute(world, x, y, z);
+				super.renderWidget(guiGraphics, gx, gy, ticks);
+			}
+		});
 		guistate.put("button:button_execute", button_execute);
 		this.addRenderableWidget(button_execute);
 		button_return_to_original_block = Button.builder(Component.translatable("gui.create_pyrotechnics.computernavigator.button_return_to_original_block"), e -> {
