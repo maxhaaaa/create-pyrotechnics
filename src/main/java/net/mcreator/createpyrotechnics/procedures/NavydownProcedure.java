@@ -13,6 +13,6 @@ public class NavydownProcedure {
 		String virtualblockx = "";
 		String virtualblockz = "";
 		String virtualblocky = "";
-		NavigateupProcedure.execute(world, x, y, z, -1, 0, 0, -1, "vrz", "vrz", "vrx", "vry", "vrz");
+		NavigateupProcedure.execute(world, x, y, z, -1, 0, -1, 0, "vry", "vry", "vrx", "vry", "vrz");
 	}
 }
