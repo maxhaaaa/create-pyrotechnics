@@ -28,6 +28,8 @@ public class ComputernavigatorScreen extends AbstractContainerScreen<Computernav
 	Button button_return_to_original_block;
 	Button button_empty;
 	Button button_empty1;
+	Button button_up_y_axis;
+	Button button_down_y_axis;
 	ImageButton imagebutton_gui_arrow_left;
 	ImageButton imagebutton_gui_arrow_right;
 	ImageButton imagebutton_gui_launch_button_red;
@@ -102,26 +104,42 @@ public class ComputernavigatorScreen extends AbstractContainerScreen<Computernav
 		}).bounds(this.leftPos + 65, this.topPos + 112, 40, 20).build();
 		guistate.put("button:button_empty1", button_empty1);
 		this.addRenderableWidget(button_empty1);
-		imagebutton_gui_arrow_left = new ImageButton(this.leftPos + 18, this.topPos + 74, 16, 15, 0, 0, 15, new ResourceLocation("create_pyrotechnics:textures/screens/atlas/imagebutton_gui_arrow_left.png"), 16, 30, e -> {
+		button_up_y_axis = Button.builder(Component.translatable("gui.create_pyrotechnics.computernavigator.button_up_y_axis"), e -> {
 			if (true) {
 				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(3, x, y, z));
 				ComputernavigatorButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + -7, this.topPos + 9, 72, 20).build();
+		guistate.put("button:button_up_y_axis", button_up_y_axis);
+		this.addRenderableWidget(button_up_y_axis);
+		button_down_y_axis = Button.builder(Component.translatable("gui.create_pyrotechnics.computernavigator.button_down_y_axis"), e -> {
+			if (true) {
+				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(4, x, y, z));
+				ComputernavigatorButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + -22, this.topPos + 114, 82, 20).build();
+		guistate.put("button:button_down_y_axis", button_down_y_axis);
+		this.addRenderableWidget(button_down_y_axis);
+		imagebutton_gui_arrow_left = new ImageButton(this.leftPos + 18, this.topPos + 74, 16, 15, 0, 0, 15, new ResourceLocation("create_pyrotechnics:textures/screens/atlas/imagebutton_gui_arrow_left.png"), 16, 30, e -> {
+			if (true) {
+				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(5, x, y, z));
+				ComputernavigatorButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_gui_arrow_left", imagebutton_gui_arrow_left);
 		this.addRenderableWidget(imagebutton_gui_arrow_left);
 		imagebutton_gui_arrow_right = new ImageButton(this.leftPos + 144, this.topPos + 74, 16, 15, 0, 0, 15, new ResourceLocation("create_pyrotechnics:textures/screens/atlas/imagebutton_gui_arrow_right.png"), 16, 30, e -> {
 			if (true) {
-				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(4, x, y, z));
-				ComputernavigatorButtonMessage.handleButtonAction(entity, 4, x, y, z);
+				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(6, x, y, z));
+				ComputernavigatorButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_gui_arrow_right", imagebutton_gui_arrow_right);
 		this.addRenderableWidget(imagebutton_gui_arrow_right);
 		imagebutton_gui_launch_button_red = new ImageButton(this.leftPos + 75, this.topPos + 72, 20, 19, 0, 0, 19, new ResourceLocation("create_pyrotechnics:textures/screens/atlas/imagebutton_gui_launch_button_red.png"), 20, 38, e -> {
 			if (ExectuablefoundProcedure.execute(world, x, y, z)) {
-				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(5, x, y, z));
-				ComputernavigatorButtonMessage.handleButtonAction(entity, 5, x, y, z);
+				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new ComputernavigatorButtonMessage(7, x, y, z));
+				ComputernavigatorButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}) {
 			@Override

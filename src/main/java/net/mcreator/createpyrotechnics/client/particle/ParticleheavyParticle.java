@@ -36,9 +36,9 @@ public class ParticleheavyParticle extends TextureSheetParticle {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
-		this.quadSize *= 5f;
+		this.quadSize *= 10f;
 		this.lifetime = (int) Math.max(1, 500 + (this.random.nextInt(1000) - 500));
-		this.gravity = 3f;
+		this.gravity = 0.5f;
 		this.hasPhysics = true;
 		this.xd = vx * 1;
 		this.yd = vy * 1;
