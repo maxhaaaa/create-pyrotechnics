@@ -11,75 +11,6 @@
     "doesPauseGame": false,
     "components": [
       {
-        "type": "button",
-        "data": {
-          "name": "button_empty",
-          "text": "^",
-          "isUndecorated": false,
-          "width": 30,
-          "height": 20,
-          "x": 200,
-          "y": 47
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_empty1",
-          "text": ">",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "Callmaxesmenulibsright"
-          },
-          "width": 30,
-          "height": 20,
-          "x": 259,
-          "y": 108
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_empty2",
-          "text": "<",
-          "isUndecorated": false,
-          "width": 30,
-          "height": 20,
-          "x": 133,
-          "y": 108
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_v",
-          "text": "V",
-          "isUndecorated": false,
-          "width": 30,
-          "height": 20,
-          "x": 198,
-          "y": 161
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_execute",
-          "text": "open",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "Executebutton"
-          },
-          "displayCondition": {
-            "name": "Exectuablefound"
-          },
-          "width": 61,
-          "height": 20,
-          "x": 183,
-          "y": 109
-        }
-      },
-      {
         "type": "label",
         "data": {
           "name": "label_proc_returnvirtualblock",
@@ -91,8 +22,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 130,
-          "y": 88
+          "x": 165,
+          "y": 81
         }
       },
       {
@@ -121,8 +52,80 @@
           "isUndecorated": false,
           "width": 150,
           "height": 20,
-          "x": 145,
-          "y": 184
+          "x": 135,
+          "y": 177
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_gui_arrow_left",
+          "image": "gui_arrow_left.png",
+          "hoveredImage": "gui_arrow_left_hovering.png",
+          "onClick": {
+            "name": "Callmaxesmenuleft"
+          },
+          "x": 144,
+          "y": 111
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_gui_arrow_right",
+          "image": "gui_arrow_right.png",
+          "hoveredImage": "gui_arrow_right_hovering.png",
+          "onClick": {
+            "name": "Callmaxesmenulibsright"
+          },
+          "x": 270,
+          "y": 111
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_gui_launch_button_red",
+          "image": "gui_launch_button_red.png",
+          "hoveredImage": "gui_launch_button_green.png",
+          "onClick": {
+            "name": "Executebutton"
+          },
+          "displayCondition": {
+            "name": "Exectuablefound"
+          },
+          "x": 201,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "^",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Callmaxesmenuupz"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 199,
+          "y": 52
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "\\ /",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Callmaxesmenudownz"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 191,
+          "y": 149
         }
       }
     ],

@@ -13,7 +13,10 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.createpyrotechnics.world.inventory.ComputernavigatorMenu;
 import net.mcreator.createpyrotechnics.procedures.ExecutebuttonProcedure;
+import net.mcreator.createpyrotechnics.procedures.CallmaxesmenuupzProcedure;
 import net.mcreator.createpyrotechnics.procedures.CallmaxesmenulibsrightProcedure;
+import net.mcreator.createpyrotechnics.procedures.CallmaxesmenuleftProcedure;
+import net.mcreator.createpyrotechnics.procedures.CallmaxesmenudownzProcedure;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 import java.util.function.Supplier;
@@ -65,9 +68,21 @@ public class ComputernavigatorButtonMessage {
 			return;
 		if (buttonID == 1) {
 
-			CallmaxesmenulibsrightProcedure.execute(world, x, y, z);
+			CallmaxesmenuupzProcedure.execute(world, x, y, z);
+		}
+		if (buttonID == 2) {
+
+			CallmaxesmenudownzProcedure.execute(world, x, y, z);
+		}
+		if (buttonID == 3) {
+
+			CallmaxesmenuleftProcedure.execute(world, x, y, z);
 		}
 		if (buttonID == 4) {
+
+			CallmaxesmenulibsrightProcedure.execute(world, x, y, z);
+		}
+		if (buttonID == 5) {
 
 			ExecutebuttonProcedure.execute(world, x, y, z, entity);
 		}
