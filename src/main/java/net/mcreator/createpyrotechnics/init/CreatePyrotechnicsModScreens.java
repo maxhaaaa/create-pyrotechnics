@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.createpyrotechnics.client.gui.WarheadcraftingguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.ValueenteringguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.SiloguinewScreen;
 import net.mcreator.createpyrotechnics.client.gui.ComputernavigatorScreen;
@@ -27,6 +28,7 @@ public class CreatePyrotechnicsModScreens {
 			MenuScreens.register(CreatePyrotechnicsModMenus.COMPUTERNAVIGATOR.get(), ComputernavigatorScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.SILOGUINEW.get(), SiloguinewScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.VALUEENTERINGGUI.get(), ValueenteringguiScreen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.WARHEADCRAFTINGGUI.get(), WarheadcraftingguiScreen::new);
 		});
 	}
 }

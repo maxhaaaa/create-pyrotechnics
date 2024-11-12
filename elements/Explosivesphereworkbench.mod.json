@@ -2,15 +2,15 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:iron_block",
-    "textureTop": "minecraft:iron_block",
-    "textureLeft": "minecraft:iron_block",
-    "textureFront": "front_placeholder",
-    "textureRight": "minecraft:iron_block",
-    "textureBack": "minecraft:bamboo_block",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 2,
+    "texture": "artboard_1_3",
+    "textureTop": "",
+    "textureLeft": "computer_block_face_up",
+    "textureFront": "artboard_1_3",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Datawiresswitcher",
+    "name": "Explosivesphereworkbench",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,7 +42,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Createpyrotechnics"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -101,10 +105,10 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 0,
+    "hasInventory": true,
+    "guiBoundTo": "Warheadcraftinggui",
+    "openGUIOnRightClick": true,
+    "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

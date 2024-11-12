@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "create_pyrotechnics:block/artboard_1_3",
+    "particle": "create_pyrotechnics:block/artboard_1_3"
+  },
+  "render_type": "solid"
+}

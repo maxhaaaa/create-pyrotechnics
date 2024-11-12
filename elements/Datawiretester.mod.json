@@ -4,15 +4,19 @@
   "definition": {
     "renderType": 0,
     "texture": "screw",
-    "customModelName": "Ranged item",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Debugstick",
+    "name": "Datawiretester",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Createpyrotechnics"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 72000,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -31,10 +35,10 @@
       "fixedValue": false
     },
     "guiBoundTo": "<NONE>",
-    "inventorySize": 1,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
-      "name": "Callexplodeinmotion"
+      "name": "Callmaxesmenuupz"
     },
     "enableRanged": false,
     "shootConstantly": false,
@@ -42,7 +46,7 @@
     "projectile": {
       "value": "CUSTOM:Nukeproj"
     },
-    "projectileDisableAmmoCheck": true,
+    "projectileDisableAmmoCheck": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
@@ -51,6 +55,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "bow"
+    "animation": "none"
   }
 }

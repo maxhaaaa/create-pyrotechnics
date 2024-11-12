@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.createpyrotechnics.block.entity.ValuestorageblockBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.SiloBlockBlockEntity;
+import net.mcreator.createpyrotechnics.block.entity.ExplosivesphereworkbenchBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.DatawireblockBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.ComputerblockBlockEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
@@ -23,6 +24,7 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> DATAWIREBLOCK = register("datawireblock", CreatePyrotechnicsModBlocks.DATAWIREBLOCK, DatawireblockBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> SILO_BLOCK = register("silo_block", CreatePyrotechnicsModBlocks.SILO_BLOCK, SiloBlockBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VALUESTORAGEBLOCK = register("valuestorageblock", CreatePyrotechnicsModBlocks.VALUESTORAGEBLOCK, ValuestorageblockBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> EXPLOSIVESPHEREWORKBENCH = register("explosivesphereworkbench", CreatePyrotechnicsModBlocks.EXPLOSIVESPHEREWORKBENCH, ExplosivesphereworkbenchBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

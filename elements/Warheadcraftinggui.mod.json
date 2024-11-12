@@ -1,0 +1,241 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 200,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 20,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "warhead_ball.png",
+          "use1Xscale": false,
+          "x": 196,
+          "y": 60
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_explosive_power",
+          "text": {
+            "fixedValue": "explosive_power"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 118,
+          "y": 28
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_weight",
+          "text": {
+            "fixedValue": "weight"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 119,
+          "y": 42
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_gui_launch_button_red",
+          "image": "gui_launch_button_red.png",
+          "hoveredImage": "gui_launch_button_green.png",
+          "x": 201,
+          "y": 117
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_seal",
+          "text": {
+            "fixedValue": "SEAL"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 201,
+          "y": 106
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 273,
+          "y": 66
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_gui_arrow_left",
+          "image": "gui_arrow_left.png",
+          "hoveredImage": "gui_arrow_left_hovering.png",
+          "x": 244,
+          "y": 67
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_warning_if_warhead_sphere_is_not",
+          "text": {
+            "fixedValue": "WARNING IF WARHEAD SPHERE IS NOT SEALED, AND STATION IS BROKEN, THERE WILL RESULT IN PARTIAL DETONATION OF YOUR WARHEAD"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 201,
+          "y": 29
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_air_tank_level",
+          "text": {
+            "fixedValue": "tank psi"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 128,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_battery_themed_progression_bar_design_background.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_battery_themed_progression_bar_design_segment_1.png",
+          "use1Xscale": false,
+          "x": 137,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_battery_themed_progression_bar_design_segment_3.png",
+          "use1Xscale": false,
+          "x": 140,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_battery_themed_progression_bar_design_segment_4.png",
+          "use1Xscale": false,
+          "x": 144,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_battery_themed_progression_bar_design_segment_6.png",
+          "use1Xscale": false,
+          "x": 156,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_battery_themed_progression_bar_design_segment_4.png",
+          "use1Xscale": false,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_battery_themed_progression_bar_design_segment_4.png",
+          "use1Xscale": false,
+          "x": 148,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_battery_themed_progression_bar_design_segment_4.png",
+          "use1Xscale": false,
+          "x": 152,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cog_image.png",
+          "use1Xscale": false,
+          "x": 122,
+          "y": 103
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 10,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

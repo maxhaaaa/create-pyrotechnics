@@ -3,9 +3,9 @@
   "textures": {
     "down": "minecraft:block/iron_block",
     "up": "minecraft:block/iron_block",
-    "north": "minecraft:block/structure_block_load",
+    "north": "create_pyrotechnics:block/front_placeholder",
     "east": "minecraft:block/iron_block",
-    "south": "minecraft:block/structure_block_load",
+    "south": "minecraft:block/bamboo_block",
     "west": "minecraft:block/iron_block",
     "particle": "minecraft:block/iron_block"
   },

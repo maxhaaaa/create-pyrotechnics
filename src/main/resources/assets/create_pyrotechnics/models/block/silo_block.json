@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "create_pyrotechnics:custom/launchpad",
   "textures": {
-    "down": "create_pyrotechnics:block/artboard_1_3",
-    "up": "minecraft:block/composter_top",
-    "north": "create_pyrotechnics:block/artboard_1_3",
-    "east": "create_pyrotechnics:block/artboard_1_3",
-    "south": "create_pyrotechnics:block/artboard_1_3",
-    "west": "create_pyrotechnics:block/artboard_1_3",
-    "particle": "create_pyrotechnics:block/artboard_1_3"
+    "all": "create_pyrotechnics:block/launch_pad",
+    "particle": "create_pyrotechnics:block/launch_pad",
+    "0": "create_pyrotechnics:block/launch_pad"
   },
   "render_type": "solid"
 }

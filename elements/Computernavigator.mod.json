@@ -15,7 +15,7 @@
         "data": {
           "name": "label_proc_returnvirtualblock",
           "text": {
-            "fixedValue": "",
+            "fixedValue": "testing",
             "name": "Returnvirtualblock"
           },
           "color": {

@@ -16,6 +16,8 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.createpyrotechnics.item.PinassignerItem;
 import net.mcreator.createpyrotechnics.item.LazerdesignatorItem;
 import net.mcreator.createpyrotechnics.item.DebugstickItem;
+import net.mcreator.createpyrotechnics.item.DatawiretesterItem;
+import net.mcreator.createpyrotechnics.item.BombsphereItem;
 import net.mcreator.createpyrotechnics.item.BallisticsbuildingtoolItem;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
@@ -32,6 +34,9 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> LAZERDESIGNATOR = REGISTRY.register("lazerdesignator", () -> new LazerdesignatorItem());
 	public static final RegistryObject<Item> MORTARORMISSLESHOOTER_SPAWN_EGG = REGISTRY.register("mortarormissleshooter_spawn_egg", () -> new ForgeSpawnEggItem(CreatePyrotechnicsModEntities.MORTARORMISSLESHOOTER, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> DESIGNATOR_SPAWN_EGG = REGISTRY.register("designator_spawn_egg", () -> new ForgeSpawnEggItem(CreatePyrotechnicsModEntities.DESIGNATOR, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> EXPLOSIVESPHEREWORKBENCH = block(CreatePyrotechnicsModBlocks.EXPLOSIVESPHEREWORKBENCH);
+	public static final RegistryObject<Item> BOMBSPHERE = REGISTRY.register("bombsphere", () -> new BombsphereItem());
+	public static final RegistryObject<Item> DATAWIRETESTER = REGISTRY.register("datawiretester", () -> new DatawiretesterItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
