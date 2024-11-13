@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.createpyrotechnics.procedures.PumpingThisGUIIsOpenedProcedure;
 import net.mcreator.createpyrotechnics.procedures.HandheldPumpItemInInventoryTickProcedure;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModMenus;
 
@@ -53,6 +54,7 @@ public class PumpingMenu extends AbstractContainerMenu implements Supplier<Map<I
 			this.z = pos.getZ();
 			access = ContainerLevelAccess.create(world, pos);
 		}
+		PumpingThisGUIIsOpenedProcedure.execute(entity);
 	}
 
 	@Override

@@ -1406,6 +1406,25 @@
         ]
       },
       "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "PumpingThisGUIIsOpened",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumping_this_gui_is_opened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PumpingThisGUIIsOpenedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
     }
   ],
   "variable_elements": [],

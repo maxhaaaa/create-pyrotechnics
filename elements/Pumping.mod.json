@@ -149,6 +149,9 @@
         }
       }
     ],
+    "onOpen": {
+      "name": "PumpingThisGUIIsOpened"
+    },
     "onTick": {
       "name": "HandheldPumpItemInInventoryTick"
     },
