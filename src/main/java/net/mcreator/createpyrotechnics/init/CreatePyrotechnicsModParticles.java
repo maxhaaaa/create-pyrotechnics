@@ -22,7 +22,7 @@ public class CreatePyrotechnicsModParticles {
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.EXPLOSION.get(), ExplosionParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.PARTICLEHEAVY.get(), ParticleheavyParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.CLOUD.get(), CloudParticle::provider);
-		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.CAP_PARTICLE.get(), CapParticleParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.FLASH.get(), FlashParticle::provider);
+		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.CAP_PARTICLE.get(), CapParticleParticle::provider);
 	}
 }
