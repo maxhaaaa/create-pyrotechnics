@@ -10,7 +10,7 @@ import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.createpyrotechnics.procedures.MushroomCloudProcedure;
+import net.mcreator.createpyrotechnics.procedures.KacNukeExplosionProcedure;
 
 public class PlaceholderBlock extends Block {
 	public PlaceholderBlock() {
@@ -25,6 +25,6 @@ public class PlaceholderBlock extends Block {
 	@Override
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
-		MushroomCloudProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		KacNukeExplosionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

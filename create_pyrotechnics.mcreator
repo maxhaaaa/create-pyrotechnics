@@ -1755,6 +1755,378 @@
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud/aids"
+    },
+    {
+      "name": "E1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "KacNukeExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kac_nuke_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/KacNukeExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
+    },
+    {
+      "name": "E10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
     }
   ],
   "variable_elements": [],
@@ -1775,20 +2147,20 @@
       "gui.create_pyrotechnics.pumping.label_placeholder1": "placeholder",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
       "gui.create_pyrotechnics.computernavigator.button_empty": "^",
-      "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
       "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
+      "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "gui.create_pyrotechnics.computernavigator.button_down_on_the_y_axis": "down- on the y axis",
       "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
       "gui.create_pyrotechnics.warheadcraftinggui.label_weight": "weight",
-      "item.create_pyrotechnics.datawiretester": "Datawiretester",
-      "gui.create_pyrotechnics.valueenteringgui.button_enter": "enter",
       "gui.create_pyrotechnics.pumping.button_empty": "+",
+      "gui.create_pyrotechnics.valueenteringgui.button_enter": "enter",
+      "item.create_pyrotechnics.datawiretester": "Datawiretester",
       "item.create_pyrotechnics.ballisticsbuildingtool": "Ballisticsbuildingtool",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
-      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
-      "attribute.create_pyrotechnics.blinded": "Blinded",
       "gui.create_pyrotechnics.pumping.label_psi": "PSI:",
+      "attribute.create_pyrotechnics.blinded": "Blinded",
+      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
       "gui.create_pyrotechnics.pumping.label_vent": "vent:",
@@ -1899,6 +2271,20 @@
               {
                 "name": "aids",
                 "children": []
+              }
+            ]
+          },
+          {
+            "name": "explosion",
+            "children": [
+              {
+                "name": "A1",
+                "children": [
+                  {
+                    "name": "explosion part 1",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
