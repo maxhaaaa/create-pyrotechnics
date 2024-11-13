@@ -28,5 +28,6 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModItems.DESIGNATOR_SPAWN_EGG.get());
 				tabData.accept(CreatePyrotechnicsModBlocks.EXPLOSIVESPHEREWORKBENCH.get().asItem());
 				tabData.accept(CreatePyrotechnicsModItems.DATAWIRETESTER.get());
+				tabData.accept(CreatePyrotechnicsModBlocks.DESIGNATORBLOCK.get().asItem());
 			}).withSearchBar().build());
 }

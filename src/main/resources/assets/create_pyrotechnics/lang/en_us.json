@@ -5,6 +5,7 @@
   "gui.create_pyrotechnics.computernavigator.button_empty": "^",
   "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
   "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
+  "block.create_pyrotechnics.designatorblock": "Designatorblock",
   "gui.create_pyrotechnics.computernavigator.button_up_on_y_axis": "up- on y axis",
   "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
   "gui.create_pyrotechnics.computernavigator.button_down_on_the_y_axis": "down- on the y axis",

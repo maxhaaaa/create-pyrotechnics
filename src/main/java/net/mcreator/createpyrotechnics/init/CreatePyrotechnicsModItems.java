@@ -37,6 +37,7 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> EXPLOSIVESPHEREWORKBENCH = block(CreatePyrotechnicsModBlocks.EXPLOSIVESPHEREWORKBENCH);
 	public static final RegistryObject<Item> BOMBSPHERE = REGISTRY.register("bombsphere", () -> new BombsphereItem());
 	public static final RegistryObject<Item> DATAWIRETESTER = REGISTRY.register("datawiretester", () -> new DatawiretesterItem());
+	public static final RegistryObject<Item> DESIGNATORBLOCK = block(CreatePyrotechnicsModBlocks.DESIGNATORBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

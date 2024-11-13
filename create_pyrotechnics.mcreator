@@ -1221,6 +1221,160 @@
         ]
       },
       "path": "~/computer stuff"
+    },
+    {
+      "name": "Designatorblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "designatorblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/designatorblock.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/designatorblock.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/designatorblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/DesignatorblockBlock.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/designatorblock.json"
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "DesignatorblockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "designatorblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/DesignatorblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Nodenavigation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodenavigation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/NodenavigationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "originalx",
+            "type": "number"
+          },
+          {
+            "name": "originaly",
+            "type": "number"
+          },
+          {
+            "name": "originalz",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Maxes_particle_utils_tests",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxes_particle_utils_tests",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Maxes_particle_utils_testsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "age",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/explosions"
+    },
+    {
+      "name": "Reversenodenavigtion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reversenodenavigtion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReversenodenavigtionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "originalx",
+            "type": "number"
+          },
+          {
+            "name": "originaly",
+            "type": "number"
+          },
+          {
+            "name": "originalz",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
     }
   ],
   "variable_elements": [],
@@ -1235,6 +1389,7 @@
       "gui.create_pyrotechnics.computernavigator.button_empty": "^",
       "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
       "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
+      "block.create_pyrotechnics.designatorblock": "Designatorblock",
       "gui.create_pyrotechnics.computernavigator.button_up_on_y_axis": "up- on y axis",
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "gui.create_pyrotechnics.computernavigator.button_down_on_the_y_axis": "down- on the y axis",
