@@ -14,6 +14,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.mcreator.createpyrotechnics.client.gui.WarheadcraftingguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.ValueenteringguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.SiloguinewScreen;
+import net.mcreator.createpyrotechnics.client.gui.PumpingScreen;
 import net.mcreator.createpyrotechnics.client.gui.ComputernavigatorScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsslotsguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsguitestingidkScreen;
@@ -29,6 +30,7 @@ public class CreatePyrotechnicsModScreens {
 			MenuScreens.register(CreatePyrotechnicsModMenus.SILOGUINEW.get(), SiloguinewScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.VALUEENTERINGGUI.get(), ValueenteringguiScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.WARHEADCRAFTINGGUI.get(), WarheadcraftingguiScreen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.PUMPING.get(), PumpingScreen::new);
 		});
 	}
 }

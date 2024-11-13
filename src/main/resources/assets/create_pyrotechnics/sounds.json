@@ -1,0 +1,10 @@
+{
+  "explosion": {
+    "sounds": [
+      {
+        "name": "create_pyrotechnics:explode1",
+        "stream": false
+      }
+    ]
+  }
+}

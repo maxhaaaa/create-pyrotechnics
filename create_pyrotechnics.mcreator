@@ -1223,6 +1223,49 @@
       "path": "~/computer stuff"
     },
     {
+      "name": "Reversenodenavigtion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reversenodenavigtion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReversenodenavigtionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "originalx",
+            "type": "number"
+          },
+          {
+            "name": "originaly",
+            "type": "number"
+          },
+          {
+            "name": "originalz",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
       "name": "Designatorblock",
       "type": "block",
       "compiles": true,
@@ -1271,6 +1314,26 @@
       "path": "~/computer stuff"
     },
     {
+      "name": "Maxes_particle_utils_tests",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxes_particle_utils_tests",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Maxes_particle_utils_testsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "age",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/explosions"
+    },
+    {
       "name": "Nodenavigation",
       "type": "procedure",
       "compiles": true,
@@ -1314,47 +1377,55 @@
       "path": "~/computer stuff"
     },
     {
-      "name": "Maxes_particle_utils_tests",
+      "name": "Placeholder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placeholder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/placeholder.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/placeholder.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/placeholder.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/PlaceholderBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/placeholder.json"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "HandheldPumpItemInInventoryTick",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "maxes_particle_utils_tests",
+      "registry_name": "handheld_pump_item_in_inventory_tick",
       "metadata": {
-        "return_type": "number",
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/procedures/Maxes_particle_utils_testsProcedure.java"
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/HandheldPumpItemInInventoryTickProcedure.java"
         ],
         "dependencies": [
           {
-            "name": "age",
-            "type": "number"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       },
-      "path": "~/explosions"
+      "path": "~/tools/handheld pump"
     },
     {
-      "name": "Reversenodenavigtion",
+      "name": "SuperAidsTick",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reversenodenavigtion",
+      "registry_name": "super_aids_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReversenodenavigtionProcedure.java"
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SuperAidsTickProcedure.java"
         ],
         "dependencies": [
           {
-            "name": "originalx",
-            "type": "number"
-          },
-          {
-            "name": "originaly",
-            "type": "number"
-          },
-          {
-            "name": "originalz",
-            "type": "number"
+            "name": "immediatesourceentity",
+            "type": "entity"
           },
           {
             "name": "x",
@@ -1374,62 +1445,908 @@
           }
         ]
       },
-      "path": "~/computer stuff"
+      "path": "~/kaczorros shit/mushroom cloud/aids"
+    },
+    {
+      "name": "Aids",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aids",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/AidsEntity.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud/aids"
+    },
+    {
+      "name": "SealPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seal_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SealPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "E1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "Stem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/StemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "CapParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cap_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/CapParticleParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/cap_particle.json"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "E3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "Pumping",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumping",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/PumpingMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/network/PumpingButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/PumpingScreen.java"
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "E9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "PumpPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pump_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PumpPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "IgiveuaidsRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igiveuaids_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/IgiveuaidsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud/aids"
+    },
+    {
+      "name": "Flash",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/FlashParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/flash.json"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "SuperAids",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_aids",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/SuperAidsEntity.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud/aids"
+    },
+    {
+      "name": "KacNukeExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kac_nuke_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/KacNukeExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
+    },
+    {
+      "name": "MushroomCloud",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_cloud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MushroomCloudProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "ReturnPsi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_psi",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnPsiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "ReturnVent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_vent",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnVentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "E11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "HandheldPump",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handheld_pump",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/handheld_pump.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldPumpItem.java",
+          "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldPumpInventoryCapability.java"
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "AidsWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aids_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/AidsWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud/aids"
+    },
+    {
+      "name": "ReturnSeal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_seal",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnSealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "Shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ShockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Cap",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CapProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Cloud",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/particles/cloud.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/CloudParticle.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "VentPlus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_plus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/VentPlusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "VentMinus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_minus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/VentMinusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "PumpingThisGUIIsOpened",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumping_this_gui_is_opened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PumpingThisGUIIsOpenedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "Igiveuaids",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igiveuaids",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/igiveuaids.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/IgiveuaidsItem.java",
+          "src/main/java/net/mcreator/createpyrotechnics/item/renderer/IgiveuaidsItemRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/item/model/IgiveuaidsItemModel.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud/aids"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "explosion",
+      "files": [
+        "explode1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "gui.create_pyrotechnics.pumping.label_placeholder1": "placeholder",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
-      "block.create_pyrotechnics.valuestorageblock": "Valuestorageblock",
-      "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
       "gui.create_pyrotechnics.computernavigator.button_empty": "^",
-      "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
       "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
-      "block.create_pyrotechnics.designatorblock": "Designatorblock",
-      "gui.create_pyrotechnics.computernavigator.button_up_on_y_axis": "up- on y axis",
+      "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "gui.create_pyrotechnics.computernavigator.button_down_on_the_y_axis": "down- on the y axis",
-      "gui.create_pyrotechnics.warheadcraftinggui.label_explosive_power": "explosive_power",
       "gui.create_pyrotechnics.warheadcraftinggui.label_weight": "weight",
-      "gui.create_pyrotechnics.computernavigator.button_execute": "open",
       "gui.create_pyrotechnics.valueenteringgui.button_enter": "enter",
       "item.create_pyrotechnics.datawiretester": "Datawiretester",
-      "item.create_pyrotechnics.debugstick": "Debugstick",
       "item.create_pyrotechnics.ballisticsbuildingtool": "Ballisticsbuildingtool",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
-      "gui.create_pyrotechnics.siloguinew.label_pin": "pin 5",
       "attribute.create_pyrotechnics.blinded": "Blinded",
-      "block.create_pyrotechnics.datawireblock": "Datawireblock",
       "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
-      "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
-      "gui.create_pyrotechnics.warheadcraftinggui.tooltip_warning_if_warhead_sphere_is_not": "WARNING IF WARHEAD SPHERE IS NOT SEALED, AND STATION IS BROKEN, THERE WILL RESULT IN PARTIAL DETONATION OF YOUR WARHEAD",
       "entity.create_pyrotechnics.designator": "DESIGNATOR",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
-      "gui.create_pyrotechnics.computernavigator.button_return_to_original_block": "return to original block",
       "block.create_pyrotechnics.datawirestopper": "Datawiresswitcher",
-      "block.create_pyrotechnics.silo_block": "Silo Block",
-      "gui.create_pyrotechnics.computernavigator.button_down_y_axis": "down y axis",
       "item.create_pyrotechnics.bombsphere": "Bombsphere",
-      "gui.create_pyrotechnics.valueenteringgui.valueentering": "value here (0)",
-      "item.create_pyrotechnics.pinassigner": "Pinassigner",
       "gui.create_pyrotechnics.valueenteringgui.pinmode": "assignment pin",
-      "gui.create_pyrotechnics.computernavigator.button_up_y_axis": "up_y_axis",
       "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
       "item.create_pyrotechnics.designator_spawn_egg": "DESIGNATOR Spawn Egg",
       "gui.create_pyrotechnics.siloguinew.label_currently_listening_for_launch_p": "listening for arming",
-      "gui.create_pyrotechnics.computernavigator.button_v": "V",
       "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
-      "gui.create_pyrotechnics.valueenteringgui.label_your_custom_varible": "your_custom_varible",
       "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics",
-      "block.create_pyrotechnics.explosivesphereworkbench": "Explosivesphereworkbench",
-      "gui.create_pyrotechnics.warheadcraftinggui.label_air_tank_level": "tank psi"
+      "gui.create_pyrotechnics.warheadcraftinggui.label_air_tank_level": "tank psi",
+      "subtitles.explosion": "",
+      "block.create_pyrotechnics.valuestorageblock": "Valuestorageblock",
+      "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
+      "gui.create_pyrotechnics.computernavigator.button_up_on_y_axis": "up- on y axis",
+      "gui.create_pyrotechnics.warheadcraftinggui.label_explosive_power": "explosive_power",
+      "gui.create_pyrotechnics.computernavigator.button_execute": "open",
+      "item.create_pyrotechnics.debugstick": "Debugstick",
+      "gui.create_pyrotechnics.siloguinew.label_pin": "pin 5",
+      "block.create_pyrotechnics.datawireblock": "Datawireblock",
+      "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
+      "gui.create_pyrotechnics.warheadcraftinggui.tooltip_warning_if_warhead_sphere_is_not": "WARNING IF WARHEAD SPHERE IS NOT SEALED, AND STATION IS BROKEN, THERE WILL RESULT IN PARTIAL DETONATION OF YOUR WARHEAD",
+      "gui.create_pyrotechnics.computernavigator.button_return_to_original_block": "return to original block",
+      "block.create_pyrotechnics.silo_block": "Silo Block",
+      "gui.create_pyrotechnics.computernavigator.button_down_y_axis": "down y axis",
+      "gui.create_pyrotechnics.valueenteringgui.valueentering": "value here (0)",
+      "item.create_pyrotechnics.pinassigner": "Pinassigner",
+      "gui.create_pyrotechnics.computernavigator.button_up_y_axis": "up_y_axis",
+      "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
+      "gui.create_pyrotechnics.computernavigator.button_v": "V",
+      "gui.create_pyrotechnics.valueenteringgui.label_your_custom_varible": "your_custom_varible",
+      "block.create_pyrotechnics.explosivesphereworkbench": "Explosivesphereworkbench"
     }
   },
   "foldersRoot": {
@@ -1440,21 +2357,42 @@
         "children": []
       },
       {
+        "name": "explosions",
+        "children": []
+      },
+      {
+        "name": "tools",
+        "children": [
+          {
+            "name": "handheld pump",
+            "children": []
+          },
+          {
+            "name": "lazer_designator",
+            "children": []
+          },
+          {
+            "name": "pin assigner",
+            "children": []
+          }
+        ]
+      },
+      {
         "name": "ballisitics",
         "children": [
           {
             "name": "silo",
             "children": [
               {
-                "name": "mortars",
-                "children": []
-              },
-              {
                 "name": "missle",
                 "children": []
               },
               {
                 "name": "mortar_shooter_entity",
+                "children": []
+              },
+              {
+                "name": "mortars",
                 "children": []
               }
             ]
@@ -1464,6 +2402,50 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "basic setup",
+        "children": []
+      },
+      {
+        "name": "kaczorros shit",
+        "children": [
+          {
+            "name": "mushroom cloud",
+            "children": [
+              {
+                "name": "aids",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "explosion",
+            "children": [
+              {
+                "name": "A1",
+                "children": [
+                  {
+                    "name": "explosion part 1",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "salvage",
+        "children": []
+      },
+      {
+        "name": "crafting",
+        "children": []
+      },
+      {
+        "name": "hud things",
+        "children": []
       },
       {
         "name": "hangar",
@@ -1477,39 +2459,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "salvage",
-        "children": []
-      },
-      {
-        "name": "basic setup",
-        "children": []
-      },
-      {
-        "name": "hud things",
-        "children": []
-      },
-      {
-        "name": "explosions",
-        "children": []
-      },
-      {
-        "name": "tools",
-        "children": [
-          {
-            "name": "pin assigner",
-            "children": []
-          },
-          {
-            "name": "lazer_designator",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "crafting",
-        "children": []
       }
     ]
   },

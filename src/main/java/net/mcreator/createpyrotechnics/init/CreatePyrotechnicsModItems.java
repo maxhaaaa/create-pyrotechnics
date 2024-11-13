@@ -15,6 +15,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.createpyrotechnics.item.PinassignerItem;
 import net.mcreator.createpyrotechnics.item.LazerdesignatorItem;
+import net.mcreator.createpyrotechnics.item.IgiveuaidsItem;
+import net.mcreator.createpyrotechnics.item.HandheldPumpItem;
 import net.mcreator.createpyrotechnics.item.DebugstickItem;
 import net.mcreator.createpyrotechnics.item.DatawiretesterItem;
 import net.mcreator.createpyrotechnics.item.BombsphereItem;
@@ -38,6 +40,9 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> BOMBSPHERE = REGISTRY.register("bombsphere", () -> new BombsphereItem());
 	public static final RegistryObject<Item> DATAWIRETESTER = REGISTRY.register("datawiretester", () -> new DatawiretesterItem());
 	public static final RegistryObject<Item> DESIGNATORBLOCK = block(CreatePyrotechnicsModBlocks.DESIGNATORBLOCK);
+	public static final RegistryObject<Item> PLACEHOLDER = block(CreatePyrotechnicsModBlocks.PLACEHOLDER);
+	public static final RegistryObject<Item> HANDHELD_PUMP = REGISTRY.register("handheld_pump", () -> new HandheldPumpItem());
+	public static final RegistryObject<Item> IGIVEUAIDS = REGISTRY.register("igiveuaids", () -> new IgiveuaidsItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

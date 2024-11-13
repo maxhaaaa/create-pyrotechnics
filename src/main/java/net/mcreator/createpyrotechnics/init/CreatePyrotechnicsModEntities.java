@@ -17,9 +17,11 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
+import net.mcreator.createpyrotechnics.entity.SuperAidsEntity;
 import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
 import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
 import net.mcreator.createpyrotechnics.entity.DESIGNATOREntity;
+import net.mcreator.createpyrotechnics.entity.AidsEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -38,6 +40,10 @@ public class CreatePyrotechnicsModEntities {
 			EntityType.Builder.<DESIGNATOREntity>of(DESIGNATOREntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DESIGNATOREntity::new)
 
 					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<AidsEntity>> AIDS = register("aids",
+			EntityType.Builder.<AidsEntity>of(AidsEntity::new, MobCategory.MISC).setCustomClientFactory(AidsEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SuperAidsEntity>> SUPER_AIDS = register("super_aids",
+			EntityType.Builder.<SuperAidsEntity>of(SuperAidsEntity::new, MobCategory.MISC).setCustomClientFactory(SuperAidsEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

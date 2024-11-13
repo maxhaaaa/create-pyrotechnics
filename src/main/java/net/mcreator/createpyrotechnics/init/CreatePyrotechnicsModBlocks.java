@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.createpyrotechnics.block.ValuestorageblockBlock;
 import net.mcreator.createpyrotechnics.block.SiloBlockBlock;
+import net.mcreator.createpyrotechnics.block.PlaceholderBlock;
 import net.mcreator.createpyrotechnics.block.ExplosivesphereworkbenchBlock;
 import net.mcreator.createpyrotechnics.block.DesignatorblockBlock;
 import net.mcreator.createpyrotechnics.block.DatawirestopperBlock;
@@ -28,6 +29,7 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> VALUESTORAGEBLOCK = REGISTRY.register("valuestorageblock", () -> new ValuestorageblockBlock());
 	public static final RegistryObject<Block> EXPLOSIVESPHEREWORKBENCH = REGISTRY.register("explosivesphereworkbench", () -> new ExplosivesphereworkbenchBlock());
 	public static final RegistryObject<Block> DESIGNATORBLOCK = REGISTRY.register("designatorblock", () -> new DesignatorblockBlock());
+	public static final RegistryObject<Block> PLACEHOLDER = REGISTRY.register("placeholder", () -> new PlaceholderBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -22,5 +22,7 @@ public class CreatePyrotechnicsModEntityRenderers {
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.TESTING_MORTAR.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.MORTARORMISSLESHOOTER.get(), MortarormissleshooterRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.DESIGNATOR.get(), DESIGNATORRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.AIDS.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.SUPER_AIDS.get(), ThrownItemRenderer::new);
 	}
 }

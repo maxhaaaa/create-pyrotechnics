@@ -1,0 +1,6 @@
+{
+  "parent": "create_pyrotechnics:displaysettings/degle.item",
+  "textures": {
+    "layer0": "create_pyrotechnics:item/degm"
+  }
+}
