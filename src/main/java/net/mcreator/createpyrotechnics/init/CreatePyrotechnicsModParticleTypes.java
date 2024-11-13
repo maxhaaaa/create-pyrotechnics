@@ -17,4 +17,7 @@ public class CreatePyrotechnicsModParticleTypes {
 	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, CreatePyrotechnicsMod.MODID);
 	public static final RegistryObject<SimpleParticleType> EXPLOSION = REGISTRY.register("explosion", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> PARTICLEHEAVY = REGISTRY.register("particleheavy", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> CLOUD = REGISTRY.register("cloud", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> CAP_PARTICLE = REGISTRY.register("cap_particle", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> FLASH = REGISTRY.register("flash", () -> new SimpleParticleType(true));
 }

@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModTabs;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModSounds;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModParticleTypes;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModMenus;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModItems;
@@ -45,7 +46,7 @@ public class CreatePyrotechnicsMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		CreatePyrotechnicsModSounds.REGISTRY.register(bus);
 		CreatePyrotechnicsModBlocks.REGISTRY.register(bus);
 		CreatePyrotechnicsModBlockEntities.REGISTRY.register(bus);
 		CreatePyrotechnicsModItems.REGISTRY.register(bus);
