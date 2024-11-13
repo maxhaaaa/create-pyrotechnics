@@ -1,0 +1,163 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pump",
+          "text": "Pump",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PumpPressed"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 191,
+          "y": 86
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_psi",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPsi"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 210,
+          "y": 108
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_psi",
+          "text": {
+            "fixedValue": "PSI:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 108
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vent",
+          "text": {
+            "fixedValue": "vent:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 176,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_placeholder",
+          "text": {
+            "fixedValue": "placeholder",
+            "name": "ReturnVent"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 202,
+          "y": 124
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "+",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "VentPlus"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 140,
+          "y": 120
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "-",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "VentMinus"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 263,
+          "y": 120
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_seal",
+          "text": "seal/unseal",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SealPressed"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 191,
+          "y": 140
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_placeholder1",
+          "text": {
+            "fixedValue": "placeholder",
+            "name": "ReturnSeal"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 163
+        }
+      }
+    ],
+    "onTick": {
+      "name": "HandheldPumpItemInInventoryTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
