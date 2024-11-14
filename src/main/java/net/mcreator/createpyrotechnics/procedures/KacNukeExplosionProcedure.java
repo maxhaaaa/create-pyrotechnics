@@ -1,9 +1,12 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+
+import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class KacNukeExplosionProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
+		MushroomCloudProcedure.execute(world, x, y, z);
 		CreatePyrotechnicsMod.queueServerWork(10, () -> {
 			E1Procedure.execute(world, x, y, z);
 			CreatePyrotechnicsMod.queueServerWork(10, () -> {
@@ -23,7 +26,9 @@ public class KacNukeExplosionProcedure {
 										CreatePyrotechnicsMod.queueServerWork(10, () -> {
 											E9Procedure.execute(world, x, y, z);
 											CreatePyrotechnicsMod.queueServerWork(30, () -> {
+												E10Procedure.execute(world, x, y, z);
 												CreatePyrotechnicsMod.queueServerWork(40, () -> {
+													E11Procedure.execute(world, x, y, z);
 												});
 											});
 										});

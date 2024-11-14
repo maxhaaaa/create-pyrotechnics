@@ -22,8 +22,8 @@
       "registry_name": "bevsslotsgui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsslotsguiScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsslotsguiMenu.java"
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsslotsguiMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsslotsguiScreen.java"
         ]
       },
       "path": "~/basic setup"
@@ -138,8 +138,8 @@
       "registry_name": "debugstick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/debugstick.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/DebugstickItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/DebugstickItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/debugstick.json"
         ]
       },
       "path": "~/salvage"
@@ -162,11 +162,11 @@
       "registry_name": "computerblock",
       "metadata": {
         "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/computerblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ComputerblockBlockEntity.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/ComputerblockBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/computerblock.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/computerblock.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/computerblock.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/ComputerblockBlock.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ComputerblockBlockEntity.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/computerblock.json"
         ]
       },
@@ -180,11 +180,11 @@
       "registry_name": "datawireblock",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawireblock.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/datawireblock.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/DatawireblockBlockEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/datawireblock.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawireblock.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/DatawireblockBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/datawireblock.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/datawireblock.json"
         ]
       },
@@ -198,9 +198,9 @@
       "registry_name": "computernavigator",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ComputernavigatorScreen.java",
           "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ComputernavigatorMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/network/ComputernavigatorButtonMessage.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ComputernavigatorScreen.java"
+          "src/main/java/net/mcreator/createpyrotechnics/network/ComputernavigatorButtonMessage.java"
         ]
       },
       "path": "~/computer stuff"
@@ -346,8 +346,8 @@
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawirestopper.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/DatawirestopperBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/datawirestopper.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/datawirestopper.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/datawirestopper.json"
+          "src/main/resources/assets/create_pyrotechnics/blockstates/datawirestopper.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/datawirestopper.json"
         ]
       },
       "path": "~/computer stuff"
@@ -405,12 +405,12 @@
       "registry_name": "silo_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/block/silo_block.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/SiloBlockBlock.java",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/SiloBlockBlockEntity.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/silo_block.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/silo_block.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/silo_block.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/SiloBlockBlock.java",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/silo_block.json"
+          "src/main/resources/assets/create_pyrotechnics/models/block/silo_block.json"
         ]
       },
       "path": "~/ballisitics/silo"
@@ -481,9 +481,9 @@
       "registry_name": "valueenteringgui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/network/ValueenteringguiButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ValueenteringguiScreen.java",
           "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ValueenteringguiMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ValueenteringguiScreen.java"
+          "src/main/java/net/mcreator/createpyrotechnics/network/ValueenteringguiButtonMessage.java"
         ]
       },
       "path": "~/tools/pin assigner"
@@ -567,12 +567,12 @@
       "registry_name": "valuestorageblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/valuestorageblock.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/ValuestorageblockBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/valuestorageblock.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/valuestorageblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ValuestorageblockBlockEntity.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/valuestorageblock.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ValuestorageblockBlockEntity.java"
+          "src/main/resources/assets/create_pyrotechnics/models/item/valuestorageblock.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/valuestorageblock.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/valuestorageblock.json"
         ]
       },
       "path": "~/computer stuff"
@@ -783,9 +783,9 @@
       "registry_name": "mortarormissleshooter",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/entity/MortarormissleshooterEntity.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/mortarormissleshooter_spawn_egg.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/MortarormissleshooterRenderer.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/MortarormissleshooterRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/MortarormissleshooterEntity.java"
         ]
       },
       "path": "~/ballisitics/silo/mortar_shooter_entity"
@@ -829,9 +829,9 @@
       "registry_name": "designator",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/DESIGNATORRenderer.java",
           "src/main/java/net/mcreator/createpyrotechnics/entity/DESIGNATOREntity.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/designator_spawn_egg.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/DESIGNATORRenderer.java",
           "src/main/resources/data/create_pyrotechnics/forge/biome_modifier/designator_biome_modifier.json"
         ]
       },
@@ -1139,12 +1139,12 @@
       "registry_name": "explosivesphereworkbench",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/explosivesphereworkbench.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/ExplosivesphereworkbenchBlockEntity.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/ExplosivesphereworkbenchBlock.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/explosivesphereworkbench.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/explosivesphereworkbench.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/explosivesphereworkbench.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/explosivesphereworkbench.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/explosivesphereworkbench.json"
+          "src/main/java/net/mcreator/createpyrotechnics/block/ExplosivesphereworkbenchBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/explosivesphereworkbench.json"
         ]
       },
       "path": "~/crafting"
@@ -1157,8 +1157,8 @@
       "registry_name": "bombsphere",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/bombsphere.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/BombsphereItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/BombsphereItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bombsphere.json"
         ]
       },
       "path": "~/crafting"
@@ -1171,8 +1171,8 @@
       "registry_name": "warheadcraftinggui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/WarheadcraftingguiScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/WarheadcraftingguiMenu.java"
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/WarheadcraftingguiMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/WarheadcraftingguiScreen.java"
         ]
       },
       "path": "~/crafting"
@@ -1273,11 +1273,11 @@
       "registry_name": "designatorblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/designatorblock.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/designatorblock.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/designatorblock.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/DesignatorblockBlock.java",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/designatorblock.json"
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/designatorblock.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/designatorblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/DesignatorblockBlock.java"
         ]
       },
       "path": "~/computer stuff"
@@ -1384,11 +1384,11 @@
       "registry_name": "placeholder",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/placeholder.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/placeholder.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/placeholder.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/placeholder.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/PlaceholderBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/placeholder.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/placeholder.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/PlaceholderBlock.java"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -1780,9 +1780,9 @@
       "registry_name": "pumping",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/PumpingMenu.java",
           "src/main/java/net/mcreator/createpyrotechnics/network/PumpingButtonMessage.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/PumpingScreen.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/PumpingScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/PumpingMenu.java"
         ]
       },
       "path": "~/tools/handheld pump"
@@ -2072,8 +2072,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_pyrotechnics/models/item/handheld_pump.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldPumpItem.java",
-          "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldPumpInventoryCapability.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldPumpInventoryCapability.java",
+          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldPumpItem.java"
         ]
       },
       "path": "~/tools/handheld pump"
@@ -2276,11 +2276,241 @@
         "files": [
           "src/main/resources/assets/create_pyrotechnics/models/item/igiveuaids.json",
           "src/main/java/net/mcreator/createpyrotechnics/item/IgiveuaidsItem.java",
-          "src/main/java/net/mcreator/createpyrotechnics/item/renderer/IgiveuaidsItemRenderer.java",
-          "src/main/java/net/mcreator/createpyrotechnics/item/model/IgiveuaidsItemModel.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/model/IgiveuaidsItemModel.java",
+          "src/main/java/net/mcreator/createpyrotechnics/item/renderer/IgiveuaidsItemRenderer.java"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud/aids"
+    },
+    {
+      "name": "HandheldToxifierLab",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handheld_toxifier_lab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/handheld_toxifier_lab.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldToxifierLabInventoryCapability.java",
+          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldToxifierLabItem.java"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ToxifierLab",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxifier_lab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ToxifierLabScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/network/ToxifierLabButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ToxifierLabMenu.java"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ToxifierLabWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxifier_lab_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ToxifierLabWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "PlusFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plus_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PlusFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "MinusFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minus_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MinusFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ReturnFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_flame",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ReturnPotency",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_potency",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnPotencyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ReturnDuration",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_duration",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnDurationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "WaterPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/WaterPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "PoisonPowderPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_powder_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PoisonPowderPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "GasCanister",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_canister",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/gas_canister.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/GasCanisterItem.java"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ToxSealPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tox_seal_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ToxSealPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
     }
   ],
   "variable_elements": [],
@@ -2300,35 +2530,49 @@
     "en_us": {
       "gui.create_pyrotechnics.pumping.label_placeholder1": "placeholder",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
+      "gui.create_pyrotechnics.toxifier_lab.label_flame": "flame:",
       "gui.create_pyrotechnics.computernavigator.button_empty": "^",
-      "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
       "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
+      "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
+      "gui.create_pyrotechnics.toxifier_lab.button_seal": "Seal",
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "gui.create_pyrotechnics.computernavigator.button_down_on_the_y_axis": "down- on the y axis",
+      "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
       "gui.create_pyrotechnics.warheadcraftinggui.label_weight": "weight",
-      "gui.create_pyrotechnics.valueenteringgui.button_enter": "enter",
       "item.create_pyrotechnics.datawiretester": "Datawiretester",
+      "gui.create_pyrotechnics.valueenteringgui.button_enter": "enter",
+      "gui.create_pyrotechnics.pumping.button_empty": "+",
       "item.create_pyrotechnics.ballisticsbuildingtool": "Ballisticsbuildingtool",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
-      "attribute.create_pyrotechnics.blinded": "Blinded",
       "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
+      "attribute.create_pyrotechnics.blinded": "Blinded",
+      "gui.create_pyrotechnics.pumping.label_psi": "PSI:",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
+      "gui.create_pyrotechnics.toxifier_lab.label_ph": "PH",
+      "gui.create_pyrotechnics.toxifier_lab.button_add_water": "+ water",
+      "gui.create_pyrotechnics.pumping.label_vent": "vent:",
       "entity.create_pyrotechnics.designator": "DESIGNATOR",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
       "block.create_pyrotechnics.datawirestopper": "Datawiresswitcher",
       "item.create_pyrotechnics.bombsphere": "Bombsphere",
+      "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
       "gui.create_pyrotechnics.valueenteringgui.pinmode": "assignment pin",
+      "item.create_pyrotechnics.handheld_pump": "Handheld Pump",
       "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
+      "gui.create_pyrotechnics.toxifier_lab.button_add_poison_powder": "+ poison powder",
       "item.create_pyrotechnics.designator_spawn_egg": "DESIGNATOR Spawn Egg",
+      "gui.create_pyrotechnics.pumping.button_empty1": "-",
       "gui.create_pyrotechnics.siloguinew.label_currently_listening_for_launch_p": "listening for arming",
       "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
+      "gui.create_pyrotechnics.toxifier_lab.label_duration": "duration:",
       "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics",
       "gui.create_pyrotechnics.warheadcraftinggui.label_air_tank_level": "tank psi",
       "subtitles.explosion": "",
       "block.create_pyrotechnics.valuestorageblock": "Valuestorageblock",
       "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
+      "block.create_pyrotechnics.designatorblock": "Designatorblock",
       "gui.create_pyrotechnics.computernavigator.button_up_on_y_axis": "up- on y axis",
       "gui.create_pyrotechnics.warheadcraftinggui.label_explosive_power": "explosive_power",
       "gui.create_pyrotechnics.computernavigator.button_execute": "open",
@@ -2336,17 +2580,26 @@
       "gui.create_pyrotechnics.siloguinew.label_pin": "pin 5",
       "block.create_pyrotechnics.datawireblock": "Datawireblock",
       "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
+      "gui.create_pyrotechnics.toxifier_lab.button_empty": "+",
       "gui.create_pyrotechnics.warheadcraftinggui.tooltip_warning_if_warhead_sphere_is_not": "WARNING IF WARHEAD SPHERE IS NOT SEALED, AND STATION IS BROKEN, THERE WILL RESULT IN PARTIAL DETONATION OF YOUR WARHEAD",
       "gui.create_pyrotechnics.computernavigator.button_return_to_original_block": "return to original block",
+      "item.create_pyrotechnics.handheld_toxifier_lab": "Handheld Toxifier Lab",
       "block.create_pyrotechnics.silo_block": "Silo Block",
       "gui.create_pyrotechnics.computernavigator.button_down_y_axis": "down y axis",
+      "block.create_pyrotechnics.placeholder": "Placeholder - use to test kaczorro\u0027s nukes",
       "gui.create_pyrotechnics.valueenteringgui.valueentering": "value here (0)",
       "item.create_pyrotechnics.pinassigner": "Pinassigner",
       "gui.create_pyrotechnics.computernavigator.button_up_y_axis": "up_y_axis",
+      "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
       "gui.create_pyrotechnics.computernavigator.button_v": "V",
+      "gui.create_pyrotechnics.toxifier_lab.label_placeholder": "PH",
+      "gui.create_pyrotechnics.toxifier_lab.label_ph1": "PH",
       "gui.create_pyrotechnics.valueenteringgui.label_your_custom_varible": "your_custom_varible",
-      "block.create_pyrotechnics.explosivesphereworkbench": "Explosivesphereworkbench"
+      "item.create_pyrotechnics.gas_canister": "Gas Canister",
+      "gui.create_pyrotechnics.pumping.button_seal": "seal/unseal",
+      "block.create_pyrotechnics.explosivesphereworkbench": "Explosivesphereworkbench",
+      "gui.create_pyrotechnics.toxifier_lab.label_potency": "Potency:"
     }
   },
   "foldersRoot": {
@@ -2373,6 +2626,10 @@
           },
           {
             "name": "pin assigner",
+            "children": []
+          },
+          {
+            "name": "concept handheld toxifier lab",
             "children": []
           }
         ]
