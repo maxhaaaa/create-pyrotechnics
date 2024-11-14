@@ -33,9 +33,21 @@ public class MushroomCloudProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("create_pyrotechnics:explosion")), SoundSource.NEUTRAL, 125, -1, false);
 				}
 			}
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("create_pyrotechnics:nuke")), SoundSource.NEUTRAL, 125, -1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("create_pyrotechnics:nuke")), SoundSource.NEUTRAL, 125, -1, false);
+				}
+			}
 		});
 		StemProcedure.execute(world, x, y, z);
 		ShockwaveProcedure.execute(world, x, y + 5, z);
+		TestProcedure.execute(world, x, y + 60, z);
+		Test1Procedure.execute(world, x, y + 75, z);
 		CapProcedure.execute(world, x, y + 5, z);
+		for (int index0 = 0; index0 < 10; index0++) {
+			SmokeProcedure.execute(world, x, y + 5, z);
+		}
 	}
 }
