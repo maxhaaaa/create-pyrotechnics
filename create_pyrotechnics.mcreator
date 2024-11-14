@@ -2127,6 +2127,410 @@
         ]
       },
       "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "ToxSealPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tox_seal_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ToxSealPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "PoisonPowderPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_powder_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PoisonPowderPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ToxifierLabWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxifier_lab_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ToxifierLabWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "RoundNumForDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_num_for_display",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/RoundNumForDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "num",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "Designatorblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "designatorblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/designatorblock.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/designatorblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/DesignatorblockBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/designatorblock.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/designatorblock.json"
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "Maxes_particle_utils_tests",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxes_particle_utils_tests",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Maxes_particle_utils_testsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "age",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/explosions"
+    },
+    {
+      "name": "ReturnFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_flame",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ReturnPotency",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_potency",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnPotencyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "MinusFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minus_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MinusFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ToxifierLab",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxifier_lab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/network/ToxifierLabButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ToxifierLabMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ToxifierLabScreen.java"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "Reversenodenavigtion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reversenodenavigtion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReversenodenavigtionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "originalx",
+            "type": "number"
+          },
+          {
+            "name": "originaly",
+            "type": "number"
+          },
+          {
+            "name": "originalz",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "HandheldToxifierLab",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handheld_toxifier_lab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldToxifierLabInventoryCapability.java",
+          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldToxifierLabItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/handheld_toxifier_lab.json"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "DesignatorblockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "designatorblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/DesignatorblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "PlusFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plus_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PlusFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "GasCanister",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_canister",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/GasCanisterItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/gas_canister.json"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "Nodenavigation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodenavigation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/NodenavigationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "originalx",
+            "type": "number"
+          },
+          {
+            "name": "originaly",
+            "type": "number"
+          },
+          {
+            "name": "originalz",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer stuff"
+    },
+    {
+      "name": "ReturnDuration",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_duration",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnDurationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "WaterPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/WaterPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
     }
   ],
   "variable_elements": [],
@@ -2163,6 +2567,7 @@
       "gui.create_pyrotechnics.pumping.label_psi": "PSI:",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
+      "gui.create_pyrotechnics.toxifier_lab.label_ph": "PH",
       "gui.create_pyrotechnics.pumping.label_vent": "vent:",
       "entity.create_pyrotechnics.designator": "DESIGNATOR",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
@@ -2199,6 +2604,8 @@
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
       "gui.create_pyrotechnics.computernavigator.button_v": "V",
+      "gui.create_pyrotechnics.toxifier_lab.label_placeholder": "PH",
+      "gui.create_pyrotechnics.toxifier_lab.label_ph1": "PH",
       "gui.create_pyrotechnics.valueenteringgui.label_your_custom_varible": "your_custom_varible",
       "gui.create_pyrotechnics.pumping.button_seal": "seal/unseal",
       "block.create_pyrotechnics.explosivesphereworkbench": "Explosivesphereworkbench"
@@ -2220,6 +2627,10 @@
         "children": [
           {
             "name": "handheld pump",
+            "children": []
+          },
+          {
+            "name": "concept handheld toxifier lab",
             "children": []
           },
           {
@@ -2266,15 +2677,6 @@
         "name": "kaczorros shit",
         "children": [
           {
-            "name": "mushroom cloud",
-            "children": [
-              {
-                "name": "aids",
-                "children": []
-              }
-            ]
-          },
-          {
             "name": "explosion",
             "children": [
               {
@@ -2285,6 +2687,15 @@
                     "children": []
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "mushroom cloud",
+            "children": [
+              {
+                "name": "aids",
+                "children": []
               }
             ]
           }

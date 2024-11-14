@@ -8,7 +8,8 @@
     "width": 0.2,
     "height": 0.2,
     "scale": {
-      "fixedValue": 10.0
+      "fixedValue": 10.0,
+      "name": "Maxes_particle_utils_tests"
     },
     "speedFactor": 1.0,
     "gravity": 0.5,

@@ -64,8 +64,6 @@ public class WarheadcraftingguiScreen extends AbstractContainerScreen<Warheadcra
 
 		guiGraphics.blit(new ResourceLocation("create_pyrotechnics:textures/screens/gui_battery_themed_progression_bar_design_segment_6.png"), this.leftPos + 42, this.topPos + 61, 0, 0, 3, 3, 3, 3);
 
-		guiGraphics.blit(new ResourceLocation("create_pyrotechnics:textures/screens/gui_battery_themed_progression_bar_design_segment_4.png"), this.leftPos + -114, this.topPos + -20, 0, 0, 7, 4, 7, 4);
-
 		guiGraphics.blit(new ResourceLocation("create_pyrotechnics:textures/screens/gui_battery_themed_progression_bar_design_segment_4.png"), this.leftPos + 34, this.topPos + 60, 0, 0, 7, 4, 7, 4);
 
 		guiGraphics.blit(new ResourceLocation("create_pyrotechnics:textures/screens/gui_battery_themed_progression_bar_design_segment_4.png"), this.leftPos + 38, this.topPos + 60, 0, 0, 7, 4, 7, 4);

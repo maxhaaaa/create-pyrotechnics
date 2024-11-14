@@ -4,6 +4,7 @@ package net.mcreator.createpyrotechnics.client.particle;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.client.particle.TextureSheetParticle;
 import net.minecraft.client.particle.SpriteSet;
@@ -11,6 +12,8 @@ import net.minecraft.client.particle.ParticleRenderType;
 import net.minecraft.client.particle.ParticleProvider;
 import net.minecraft.client.particle.Particle;
 import net.minecraft.client.multiplayer.ClientLevel;
+
+import net.mcreator.createpyrotechnics.procedures.Maxes_particle_utils_testsProcedure;
 
 @OnlyIn(Dist.CLIENT)
 public class ParticleheavyParticle extends TextureSheetParticle {
@@ -36,7 +39,6 @@ public class ParticleheavyParticle extends TextureSheetParticle {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
-		this.quadSize *= 10f;
 		this.lifetime = (int) Math.max(1, 500 + (this.random.nextInt(1000) - 500));
 		this.gravity = 0.5f;
 		this.hasPhysics = true;
@@ -49,6 +51,12 @@ public class ParticleheavyParticle extends TextureSheetParticle {
 	@Override
 	public ParticleRenderType getRenderType() {
 		return ParticleRenderType.PARTICLE_SHEET_OPAQUE;
+	}
+
+	@Override
+	public float getQuadSize(float scale) {
+		Level world = this.level;
+		return super.getQuadSize(scale) * (float) Maxes_particle_utils_testsProcedure.execute(age);
 	}
 
 	@Override

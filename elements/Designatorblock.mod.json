@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:bee_nest_top",
-    "textureTop": "minecraft:bee_nest_top",
-    "textureLeft": "artboard_1_3",
-    "textureFront": "computer_block_face_up",
-    "textureRight": "artboard_1_3",
-    "textureBack": "artboard_1_3",
+    "texture": "minecraft:ancient_debris_top",
+    "textureTop": "minecraft:ancient_debris_top",
+    "textureLeft": "minecraft:ancient_debris_top",
+    "textureFront": "front_placeholder",
+    "textureRight": "minecraft:ancient_debris_top",
+    "textureBack": "minecraft:ancient_debris_top",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 2,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Valuestorageblock",
+    "name": "Designatorblock",
     "specialInformation": {
       "fixedValue": []
     },
@@ -105,10 +105,10 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 0,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -122,6 +122,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "DesignatorblockOnBlockRightClicked"
+    },
+    "onBlockAdded": {
+      "name": "ComputerblockBlockAdded"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
