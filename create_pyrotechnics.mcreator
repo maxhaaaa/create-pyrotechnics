@@ -1073,10 +1073,6 @@
             "type": "number"
           },
           {
-            "name": "speed_divider",
-            "type": "number"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -1113,10 +1109,6 @@
           },
           {
             "name": "intensity",
-            "type": "number"
-          },
-          {
-            "name": "speed_divider",
             "type": "number"
           },
           {
@@ -1197,10 +1189,6 @@
           "src/main/java/net/mcreator/createpyrotechnics/procedures/CallexplodeinmotionProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "speed_divider",
-            "type": "number"
-          },
           {
             "name": "x",
             "type": "number"
@@ -1491,6 +1479,41 @@
         ]
       },
       "path": "~/tools/handheld pump"
+    },
+    {
+      "name": "E1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sizeD",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
     },
     {
       "name": "E2",
@@ -2265,112 +2288,6 @@
       "path": "~/kaczorros shit/mushroom cloud/aids"
     },
     {
-      "name": "E1",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "e_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/procedures/E1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "sizeD",
-            "type": "number"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/kaczorros shit/explosion/A1"
-    },
-    {
-      "name": "Firstwarheadtest",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "firstwarheadtest",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/procedures/FirstwarheadtestProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "explosive_power",
-            "type": "number"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
-    },
-    {
-      "name": "Trinitytest",
-      "type": "animatedblock",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trinitytest",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestTileRenderer.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/trinitytest.json",
-          "src/main/resources/assets/create_pyrotechnics/models/custom/trinitytest_particle.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestBlockModel.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/TrinitytestTileEntity.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestDisplayModel.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/TrinitytestBlock.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/display/TrinitytestDisplayItem.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/trinitytest.json"
-        ]
-      },
-      "path": "~/basic setup"
-    },
-    {
-      "name": "Trinitytestgui",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trinitytestgui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/TrinitytestguiMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/TrinitytestguiScreen.java"
-        ]
-      },
-      "path": "~/basic setup"
-    },
-    {
       "name": "Slotcontentschange",
       "type": "procedure",
       "compiles": true,
@@ -2404,6 +2321,83 @@
         ]
       },
       "path": "~/crafting"
+    },
+    {
+      "name": "Firstwarheadtest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firstwarheadtest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FirstwarheadtestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
+    },
+    {
+      "name": "ReturnExplosivepower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_explosivepower",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnExplosivepowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crafting"
+    },
+    {
+      "name": "Trinitytestgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trinitytestgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/TrinitytestguiMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/TrinitytestguiScreen.java"
+        ]
+      },
+      "path": "~/basic setup"
     },
     {
       "name": "Sealbutton",
@@ -2441,36 +2435,26 @@
       "path": "~/crafting"
     },
     {
-      "name": "ReturnExplosivepower",
-      "type": "procedure",
+      "name": "Trinitytest",
+      "type": "animatedblock",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "return_explosivepower",
+      "registry_name": "trinitytest",
       "metadata": {
-        "return_type": "string",
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnExplosivepowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestTileRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/trinitytest.json",
+          "src/main/resources/assets/create_pyrotechnics/models/custom/trinitytest_particle.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestBlockModel.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/TrinitytestTileEntity.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestDisplayModel.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/TrinitytestBlock.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/display/TrinitytestDisplayItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/trinitytest.json"
         ]
       },
-      "path": "~/crafting"
+      "path": "~/basic setup"
     },
     {
       "name": "Returnexplosivecurrent",
@@ -2503,6 +2487,377 @@
         ]
       },
       "path": "~/crafting"
+    },
+    {
+      "name": "ToxSealPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tox_seal_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ToxSealPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "PoisonPowderPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_powder_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PoisonPowderPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ToxifierLabWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxifier_lab_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ToxifierLabWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "RoundNumForDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_num_for_display",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/RoundNumForDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "num",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "SmokeCloud",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_cloud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/particles/smoke_cloud.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/SmokeCloudParticle.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Smoke",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SmokeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "ReturnFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_flame",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ShockwaveParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockwave_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ShockwaveParticleParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/shockwave_particle.json"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "ReturnPotency",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_potency",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnPotencyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "MinusFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minus_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MinusFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ToxifierLab",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxifier_lab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/network/ToxifierLabButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/ToxifierLabScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ToxifierLabMenu.java"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "Test1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Test1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "HandheldToxifierLab",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handheld_toxifier_lab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldToxifierLabInventoryCapability.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/handheld_toxifier_lab.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldToxifierLabItem.java"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "PlusFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plus_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PlusFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "GasCanister",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_canister",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/GasCanisterItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/gas_canister.json"
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "ReturnDuration",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_duration",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnDurationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
+    },
+    {
+      "name": "WaterPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/WaterPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/concept handheld toxifier lab"
     }
   ],
   "variable_elements": [],
@@ -2511,6 +2866,14 @@
       "name": "explosion",
       "files": [
         "explode1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nuke",
+      "files": [
+        "hitthenboom"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -2602,6 +2965,10 @@
             "children": []
           },
           {
+            "name": "concept handheld toxifier lab",
+            "children": []
+          },
+          {
             "name": "lazer_designator",
             "children": []
           },
@@ -2645,15 +3012,6 @@
         "name": "kaczorros shit",
         "children": [
           {
-            "name": "mushroom cloud",
-            "children": [
-              {
-                "name": "aids",
-                "children": []
-              }
-            ]
-          },
-          {
             "name": "explosion",
             "children": [
               {
@@ -2664,6 +3022,15 @@
                     "children": []
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "mushroom cloud",
+            "children": [
+              {
+                "name": "aids",
+                "children": []
               }
             ]
           }

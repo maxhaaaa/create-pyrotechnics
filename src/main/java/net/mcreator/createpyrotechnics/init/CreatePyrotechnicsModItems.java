@@ -16,7 +16,9 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.createpyrotechnics.item.PinassignerItem;
 import net.mcreator.createpyrotechnics.item.LazerdesignatorItem;
 import net.mcreator.createpyrotechnics.item.IgiveuaidsItem;
+import net.mcreator.createpyrotechnics.item.HandheldToxifierLabItem;
 import net.mcreator.createpyrotechnics.item.HandheldPumpItem;
+import net.mcreator.createpyrotechnics.item.GasCanisterItem;
 import net.mcreator.createpyrotechnics.item.DebugstickItem;
 import net.mcreator.createpyrotechnics.item.DatawiretesterItem;
 import net.mcreator.createpyrotechnics.item.BombsphereItem;
@@ -45,6 +47,8 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> HANDHELD_PUMP = REGISTRY.register("handheld_pump", () -> new HandheldPumpItem());
 	public static final RegistryObject<Item> IGIVEUAIDS = REGISTRY.register("igiveuaids", () -> new IgiveuaidsItem());
 	public static final RegistryObject<Item> TRINITYTEST = REGISTRY.register(CreatePyrotechnicsModBlocks.TRINITYTEST.getId().getPath(), () -> new TrinitytestDisplayItem(CreatePyrotechnicsModBlocks.TRINITYTEST.get(), new Item.Properties()));
+	public static final RegistryObject<Item> HANDHELD_TOXIFIER_LAB = REGISTRY.register("handheld_toxifier_lab", () -> new HandheldToxifierLabItem());
+	public static final RegistryObject<Item> GAS_CANISTER = REGISTRY.register("gas_canister", () -> new GasCanisterItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

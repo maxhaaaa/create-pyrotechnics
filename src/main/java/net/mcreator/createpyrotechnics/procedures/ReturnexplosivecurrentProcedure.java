@@ -1,13 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.common.capabilities.ForgeCapabilities;
-
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.core.BlockPos;
-
-import java.util.concurrent.atomic.AtomicReference;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ReturnexplosivecurrentProcedure {
 	public static String execute(LevelAccessor world, double x, double y, double z) {

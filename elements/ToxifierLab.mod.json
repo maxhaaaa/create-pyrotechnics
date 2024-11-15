@@ -1,0 +1,193 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_flame",
+          "text": {
+            "fixedValue": "flame:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 196,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_placeholder",
+          "text": {
+            "fixedValue": "PH",
+            "name": "ReturnFlame"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 185,
+          "y": 101
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "+",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlusFlame"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 147,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "-",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MinusFlame"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 246,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_potency",
+          "text": {
+            "fixedValue": "Potency:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 147,
+          "y": 120
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_duration",
+          "text": {
+            "fixedValue": "duration:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 238,
+          "y": 120
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ph",
+          "text": {
+            "fixedValue": "PH",
+            "name": "ReturnPotency"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 137,
+          "y": 131
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ph1",
+          "text": {
+            "fixedValue": "PH",
+            "name": "ReturnDuration"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 221,
+          "y": 131
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_add_water",
+          "text": "+ water",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "WaterPressed"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 178,
+          "y": 145
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_add_poison_powder",
+          "text": "+ poison powder",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PoisonPowderPressed"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 157,
+          "y": 172
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_seal",
+          "text": "Seal",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToxSealPressed"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 189,
+          "y": 61
+        }
+      }
+    ],
+    "onTick": {
+      "name": "ToxifierLabWhileThisGUIIsOpenTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
