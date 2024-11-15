@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModTabs;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModSounds;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModParticleTypes;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModMobEffects;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModMenus;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModItems;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
@@ -53,6 +54,8 @@ public class CreatePyrotechnicsMod {
 		CreatePyrotechnicsModEntities.REGISTRY.register(bus);
 
 		CreatePyrotechnicsModTabs.REGISTRY.register(bus);
+
+		CreatePyrotechnicsModMobEffects.REGISTRY.register(bus);
 
 		CreatePyrotechnicsModParticleTypes.REGISTRY.register(bus);
 

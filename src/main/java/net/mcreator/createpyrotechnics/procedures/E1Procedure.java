@@ -7,13 +7,13 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
-import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModAttributes;
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModMobEffects;
 
 import java.util.List;
 import java.util.Comparator;
@@ -33,12 +33,8 @@ public class E1Procedure {
 			final Vec3 _center = new Vec3(x, y, z);
 			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(500 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 			for (Entity entityiterator : _entfound) {
-				if (entityiterator instanceof LivingEntity _livingEntity0 && _livingEntity0.getAttributes().hasAttribute(CreatePyrotechnicsModAttributes.BLINDED.get()))
-					_livingEntity0.getAttribute(CreatePyrotechnicsModAttributes.BLINDED.get()).setBaseValue(1);
-				CreatePyrotechnicsMod.queueServerWork(100, () -> {
-					if (entityiterator instanceof LivingEntity _livingEntity1 && _livingEntity1.getAttributes().hasAttribute(CreatePyrotechnicsModAttributes.BLINDED.get()))
-						_livingEntity1.getAttribute(CreatePyrotechnicsModAttributes.BLINDED.get()).setBaseValue(0);
-				});
+				if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(CreatePyrotechnicsModMobEffects.BURNTRETNAS.get(), 60, 1, false, false));
 			}
 		}
 		loop = 0;
