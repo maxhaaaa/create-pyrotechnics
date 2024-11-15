@@ -30,5 +30,6 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModItems.DATAWIRETESTER.get());
 				tabData.accept(CreatePyrotechnicsModBlocks.DESIGNATORBLOCK.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.PLACEHOLDER.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.TRINITYTEST.get().asItem());
 			}).withSearchBar().build());
 }

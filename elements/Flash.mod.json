@@ -12,7 +12,7 @@
     },
     "speedFactor": 0.6,
     "gravity": 0.0,
-    "maxAge": 6,
+    "maxAge": 10,
     "maxAgeDiff": 0,
     "angularVelocity": 0.0,
     "angularAcceleration": 0.0,

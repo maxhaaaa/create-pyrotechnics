@@ -1,6 +1,17 @@
 
 package net.mcreator.createpyrotechnics.client.particle;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.client.particle.TextureSheetParticle;
+import net.minecraft.client.particle.SpriteSet;
+import net.minecraft.client.particle.ParticleRenderType;
+import net.minecraft.client.particle.ParticleProvider;
+import net.minecraft.client.particle.Particle;
+import net.minecraft.client.multiplayer.ClientLevel;
+
 @OnlyIn(Dist.CLIENT)
 public class FlashParticle extends TextureSheetParticle {
 	public static FlashParticleProvider provider(SpriteSet spriteSet) {
@@ -26,7 +37,7 @@ public class FlashParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0f, 0f);
 		this.quadSize *= 1600f;
-		this.lifetime = 6;
+		this.lifetime = 10;
 		this.gravity = 0f;
 		this.hasPhysics = false;
 		this.xd = vx * 0.6;

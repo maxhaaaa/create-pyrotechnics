@@ -21,6 +21,7 @@ import net.mcreator.createpyrotechnics.item.DebugstickItem;
 import net.mcreator.createpyrotechnics.item.DatawiretesterItem;
 import net.mcreator.createpyrotechnics.item.BombsphereItem;
 import net.mcreator.createpyrotechnics.item.BallisticsbuildingtoolItem;
+import net.mcreator.createpyrotechnics.block.display.TrinitytestDisplayItem;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class CreatePyrotechnicsModItems {
@@ -43,6 +44,7 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> PLACEHOLDER = block(CreatePyrotechnicsModBlocks.PLACEHOLDER);
 	public static final RegistryObject<Item> HANDHELD_PUMP = REGISTRY.register("handheld_pump", () -> new HandheldPumpItem());
 	public static final RegistryObject<Item> IGIVEUAIDS = REGISTRY.register("igiveuaids", () -> new IgiveuaidsItem());
+	public static final RegistryObject<Item> TRINITYTEST = REGISTRY.register(CreatePyrotechnicsModBlocks.TRINITYTEST.getId().getPath(), () -> new TrinitytestDisplayItem(CreatePyrotechnicsModBlocks.TRINITYTEST.get(), new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

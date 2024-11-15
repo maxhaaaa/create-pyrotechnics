@@ -1,6 +1,23 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.Projectile;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.createpyrotechnics.item.IgiveuaidsItem;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
+import net.mcreator.createpyrotechnics.entity.SuperAidsEntity;
+import net.mcreator.createpyrotechnics.entity.AidsEntity;
 
 public class IgiveuaidsRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -33,7 +50,7 @@ public class IgiveuaidsRightclickedProcedure {
 			if (!projectileLevel.isClientSide()) {
 				Projectile _entityToSpawn = new Object() {
 					public Projectile getArrow(Level level, float damage, int knockback) {
-						AbstractArrow entityToSpawn = new SuperAidsEntity(CreatePyrotechnicsModEntities.DELETED_MOD_ELEMENT.get(), level);
+						AbstractArrow entityToSpawn = new SuperAidsEntity(CreatePyrotechnicsModEntities.SUPER_AIDS.get(), level);
 						entityToSpawn.setBaseDamage(damage);
 						entityToSpawn.setKnockback(knockback);
 						entityToSpawn.setSilent(true);

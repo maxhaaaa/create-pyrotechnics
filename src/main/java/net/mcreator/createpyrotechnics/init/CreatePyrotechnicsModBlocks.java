@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.createpyrotechnics.block.ValuestorageblockBlock;
+import net.mcreator.createpyrotechnics.block.TrinitytestBlock;
 import net.mcreator.createpyrotechnics.block.SiloBlockBlock;
 import net.mcreator.createpyrotechnics.block.PlaceholderBlock;
 import net.mcreator.createpyrotechnics.block.ExplosivesphereworkbenchBlock;
@@ -30,6 +31,7 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> EXPLOSIVESPHEREWORKBENCH = REGISTRY.register("explosivesphereworkbench", () -> new ExplosivesphereworkbenchBlock());
 	public static final RegistryObject<Block> DESIGNATORBLOCK = REGISTRY.register("designatorblock", () -> new DesignatorblockBlock());
 	public static final RegistryObject<Block> PLACEHOLDER = REGISTRY.register("placeholder", () -> new PlaceholderBlock());
+	public static final RegistryObject<Block> TRINITYTEST = REGISTRY.register("trinitytest", () -> new TrinitytestBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

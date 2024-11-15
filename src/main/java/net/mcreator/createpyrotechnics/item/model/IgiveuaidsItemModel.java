@@ -1,5 +1,11 @@
 package net.mcreator.createpyrotechnics.item.model;
 
+import software.bernie.geckolib.model.GeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.createpyrotechnics.item.IgiveuaidsItem;
+
 public class IgiveuaidsItemModel extends GeoModel<IgiveuaidsItem> {
 	@Override
 	public ResourceLocation getAnimationResource(IgiveuaidsItem animatable) {

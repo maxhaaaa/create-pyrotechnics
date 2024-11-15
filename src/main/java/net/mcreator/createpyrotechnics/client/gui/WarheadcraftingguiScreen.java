@@ -10,6 +10,10 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.createpyrotechnics.world.inventory.WarheadcraftingguiMenu;
+import net.mcreator.createpyrotechnics.procedures.ReturnexplosivecurrentProcedure;
+import net.mcreator.createpyrotechnics.procedures.ReturnExplosivepowerProcedure;
+import net.mcreator.createpyrotechnics.network.WarheadcraftingguiButtonMessage;
+import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 import java.util.HashMap;
 
@@ -84,8 +88,12 @@ public class WarheadcraftingguiScreen extends AbstractContainerScreen<Warheadcra
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.warheadcraftinggui.label_explosive_power"), 4, 8, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.warheadcraftinggui.label_weight"), 5, 22, -12829636, false);
+		guiGraphics.drawString(this.font,
+
+				ReturnExplosivepowerProcedure.execute(world, x, y, z), 2, 8, -12829636, false);
+		guiGraphics.drawString(this.font,
+
+				ReturnexplosivecurrentProcedure.execute(world, x, y, z), 5, 22, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.warheadcraftinggui.label_seal"), 87, 86, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.create_pyrotechnics.warheadcraftinggui.label_air_tank_level"), 14, 46, -12829636, false);
 	}
@@ -94,10 +102,18 @@ public class WarheadcraftingguiScreen extends AbstractContainerScreen<Warheadcra
 	public void init() {
 		super.init();
 		imagebutton_gui_launch_button_red = new ImageButton(this.leftPos + 87, this.topPos + 97, 20, 19, 0, 0, 19, new ResourceLocation("create_pyrotechnics:textures/screens/atlas/imagebutton_gui_launch_button_red.png"), 20, 38, e -> {
+			if (true) {
+				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new WarheadcraftingguiButtonMessage(0, x, y, z));
+				WarheadcraftingguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_gui_launch_button_red", imagebutton_gui_launch_button_red);
 		this.addRenderableWidget(imagebutton_gui_launch_button_red);
 		imagebutton_gui_arrow_left = new ImageButton(this.leftPos + 130, this.topPos + 47, 16, 15, 0, 0, 15, new ResourceLocation("create_pyrotechnics:textures/screens/atlas/imagebutton_gui_arrow_left.png"), 16, 30, e -> {
+			if (true) {
+				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new WarheadcraftingguiButtonMessage(1, x, y, z));
+				WarheadcraftingguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_gui_arrow_left", imagebutton_gui_arrow_left);
 		this.addRenderableWidget(imagebutton_gui_arrow_left);
