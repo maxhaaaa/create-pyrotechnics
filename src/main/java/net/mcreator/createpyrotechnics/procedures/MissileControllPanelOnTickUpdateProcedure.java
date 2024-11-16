@@ -6,6 +6,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.createpyrotechnics.network.CreatePyrotechnicsModVariables;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlocks;
 
 public class MissileControllPanelOnTickUpdateProcedure {
@@ -27,6 +28,16 @@ public class MissileControllPanelOnTickUpdateProcedure {
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
+		}
+		if (CreatePyrotechnicsModVariables.MapVariables.get(world).activate == new Object() {
+			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getPersistentData().getDouble(tag);
+				return -1;
+			}
+		}.getValue(world, BlockPos.containing(x, y, z), "link")) {
+			LaunchProcedureProcedure.execute(world, x, y, z);
 		}
 	}
 }

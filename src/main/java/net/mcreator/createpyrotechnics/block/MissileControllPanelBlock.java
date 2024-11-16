@@ -26,8 +26,9 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.createpyrotechnics.world.inventory.LaunchMenu;
+import net.mcreator.createpyrotechnics.world.inventory.Launch2Menu;
 import net.mcreator.createpyrotechnics.procedures.MissileControllPanelOnTickUpdateProcedure;
+import net.mcreator.createpyrotechnics.procedures.MissileControllPanelBlockAddedProcedure;
 import net.mcreator.createpyrotechnics.block.entity.MissileControllPanelBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -46,6 +47,7 @@ public class MissileControllPanelBlock extends Block implements EntityBlock {
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 1);
+		MissileControllPanelBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
@@ -70,7 +72,7 @@ public class MissileControllPanelBlock extends Block implements EntityBlock {
 
 				@Override
 				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new LaunchMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
+					return new Launch2Menu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
 				}
 			}, pos);
 		}

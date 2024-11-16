@@ -38,5 +38,6 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_BODY_STAGE_3.get().asItem());
 				tabData.accept(CreatePyrotechnicsModItems.TESTER.get());
+				tabData.accept(CreatePyrotechnicsModItems.BIG_RED_BUTTON.get());
 			}).withSearchBar().build());
 }

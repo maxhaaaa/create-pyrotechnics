@@ -106,7 +106,7 @@
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "Launch",
+    "guiBoundTo": "Launch2",
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -122,6 +122,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onBlockAdded": {
+      "name": "MissileControllPanelBlockAdded"
+    },
     "onTickUpdate": {
       "name": "MissileControllPanelOnTickUpdate"
     },

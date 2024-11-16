@@ -18,7 +18,7 @@
     "modelWidth": 0.5,
     "modelHeight": 0.5,
     "onHitsBlock": {
-      "name": "OgMushroomCloud"
+      "name": "OgExplosion"
     },
     "onFlyingTick": {
       "name": "ICBMPlaceHolder1WhileProjectileFlyingTick"

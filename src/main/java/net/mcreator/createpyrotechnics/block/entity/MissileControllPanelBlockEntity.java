@@ -21,7 +21,7 @@ import net.minecraft.core.NonNullList;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.createpyrotechnics.world.inventory.LaunchMenu;
+import net.mcreator.createpyrotechnics.world.inventory.Launch2Menu;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlockEntities;
 
 import javax.annotation.Nullable;
@@ -89,7 +89,7 @@ public class MissileControllPanelBlockEntity extends RandomizableContainerBlockE
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new LaunchMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
+		return new Launch2Menu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
 
 	@Override

@@ -18,6 +18,7 @@ import net.mcreator.createpyrotechnics.world.inventory.ToxifierLabMenu;
 import net.mcreator.createpyrotechnics.world.inventory.SiloguinewMenu;
 import net.mcreator.createpyrotechnics.world.inventory.PumpingMenu;
 import net.mcreator.createpyrotechnics.world.inventory.LaunchMenu;
+import net.mcreator.createpyrotechnics.world.inventory.Launch2Menu;
 import net.mcreator.createpyrotechnics.world.inventory.ComputernavigatorMenu;
 import net.mcreator.createpyrotechnics.world.inventory.BevsslotsguiMenu;
 import net.mcreator.createpyrotechnics.world.inventory.BevsguitestingidkMenu;
@@ -35,4 +36,5 @@ public class CreatePyrotechnicsModMenus {
 	public static final RegistryObject<MenuType<ToxifierLabMenu>> TOXIFIER_LAB = REGISTRY.register("toxifier_lab", () -> IForgeMenuType.create(ToxifierLabMenu::new));
 	public static final RegistryObject<MenuType<TrinitytestguiMenu>> TRINITYTESTGUI = REGISTRY.register("trinitytestgui", () -> IForgeMenuType.create(TrinitytestguiMenu::new));
 	public static final RegistryObject<MenuType<LaunchMenu>> LAUNCH = REGISTRY.register("launch", () -> IForgeMenuType.create(LaunchMenu::new));
+	public static final RegistryObject<MenuType<Launch2Menu>> LAUNCH_2 = REGISTRY.register("launch_2", () -> IForgeMenuType.create(Launch2Menu::new));
 }

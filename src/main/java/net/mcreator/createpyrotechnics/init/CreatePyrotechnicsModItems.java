@@ -23,6 +23,7 @@ import net.mcreator.createpyrotechnics.item.GasCanisterItem;
 import net.mcreator.createpyrotechnics.item.DebugstickItem;
 import net.mcreator.createpyrotechnics.item.DatawiretesterItem;
 import net.mcreator.createpyrotechnics.item.BombsphereItem;
+import net.mcreator.createpyrotechnics.item.BigRedButtonItem;
 import net.mcreator.createpyrotechnics.item.BallisticsbuildingtoolItem;
 import net.mcreator.createpyrotechnics.block.display.TrinitytestDisplayItem;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
@@ -57,6 +58,7 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> MISSILE_NAVIGATION = block(CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION);
 	public static final RegistryObject<Item> MISSILE_BODY_STAGE_3 = block(CreatePyrotechnicsModBlocks.MISSILE_BODY_STAGE_3);
 	public static final RegistryObject<Item> TESTER = REGISTRY.register("tester", () -> new TesterItem());
+	public static final RegistryObject<Item> BIG_RED_BUTTON = REGISTRY.register("big_red_button", () -> new BigRedButtonItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
