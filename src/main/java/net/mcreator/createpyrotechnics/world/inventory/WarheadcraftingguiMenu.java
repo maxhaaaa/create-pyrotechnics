@@ -77,11 +77,16 @@ public class WarheadcraftingguiMenu extends AbstractContainerMenu implements Sup
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 91, 48) {
-			private final int slot = 0;
-		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 160, 47) {
 			private final int slot = 1;
+		}));
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 90, 48) {
+			private final int slot = 0;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

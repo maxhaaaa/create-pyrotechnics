@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 
 import net.mcreator.createpyrotechnics.world.inventory.WarheadcraftingguiMenu;
 import net.mcreator.createpyrotechnics.world.inventory.ValueenteringguiMenu;
+import net.mcreator.createpyrotechnics.world.inventory.TrinitytestguiMenu;
 import net.mcreator.createpyrotechnics.world.inventory.ToxifierLabMenu;
 import net.mcreator.createpyrotechnics.world.inventory.SiloguinewMenu;
 import net.mcreator.createpyrotechnics.world.inventory.PumpingMenu;
@@ -31,4 +32,5 @@ public class CreatePyrotechnicsModMenus {
 	public static final RegistryObject<MenuType<WarheadcraftingguiMenu>> WARHEADCRAFTINGGUI = REGISTRY.register("warheadcraftinggui", () -> IForgeMenuType.create(WarheadcraftingguiMenu::new));
 	public static final RegistryObject<MenuType<PumpingMenu>> PUMPING = REGISTRY.register("pumping", () -> IForgeMenuType.create(PumpingMenu::new));
 	public static final RegistryObject<MenuType<ToxifierLabMenu>> TOXIFIER_LAB = REGISTRY.register("toxifier_lab", () -> IForgeMenuType.create(ToxifierLabMenu::new));
+	public static final RegistryObject<MenuType<TrinitytestguiMenu>> TRINITYTESTGUI = REGISTRY.register("trinitytestgui", () -> IForgeMenuType.create(TrinitytestguiMenu::new));
 }

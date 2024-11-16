@@ -2652,6 +2652,296 @@
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Slotcontentschange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slotcontentschange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SlotcontentschangeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crafting"
+    },
+    {
+      "name": "Pillaroffireeee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillaroffireeee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/PillaroffireeeeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Firstwarheadtest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firstwarheadtest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FirstwarheadtestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
+    },
+    {
+      "name": "Firepillarparticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firepillarparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/particles/firepillarparticle.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/FirepillarparticleParticle.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Experimentalmushroom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimentalmushroom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ExperimentalmushroomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Burntretnas",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burntretnas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/potion/BurntretnasMobEffect.java"
+        ]
+      },
+      "path": "~/hud things"
+    },
+    {
+      "name": "ReturnExplosivepower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_explosivepower",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnExplosivepowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crafting"
+    },
+    {
+      "name": "Trinitytestgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trinitytestgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/TrinitytestguiScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/TrinitytestguiMenu.java"
+        ]
+      },
+      "path": "~/basic setup"
+    },
+    {
+      "name": "Sealbutton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealbutton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SealbuttonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crafting"
+    },
+    {
+      "name": "Trinitytest",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trinitytest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestDisplayItemRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/trinitytest.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestTileRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/trinitytest.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/display/TrinitytestDisplayItem.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestDisplayModel.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/TrinitytestTileEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/custom/trinitytest_particle.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestBlockModel.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/TrinitytestBlock.java"
+        ]
+      },
+      "path": "~/basic setup"
+    },
+    {
+      "name": "Returnexplosivecurrent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnexplosivecurrent",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ReturnexplosivecurrentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crafting"
     }
   ],
   "variable_elements": [],
@@ -2677,7 +2967,6 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "subtitles.nuke": "",
       "gui.create_pyrotechnics.pumping.label_placeholder1": "placeholder",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
       "gui.create_pyrotechnics.toxifier_lab.label_flame": "flame:",
@@ -2699,7 +2988,6 @@
       "gui.create_pyrotechnics.pumping.label_psi": "PSI:",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
-      "gui.create_pyrotechnics.toxifier_lab.label_ph": "PH",
       "gui.create_pyrotechnics.toxifier_lab.button_add_water": "+ water",
       "gui.create_pyrotechnics.pumping.label_vent": "vent:",
       "entity.create_pyrotechnics.designator": "DESIGNATOR",
@@ -2743,8 +3031,6 @@
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
       "gui.create_pyrotechnics.computernavigator.button_v": "V",
-      "gui.create_pyrotechnics.toxifier_lab.label_placeholder": "PH",
-      "gui.create_pyrotechnics.toxifier_lab.label_ph1": "PH",
       "gui.create_pyrotechnics.valueenteringgui.label_your_custom_varible": "your_custom_varible",
       "item.create_pyrotechnics.gas_canister": "Gas Canister",
       "gui.create_pyrotechnics.pumping.button_seal": "seal/unseal",

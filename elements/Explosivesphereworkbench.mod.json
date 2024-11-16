@@ -108,7 +108,7 @@
     "hasInventory": true,
     "guiBoundTo": "Warheadcraftinggui",
     "openGUIOnRightClick": true,
-    "inventorySize": 3,
+    "inventorySize": 2,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

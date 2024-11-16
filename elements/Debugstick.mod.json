@@ -33,9 +33,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 1,
     "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "Callexplodeinmotion"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
