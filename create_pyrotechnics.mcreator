@@ -829,7 +829,6 @@
       "registry_name": "designator",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_pyrotechnics/forge/biome_modifier/designator_biome_modifier.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/designator_spawn_egg.json",
           "src/main/java/net/mcreator/createpyrotechnics/entity/DESIGNATOREntity.java",
           "src/main/java/net/mcreator/createpyrotechnics/client/renderer/DESIGNATORRenderer.java"
@@ -3961,6 +3960,116 @@
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "ExplosionParticles1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion_particles_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ExplosionParticles1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/non nuclear explosions"
+    },
+    {
+      "name": "ParticleTestingRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particle_testing_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ParticleTestingRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/non nuclear explosions"
+    },
+    {
+      "name": "ParticleTesting",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particle_testing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/particle_testing.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/particle_testing.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/particle_testing.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/particle_testing.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/ParticleTestingBlock.java"
+        ]
+      },
+      "path": "~/kaczorros shit/non nuclear explosions"
+    },
+    {
+      "name": "ExplosionParticles2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion_particles_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ExplosionParticles2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/non nuclear explosions"
     }
   ],
   "variable_elements": [
@@ -4017,8 +4126,8 @@
       "block.create_pyrotechnics.missile_body": "Missile Body",
       "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.launch_2.button_dz_01": "dz + 0.1",
-      "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
       "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
+      "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
       "item.create_pyrotechnics.handheld_pump": "Handheld Pump",
       "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
@@ -4066,6 +4175,7 @@
       "item.create_pyrotechnics.bombsphere": "Bombsphere",
       "gui.create_pyrotechnics.valueenteringgui.pinmode": "assignment pin",
       "item.create_pyrotechnics.designator_spawn_egg": "DESIGNATOR Spawn Egg",
+      "block.create_pyrotechnics.particle_testing": "Particle Testing",
       "gui.create_pyrotechnics.siloguinew.label_currently_listening_for_launch_p": "listening for arming",
       "gui.create_pyrotechnics.toxifier_lab.label_duration": "duration:",
       "gui.create_pyrotechnics.launch.button_dy_011": "dy - 0.1",
@@ -4192,6 +4302,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "non nuclear explosions",
+            "children": []
           }
         ]
       },

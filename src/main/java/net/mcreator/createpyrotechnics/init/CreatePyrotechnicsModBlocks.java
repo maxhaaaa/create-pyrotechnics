@@ -15,6 +15,7 @@ import net.mcreator.createpyrotechnics.block.TrinitytestBlock;
 import net.mcreator.createpyrotechnics.block.ThrusterBlock;
 import net.mcreator.createpyrotechnics.block.SiloBlockBlock;
 import net.mcreator.createpyrotechnics.block.PlaceholderBlock;
+import net.mcreator.createpyrotechnics.block.ParticleTestingBlock;
 import net.mcreator.createpyrotechnics.block.MissileNavigationBlock;
 import net.mcreator.createpyrotechnics.block.MissileControllPanelBlock;
 import net.mcreator.createpyrotechnics.block.MissileBodyStage3Block;
@@ -44,6 +45,7 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> MISSILE_CONTROLL_PANEL = REGISTRY.register("missile_controll_panel", () -> new MissileControllPanelBlock());
 	public static final RegistryObject<Block> MISSILE_NAVIGATION = REGISTRY.register("missile_navigation", () -> new MissileNavigationBlock());
 	public static final RegistryObject<Block> MISSILE_BODY_STAGE_3 = REGISTRY.register("missile_body_stage_3", () -> new MissileBodyStage3Block());
+	public static final RegistryObject<Block> PARTICLE_TESTING = REGISTRY.register("particle_testing", () -> new ParticleTestingBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

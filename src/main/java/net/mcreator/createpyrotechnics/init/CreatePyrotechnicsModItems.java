@@ -59,6 +59,7 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> MISSILE_BODY_STAGE_3 = block(CreatePyrotechnicsModBlocks.MISSILE_BODY_STAGE_3);
 	public static final RegistryObject<Item> TESTER = REGISTRY.register("tester", () -> new TesterItem());
 	public static final RegistryObject<Item> BIG_RED_BUTTON = REGISTRY.register("big_red_button", () -> new BigRedButtonItem());
+	public static final RegistryObject<Item> PARTICLE_TESTING = block(CreatePyrotechnicsModBlocks.PARTICLE_TESTING);
 
 	// Start of user code block custom items
 	// End of user code block custom items
