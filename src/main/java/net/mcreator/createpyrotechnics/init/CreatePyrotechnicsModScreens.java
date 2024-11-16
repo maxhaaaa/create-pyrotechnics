@@ -17,6 +17,7 @@ import net.mcreator.createpyrotechnics.client.gui.TrinitytestguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.ToxifierLabScreen;
 import net.mcreator.createpyrotechnics.client.gui.SiloguinewScreen;
 import net.mcreator.createpyrotechnics.client.gui.PumpingScreen;
+import net.mcreator.createpyrotechnics.client.gui.LaunchScreen;
 import net.mcreator.createpyrotechnics.client.gui.ComputernavigatorScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsslotsguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsguitestingidkScreen;
@@ -35,6 +36,7 @@ public class CreatePyrotechnicsModScreens {
 			MenuScreens.register(CreatePyrotechnicsModMenus.PUMPING.get(), PumpingScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.TOXIFIER_LAB.get(), ToxifierLabScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.TRINITYTESTGUI.get(), TrinitytestguiScreen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.LAUNCH.get(), LaunchScreen::new);
 		});
 	}
 }

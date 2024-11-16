@@ -1,6 +1,8 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.core.BlockPos;
 
 public class ReturnExplosivepowerProcedure {
 	public static String execute(LevelAccessor world, double x, double y, double z) {

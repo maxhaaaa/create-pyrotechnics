@@ -12,8 +12,14 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.createpyrotechnics.block.ValuestorageblockBlock;
 import net.mcreator.createpyrotechnics.block.TrinitytestBlock;
+import net.mcreator.createpyrotechnics.block.ThrusterBlock;
 import net.mcreator.createpyrotechnics.block.SiloBlockBlock;
 import net.mcreator.createpyrotechnics.block.PlaceholderBlock;
+import net.mcreator.createpyrotechnics.block.MissileNavigationBlock;
+import net.mcreator.createpyrotechnics.block.MissileControllPanelBlock;
+import net.mcreator.createpyrotechnics.block.MissileBodyStage3Block;
+import net.mcreator.createpyrotechnics.block.MissileBodyBlock;
+import net.mcreator.createpyrotechnics.block.FuelTankBlock;
 import net.mcreator.createpyrotechnics.block.ExplosivesphereworkbenchBlock;
 import net.mcreator.createpyrotechnics.block.DesignatorblockBlock;
 import net.mcreator.createpyrotechnics.block.DatawirestopperBlock;
@@ -32,6 +38,12 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> PLACEHOLDER = REGISTRY.register("placeholder", () -> new PlaceholderBlock());
 	public static final RegistryObject<Block> DESIGNATORBLOCK = REGISTRY.register("designatorblock", () -> new DesignatorblockBlock());
 	public static final RegistryObject<Block> TRINITYTEST = REGISTRY.register("trinitytest", () -> new TrinitytestBlock());
+	public static final RegistryObject<Block> THRUSTER = REGISTRY.register("thruster", () -> new ThrusterBlock());
+	public static final RegistryObject<Block> FUEL_TANK = REGISTRY.register("fuel_tank", () -> new FuelTankBlock());
+	public static final RegistryObject<Block> MISSILE_BODY = REGISTRY.register("missile_body", () -> new MissileBodyBlock());
+	public static final RegistryObject<Block> MISSILE_CONTROLL_PANEL = REGISTRY.register("missile_controll_panel", () -> new MissileControllPanelBlock());
+	public static final RegistryObject<Block> MISSILE_NAVIGATION = REGISTRY.register("missile_navigation", () -> new MissileNavigationBlock());
+	public static final RegistryObject<Block> MISSILE_BODY_STAGE_3 = REGISTRY.register("missile_body_stage_3", () -> new MissileBodyStage3Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

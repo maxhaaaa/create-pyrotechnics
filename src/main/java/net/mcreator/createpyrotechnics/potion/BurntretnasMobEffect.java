@@ -1,6 +1,9 @@
 
 package net.mcreator.createpyrotechnics.potion;
 
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
+
 public class BurntretnasMobEffect extends MobEffect {
 	public BurntretnasMobEffect() {
 		super(MobEffectCategory.NEUTRAL, -1);
