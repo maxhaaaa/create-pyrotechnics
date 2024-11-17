@@ -4070,6 +4070,196 @@
         ]
       },
       "path": "~/kaczorros shit/non nuclear explosions"
+    },
+    {
+      "name": "BombBenchP1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_1.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_1.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP1Block.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_1.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchP2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP2Block.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_2.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_2.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_2.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_2.json"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchP1BlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_1_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BombBenchP1BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchP2BlockDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_2_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BombBenchP2BlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchP1BlockDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_1_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BombBenchP1BlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBench",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BombBenchMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BombBenchScreen.java"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchBlockRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_block_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BombBenchBlockRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchBlock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/BombBenchBlockItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_block.json"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
     }
   ],
   "variable_elements": [
@@ -4126,14 +4316,16 @@
       "block.create_pyrotechnics.missile_body": "Missile Body",
       "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.launch_2.button_dz_01": "dz + 0.1",
-      "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
       "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
+      "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
       "item.create_pyrotechnics.handheld_pump": "Handheld Pump",
       "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
       "gui.create_pyrotechnics.toxifier_lab.button_add_poison_powder": "+ poison powder",
       "gui.create_pyrotechnics.pumping.button_empty1": "-",
       "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
+      "block.create_pyrotechnics.bomb_bench_p_1": "Bomb Bench P 1",
+      "block.create_pyrotechnics.bomb_bench_p_2": "Bomb Bench P 2",
       "subtitles.explosion": "",
       "block.create_pyrotechnics.valuestorageblock": "Valuestorageblock",
       "block.create_pyrotechnics.designatorblock": "Designatorblock",
@@ -4155,7 +4347,9 @@
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "block.create_pyrotechnics.trinitytest": "Trinitytest",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
+      "gui.create_pyrotechnics.bomb_bench.label_bombbench": "BombBench",
       "item.create_pyrotechnics.tester": "Tester",
+      "item.create_pyrotechnics.bomb_bench_block": "Bomb Bench",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
       "gui.create_pyrotechnics.toxifier_lab.label_flame": "flame:",
       "gui.create_pyrotechnics.computernavigator.button_empty": "^",
@@ -4333,6 +4527,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "DeadGamers Shiz",
+        "children": []
       }
     ]
   },

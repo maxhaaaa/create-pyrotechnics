@@ -20,6 +20,7 @@ import net.mcreator.createpyrotechnics.client.gui.PumpingScreen;
 import net.mcreator.createpyrotechnics.client.gui.LaunchScreen;
 import net.mcreator.createpyrotechnics.client.gui.Launch2Screen;
 import net.mcreator.createpyrotechnics.client.gui.ComputernavigatorScreen;
+import net.mcreator.createpyrotechnics.client.gui.BombBenchScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsslotsguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsguitestingidkScreen;
 
@@ -39,6 +40,7 @@ public class CreatePyrotechnicsModScreens {
 			MenuScreens.register(CreatePyrotechnicsModMenus.TRINITYTESTGUI.get(), TrinitytestguiScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.LAUNCH.get(), LaunchScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.LAUNCH_2.get(), Launch2Screen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.BOMB_BENCH.get(), BombBenchScreen::new);
 		});
 	}
 }

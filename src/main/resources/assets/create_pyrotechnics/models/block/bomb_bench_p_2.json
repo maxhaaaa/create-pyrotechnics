@@ -1,0 +1,9 @@
+{
+  "parent": "create_pyrotechnics:custom/bombbench_p2",
+  "textures": {
+    "all": "create_pyrotechnics:block/bombbench_p2",
+    "particle": "create_pyrotechnics:block/bombbench_p2",
+    "0": "create_pyrotechnics:block/bombbench_p2"
+  },
+  "render_type": "solid"
+}

@@ -23,6 +23,7 @@ import net.mcreator.createpyrotechnics.item.GasCanisterItem;
 import net.mcreator.createpyrotechnics.item.DebugstickItem;
 import net.mcreator.createpyrotechnics.item.DatawiretesterItem;
 import net.mcreator.createpyrotechnics.item.BombsphereItem;
+import net.mcreator.createpyrotechnics.item.BombBenchBlockItem;
 import net.mcreator.createpyrotechnics.item.BigRedButtonItem;
 import net.mcreator.createpyrotechnics.item.BallisticsbuildingtoolItem;
 import net.mcreator.createpyrotechnics.block.display.TrinitytestDisplayItem;
@@ -60,6 +61,9 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> TESTER = REGISTRY.register("tester", () -> new TesterItem());
 	public static final RegistryObject<Item> BIG_RED_BUTTON = REGISTRY.register("big_red_button", () -> new BigRedButtonItem());
 	public static final RegistryObject<Item> PARTICLE_TESTING = block(CreatePyrotechnicsModBlocks.PARTICLE_TESTING);
+	public static final RegistryObject<Item> BOMB_BENCH_P_1 = block(CreatePyrotechnicsModBlocks.BOMB_BENCH_P_1);
+	public static final RegistryObject<Item> BOMB_BENCH_P_2 = block(CreatePyrotechnicsModBlocks.BOMB_BENCH_P_2);
+	public static final RegistryObject<Item> BOMB_BENCH_BLOCK = REGISTRY.register("bomb_bench_block", () -> new BombBenchBlockItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
