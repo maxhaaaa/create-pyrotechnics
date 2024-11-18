@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/piston_inner",
+    "up": "minecraft:block/polished_blackstone",
+    "north": "minecraft:block/polished_blackstone",
+    "east": "minecraft:block/polished_blackstone",
+    "south": "minecraft:block/polished_blackstone",
+    "west": "minecraft:block/polished_blackstone",
+    "particle": "minecraft:block/piston_inner"
+  },
+  "render_type": "solid"
+}

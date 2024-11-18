@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/dispenser_front_vertical",
+    "up": "minecraft:block/coal_block",
+    "north": "minecraft:block/polished_basalt_side",
+    "east": "minecraft:block/polished_basalt_side",
+    "south": "minecraft:block/polished_basalt_side",
+    "west": "minecraft:block/polished_basalt_side",
+    "particle": "minecraft:block/dispenser_front_vertical"
+  },
+  "render_type": "solid"
+}

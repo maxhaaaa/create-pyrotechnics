@@ -32,5 +32,15 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.PLACEHOLDER.get().asItem());
 				tabData.accept(CreatePyrotechnicsModItems.HANDHELD_PUMP.get());
 				tabData.accept(CreatePyrotechnicsModBlocks.TRINITYTEST.get().asItem());
+				tabData.accept(CreatePyrotechnicsModItems.BOMB_BENCH_BLOCK.get());
+				tabData.accept(CreatePyrotechnicsModItems.BIG_RED_BUTTON.get());
+				tabData.accept(CreatePyrotechnicsModBlocks.THRUSTER.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_BODY_STAGE_3.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.PARTICLE_TESTING.get().asItem());
+				tabData.accept(CreatePyrotechnicsModItems.TESTER.get());
+				tabData.accept(CreatePyrotechnicsModBlocks.FUEL_TANK.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_CONTROLL_PANEL.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_BODY.get().asItem());
 			}).withSearchBar().build());
 }

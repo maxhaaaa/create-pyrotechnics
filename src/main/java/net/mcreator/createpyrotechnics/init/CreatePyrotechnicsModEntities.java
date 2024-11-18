@@ -20,6 +20,7 @@ import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
 import net.mcreator.createpyrotechnics.entity.SuperAidsEntity;
 import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
 import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
+import net.mcreator.createpyrotechnics.entity.ICBMPlaceHolder1Entity;
 import net.mcreator.createpyrotechnics.entity.DESIGNATOREntity;
 import net.mcreator.createpyrotechnics.entity.AidsEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
@@ -44,6 +45,8 @@ public class CreatePyrotechnicsModEntities {
 			EntityType.Builder.<AidsEntity>of(AidsEntity::new, MobCategory.MISC).setCustomClientFactory(AidsEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<SuperAidsEntity>> SUPER_AIDS = register("super_aids",
 			EntityType.Builder.<SuperAidsEntity>of(SuperAidsEntity::new, MobCategory.MISC).setCustomClientFactory(SuperAidsEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ICBMPlaceHolder1Entity>> ICBM_PLACE_HOLDER_1 = register("icbm_place_holder_1", EntityType.Builder.<ICBMPlaceHolder1Entity>of(ICBMPlaceHolder1Entity::new, MobCategory.MISC)
+			.setCustomClientFactory(ICBMPlaceHolder1Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
