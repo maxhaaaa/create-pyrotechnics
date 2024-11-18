@@ -157,6 +157,18 @@
           "x": 104,
           "y": 151
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_error_infinite_dataloop_detecte",
+          "text": "error! infinite dataloop detected!, fix crash loop",
+          "isUndecorated": false,
+          "width": 286,
+          "height": 20,
+          "x": 68,
+          "y": 15
+        }
       }
     ],
     "gridSettings": {

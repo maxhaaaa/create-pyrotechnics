@@ -10,7 +10,7 @@
     "textureBack": "minecraft:copper_block",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 2,
+    "rotationMode": 4,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,

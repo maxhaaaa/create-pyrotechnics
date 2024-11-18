@@ -49,6 +49,7 @@
   "effect.create_pyrotechnics.burntretnas": "Burntretnas",
   "gui.create_pyrotechnics.computernavigator.button_execute": "open",
   "item.create_pyrotechnics.debugstick": "Debugstick",
+  "gui.create_pyrotechnics.computernavigator.button_error_infinite_dataloop_detecte": "error! infinite dataloop detected!, fix crash loop",
   "gui.create_pyrotechnics.siloguinew.label_pin": "pin 5",
   "block.create_pyrotechnics.datawireblock": "Datawireblock",
   "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",

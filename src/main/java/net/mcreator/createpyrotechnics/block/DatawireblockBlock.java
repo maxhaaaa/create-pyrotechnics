@@ -56,7 +56,7 @@ public class DatawireblockBlock extends Block implements EntityBlock {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return super.getStateForPlacement(context).setValue(FACING, context.getNearestLookingDirection().getOpposite());
+		return super.getStateForPlacement(context).setValue(FACING, context.getClickedFace());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {

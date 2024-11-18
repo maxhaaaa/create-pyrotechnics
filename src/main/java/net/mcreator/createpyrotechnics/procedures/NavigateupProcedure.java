@@ -10,6 +10,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlocks;
+import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class NavigateupProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, double dvirtualtargetchange, double dx_change, double dy_change, double dz_change, String dtargetvirtualblock, String dvirtualblock, String dvirtualblockx,
@@ -234,7 +235,7 @@ public class NavigateupProcedure {
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
 						} else {
-							NodenavigationProcedure.execute(world, new Object() {
+							NavigateupProcedure.execute(world, new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 									BlockEntity blockEntity = world.getBlockEntity(pos);
 									if (blockEntity != null)
@@ -255,29 +256,76 @@ public class NavigateupProcedure {
 										return blockEntity.getPersistentData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, BlockPos.containing(x, y, z), virtualblockz), new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									if (blockEntity != null)
-										return blockEntity.getPersistentData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(world, BlockPos.containing(x, y, z), "ogx"), new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									if (blockEntity != null)
-										return blockEntity.getPersistentData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(world, BlockPos.containing(x, y, z), "ogy"), new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									if (blockEntity != null)
-										return blockEntity.getPersistentData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(world, BlockPos.containing(x, y, z), "ogz"));
+							}.getValue(world, BlockPos.containing(x, y, z), virtualblockz), dvirtualtargetchange, dx_change, dy_change, dz_change, dtargetvirtualblock, dvirtualblock, dvirtualblockx, dvirtualblocky, dvirtualblockz);
 						}
+					} else if ((new Object() {
+						public Direction getDirection(BlockPos pos) {
+							BlockState _bs = world.getBlockState(pos);
+							Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
+							if (property != null && _bs.getValue(property) instanceof Direction _dir)
+								return _dir;
+							else if (_bs.hasProperty(BlockStateProperties.AXIS))
+								return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
+							else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
+								return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+							return Direction.NORTH;
+						}
+					}.getDirection(BlockPos.containing(new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, BlockPos.containing(x, y, z), virtualblockx) + x_change, new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, BlockPos.containing(x, y, z), virtualblocky) + y_change, new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, BlockPos.containing(x, y, z), virtualblockz) + z_change))) == ((new Object() {
+						public Direction getDirection(BlockPos pos) {
+							BlockState _bs = world.getBlockState(pos);
+							Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
+							if (property != null && _bs.getValue(property) instanceof Direction _dir)
+								return _dir;
+							else if (_bs.hasProperty(BlockStateProperties.AXIS))
+								return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
+							else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
+								return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+							return Direction.NORTH;
+						}
+					}.getDirection(BlockPos.containing(new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, BlockPos.containing(x, y, z), virtualblockx), new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, BlockPos.containing(x, y, z), virtualblocky), new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getPersistentData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, BlockPos.containing(x, y, z), virtualblockz)))).getOpposite())) {
+						CreatePyrotechnicsMod.LOGGER.info("infinite loop found!");
 					} else {
 						NodenavigationProcedure.execute(world, new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
