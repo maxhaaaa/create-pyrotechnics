@@ -38,18 +38,18 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> SILO_BLOCK = REGISTRY.register("silo_block", () -> new SiloBlockBlock());
 	public static final RegistryObject<Block> VALUESTORAGEBLOCK = REGISTRY.register("valuestorageblock", () -> new ValuestorageblockBlock());
 	public static final RegistryObject<Block> EXPLOSIVESPHEREWORKBENCH = REGISTRY.register("explosivesphereworkbench", () -> new ExplosivesphereworkbenchBlock());
-	public static final RegistryObject<Block> PLACEHOLDER = REGISTRY.register("placeholder", () -> new PlaceholderBlock());
 	public static final RegistryObject<Block> DESIGNATORBLOCK = REGISTRY.register("designatorblock", () -> new DesignatorblockBlock());
+	public static final RegistryObject<Block> PLACEHOLDER = REGISTRY.register("placeholder", () -> new PlaceholderBlock());
 	public static final RegistryObject<Block> TRINITYTEST = REGISTRY.register("trinitytest", () -> new TrinitytestBlock());
 	public static final RegistryObject<Block> THRUSTER = REGISTRY.register("thruster", () -> new ThrusterBlock());
-	public static final RegistryObject<Block> FUEL_TANK = REGISTRY.register("fuel_tank", () -> new FuelTankBlock());
-	public static final RegistryObject<Block> MISSILE_BODY = REGISTRY.register("missile_body", () -> new MissileBodyBlock());
-	public static final RegistryObject<Block> MISSILE_CONTROLL_PANEL = REGISTRY.register("missile_controll_panel", () -> new MissileControllPanelBlock());
-	public static final RegistryObject<Block> MISSILE_NAVIGATION = REGISTRY.register("missile_navigation", () -> new MissileNavigationBlock());
 	public static final RegistryObject<Block> MISSILE_BODY_STAGE_3 = REGISTRY.register("missile_body_stage_3", () -> new MissileBodyStage3Block());
 	public static final RegistryObject<Block> PARTICLE_TESTING = REGISTRY.register("particle_testing", () -> new ParticleTestingBlock());
-	public static final RegistryObject<Block> BOMB_BENCH_P_1 = REGISTRY.register("bomb_bench_p_1", () -> new BombBenchP1Block());
+	public static final RegistryObject<Block> FUEL_TANK = REGISTRY.register("fuel_tank", () -> new FuelTankBlock());
+	public static final RegistryObject<Block> MISSILE_NAVIGATION = REGISTRY.register("missile_navigation", () -> new MissileNavigationBlock());
 	public static final RegistryObject<Block> BOMB_BENCH_P_2 = REGISTRY.register("bomb_bench_p_2", () -> new BombBenchP2Block());
+	public static final RegistryObject<Block> MISSILE_CONTROLL_PANEL = REGISTRY.register("missile_controll_panel", () -> new MissileControllPanelBlock());
+	public static final RegistryObject<Block> BOMB_BENCH_P_1 = REGISTRY.register("bomb_bench_p_1", () -> new BombBenchP1Block());
+	public static final RegistryObject<Block> MISSILE_BODY = REGISTRY.register("missile_body", () -> new MissileBodyBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

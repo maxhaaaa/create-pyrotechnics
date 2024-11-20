@@ -34,9 +34,9 @@ public class CreatePyrotechnicsModMenus {
 	public static final RegistryObject<MenuType<ValueenteringguiMenu>> VALUEENTERINGGUI = REGISTRY.register("valueenteringgui", () -> IForgeMenuType.create(ValueenteringguiMenu::new));
 	public static final RegistryObject<MenuType<WarheadcraftingguiMenu>> WARHEADCRAFTINGGUI = REGISTRY.register("warheadcraftinggui", () -> IForgeMenuType.create(WarheadcraftingguiMenu::new));
 	public static final RegistryObject<MenuType<PumpingMenu>> PUMPING = REGISTRY.register("pumping", () -> IForgeMenuType.create(PumpingMenu::new));
-	public static final RegistryObject<MenuType<ToxifierLabMenu>> TOXIFIER_LAB = REGISTRY.register("toxifier_lab", () -> IForgeMenuType.create(ToxifierLabMenu::new));
 	public static final RegistryObject<MenuType<TrinitytestguiMenu>> TRINITYTESTGUI = REGISTRY.register("trinitytestgui", () -> IForgeMenuType.create(TrinitytestguiMenu::new));
-	public static final RegistryObject<MenuType<LaunchMenu>> LAUNCH = REGISTRY.register("launch", () -> IForgeMenuType.create(LaunchMenu::new));
+	public static final RegistryObject<MenuType<ToxifierLabMenu>> TOXIFIER_LAB = REGISTRY.register("toxifier_lab", () -> IForgeMenuType.create(ToxifierLabMenu::new));
 	public static final RegistryObject<MenuType<Launch2Menu>> LAUNCH_2 = REGISTRY.register("launch_2", () -> IForgeMenuType.create(Launch2Menu::new));
 	public static final RegistryObject<MenuType<BombBenchMenu>> BOMB_BENCH = REGISTRY.register("bomb_bench", () -> IForgeMenuType.create(BombBenchMenu::new));
+	public static final RegistryObject<MenuType<LaunchMenu>> LAUNCH = REGISTRY.register("launch", () -> IForgeMenuType.create(LaunchMenu::new));
 }
