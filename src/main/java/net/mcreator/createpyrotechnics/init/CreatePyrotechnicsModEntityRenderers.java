@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.createpyrotechnics.client.renderer.MortarormissleshooterRenderer;
 import net.mcreator.createpyrotechnics.client.renderer.DESIGNATORRenderer;
+import net.mcreator.createpyrotechnics.client.renderer.CockroachRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CreatePyrotechnicsModEntityRenderers {
@@ -25,5 +26,6 @@ public class CreatePyrotechnicsModEntityRenderers {
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.AIDS.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.SUPER_AIDS.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.ICBM_PLACE_HOLDER_1.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.COCKROACH.get(), CockroachRenderer::new);
 	}
 }
