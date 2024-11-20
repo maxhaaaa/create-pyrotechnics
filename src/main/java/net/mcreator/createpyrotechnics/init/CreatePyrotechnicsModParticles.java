@@ -24,9 +24,9 @@ public class CreatePyrotechnicsModParticles {
 	public static void registerParticles(RegisterParticleProvidersEvent event) {
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.EXPLOSION.get(), ExplosionParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.PARTICLEHEAVY.get(), ParticleheavyParticle::provider);
-		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.CAP_PARTICLE.get(), CapParticleParticle::provider);
-		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.FLASH.get(), FlashParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.CLOUD.get(), CloudParticle::provider);
+		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.FLASH.get(), FlashParticle::provider);
+		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.CAP_PARTICLE.get(), CapParticleParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.SMOKE_CLOUD.get(), SmokeCloudParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.SHOCKWAVE_PARTICLE.get(), ShockwaveParticleParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.FIREPILLARPARTICLE.get(), FirepillarparticleParticle::provider);
