@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "bombbench_p1"
+        "1": "bombbench_p1_"
       },
       "name": "default"
     }
