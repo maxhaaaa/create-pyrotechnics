@@ -36,11 +36,11 @@ public class CreatePyrotechnicsModScreens {
 			MenuScreens.register(CreatePyrotechnicsModMenus.VALUEENTERINGGUI.get(), ValueenteringguiScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.WARHEADCRAFTINGGUI.get(), WarheadcraftingguiScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.PUMPING.get(), PumpingScreen::new);
-			MenuScreens.register(CreatePyrotechnicsModMenus.TOXIFIER_LAB.get(), ToxifierLabScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.TRINITYTESTGUI.get(), TrinitytestguiScreen::new);
-			MenuScreens.register(CreatePyrotechnicsModMenus.LAUNCH.get(), LaunchScreen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.TOXIFIER_LAB.get(), ToxifierLabScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.LAUNCH_2.get(), Launch2Screen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.BOMB_BENCH.get(), BombBenchScreen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.LAUNCH.get(), LaunchScreen::new);
 		});
 	}
 }
