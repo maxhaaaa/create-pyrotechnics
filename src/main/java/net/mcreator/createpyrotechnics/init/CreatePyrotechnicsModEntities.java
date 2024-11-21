@@ -22,6 +22,7 @@ import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
 import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
 import net.mcreator.createpyrotechnics.entity.ICBMPlaceHolder1Entity;
 import net.mcreator.createpyrotechnics.entity.DESIGNATOREntity;
+import net.mcreator.createpyrotechnics.entity.CockroachEntity;
 import net.mcreator.createpyrotechnics.entity.AidsEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
@@ -47,6 +48,10 @@ public class CreatePyrotechnicsModEntities {
 			EntityType.Builder.<SuperAidsEntity>of(SuperAidsEntity::new, MobCategory.MISC).setCustomClientFactory(SuperAidsEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ICBMPlaceHolder1Entity>> ICBM_PLACE_HOLDER_1 = register("icbm_place_holder_1", EntityType.Builder.<ICBMPlaceHolder1Entity>of(ICBMPlaceHolder1Entity::new, MobCategory.MISC)
 			.setCustomClientFactory(ICBMPlaceHolder1Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<CockroachEntity>> COCKROACH = register("cockroach",
+			EntityType.Builder.<CockroachEntity>of(CockroachEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CockroachEntity::new)
+
+					.sized(0.2f, 0.1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -57,6 +62,7 @@ public class CreatePyrotechnicsModEntities {
 		event.enqueueWork(() -> {
 			MortarormissleshooterEntity.init();
 			DESIGNATOREntity.init();
+			CockroachEntity.init();
 		});
 	}
 
@@ -64,5 +70,6 @@ public class CreatePyrotechnicsModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(MORTARORMISSLESHOOTER.get(), MortarormissleshooterEntity.createAttributes().build());
 		event.put(DESIGNATOR.get(), DESIGNATOREntity.createAttributes().build());
+		event.put(COCKROACH.get(), CockroachEntity.createAttributes().build());
 	}
 }

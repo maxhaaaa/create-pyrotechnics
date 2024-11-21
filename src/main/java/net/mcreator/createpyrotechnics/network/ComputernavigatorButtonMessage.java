@@ -84,15 +84,15 @@ public class ComputernavigatorButtonMessage {
 
 			NavydownProcedure.execute(world, x, y, z);
 		}
-		if (buttonID == 5) {
+		if (buttonID == 6) {
 
 			CallmaxesmenuleftProcedure.execute(world, x, y, z);
 		}
-		if (buttonID == 6) {
+		if (buttonID == 7) {
 
 			CallmaxesmenulibsrightProcedure.execute(world, x, y, z);
 		}
-		if (buttonID == 7) {
+		if (buttonID == 8) {
 
 			ExecutebuttonProcedure.execute(world, x, y, z, entity);
 		}

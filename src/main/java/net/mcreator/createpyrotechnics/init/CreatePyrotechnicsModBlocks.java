@@ -26,6 +26,8 @@ import net.mcreator.createpyrotechnics.block.DesignatorblockBlock;
 import net.mcreator.createpyrotechnics.block.DatawirestopperBlock;
 import net.mcreator.createpyrotechnics.block.DatawireblockBlock;
 import net.mcreator.createpyrotechnics.block.ComputerblockBlock;
+import net.mcreator.createpyrotechnics.block.BombBenchP2Block;
+import net.mcreator.createpyrotechnics.block.BombBenchP1Block;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class CreatePyrotechnicsModBlocks {
@@ -46,6 +48,8 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> MISSILE_NAVIGATION = REGISTRY.register("missile_navigation", () -> new MissileNavigationBlock());
 	public static final RegistryObject<Block> MISSILE_BODY_STAGE_3 = REGISTRY.register("missile_body_stage_3", () -> new MissileBodyStage3Block());
 	public static final RegistryObject<Block> PARTICLE_TESTING = REGISTRY.register("particle_testing", () -> new ParticleTestingBlock());
+	public static final RegistryObject<Block> BOMB_BENCH_P_2 = REGISTRY.register("bomb_bench_p_2", () -> new BombBenchP2Block());
+	public static final RegistryObject<Block> BOMB_BENCH_P_1 = REGISTRY.register("bomb_bench_p_1", () -> new BombBenchP1Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

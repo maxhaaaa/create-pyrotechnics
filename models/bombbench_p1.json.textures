@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bombbench_p1_"
+      },
+      "name": "default"
+    }
+  }
+}

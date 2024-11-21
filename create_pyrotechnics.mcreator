@@ -4101,6 +4101,383 @@
         ]
       },
       "path": "~/kaczorros shit/non nuclear explosions"
+    },
+    {
+      "name": "Squished",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squished",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/damage_type/squished.json"
+        ]
+      },
+      "path": "~/entities/Cockroach"
+    },
+    {
+      "name": "BombBenchP2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_2.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_2.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_2.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_2.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP2Block.java"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchBlock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/BombBenchBlockItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_block.json"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "CockroachPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cockroach_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CockroachPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entities/Cockroach"
+    },
+    {
+      "name": "SearchForJukebox",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "search_for_jukebox",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SearchForJukeboxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entities/Cockroach"
+    },
+    {
+      "name": "Cockroach",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cockroach",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/cockroach_spawn_egg.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/CockroachRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/model/CockroachModel.java",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/CockroachEntity.java"
+        ]
+      },
+      "path": "~/entities/Cockroach"
+    },
+    {
+      "name": "BombBenchP2BlockDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_2_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BombBenchP2BlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBench",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BombBenchMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BombBenchScreen.java"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "CockroachTargetedEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cockroach_targeted_entity",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CockroachTargetedEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entities/Cockroach"
+    },
+    {
+      "name": "CockroachOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cockroach_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CockroachOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entities/Cockroach"
+    },
+    {
+      "name": "BombBenchP1BlockDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_1_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BombBenchP1BlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchBlockRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_block_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BombBenchBlockRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchP1BlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_1_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BombBenchP1BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "BombBenchP1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_bench_p_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP1Block.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_1.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_1.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_1.json"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "IsCockroachSpooked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_cockroach_spooked",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/IsCockroachSpookedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/entities/Cockroach"
+    },
+    {
+      "name": "IsEntityNearCockroach",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_entity_near_cockroach",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/IsEntityNearCockroachProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entities/Cockroach"
     }
   ],
   "variable_elements": [
@@ -4219,6 +4596,7 @@
       "effect.create_pyrotechnics.burntretnas": "Burntretnas",
       "gui.create_pyrotechnics.computernavigator.button_execute": "open",
       "item.create_pyrotechnics.debugstick": "Debugstick",
+      "gui.create_pyrotechnics.computernavigator.button_error_infinite_dataloop_detecte": "error! infinite dataloop detected!, fix crash loop",
       "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
       "gui.create_pyrotechnics.computernavigator.button_return_to_original_block": "return to original block",
       "block.create_pyrotechnics.thruster": "Thruster",
@@ -4270,6 +4648,10 @@
         ]
       },
       {
+        "name": "DeadGamers Shiz",
+        "children": []
+      },
+      {
         "name": "ballisitics",
         "children": [
           {
@@ -4303,6 +4685,10 @@
         "name": "kaczorros shit",
         "children": [
           {
+            "name": "non nuclear explosions",
+            "children": []
+          },
+          {
             "name": "explosion",
             "children": [
               {
@@ -4333,16 +4719,21 @@
                 "children": []
               }
             ]
-          },
-          {
-            "name": "non nuclear explosions",
-            "children": []
           }
         ]
       },
       {
         "name": "salvage",
         "children": []
+      },
+      {
+        "name": "entities",
+        "children": [
+          {
+            "name": "Cockroach",
+            "children": []
+          }
+        ]
       },
       {
         "name": "crafting",
