@@ -11,7 +11,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.createpyrotechnics.procedures.ParticleTestingRedstoneOnProcedure;
-import net.mcreator.createpyrotechnics.procedures.ExplosionParticles2Procedure;
+import net.mcreator.createpyrotechnics.procedures.FuelExplosionTestProcedure;
 
 public class ParticleTestingBlock extends Block {
 	public ParticleTestingBlock() {
@@ -27,7 +27,7 @@ public class ParticleTestingBlock extends Block {
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		if (world.getBestNeighborSignal(pos) > 0) {
-			ExplosionParticles2Procedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+			FuelExplosionTestProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}
 	}
 

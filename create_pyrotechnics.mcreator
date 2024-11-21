@@ -4070,6 +4070,37 @@
         ]
       },
       "path": "~/kaczorros shit/non nuclear explosions"
+    },
+    {
+      "name": "FuelExplosionTest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_explosion_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FuelExplosionTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/non nuclear explosions"
     }
   ],
   "variable_elements": [
@@ -4126,8 +4157,8 @@
       "block.create_pyrotechnics.missile_body": "Missile Body",
       "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.launch_2.button_dz_01": "dz + 0.1",
-      "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
       "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
+      "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
       "item.create_pyrotechnics.handheld_pump": "Handheld Pump",
       "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",

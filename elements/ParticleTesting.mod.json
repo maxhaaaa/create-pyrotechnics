@@ -126,7 +126,7 @@
       "name": "ParticleTestingRedstoneOn"
     },
     "onRedstoneOn": {
-      "name": "ExplosionParticles2"
+      "name": "FuelExplosionTest"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
