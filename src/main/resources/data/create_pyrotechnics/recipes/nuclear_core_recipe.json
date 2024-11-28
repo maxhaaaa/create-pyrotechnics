@@ -4,17 +4,20 @@
   "pattern": [
     "aba",
     "bcb",
-    "aba"
+    "dbd"
   ],
   "key": {
     "a": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:iron_ingot"
     },
     "b": {
       "item": "minecraft:end_crystal"
     },
     "c": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:glow_ink_sac"
+    },
+    "d": {
+      "item": "minecraft:redstone"
     }
   },
   "result": {

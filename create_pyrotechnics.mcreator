@@ -4617,6 +4617,19 @@
         ]
       },
       "path": "~/createPT and BT crossover"
+    },
+    {
+      "name": "NuclearCoreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/recipes/nuclear_core_recipe.json"
+        ]
+      },
+      "path": "~/createPT and BT crossover"
     }
   ],
   "variable_elements": [
@@ -4676,9 +4689,9 @@
       "gui.create_pyrotechnics.launch.button_dx_011": "dx - 0.1",
       "gui.create_pyrotechnics.launch_2.button_check_cords": "check cords",
       "block.create_pyrotechnics.datawirestopper": "Datawiresswitcher",
-      "block.create_pyrotechnics.missile_body": "Missile Body",
-      "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
       "item.create_pyrotechnics.nuclear_ink": "Nuclear Ink",
+      "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
+      "block.create_pyrotechnics.missile_body": "Missile Body",
       "gui.create_pyrotechnics.launch_2.button_dz_01": "dz + 0.1",
       "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
       "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
@@ -4687,8 +4700,8 @@
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
       "gui.create_pyrotechnics.toxifier_lab.button_add_poison_powder": "+ poison powder",
       "gui.create_pyrotechnics.pumping.button_empty1": "-",
-      "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
       "block.create_pyrotechnics.bomb_bench_p_1": "Bomb Bench P 1",
+      "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
       "block.create_pyrotechnics.bomb_bench_p_2": "Bomb Bench P 2",
       "death.attack.squished": "%1$s was squished to death",
       "item.create_pyrotechnics.cockroach_spawn_egg": "Cockroach Spawn Egg",

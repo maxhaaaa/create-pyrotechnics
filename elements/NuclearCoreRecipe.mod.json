@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": "Items.END_CRYSTAL"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": "Items.END_CRYSTAL"
       },
       {
-        "value": "Blocks.TNT"
+        "value": "Items.GLOW_INK_SAC"
       },
       {
         "value": "Items.END_CRYSTAL"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Items.REDSTONE"
       },
       {
         "value": "Items.END_CRYSTAL"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Items.REDSTONE"
       }
     ],
     "recipeReturnStack": {
