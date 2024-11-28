@@ -8,6 +8,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlockEntities;
 import net.mcreator.createpyrotechnics.block.renderer.TrinitytestTileRenderer;
+import net.mcreator.createpyrotechnics.block.renderer.NuclearCoreTileRenderer;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 @Mod.EventBusSubscriber(modid = CreatePyrotechnicsMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -16,5 +17,6 @@ public class ClientListener {
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(CreatePyrotechnicsModBlockEntities.TRINITYTEST.get(), context -> new TrinitytestTileRenderer());
+		event.registerBlockEntityRenderer(CreatePyrotechnicsModBlockEntities.NUCLEAR_CORE.get(), context -> new NuclearCoreTileRenderer());
 	}
 }

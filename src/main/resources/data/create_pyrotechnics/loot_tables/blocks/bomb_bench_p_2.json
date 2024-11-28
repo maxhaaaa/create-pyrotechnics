@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create_pyrotechnics:deleted_mod_element"
+          "name": "create_pyrotechnics:bomb_bench_block"
         }
       ]
     }

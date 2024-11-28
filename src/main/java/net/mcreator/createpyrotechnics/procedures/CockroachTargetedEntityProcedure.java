@@ -1,6 +1,13 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.PathfinderMob;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.createpyrotechnics.entity.CockroachEntity;
 
 public class CockroachTargetedEntityProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z, Entity entity) {

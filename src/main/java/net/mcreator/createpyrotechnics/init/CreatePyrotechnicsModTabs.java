@@ -47,6 +47,7 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModItems.BIG_RED_BUTTON.get());
 				tabData.accept(CreatePyrotechnicsModBlocks.PARTICLE_TESTING.get().asItem());
 				tabData.accept(CreatePyrotechnicsModItems.BOMB_BENCH_BLOCK.get());
+				tabData.accept(CreatePyrotechnicsModBlocks.NUCLEAR_CORE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.createpyrotechnics.client.particle.SmokeCloudParticle;
 import net.mcreator.createpyrotechnics.client.particle.ShockwaveParticleParticle;
 import net.mcreator.createpyrotechnics.client.particle.ParticleheavyParticle;
+import net.mcreator.createpyrotechnics.client.particle.NuclearExplosionParticle;
 import net.mcreator.createpyrotechnics.client.particle.FlashParticle;
 import net.mcreator.createpyrotechnics.client.particle.FirepillarparticleParticle;
 import net.mcreator.createpyrotechnics.client.particle.ExplosionParticle;
@@ -30,5 +31,6 @@ public class CreatePyrotechnicsModParticles {
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.SMOKE_CLOUD.get(), SmokeCloudParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.SHOCKWAVE_PARTICLE.get(), ShockwaveParticleParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.FIREPILLARPARTICLE.get(), FirepillarparticleParticle::provider);
+		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.NUCLEAR_EXPLOSION.get(), NuclearExplosionParticle::provider);
 	}
 }
