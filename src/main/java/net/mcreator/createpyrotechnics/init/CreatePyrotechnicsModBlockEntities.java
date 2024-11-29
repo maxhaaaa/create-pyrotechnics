@@ -16,6 +16,7 @@ import net.mcreator.createpyrotechnics.block.entity.TrinitytestTileEntity;
 import net.mcreator.createpyrotechnics.block.entity.ThrusterBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.SiloBlockBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.RadarBlockEntity;
+import net.mcreator.createpyrotechnics.block.entity.NuclearCoreTileEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileNavigationBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileControllPanelBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileBodyStage3BlockEntity;
@@ -41,6 +42,7 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_NAVIGATION = register("missile_navigation", CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION, MissileNavigationBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_BODY_STAGE_3 = register("missile_body_stage_3", CreatePyrotechnicsModBlocks.MISSILE_BODY_STAGE_3, MissileBodyStage3BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> RADAR = register("radar", CreatePyrotechnicsModBlocks.RADAR, RadarBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<NuclearCoreTileEntity>> NUCLEAR_CORE = REGISTRY.register("nuclear_core", () -> BlockEntityType.Builder.of(NuclearCoreTileEntity::new, CreatePyrotechnicsModBlocks.NUCLEAR_CORE.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

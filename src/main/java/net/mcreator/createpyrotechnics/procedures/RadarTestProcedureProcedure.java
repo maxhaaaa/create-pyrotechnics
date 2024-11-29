@@ -1,16 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.projectile.Projectile;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
-import net.mcreator.createpyrotechnics.entity.RadarLaserEntity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class RadarTestProcedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {

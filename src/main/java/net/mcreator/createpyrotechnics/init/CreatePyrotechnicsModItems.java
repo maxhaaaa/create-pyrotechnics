@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.createpyrotechnics.item.TesterItem;
 import net.mcreator.createpyrotechnics.item.RadarTesterItem;
 import net.mcreator.createpyrotechnics.item.PinassignerItem;
+import net.mcreator.createpyrotechnics.item.NuclearInkItem;
 import net.mcreator.createpyrotechnics.item.LazerdesignatorItem;
 import net.mcreator.createpyrotechnics.item.IgiveuaidsItem;
 import net.mcreator.createpyrotechnics.item.HandheldToxifierLabItem;
@@ -25,9 +26,11 @@ import net.mcreator.createpyrotechnics.item.DebugstickItem;
 import net.mcreator.createpyrotechnics.item.DatawiretesterItem;
 import net.mcreator.createpyrotechnics.item.BombsphereItem;
 import net.mcreator.createpyrotechnics.item.BombBenchBlockItem;
+import net.mcreator.createpyrotechnics.item.BlankNuclearCardItem;
 import net.mcreator.createpyrotechnics.item.BigRedButtonItem;
 import net.mcreator.createpyrotechnics.item.BallisticsbuildingtoolItem;
 import net.mcreator.createpyrotechnics.block.display.TrinitytestDisplayItem;
+import net.mcreator.createpyrotechnics.block.display.NuclearCoreDisplayItem;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class CreatePyrotechnicsModItems {
@@ -66,12 +69,15 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> BOMB_BENCH_BLOCK = REGISTRY.register("bomb_bench_block", () -> new BombBenchBlockItem());
 	public static final RegistryObject<Item> COCKROACH_SPAWN_EGG = REGISTRY.register("cockroach_spawn_egg", () -> new ForgeSpawnEggItem(CreatePyrotechnicsModEntities.COCKROACH, -9622001, -8371430, new Item.Properties()));
 	public static final RegistryObject<Item> BOMB_BENCH_P_1 = block(CreatePyrotechnicsModBlocks.BOMB_BENCH_P_1);
-	public static final RegistryObject<Item> RADAR = block(CreatePyrotechnicsModBlocks.RADAR);
 	public static final RegistryObject<Item> RADAR_TESTER = REGISTRY.register("radar_tester", () -> new RadarTesterItem());
-	public static final RegistryObject<Item> WE_TEST_FALLING_BLOCKS = block(CreatePyrotechnicsModBlocks.WE_TEST_FALLING_BLOCKS);
 	public static final RegistryObject<Item> STRATEGIC_NUKE_PLACEHOLDER = block(CreatePyrotechnicsModBlocks.STRATEGIC_NUKE_PLACEHOLDER);
+	public static final RegistryObject<Item> WE_TEST_FALLING_BLOCKS = block(CreatePyrotechnicsModBlocks.WE_TEST_FALLING_BLOCKS);
 	public static final RegistryObject<Item> STRATEGIC_NUKE_PLACEHOLDER_2 = block(CreatePyrotechnicsModBlocks.STRATEGIC_NUKE_PLACEHOLDER_2);
 	public static final RegistryObject<Item> SHOCKWAVE_TESTER = block(CreatePyrotechnicsModBlocks.SHOCKWAVE_TESTER);
+	public static final RegistryObject<Item> RADAR = block(CreatePyrotechnicsModBlocks.RADAR);
+	public static final RegistryObject<Item> NUCLEAR_INK = REGISTRY.register("nuclear_ink", () -> new NuclearInkItem());
+	public static final RegistryObject<Item> NUCLEAR_CORE = REGISTRY.register(CreatePyrotechnicsModBlocks.NUCLEAR_CORE.getId().getPath(), () -> new NuclearCoreDisplayItem(CreatePyrotechnicsModBlocks.NUCLEAR_CORE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLANK_NUCLEAR_CARD = REGISTRY.register("blank_nuclear_card", () -> new BlankNuclearCardItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

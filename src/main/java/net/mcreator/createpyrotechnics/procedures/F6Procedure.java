@@ -1,9 +1,9 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
+import net.minecraftforge.eventbus.api.Event;
 
 public class F6Procedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
+	public static void execute() {
 		double xRadius = 0;
 		double loop = 0;
 		double zRadius = 0;
@@ -15,8 +15,7 @@ public class F6Procedure {
 		masterRadius = 65;
 		while (loop < particleAmount) {
 			yRadius = masterRadius;
-			FallingSphereProcedure.execute(world, x + 0.5 + Math.sin(((Math.PI * 10 * zRadius) / particleAmount) * loop) * zRadius, y + Math.sin(((Math.PI * 2) / particleAmount) * loop) * yRadius,
-					z + 0.5 + Math.cos(((Math.PI * 10 * xRadius) / particleAmount) * loop) * xRadius);
+			FallingSphereProcedure.execute();
 			xRadius = Math.cos(((Math.PI * 2) / particleAmount) * loop) * yRadius;
 			zRadius = Math.cos(((Math.PI * 2) / particleAmount) * loop) * yRadius;
 			loop = loop + 1;

@@ -1,8 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.Component;
+import net.minecraftforge.eventbus.api.Event;
 
 public class RadarLaserProjectileHitsBlockProcedure {
 	public static void execute(Entity entity, Entity immediatesourceentity) {

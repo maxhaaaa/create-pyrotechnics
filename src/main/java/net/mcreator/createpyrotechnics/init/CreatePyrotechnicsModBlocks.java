@@ -21,6 +21,7 @@ import net.mcreator.createpyrotechnics.block.ShockwaveTesterBlock;
 import net.mcreator.createpyrotechnics.block.RadarBlock;
 import net.mcreator.createpyrotechnics.block.PlaceholderBlock;
 import net.mcreator.createpyrotechnics.block.ParticleTestingBlock;
+import net.mcreator.createpyrotechnics.block.NuclearCoreBlock;
 import net.mcreator.createpyrotechnics.block.MissileNavigationBlock;
 import net.mcreator.createpyrotechnics.block.MissileControllPanelBlock;
 import net.mcreator.createpyrotechnics.block.MissileBodyStage3Block;
@@ -55,11 +56,12 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> PARTICLE_TESTING = REGISTRY.register("particle_testing", () -> new ParticleTestingBlock());
 	public static final RegistryObject<Block> BOMB_BENCH_P_2 = REGISTRY.register("bomb_bench_p_2", () -> new BombBenchP2Block());
 	public static final RegistryObject<Block> BOMB_BENCH_P_1 = REGISTRY.register("bomb_bench_p_1", () -> new BombBenchP1Block());
-	public static final RegistryObject<Block> RADAR = REGISTRY.register("radar", () -> new RadarBlock());
-	public static final RegistryObject<Block> WE_TEST_FALLING_BLOCKS = REGISTRY.register("we_test_falling_blocks", () -> new WeTestFallingBlocksBlock());
 	public static final RegistryObject<Block> STRATEGIC_NUKE_PLACEHOLDER = REGISTRY.register("strategic_nuke_placeholder", () -> new StrategicNukePlaceholderBlock());
+	public static final RegistryObject<Block> WE_TEST_FALLING_BLOCKS = REGISTRY.register("we_test_falling_blocks", () -> new WeTestFallingBlocksBlock());
 	public static final RegistryObject<Block> STRATEGIC_NUKE_PLACEHOLDER_2 = REGISTRY.register("strategic_nuke_placeholder_2", () -> new StrategicNukePlaceholder2Block());
 	public static final RegistryObject<Block> SHOCKWAVE_TESTER = REGISTRY.register("shockwave_tester", () -> new ShockwaveTesterBlock());
+	public static final RegistryObject<Block> RADAR = REGISTRY.register("radar", () -> new RadarBlock());
+	public static final RegistryObject<Block> NUCLEAR_CORE = REGISTRY.register("nuclear_core", () -> new NuclearCoreBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
