@@ -16,7 +16,7 @@ public class ICBMGuidanceSystemOnTickUpdateProcedure {
 				return -1;
 			}
 		}.getValue(world, BlockPos.containing(x, y, z), "link")) {
-			ICBMLaunchProcedureProcedure.execute();
+			ICBMLaunchProcedureProcedure.execute(world, x, y, z);
 		}
 	}
 }

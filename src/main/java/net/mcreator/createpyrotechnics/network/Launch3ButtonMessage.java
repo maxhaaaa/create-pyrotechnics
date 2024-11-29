@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.createpyrotechnics.world.inventory.Launch3Menu;
+import net.mcreator.createpyrotechnics.procedures.ICBMLaunchProcedureProcedure;
 import net.mcreator.createpyrotechnics.procedures.GetLinkProcedure;
 import net.mcreator.createpyrotechnics.procedures.DzRemoveProcedure;
 import net.mcreator.createpyrotechnics.procedures.DzAddProcedure;
@@ -70,11 +71,11 @@ public class Launch3ButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			ICBMLaunchProcedureProcedure.execute();
+			DxAddProcedure.execute(world, x, y, z);
 		}
 		if (buttonID == 1) {
 
-			DxAddProcedure.execute(world, x, y, z);
+			ICBMLaunchProcedureProcedure.execute(world, x, y, z);
 		}
 		if (buttonID == 2) {
 

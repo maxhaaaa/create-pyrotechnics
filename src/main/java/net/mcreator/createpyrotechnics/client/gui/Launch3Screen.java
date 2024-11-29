@@ -22,8 +22,8 @@ public class Launch3Screen extends AbstractContainerScreen<Launch3Menu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_launch;
 	Button button_dx_01;
+	Button button_launch;
 	Button button_dx_011;
 	Button button_dy_01;
 	Button button_dy_011;
@@ -77,22 +77,22 @@ public class Launch3Screen extends AbstractContainerScreen<Launch3Menu> {
 	@Override
 	public void init() {
 		super.init();
-		button_launch = Button.builder(Component.translatable("gui.create_pyrotechnics.launch_3.button_launch"), e -> {
+		button_dx_01 = Button.builder(Component.translatable("gui.create_pyrotechnics.launch_3.button_dx_01"), e -> {
 			if (true) {
 				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new Launch3ButtonMessage(0, x, y, z));
 				Launch3ButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 163, this.topPos + 30, 56, 20).build();
-		guistate.put("button:button_launch", button_launch);
-		this.addRenderableWidget(button_launch);
-		button_dx_01 = Button.builder(Component.translatable("gui.create_pyrotechnics.launch_3.button_dx_01"), e -> {
+		}).bounds(this.leftPos + 10, this.topPos + 3, 66, 20).build();
+		guistate.put("button:button_dx_01", button_dx_01);
+		this.addRenderableWidget(button_dx_01);
+		button_launch = Button.builder(Component.translatable("gui.create_pyrotechnics.launch_3.button_launch"), e -> {
 			if (true) {
 				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new Launch3ButtonMessage(1, x, y, z));
 				Launch3ButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 10, this.topPos + 3, 66, 20).build();
-		guistate.put("button:button_dx_01", button_dx_01);
-		this.addRenderableWidget(button_dx_01);
+		}).bounds(this.leftPos + 163, this.topPos + 30, 56, 20).build();
+		guistate.put("button:button_launch", button_launch);
+		this.addRenderableWidget(button_launch);
 		button_dx_011 = Button.builder(Component.translatable("gui.create_pyrotechnics.launch_3.button_dx_011"), e -> {
 			if (true) {
 				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new Launch3ButtonMessage(2, x, y, z));

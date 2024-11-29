@@ -7037,7 +7037,7 @@
     {
       "name": "Launch3",
       "type": "gui",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "launch_3",
       "metadata": {
@@ -7047,20 +7047,6 @@
           "src/main/java/net/mcreator/createpyrotechnics/network/Launch3ButtonMessage.java",
           "src/main/java/net/mcreator/createpyrotechnics/client/gui/Launch3Screen.java"
         ]
-      },
-      "path": "~/kaczorros shit/ICBMs"
-    },
-    {
-      "name": "ICBMLaunchProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "icbm_launch_procedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/procedures/ICBMLaunchProcedureProcedure.java"
-        ],
-        "dependencies": []
       },
       "path": "~/kaczorros shit/ICBMs"
     },
@@ -7080,7 +7066,7 @@
     {
       "name": "ICBMGuidanceSystemOnTickUpdate",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "icbm_guidance_system_on_tick_update",
       "metadata": {
@@ -7107,6 +7093,50 @@
         ]
       },
       "path": "~/kaczorros shit/ICBMs/ICBM2"
+    },
+    {
+      "name": "ICBMLaunchProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icbm_launch_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ICBMLaunchProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "StrategicWarhead",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strategic_warhead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/StrategicWarheadEntity.java"
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
     }
   ],
   "variable_elements": [

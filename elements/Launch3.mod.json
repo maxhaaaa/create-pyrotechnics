@@ -13,21 +13,6 @@
       {
         "type": "button",
         "data": {
-          "name": "button_launch",
-          "text": "launch",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "ICBMLaunchProcedure"
-          },
-          "width": 56,
-          "height": 20,
-          "x": 249,
-          "y": 62
-        }
-      },
-      {
-        "type": "button",
-        "data": {
           "name": "button_dx_01",
           "text": "dx + 0.1",
           "isUndecorated": false,
@@ -38,6 +23,21 @@
           "height": 20,
           "x": 96,
           "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_launch",
+          "text": "launch",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ICBMLaunchProcedure"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 249,
+          "y": 62
         }
       },
       {
