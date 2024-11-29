@@ -1,6 +1,25 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.particles.SimpleParticleType;
+
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModParticleTypes;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModItems;
+
+import java.util.List;
+import java.util.Comparator;
 
 public class NuclearCoreBlockDestroyedByExplosionProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

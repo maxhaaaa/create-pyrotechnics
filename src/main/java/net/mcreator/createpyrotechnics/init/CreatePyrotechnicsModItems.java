@@ -24,6 +24,7 @@ import net.mcreator.createpyrotechnics.item.HandheldPumpItem;
 import net.mcreator.createpyrotechnics.item.GasCanisterItem;
 import net.mcreator.createpyrotechnics.item.DebugstickItem;
 import net.mcreator.createpyrotechnics.item.DatawiretesterItem;
+import net.mcreator.createpyrotechnics.item.CoreItem;
 import net.mcreator.createpyrotechnics.item.BombsphereItem;
 import net.mcreator.createpyrotechnics.item.BombBenchBlockItem;
 import net.mcreator.createpyrotechnics.item.BlankNuclearCardItem;
@@ -78,6 +79,9 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> NUCLEAR_INK = REGISTRY.register("nuclear_ink", () -> new NuclearInkItem());
 	public static final RegistryObject<Item> NUCLEAR_CORE = REGISTRY.register(CreatePyrotechnicsModBlocks.NUCLEAR_CORE.getId().getPath(), () -> new NuclearCoreDisplayItem(CreatePyrotechnicsModBlocks.NUCLEAR_CORE.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BLANK_NUCLEAR_CARD = REGISTRY.register("blank_nuclear_card", () -> new BlankNuclearCardItem());
+	public static final RegistryObject<Item> CORE = REGISTRY.register("core", () -> new CoreItem());
+	public static final RegistryObject<Item> MISSILE_BODY_PLACEHOLDER = block(CreatePyrotechnicsModBlocks.MISSILE_BODY_PLACEHOLDER);
+	public static final RegistryObject<Item> ICBM_GUIDANCE_SYSTEM = block(CreatePyrotechnicsModBlocks.ICBM_GUIDANCE_SYSTEM);
 
 	// Start of user code block custom items
 	// End of user code block custom items

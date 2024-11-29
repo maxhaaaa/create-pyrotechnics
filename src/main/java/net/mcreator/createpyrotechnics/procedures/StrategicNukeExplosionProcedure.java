@@ -1,6 +1,10 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
+
+import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class StrategicNukeExplosionProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -9,18 +13,26 @@ public class StrategicNukeExplosionProcedure {
 		if (random > 5) {
 			StrategicMushroomCloudProcedure.execute(world, x, y, z);
 		} else {
+			StrategicMushroomCloud2Procedure.execute(world, x, y, z);
 		}
 		CreatePyrotechnicsMod.queueServerWork(10, () -> {
 			E1ogProcedure.execute(world, x, y, z);
 			CreatePyrotechnicsMod.queueServerWork(10, () -> {
 				E2Procedure.execute(world, x, y, z);
 				CreatePyrotechnicsMod.queueServerWork(10, () -> {
+					S3Procedure.execute(world, x, y, z);
 					CreatePyrotechnicsMod.queueServerWork(20, () -> {
+						S4Procedure.execute(world, x, y, z);
 						CreatePyrotechnicsMod.queueServerWork(20, () -> {
+							S5Procedure.execute(world, x, y, z);
 							CreatePyrotechnicsMod.queueServerWork(30, () -> {
+								S6Procedure.execute(world, x, y, z);
 								CreatePyrotechnicsMod.queueServerWork(10, () -> {
+									S7Procedure.execute(world, x, y, z);
 									CreatePyrotechnicsMod.queueServerWork(10, () -> {
+										S8Procedure.execute(world, x, y, z);
 										CreatePyrotechnicsMod.queueServerWork(10, () -> {
+											S9Procedure.execute(world, x, y, z);
 											CreatePyrotechnicsMod.queueServerWork(30, () -> {
 												S10Procedure.execute(world, x, y, z);
 												CreatePyrotechnicsMod.queueServerWork(40, () -> {

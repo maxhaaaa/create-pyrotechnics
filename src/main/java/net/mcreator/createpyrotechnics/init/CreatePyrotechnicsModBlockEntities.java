@@ -20,7 +20,9 @@ import net.mcreator.createpyrotechnics.block.entity.NuclearCoreTileEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileNavigationBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileControllPanelBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileBodyStage3BlockEntity;
+import net.mcreator.createpyrotechnics.block.entity.MissileBodyPlaceholderBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileBodyBlockEntity;
+import net.mcreator.createpyrotechnics.block.entity.ICBMGuidanceSystemBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.FuelTankBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.ExplosivesphereworkbenchBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.DatawireblockBlockEntity;
@@ -43,6 +45,8 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_BODY_STAGE_3 = register("missile_body_stage_3", CreatePyrotechnicsModBlocks.MISSILE_BODY_STAGE_3, MissileBodyStage3BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> RADAR = register("radar", CreatePyrotechnicsModBlocks.RADAR, RadarBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<NuclearCoreTileEntity>> NUCLEAR_CORE = REGISTRY.register("nuclear_core", () -> BlockEntityType.Builder.of(NuclearCoreTileEntity::new, CreatePyrotechnicsModBlocks.NUCLEAR_CORE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<?>> MISSILE_BODY_PLACEHOLDER = register("missile_body_placeholder", CreatePyrotechnicsModBlocks.MISSILE_BODY_PLACEHOLDER, MissileBodyPlaceholderBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ICBM_GUIDANCE_SYSTEM = register("icbm_guidance_system", CreatePyrotechnicsModBlocks.ICBM_GUIDANCE_SYSTEM, ICBMGuidanceSystemBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

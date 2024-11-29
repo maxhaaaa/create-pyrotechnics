@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "create:electron_tube"
+    },
+    "b": {
+      "item": "create:precision_mechanism"
+    },
+    "c": {
+      "item": "create:electron_tube"
+    },
+    "d": {
+      "item": "create:sturdy_sheet"
+    },
+    "e": {
+      "item": "minecraft:green_dye"
+    },
+    "f": {
+      "item": "create:sturdy_sheet"
+    },
+    "g": {
+      "item": "create:sturdy_sheet"
+    },
+    "h": {
+      "item": "create:precision_mechanism"
+    },
+    "i": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "result": {
+    "item": "minecraft:creeper_head",
+    "count": 1
+  }
+}

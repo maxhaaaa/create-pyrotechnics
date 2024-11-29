@@ -25,7 +25,9 @@ import net.mcreator.createpyrotechnics.block.NuclearCoreBlock;
 import net.mcreator.createpyrotechnics.block.MissileNavigationBlock;
 import net.mcreator.createpyrotechnics.block.MissileControllPanelBlock;
 import net.mcreator.createpyrotechnics.block.MissileBodyStage3Block;
+import net.mcreator.createpyrotechnics.block.MissileBodyPlaceholderBlock;
 import net.mcreator.createpyrotechnics.block.MissileBodyBlock;
+import net.mcreator.createpyrotechnics.block.ICBMGuidanceSystemBlock;
 import net.mcreator.createpyrotechnics.block.FuelTankBlock;
 import net.mcreator.createpyrotechnics.block.ExplosivesphereworkbenchBlock;
 import net.mcreator.createpyrotechnics.block.DesignatorblockBlock;
@@ -62,6 +64,8 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> SHOCKWAVE_TESTER = REGISTRY.register("shockwave_tester", () -> new ShockwaveTesterBlock());
 	public static final RegistryObject<Block> RADAR = REGISTRY.register("radar", () -> new RadarBlock());
 	public static final RegistryObject<Block> NUCLEAR_CORE = REGISTRY.register("nuclear_core", () -> new NuclearCoreBlock());
+	public static final RegistryObject<Block> MISSILE_BODY_PLACEHOLDER = REGISTRY.register("missile_body_placeholder", () -> new MissileBodyPlaceholderBlock());
+	public static final RegistryObject<Block> ICBM_GUIDANCE_SYSTEM = REGISTRY.register("icbm_guidance_system", () -> new ICBMGuidanceSystemBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

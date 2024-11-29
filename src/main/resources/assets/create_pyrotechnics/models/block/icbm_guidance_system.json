@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/basalt_top",
+    "up": "minecraft:block/basalt_top",
+    "north": "create_pyrotechnics:block/icbm_guidance_system",
+    "east": "minecraft:block/smooth_stone_slab_side",
+    "south": "minecraft:block/smooth_stone_slab_side",
+    "west": "minecraft:block/smooth_stone_slab_side",
+    "particle": "minecraft:block/basalt_top"
+  },
+  "render_type": "solid"
+}

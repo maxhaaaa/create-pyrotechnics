@@ -18,7 +18,7 @@
     "modelWidth": 0.5,
     "modelHeight": 0.5,
     "onHitsBlock": {
-      "name": "OgExplosion"
+      "name": "ShockwavePower2"
     },
     "onFlyingTick": {
       "name": "ICBMPlaceHolder1WhileProjectileFlyingTick"

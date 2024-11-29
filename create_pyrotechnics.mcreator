@@ -4750,7 +4750,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/FallingSphereProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test"
     },
@@ -4764,7 +4781,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/FallingSphere2Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test"
     },
@@ -4836,7 +4870,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F1Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -4850,7 +4901,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F2Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -4864,7 +4932,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F3Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -4895,7 +4980,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F4Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -4909,7 +5011,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F5Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -4954,7 +5073,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F6Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -4999,7 +5135,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F7Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5044,7 +5197,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F8Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5058,7 +5228,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F9Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5150,6 +5337,18 @@
           "src/main/java/net/mcreator/createpyrotechnics/procedures/FallProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
           {
             "name": "world",
             "type": "world"
@@ -5635,6 +5834,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -5736,7 +5947,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F10Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5781,7 +6009,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F12Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5795,7 +6040,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F11Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5809,7 +6071,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F14Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5823,7 +6102,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F13Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5837,7 +6133,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F16Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5851,7 +6164,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F15Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5865,7 +6195,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F18Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5879,7 +6226,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F17Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -5893,7 +6257,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/F19Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test/fallingTest"
     },
@@ -6062,6 +6443,670 @@
         ]
       },
       "path": "~/createPT and BT crossover"
+    },
+    {
+      "name": "E8shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_8shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E8shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E9shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_9shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E9shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E10shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_10shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E10shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E11shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_11shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E11shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "ShockwavePower2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockwave_power_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ShockwavePower2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
+    },
+    {
+      "name": "CoreCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "core_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/recipes/core_craft.json"
+        ]
+      },
+      "path": "~/kaczorros shit/recepies"
+    },
+    {
+      "name": "Core",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/core.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/CoreItem.java"
+        ]
+      },
+      "path": "~/kaczorros shit/recepies"
+    },
+    {
+      "name": "E12shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_12shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E12shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E13shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_13shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E13shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E14shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_14shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E14shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E15shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_15shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E15shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E16shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_16shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E16shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E17shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_17shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E17shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E18shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_18shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E18shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E19shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_19shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E19shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E20shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_20shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E20shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E21shockwave",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_21shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E21shockwaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "ShockwavePower3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockwave_power_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ShockwavePower3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
+    },
+    {
+      "name": "MissileBodyPlaceholderOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missile_body_placeholder_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MissileBodyPlaceholderOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs/ICBM2"
+    },
+    {
+      "name": "MissileBodyPlaceholder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missile_body_placeholder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/MissileBodyPlaceholderBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_body_placeholder.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/MissileBodyPlaceholderBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/missile_body_placeholder.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/missile_body_placeholder.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/missile_body_placeholder.json"
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs/ICBM2"
+    },
+    {
+      "name": "ICBMGuidanceSystem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icbm_guidance_system",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ICBMGuidanceSystemBlockEntity.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/ICBMGuidanceSystemBlock.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/icbm_guidance_system.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/icbm_guidance_system.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/icbm_guidance_system.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/icbm_guidance_system.json"
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs/ICBM2"
+    },
+    {
+      "name": "Launch3",
+      "type": "gui",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "launch_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/network/Launch3SlotMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/Launch3Menu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/network/Launch3ButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/Launch3Screen.java"
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "ICBMLaunchProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icbm_launch_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ICBMLaunchProcedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "RadarLaser2",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radar_laser_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/RadarLaser2Entity.java"
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "ICBMGuidanceSystemOnTickUpdate",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "icbm_guidance_system_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ICBMGuidanceSystemOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs/ICBM2"
     }
   ],
   "variable_elements": [
@@ -6121,11 +7166,13 @@
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
       "gui.create_pyrotechnics.toxifier_lab.button_add_water": "+ water",
       "entity.create_pyrotechnics.designator": "DESIGNATOR",
-      "gui.create_pyrotechnics.launch.button_dx_011": "dx - 0.1",
+      "gui.create_pyrotechnics.launch_3.button_check_cords": "check cords",
       "gui.create_pyrotechnics.launch_2.button_check_cords": "check cords",
+      "gui.create_pyrotechnics.launch.button_dx_011": "dx - 0.1",
       "block.create_pyrotechnics.datawirestopper": "Datawiresswitcher",
-      "block.create_pyrotechnics.missile_body": "Missile Body",
       "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
+      "block.create_pyrotechnics.missile_body": "Missile Body",
+      "item.create_pyrotechnics.nuclear_ink": "Nuclear Ink",
       "gui.create_pyrotechnics.launch_2.button_dz_01": "dz + 0.1",
       "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
       "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
@@ -6134,12 +7181,13 @@
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
       "gui.create_pyrotechnics.toxifier_lab.button_add_poison_powder": "+ poison powder",
       "gui.create_pyrotechnics.pumping.button_empty1": "-",
-      "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
+      "gui.create_pyrotechnics.launch_3.button_dy_011": "dy - 0.1",
       "block.create_pyrotechnics.bomb_bench_p_1": "Bomb Bench P 1",
+      "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
       "block.create_pyrotechnics.bomb_bench_p_2": "Bomb Bench P 2",
       "death.attack.squished": "%1$s was squished to death",
-      "item.create_pyrotechnics.cockroach_spawn_egg": "Cockroach Spawn Egg",
       "block.create_pyrotechnics.strategic_nuke_placeholder_2": "Strategic Nuke Placeholder - kaczorro\u0027s startegic nukr testing block B",
+      "item.create_pyrotechnics.cockroach_spawn_egg": "Cockroach Spawn Egg",
       "subtitles.explosion": "",
       "block.create_pyrotechnics.valuestorageblock": "Valuestorageblock",
       "gui.create_pyrotechnics.radar_test.button_dz_01": "dz + 0.1",
@@ -6161,17 +7209,20 @@
       "block.create_pyrotechnics.placeholder": "Placeholder - use to test kaczorro\u0027s nukes",
       "gui.create_pyrotechnics.valueenteringgui.valueentering": "value here (0)",
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
+      "gui.create_pyrotechnics.launch_3.button_dx_01": "dx + 0.1",
       "block.create_pyrotechnics.trinitytest": "Trinitytest",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
       "gui.create_pyrotechnics.radar_test.button_dy_011": "dy - 0.1",
       "gui.create_pyrotechnics.bomb_bench.label_bombbench": "BombBench",
       "gui.create_pyrotechnics.radar_test.button_check_cords": "check cords",
+      "item.create_pyrotechnics.core": "fission core",
       "item.create_pyrotechnics.tester": "Tester",
       "item.create_pyrotechnics.bomb_bench_block": "Bomb Bench",
       "gui.create_pyrotechnics.radar_test.button_launch": "locate",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
       "gui.create_pyrotechnics.toxifier_lab.label_flame": "flame:",
       "gui.create_pyrotechnics.computernavigator.button_empty": "^",
+      "item.create_pyrotechnics.blank_nuclear_card": "Blank Nuclear Card",
       "gui.create_pyrotechnics.toxifier_lab.button_seal": "Seal",
       "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
       "gui.create_pyrotechnics.computernavigator.button_down_on_the_y_axis": "down- on the y axis",
@@ -6181,30 +7232,39 @@
       "gui.create_pyrotechnics.pumping.button_empty": "+",
       "item.create_pyrotechnics.ballisticsbuildingtool": "Ballisticsbuildingtool",
       "gui.create_pyrotechnics.pumping.label_psi": "PSI:",
+      "block.create_pyrotechnics.nuclear_core": "Nuclear Core",
       "gui.create_pyrotechnics.pumping.label_vent": "vent:",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
+      "gui.create_pyrotechnics.launch_3.button_dx_011": "dx - 0.1",
       "gui.create_pyrotechnics.radar_test.button_dy_01": "dy + 0.1",
       "gui.create_pyrotechnics.launch.button_dz_01": "dz + 0.1",
       "block.create_pyrotechnics.missile_navigation": "Missile Controll Panel",
       "item.create_pyrotechnics.bombsphere": "Bombsphere",
+      "gui.create_pyrotechnics.launch_3.button_dz_01": "dz + 0.1",
       "gui.create_pyrotechnics.valueenteringgui.pinmode": "assignment pin",
       "item.create_pyrotechnics.designator_spawn_egg": "DESIGNATOR Spawn Egg",
       "block.create_pyrotechnics.particle_testing": "Particle Testing",
       "gui.create_pyrotechnics.siloguinew.label_currently_listening_for_launch_p": "listening for arming",
       "gui.create_pyrotechnics.toxifier_lab.label_duration": "duration:",
       "gui.create_pyrotechnics.launch.button_dy_011": "dy - 0.1",
+      "gui.create_pyrotechnics.launch_3.button_link_code": "link code",
       "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics",
+      "gui.create_pyrotechnics.launch_3.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.warheadcraftinggui.label_air_tank_level": "tank psi",
+      "gui.create_pyrotechnics.launch_3.button_launch": "launch",
       "block.create_pyrotechnics.missile_body_stage_3": "Missile Body Stage 3",
       "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
       "gui.create_pyrotechnics.launch.button_launch": "launch",
       "gui.create_pyrotechnics.launch_2.button_dx_011": "dx - 0.1",
+      "gui.create_pyrotechnics.launch_3.button_dy_01": "dy + 0.1",
       "gui.create_pyrotechnics.radar_test.button_dz_011": "dz - 0.1",
       "death.attack.squished.item": "%1$s was squished by %2$s using %3$s",
       "effect.create_pyrotechnics.burntretnas": "Burntretnas",
+      "block.create_pyrotechnics.icbm_guidance_system": "ICBM Guidance System",
       "gui.create_pyrotechnics.computernavigator.button_execute": "open",
       "item.create_pyrotechnics.debugstick": "Debugstick",
       "gui.create_pyrotechnics.computernavigator.button_error_infinite_dataloop_detecte": "error! infinite dataloop detected!, fix crash loop",
+      "block.create_pyrotechnics.missile_body_placeholder": "Missile Body Placeholder",
       "item.create_pyrotechnics.radar_tester": "Tester",
       "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
       "entity.create_pyrotechnics.cockroach": "Cockroach",
@@ -6370,11 +7430,19 @@
               {
                 "name": "gui shit",
                 "children": []
+              },
+              {
+                "name": "ICBM2",
+                "children": []
               }
             ]
           },
           {
             "name": "shockwave test",
+            "children": []
+          },
+          {
+            "name": "recepies",
             "children": []
           }
         ]

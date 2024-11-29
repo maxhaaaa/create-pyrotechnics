@@ -54,6 +54,8 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.SHOCKWAVE_TESTER.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.RADAR.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.NUCLEAR_CORE.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_BODY_PLACEHOLDER.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.ICBM_GUIDANCE_SYSTEM.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

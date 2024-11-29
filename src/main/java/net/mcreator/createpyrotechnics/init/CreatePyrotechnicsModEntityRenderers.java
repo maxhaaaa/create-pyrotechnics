@@ -28,5 +28,6 @@ public class CreatePyrotechnicsModEntityRenderers {
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.ICBM_PLACE_HOLDER_1.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.COCKROACH.get(), CockroachRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.RADAR_LASER.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.RADAR_LASER_2.get(), ThrownItemRenderer::new);
 	}
 }

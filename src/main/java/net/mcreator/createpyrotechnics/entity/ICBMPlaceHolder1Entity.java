@@ -21,7 +21,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.createpyrotechnics.procedures.OgExplosionProcedure;
+import net.mcreator.createpyrotechnics.procedures.ShockwavePower2Procedure;
 import net.mcreator.createpyrotechnics.procedures.ICBMPlaceHolder1WhileProjectileFlyingTickProcedure;
 import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
 
@@ -70,7 +70,7 @@ public class ICBMPlaceHolder1Entity extends AbstractArrow implements ItemSupplie
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		OgExplosionProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		ShockwavePower2Procedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
 	}
 
 	@Override
