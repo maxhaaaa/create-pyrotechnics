@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
 import net.mcreator.createpyrotechnics.entity.SuperAidsEntity;
+import net.mcreator.createpyrotechnics.entity.RadarLaserEntity;
 import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
 import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
 import net.mcreator.createpyrotechnics.entity.ICBMPlaceHolder1Entity;
@@ -52,6 +53,8 @@ public class CreatePyrotechnicsModEntities {
 			EntityType.Builder.<CockroachEntity>of(CockroachEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CockroachEntity::new)
 
 					.sized(0.2f, 0.1f));
+	public static final RegistryObject<EntityType<RadarLaserEntity>> RADAR_LASER = register("radar_laser",
+			EntityType.Builder.<RadarLaserEntity>of(RadarLaserEntity::new, MobCategory.MISC).setCustomClientFactory(RadarLaserEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

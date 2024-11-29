@@ -47,6 +47,12 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModItems.BIG_RED_BUTTON.get());
 				tabData.accept(CreatePyrotechnicsModBlocks.PARTICLE_TESTING.get().asItem());
 				tabData.accept(CreatePyrotechnicsModItems.BOMB_BENCH_BLOCK.get());
+				tabData.accept(CreatePyrotechnicsModBlocks.RADAR.get().asItem());
+				tabData.accept(CreatePyrotechnicsModItems.RADAR_TESTER.get());
+				tabData.accept(CreatePyrotechnicsModBlocks.WE_TEST_FALLING_BLOCKS.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.STRATEGIC_NUKE_PLACEHOLDER.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.STRATEGIC_NUKE_PLACEHOLDER_2.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.SHOCKWAVE_TESTER.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

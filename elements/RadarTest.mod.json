@@ -1,0 +1,142 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 176,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_launch",
+          "text": "locate",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RadarTestProcedure"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 213,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dx_01",
+          "text": "dx + 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DxAdd"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 132,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dx_011",
+          "text": "dx - 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DxRemove"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dy_01",
+          "text": "dy + 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DyAdd"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dy_011",
+          "text": "dy - 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DzRemove"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dz_01",
+          "text": "dz + 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DzAdd"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 132,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dz_011",
+          "text": "dz - 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DzRemove"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 132,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_check_cords",
+          "text": "check cords",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CheckCords"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 213,
+          "y": 35
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

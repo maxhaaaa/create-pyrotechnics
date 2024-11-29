@@ -10,10 +10,15 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.createpyrotechnics.block.WeTestFallingBlocksBlock;
 import net.mcreator.createpyrotechnics.block.ValuestorageblockBlock;
 import net.mcreator.createpyrotechnics.block.TrinitytestBlock;
 import net.mcreator.createpyrotechnics.block.ThrusterBlock;
+import net.mcreator.createpyrotechnics.block.StrategicNukePlaceholderBlock;
+import net.mcreator.createpyrotechnics.block.StrategicNukePlaceholder2Block;
 import net.mcreator.createpyrotechnics.block.SiloBlockBlock;
+import net.mcreator.createpyrotechnics.block.ShockwaveTesterBlock;
+import net.mcreator.createpyrotechnics.block.RadarBlock;
 import net.mcreator.createpyrotechnics.block.PlaceholderBlock;
 import net.mcreator.createpyrotechnics.block.ParticleTestingBlock;
 import net.mcreator.createpyrotechnics.block.MissileNavigationBlock;
@@ -50,6 +55,11 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> PARTICLE_TESTING = REGISTRY.register("particle_testing", () -> new ParticleTestingBlock());
 	public static final RegistryObject<Block> BOMB_BENCH_P_2 = REGISTRY.register("bomb_bench_p_2", () -> new BombBenchP2Block());
 	public static final RegistryObject<Block> BOMB_BENCH_P_1 = REGISTRY.register("bomb_bench_p_1", () -> new BombBenchP1Block());
+	public static final RegistryObject<Block> RADAR = REGISTRY.register("radar", () -> new RadarBlock());
+	public static final RegistryObject<Block> WE_TEST_FALLING_BLOCKS = REGISTRY.register("we_test_falling_blocks", () -> new WeTestFallingBlocksBlock());
+	public static final RegistryObject<Block> STRATEGIC_NUKE_PLACEHOLDER = REGISTRY.register("strategic_nuke_placeholder", () -> new StrategicNukePlaceholderBlock());
+	public static final RegistryObject<Block> STRATEGIC_NUKE_PLACEHOLDER_2 = REGISTRY.register("strategic_nuke_placeholder_2", () -> new StrategicNukePlaceholder2Block());
+	public static final RegistryObject<Block> SHOCKWAVE_TESTER = REGISTRY.register("shockwave_tester", () -> new ShockwaveTesterBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

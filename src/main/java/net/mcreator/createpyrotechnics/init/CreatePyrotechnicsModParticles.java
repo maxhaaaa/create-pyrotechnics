@@ -9,6 +9,9 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.createpyrotechnics.client.particle.StrategicFlashParticle;
+import net.mcreator.createpyrotechnics.client.particle.StrategicCloudParticle;
+import net.mcreator.createpyrotechnics.client.particle.StrategicCapParticle;
 import net.mcreator.createpyrotechnics.client.particle.SmokeCloudParticle;
 import net.mcreator.createpyrotechnics.client.particle.ShockwaveParticleParticle;
 import net.mcreator.createpyrotechnics.client.particle.ParticleheavyParticle;
@@ -30,5 +33,8 @@ public class CreatePyrotechnicsModParticles {
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.SMOKE_CLOUD.get(), SmokeCloudParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.SHOCKWAVE_PARTICLE.get(), ShockwaveParticleParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.FIREPILLARPARTICLE.get(), FirepillarparticleParticle::provider);
+		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.STRATEGIC_CLOUD.get(), StrategicCloudParticle::provider);
+		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.STRATEGIC_CAP.get(), StrategicCapParticle::provider);
+		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.STRATEGIC_FLASH.get(), StrategicFlashParticle::provider);
 	}
 }
