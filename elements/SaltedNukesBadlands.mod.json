@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "salted nukes badlands",
+    "description": "if false nukes won't set the biome to badlands(works only if salted nukes is true, make sure to note that this can make nukes laggier and slower)",
+    "category": "UPDATES",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

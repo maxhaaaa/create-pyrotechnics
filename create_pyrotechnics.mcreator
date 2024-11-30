@@ -7137,6 +7137,531 @@
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "SaltedNukes",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salted_nukes",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "SaltedNukesBadlands",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salted_nukes_badlands",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "SaltedLand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salted_land",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SaltedLandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "E3SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_3_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E3SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E4SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_4_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E4SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E5SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_5_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E5SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E6SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_6_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E6SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E7SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_7_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E7SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E8SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_8_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E8SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E9SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_9_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E9SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E10SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_10_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E10SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E11SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_11_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E11SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E12SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_12_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E12SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E13SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_13_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E13SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E14SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_14_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E14SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E15SR",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_15_sr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E15SRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "ShockWavePower1Salted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shock_wave_power_1_salted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ShockWavePower1SaltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
+    },
+    {
+      "name": "EvaporateWater",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evaporate_water",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "VillageDestroyerNukes",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "village_destroyer_nukes",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "TreeCharcoal",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_charcoal",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/kaczorros shit/explosion/C1"
     }
   ],
   "variable_elements": [
@@ -7186,23 +7711,26 @@
       "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
+      "gamerule.treeCharcoal": "nukes turn trees into charcoal",
       "item.create_pyrotechnics.datawiretester": "Datawiretester",
+      "gamerule.saltedNukes": "salted nukes",
       "block.create_pyrotechnics.radar": "Radar",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
       "attribute.create_pyrotechnics.blinded": "Blinded",
       "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
+      "gamerule.villageDestroyerNukes.description": "targets blocks specificly found in villages(may make nukes laggier and slower)",
       "gui.create_pyrotechnics.launch.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
       "gui.create_pyrotechnics.toxifier_lab.button_add_water": "+ water",
       "entity.create_pyrotechnics.designator": "DESIGNATOR",
       "gui.create_pyrotechnics.launch_3.button_check_cords": "check cords",
-      "gui.create_pyrotechnics.launch_2.button_check_cords": "check cords",
       "gui.create_pyrotechnics.launch.button_dx_011": "dx - 0.1",
+      "gui.create_pyrotechnics.launch_2.button_check_cords": "check cords",
       "block.create_pyrotechnics.datawirestopper": "Datawiresswitcher",
-      "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
-      "block.create_pyrotechnics.missile_body": "Missile Body",
       "item.create_pyrotechnics.nuclear_ink": "Nuclear Ink",
+      "block.create_pyrotechnics.missile_body": "Missile Body",
+      "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.launch_2.button_dz_01": "dz + 0.1",
       "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
       "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
@@ -7212,10 +7740,12 @@
       "gui.create_pyrotechnics.toxifier_lab.button_add_poison_powder": "+ poison powder",
       "gui.create_pyrotechnics.pumping.button_empty1": "-",
       "gui.create_pyrotechnics.launch_3.button_dy_011": "dy - 0.1",
-      "block.create_pyrotechnics.bomb_bench_p_1": "Bomb Bench P 1",
       "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
+      "block.create_pyrotechnics.bomb_bench_p_1": "Bomb Bench P 1",
       "block.create_pyrotechnics.bomb_bench_p_2": "Bomb Bench P 2",
       "death.attack.squished": "%1$s was squished to death",
+      "gamerule.saltedNukes.description": "If enabled nukes will remove grass and leaves from nearby blocks and set the biome to badlands(note that it may make the explosions laggier and slower)",
+      "gamerule.saltedNukesBadlands": "salted nukes badlands",
       "block.create_pyrotechnics.strategic_nuke_placeholder_2": "Strategic Nuke Placeholder - kaczorro\u0027s startegic nukr testing block B",
       "item.create_pyrotechnics.cockroach_spawn_egg": "Cockroach Spawn Egg",
       "subtitles.explosion": "",
@@ -7228,6 +7758,7 @@
       "gui.create_pyrotechnics.siloguinew.label_pin": "pin 5",
       "gui.create_pyrotechnics.launch_2.button_dy_011": "dy - 0.1",
       "block.create_pyrotechnics.datawireblock": "Datawireblock",
+      "gamerule.treeCharcoal.description": "nukes turn trees into charcoal(may make nukes laggier and slower)",
       "block.create_pyrotechnics.shockwave_tester": "Shockwave Tester - i use this to develop a new shockwave system",
       "gui.create_pyrotechnics.toxifier_lab.button_empty": "+",
       "block.create_pyrotechnics.fuel_tank": "Fuel Tank",
@@ -7235,11 +7766,13 @@
       "block.create_pyrotechnics.missile_controll_panel": "Missile Controll Panel",
       "item.create_pyrotechnics.handheld_toxifier_lab": "Handheld Toxifier Lab",
       "block.create_pyrotechnics.silo_block": "Silo Block",
+      "gamerule.evaporateWater.description": "if true nukes evaporate water",
       "gui.create_pyrotechnics.computernavigator.button_down_y_axis": "down y axis",
       "block.create_pyrotechnics.placeholder": "Placeholder - use to test kaczorro\u0027s nukes",
       "gui.create_pyrotechnics.valueenteringgui.valueentering": "value here (0)",
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "gui.create_pyrotechnics.launch_3.button_dx_01": "dx + 0.1",
+      "gamerule.villageDestroyerNukes": "Village destroyer nukes",
       "block.create_pyrotechnics.trinitytest": "Trinitytest",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
       "gui.create_pyrotechnics.radar_test.button_dy_011": "dy - 0.1",
@@ -7247,6 +7780,7 @@
       "gui.create_pyrotechnics.radar_test.button_check_cords": "check cords",
       "item.create_pyrotechnics.core": "fission core",
       "item.create_pyrotechnics.tester": "Tester",
+      "gamerule.evaporateWater": "nukes evaporate water",
       "item.create_pyrotechnics.bomb_bench_block": "Bomb Bench",
       "gui.create_pyrotechnics.radar_test.button_launch": "locate",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
@@ -7295,6 +7829,7 @@
       "item.create_pyrotechnics.debugstick": "Debugstick",
       "gui.create_pyrotechnics.computernavigator.button_error_infinite_dataloop_detecte": "error! infinite dataloop detected!, fix crash loop",
       "block.create_pyrotechnics.missile_body_placeholder": "Missile Body Placeholder",
+      "gamerule.saltedNukesBadlands.description": "if false nukes won\u0027t set the biome to badlands(works only if salted nukes is true, make sure to note that this can make nukes laggier and slower)",
       "item.create_pyrotechnics.radar_tester": "Tester",
       "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
       "entity.create_pyrotechnics.cockroach": "Cockroach",
@@ -7442,6 +7977,10 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "C1",
+                "children": []
               }
             ]
           },
