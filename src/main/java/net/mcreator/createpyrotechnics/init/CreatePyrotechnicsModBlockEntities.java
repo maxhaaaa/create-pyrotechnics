@@ -22,6 +22,7 @@ import net.mcreator.createpyrotechnics.block.entity.MissileControllPanelBlockEnt
 import net.mcreator.createpyrotechnics.block.entity.MissileBodyStage3BlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileBodyPlaceholderBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.MissileBodyBlockEntity;
+import net.mcreator.createpyrotechnics.block.entity.MIRVTest1BlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.ICBMGuidanceSystemBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.FuelTankBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.ExplosivesphereworkbenchBlockEntity;
@@ -47,6 +48,7 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<NuclearCoreTileEntity>> NUCLEAR_CORE = REGISTRY.register("nuclear_core", () -> BlockEntityType.Builder.of(NuclearCoreTileEntity::new, CreatePyrotechnicsModBlocks.NUCLEAR_CORE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_BODY_PLACEHOLDER = register("missile_body_placeholder", CreatePyrotechnicsModBlocks.MISSILE_BODY_PLACEHOLDER, MissileBodyPlaceholderBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ICBM_GUIDANCE_SYSTEM = register("icbm_guidance_system", CreatePyrotechnicsModBlocks.ICBM_GUIDANCE_SYSTEM, ICBMGuidanceSystemBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MIRV_TEST_1 = register("mirv_test_1", CreatePyrotechnicsModBlocks.MIRV_TEST_1, MIRVTest1BlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

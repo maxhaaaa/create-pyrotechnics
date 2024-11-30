@@ -7662,11 +7662,457 @@
         "files": []
       },
       "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "SaltedLandAlternative",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salted_land_alternative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SaltedLandAlternativeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "Fallout",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FalloutProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "MakeFallout",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_fallout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MakeFalloutProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "RadioactiveFallout",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_fallout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/command/RadioactiveFalloutCommand.java"
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "FalloutWorldEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallout_world_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FalloutWorldEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "ClearFallout",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_fallout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ClearFalloutProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "FalloutClear",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallout_clear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/command/FalloutClearCommand.java"
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "DisplayFallout",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_fallout",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/DisplayFalloutProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "FalloutState",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallout_state",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/screens/FalloutStateOverlay.java"
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "FalloutAlert",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallout_alert",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/screens/FalloutAlertOverlay.java"
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "FalloutWarning",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallout_warning",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FalloutWarningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/fallout"
+    },
+    {
+      "name": "MIRVTest",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirv_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/MIRVTestEntity.java"
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "MIRVTest1OnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirv_test_1_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MIRVTest1OnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "MIRVTest1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirv_test_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/blockstates/mirv_test_1.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/mirv_test_1.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/mirv_test_1.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/MIRVTest1Block.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/mirv_test_1.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/MIRVTest1BlockEntity.java"
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "MIRVTestWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirv_test_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MIRVTestWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "MIRVTester",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirv_tester",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/item/MIRVTesterItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/mirv_tester.json"
+        ]
+      },
+      "path": "~/kaczorros shit/ICBMs"
+    },
+    {
+      "name": "DynamiteTest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dynamite_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/DynamiteTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "DynamiteStemTest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dynamite_stem_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/DynamiteStemTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "TestDynamite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dynamite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestDynamiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "DynamiteTestBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dynamite_test_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/dynamite_test_block.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/DynamiteTestBlockBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/dynamite_test_block.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/dynamite_test_block.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/dynamite_test_block.json"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
     }
   ],
   "variable_elements": [
     {
       "name": "activate",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "fallout",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "alarm",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "alarm_timer",
       "type": "number",
       "scope": "map",
       "value": "0"
@@ -7685,6 +8131,14 @@
       "name": "nuke",
       "files": [
         "hitthenboom"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nuclear_alarm",
+      "files": [
+        "nuclear-alarm-104598"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -7712,21 +8166,22 @@
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
       "gamerule.treeCharcoal": "nukes turn trees into charcoal",
-      "item.create_pyrotechnics.datawiretester": "Datawiretester",
       "gamerule.saltedNukes": "salted nukes",
+      "item.create_pyrotechnics.datawiretester": "Datawiretester",
       "block.create_pyrotechnics.radar": "Radar",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
-      "attribute.create_pyrotechnics.blinded": "Blinded",
-      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
       "gamerule.villageDestroyerNukes.description": "targets blocks specificly found in villages(may make nukes laggier and slower)",
+      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
+      "attribute.create_pyrotechnics.blinded": "Blinded",
+      "gui.create_pyrotechnics.fallout_state.label_fallout": "FALLOUT!",
       "gui.create_pyrotechnics.launch.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
       "gui.create_pyrotechnics.toxifier_lab.button_add_water": "+ water",
       "entity.create_pyrotechnics.designator": "DESIGNATOR",
       "gui.create_pyrotechnics.launch_3.button_check_cords": "check cords",
-      "gui.create_pyrotechnics.launch.button_dx_011": "dx - 0.1",
       "gui.create_pyrotechnics.launch_2.button_check_cords": "check cords",
+      "gui.create_pyrotechnics.launch.button_dx_011": "dx - 0.1",
       "block.create_pyrotechnics.datawirestopper": "Datawiresswitcher",
       "item.create_pyrotechnics.nuclear_ink": "Nuclear Ink",
       "block.create_pyrotechnics.missile_body": "Missile Body",
@@ -7734,6 +8189,7 @@
       "gui.create_pyrotechnics.launch_2.button_dz_01": "dz + 0.1",
       "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
       "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
+      "subtitles.nuclear_alarm": "",
       "item.create_pyrotechnics.handheld_pump": "Handheld Pump",
       "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
@@ -7744,6 +8200,7 @@
       "block.create_pyrotechnics.bomb_bench_p_1": "Bomb Bench P 1",
       "block.create_pyrotechnics.bomb_bench_p_2": "Bomb Bench P 2",
       "death.attack.squished": "%1$s was squished to death",
+      "block.create_pyrotechnics.mirv_test_1": "MIRV Test 1",
       "gamerule.saltedNukes.description": "If enabled nukes will remove grass and leaves from nearby blocks and set the biome to badlands(note that it may make the explosions laggier and slower)",
       "gamerule.saltedNukesBadlands": "salted nukes badlands",
       "block.create_pyrotechnics.strategic_nuke_placeholder_2": "Strategic Nuke Placeholder - kaczorro\u0027s startegic nukr testing block B",
@@ -7764,11 +8221,13 @@
       "block.create_pyrotechnics.fuel_tank": "Fuel Tank",
       "gui.create_pyrotechnics.warheadcraftinggui.tooltip_warning_if_warhead_sphere_is_not": "WARNING IF WARHEAD SPHERE IS NOT SEALED, AND STATION IS BROKEN, THERE WILL RESULT IN PARTIAL DETONATION OF YOUR WARHEAD",
       "block.create_pyrotechnics.missile_controll_panel": "Missile Controll Panel",
+      "gui.create_pyrotechnics.fallout_alert.label_fallout": "FALLOUT INCOMING!",
       "item.create_pyrotechnics.handheld_toxifier_lab": "Handheld Toxifier Lab",
       "block.create_pyrotechnics.silo_block": "Silo Block",
       "gamerule.evaporateWater.description": "if true nukes evaporate water",
       "gui.create_pyrotechnics.computernavigator.button_down_y_axis": "down y axis",
       "block.create_pyrotechnics.placeholder": "Placeholder - use to test kaczorro\u0027s nukes",
+      "gui.create_pyrotechnics.fallout_alert.label_do_not_stand_in_the_rain": "stay in doors!",
       "gui.create_pyrotechnics.valueenteringgui.valueentering": "value here (0)",
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "gui.create_pyrotechnics.launch_3.button_dx_01": "dx + 0.1",
@@ -7796,6 +8255,7 @@
       "gui.create_pyrotechnics.pumping.button_empty": "+",
       "item.create_pyrotechnics.ballisticsbuildingtool": "Ballisticsbuildingtool",
       "gui.create_pyrotechnics.pumping.label_psi": "PSI:",
+      "block.create_pyrotechnics.dynamite_test_block": "Dynamite Test Block",
       "block.create_pyrotechnics.nuclear_core": "Nuclear Core",
       "gui.create_pyrotechnics.pumping.label_vent": "vent:",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
@@ -7818,6 +8278,7 @@
       "gui.create_pyrotechnics.launch_3.button_launch": "launch",
       "block.create_pyrotechnics.missile_body_stage_3": "Missile Body Stage 3",
       "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
+      "item.create_pyrotechnics.mirv_tester": "MIRV Tester",
       "gui.create_pyrotechnics.launch.button_launch": "launch",
       "gui.create_pyrotechnics.launch_2.button_dx_011": "dx - 0.1",
       "gui.create_pyrotechnics.launch_3.button_dy_01": "dy + 0.1",
@@ -8012,6 +8473,10 @@
           },
           {
             "name": "recepies",
+            "children": []
+          },
+          {
+            "name": "fallout",
             "children": []
           }
         ]

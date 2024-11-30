@@ -27,9 +27,11 @@ import net.mcreator.createpyrotechnics.block.MissileControllPanelBlock;
 import net.mcreator.createpyrotechnics.block.MissileBodyStage3Block;
 import net.mcreator.createpyrotechnics.block.MissileBodyPlaceholderBlock;
 import net.mcreator.createpyrotechnics.block.MissileBodyBlock;
+import net.mcreator.createpyrotechnics.block.MIRVTest1Block;
 import net.mcreator.createpyrotechnics.block.ICBMGuidanceSystemBlock;
 import net.mcreator.createpyrotechnics.block.FuelTankBlock;
 import net.mcreator.createpyrotechnics.block.ExplosivesphereworkbenchBlock;
+import net.mcreator.createpyrotechnics.block.DynamiteTestBlockBlock;
 import net.mcreator.createpyrotechnics.block.DesignatorblockBlock;
 import net.mcreator.createpyrotechnics.block.DatawirestopperBlock;
 import net.mcreator.createpyrotechnics.block.DatawireblockBlock;
@@ -66,6 +68,8 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> NUCLEAR_CORE = REGISTRY.register("nuclear_core", () -> new NuclearCoreBlock());
 	public static final RegistryObject<Block> MISSILE_BODY_PLACEHOLDER = REGISTRY.register("missile_body_placeholder", () -> new MissileBodyPlaceholderBlock());
 	public static final RegistryObject<Block> ICBM_GUIDANCE_SYSTEM = REGISTRY.register("icbm_guidance_system", () -> new ICBMGuidanceSystemBlock());
+	public static final RegistryObject<Block> MIRV_TEST_1 = REGISTRY.register("mirv_test_1", () -> new MIRVTest1Block());
+	public static final RegistryObject<Block> DYNAMITE_TEST_BLOCK = REGISTRY.register("dynamite_test_block", () -> new DynamiteTestBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

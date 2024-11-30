@@ -17,6 +17,7 @@ import net.mcreator.createpyrotechnics.item.TesterItem;
 import net.mcreator.createpyrotechnics.item.RadarTesterItem;
 import net.mcreator.createpyrotechnics.item.PinassignerItem;
 import net.mcreator.createpyrotechnics.item.NuclearInkItem;
+import net.mcreator.createpyrotechnics.item.MIRVTesterItem;
 import net.mcreator.createpyrotechnics.item.LazerdesignatorItem;
 import net.mcreator.createpyrotechnics.item.IgiveuaidsItem;
 import net.mcreator.createpyrotechnics.item.HandheldToxifierLabItem;
@@ -82,6 +83,9 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> CORE = REGISTRY.register("core", () -> new CoreItem());
 	public static final RegistryObject<Item> MISSILE_BODY_PLACEHOLDER = block(CreatePyrotechnicsModBlocks.MISSILE_BODY_PLACEHOLDER);
 	public static final RegistryObject<Item> ICBM_GUIDANCE_SYSTEM = block(CreatePyrotechnicsModBlocks.ICBM_GUIDANCE_SYSTEM);
+	public static final RegistryObject<Item> MIRV_TEST_1 = block(CreatePyrotechnicsModBlocks.MIRV_TEST_1);
+	public static final RegistryObject<Item> MIRV_TESTER = REGISTRY.register("mirv_tester", () -> new MIRVTesterItem());
+	public static final RegistryObject<Item> DYNAMITE_TEST_BLOCK = block(CreatePyrotechnicsModBlocks.DYNAMITE_TEST_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

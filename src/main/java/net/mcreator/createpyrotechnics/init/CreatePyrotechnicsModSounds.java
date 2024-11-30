@@ -17,4 +17,5 @@ public class CreatePyrotechnicsModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, CreatePyrotechnicsMod.MODID);
 	public static final RegistryObject<SoundEvent> EXPLOSION = REGISTRY.register("explosion", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("create_pyrotechnics", "explosion")));
 	public static final RegistryObject<SoundEvent> NUKE = REGISTRY.register("nuke", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("create_pyrotechnics", "nuke")));
+	public static final RegistryObject<SoundEvent> NUCLEAR_ALARM = REGISTRY.register("nuclear_alarm", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("create_pyrotechnics", "nuclear_alarm")));
 }

@@ -88,6 +88,9 @@ public class CreatePyrotechnicsModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "create_pyrotechnics_mapvars";
 		public double activate = 0;
+		public double fallout = 0;
+		public boolean alarm = false;
+		public double alarm_timer = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -97,11 +100,17 @@ public class CreatePyrotechnicsModVariables {
 
 		public void read(CompoundTag nbt) {
 			activate = nbt.getDouble("activate");
+			fallout = nbt.getDouble("fallout");
+			alarm = nbt.getBoolean("alarm");
+			alarm_timer = nbt.getDouble("alarm_timer");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putDouble("activate", activate);
+			nbt.putDouble("fallout", fallout);
+			nbt.putBoolean("alarm", alarm);
+			nbt.putDouble("alarm_timer", alarm_timer);
 			return nbt;
 		}
 
