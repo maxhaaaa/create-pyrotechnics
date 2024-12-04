@@ -1,0 +1,178 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 256,
+    "height": 176,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dx_01",
+          "text": "dx + 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DxAdd"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_launch",
+          "text": "launch",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ICBMLaunchProcedure"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 249,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dx_011",
+          "text": "dx - 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DxRemove"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 159,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dy_01",
+          "text": "dy + 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DyAdd"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dy_011",
+          "text": "dy - 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DzRemove"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 159,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dz_01",
+          "text": "dz + 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DzAdd"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 96,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dz_011",
+          "text": "dz - 0.1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DzRemove"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_check_cords",
+          "text": "check cords",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CheckCords"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 249,
+          "y": 35
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:BigRedButton"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "BindButton"
+          },
+          "x": 312,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_link_code",
+          "text": "link code",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GetLink"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 249,
+          "y": 89
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

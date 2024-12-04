@@ -1,6 +1,8 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.createpyrotechnics.entity.CockroachEntity;
 
 public class IsCockroachSpookedProcedure {
 	public static boolean execute(Entity entity) {

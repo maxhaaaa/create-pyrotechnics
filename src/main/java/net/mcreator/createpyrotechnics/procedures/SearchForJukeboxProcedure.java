@@ -1,6 +1,8 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.core.BlockPos;
 
 public class SearchForJukeboxProcedure {
 	public static boolean execute(LevelAccessor world) {

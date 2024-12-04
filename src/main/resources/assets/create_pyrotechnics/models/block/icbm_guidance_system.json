@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/basalt_top",
+    "up": "minecraft:block/basalt_top",
+    "north": "create_pyrotechnics:block/missile_guidance_system",
+    "east": "create_pyrotechnics:block/missile_guidance_system_side",
+    "south": "create_pyrotechnics:block/missile_buidance_system_bat",
+    "west": "create_pyrotechnics:block/missile_guidance_system_side",
+    "particle": "minecraft:block/basalt_top"
+  },
+  "render_type": "solid"
+}

@@ -1,26 +1,58 @@
 
 package net.mcreator.createpyrotechnics.entity;
 
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.nbt.Tag;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.network.syncher.EntityDataAccessor;
-import net.minecraft.network.syncher.EntityDataSerializers;
-import net.minecraft.network.syncher.SynchedEntityData;
-
-import javax.annotation.Nullable;
-
-import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.util.GeckoLibUtil;
+import software.bernie.geckolib.core.object.PlayState;
+import software.bernie.geckolib.core.animation.RawAnimation;
 import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.animatable.GeoEntity;
+
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.PanicGoal;
+import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.Pose;
+import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
+import net.minecraft.network.protocol.Packet;
+import net.minecraft.nbt.CompoundTag;
+
+import net.mcreator.createpyrotechnics.procedures.IsEntityNearCockroachProcedure;
+import net.mcreator.createpyrotechnics.procedures.CockroachTargetedEntityProcedure;
+import net.mcreator.createpyrotechnics.procedures.CockroachPlayerCollidesWithThisEntityProcedure;
+import net.mcreator.createpyrotechnics.procedures.CockroachOnEntityTickUpdateProcedure;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
 
 public class CockroachEntity extends Monster implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(CockroachEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(CockroachEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(CockroachEntity.class, EntityDataSerializers.STRING);
-
 	public static final EntityDataAccessor<Integer> DATA_spooked = SynchedEntityData.defineId(CockroachEntity.class, EntityDataSerializers.INT);
-
 	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 	private boolean swinging;
 	private boolean lastloop;
@@ -36,9 +68,7 @@ public class CockroachEntity extends Monster implements GeoEntity {
 		xpReward = 6;
 		setNoAi(false);
 		setMaxUpStep(0.6f);
-
 		setPersistenceRequired();
-
 	}
 
 	@Override
@@ -66,7 +96,6 @@ public class CockroachEntity extends Monster implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-
 		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1.4) {
 			@Override
 			public boolean canContinueToUse() {
@@ -86,11 +115,7 @@ public class CockroachEntity extends Monster implements GeoEntity {
 				double z = CockroachEntity.this.getZ();
 				Entity entity = CockroachEntity.this;
 				Level world = CockroachEntity.this.level();
-				return super.canUse() &&
-
-						IsEntityNearCockroachProcedure.execute()
-
-				;
+				return super.canUse() && IsEntityNearCockroachProcedure.execute(world, x, y, z);
 			}
 
 			@Override
@@ -100,11 +125,7 @@ public class CockroachEntity extends Monster implements GeoEntity {
 				double z = CockroachEntity.this.getZ();
 				Entity entity = CockroachEntity.this;
 				Level world = CockroachEntity.this.level();
-				return super.canContinueToUse() &&
-
-						IsEntityNearCockroachProcedure.execute()
-
-				;
+				return super.canContinueToUse() && IsEntityNearCockroachProcedure.execute(world, x, y, z);
 			}
 		});
 		this.goalSelector.addGoal(3, new LeapAtTargetGoal(this, (float) 0.5) {
@@ -115,17 +136,12 @@ public class CockroachEntity extends Monster implements GeoEntity {
 				double z = CockroachEntity.this.getZ();
 				Entity entity = CockroachEntity.this;
 				Level world = CockroachEntity.this.level();
-				return super.canUse() &&
-
-						CockroachTargetedEntityProcedure.execute()
-
-				;
+				return super.canUse() && CockroachTargetedEntityProcedure.execute(world, x, y, z, entity);
 			}
 		});
 		this.goalSelector.addGoal(4, new PanicGoal(this, 1.2));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new FloatGoal(this));
-
 	}
 
 	@Override
@@ -192,7 +208,7 @@ public class CockroachEntity extends Monster implements GeoEntity {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		CockroachOnEntityTickUpdateProcedure.execute();
+		CockroachOnEntityTickUpdateProcedure.execute(this.level(), this);
 		this.refreshDimensions();
 	}
 
@@ -208,7 +224,6 @@ public class CockroachEntity extends Monster implements GeoEntity {
 	}
 
 	public static void init() {
-
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -218,7 +233,6 @@ public class CockroachEntity extends Monster implements GeoEntity {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-
 		return builder;
 	}
 
@@ -259,7 +273,6 @@ public class CockroachEntity extends Monster implements GeoEntity {
 		if (this.deathTime == 20) {
 			this.remove(CockroachEntity.RemovalReason.KILLED);
 			this.dropExperience();
-
 		}
 	}
 
@@ -281,5 +294,4 @@ public class CockroachEntity extends Monster implements GeoEntity {
 	public AnimatableInstanceCache getAnimatableInstanceCache() {
 		return this.cache;
 	}
-
 }

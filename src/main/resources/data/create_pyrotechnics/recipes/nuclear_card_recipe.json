@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "create_pyrotechnics:nuclear_ink"
+    }
+  ],
+  "result": {
+    "item": "create_pyrotechnics:blank_nuclear_card",
+    "count": 2
+  }
+}

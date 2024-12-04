@@ -1,6 +1,10 @@
 package net.mcreator.createpyrotechnics.entity.model;
 
-import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib.model.GeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.createpyrotechnics.entity.CockroachEntity;
 
 public class CockroachModel extends GeoModel<CockroachEntity> {
 	@Override
