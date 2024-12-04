@@ -18,8 +18,12 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
 import net.mcreator.createpyrotechnics.entity.SuperAidsEntity;
+import net.mcreator.createpyrotechnics.entity.StrategicWarheadEntity;
+import net.mcreator.createpyrotechnics.entity.RadarLaserEntity;
+import net.mcreator.createpyrotechnics.entity.RadarLaser2Entity;
 import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
 import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
+import net.mcreator.createpyrotechnics.entity.MIRVTestEntity;
 import net.mcreator.createpyrotechnics.entity.ICBMPlaceHolder1Entity;
 import net.mcreator.createpyrotechnics.entity.DESIGNATOREntity;
 import net.mcreator.createpyrotechnics.entity.CockroachEntity;
@@ -52,6 +56,14 @@ public class CreatePyrotechnicsModEntities {
 			EntityType.Builder.<CockroachEntity>of(CockroachEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CockroachEntity::new)
 
 					.sized(0.2f, 0.1f));
+	public static final RegistryObject<EntityType<RadarLaserEntity>> RADAR_LASER = register("radar_laser",
+			EntityType.Builder.<RadarLaserEntity>of(RadarLaserEntity::new, MobCategory.MISC).setCustomClientFactory(RadarLaserEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RadarLaser2Entity>> RADAR_LASER_2 = register("radar_laser_2",
+			EntityType.Builder.<RadarLaser2Entity>of(RadarLaser2Entity::new, MobCategory.MISC).setCustomClientFactory(RadarLaser2Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<StrategicWarheadEntity>> STRATEGIC_WARHEAD = register("strategic_warhead", EntityType.Builder.<StrategicWarheadEntity>of(StrategicWarheadEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(StrategicWarheadEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<MIRVTestEntity>> MIRV_TEST = register("mirv_test",
+			EntityType.Builder.<MIRVTestEntity>of(MIRVTestEntity::new, MobCategory.MISC).setCustomClientFactory(MIRVTestEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

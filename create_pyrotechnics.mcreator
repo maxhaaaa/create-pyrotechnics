@@ -4123,11 +4123,11 @@
       "registry_name": "bomb_bench_p_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_2.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_2.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP2Block.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_2.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_2.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_2.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP2Block.java"
+          "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_2.json"
         ]
       },
       "path": "~/DeadGamers Shiz"
@@ -4418,11 +4418,11 @@
       "registry_name": "bomb_bench_p_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP1Block.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_1.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_1.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP1Block.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_1.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_1.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json"
         ]
       },
       "path": "~/DeadGamers Shiz"
@@ -8166,14 +8166,14 @@
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
       "gamerule.treeCharcoal": "nukes turn trees into charcoal",
-      "item.create_pyrotechnics.datawiretester": "Datawiretester",
       "gamerule.saltedNukes": "salted nukes",
+      "item.create_pyrotechnics.datawiretester": "Datawiretester",
       "block.create_pyrotechnics.radar": "Radar",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
-      "gui.create_pyrotechnics.fallout_state.label_fallout": "FALLOUT!",
-      "attribute.create_pyrotechnics.blinded": "Blinded",
-      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
       "gamerule.villageDestroyerNukes.description": "targets blocks specificly found in villages(may make nukes laggier and slower)",
+      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
+      "attribute.create_pyrotechnics.blinded": "Blinded",
+      "gui.create_pyrotechnics.fallout_state.label_fallout": "FALLOUT!",
       "gui.create_pyrotechnics.launch.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",

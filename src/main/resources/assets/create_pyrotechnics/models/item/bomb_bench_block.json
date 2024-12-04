@@ -1,7 +1,7 @@
 {
   "parent": "create_pyrotechnics:custom/bombbench_item",
   "textures": {
-    "1": "create_pyrotechnics:block/bombbench_item",
+    "2": "create_pyrotechnics:block/bombbench_item",
     "particle": "create_pyrotechnics:item/bombbench_item"
   }
 }

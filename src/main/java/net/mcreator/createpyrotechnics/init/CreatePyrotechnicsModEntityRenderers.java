@@ -27,5 +27,9 @@ public class CreatePyrotechnicsModEntityRenderers {
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.SUPER_AIDS.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.ICBM_PLACE_HOLDER_1.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.COCKROACH.get(), CockroachRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.RADAR_LASER.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.RADAR_LASER_2.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.STRATEGIC_WARHEAD.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.MIRV_TEST.get(), ThrownItemRenderer::new);
 	}
 }

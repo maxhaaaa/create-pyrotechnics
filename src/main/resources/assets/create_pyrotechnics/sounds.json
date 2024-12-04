@@ -14,5 +14,13 @@
         "stream": false
       }
     ]
+  },
+  "nuclear_alarm": {
+    "sounds": [
+      {
+        "name": "create_pyrotechnics:nuclear-alarm-104598",
+        "stream": false
+      }
+    ]
   }
 }
