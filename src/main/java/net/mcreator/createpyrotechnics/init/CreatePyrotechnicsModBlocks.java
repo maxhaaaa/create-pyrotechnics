@@ -36,6 +36,8 @@ import net.mcreator.createpyrotechnics.block.DesignatorblockBlock;
 import net.mcreator.createpyrotechnics.block.DatawirestopperBlock;
 import net.mcreator.createpyrotechnics.block.DatawireblockBlock;
 import net.mcreator.createpyrotechnics.block.ComputerblockBlock;
+import net.mcreator.createpyrotechnics.block.CautionSignUpperBlock;
+import net.mcreator.createpyrotechnics.block.CautionSignBottomBlock;
 import net.mcreator.createpyrotechnics.block.BombBenchP2Block;
 import net.mcreator.createpyrotechnics.block.BombBenchP1Block;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
@@ -70,6 +72,8 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> ICBM_GUIDANCE_SYSTEM = REGISTRY.register("icbm_guidance_system", () -> new ICBMGuidanceSystemBlock());
 	public static final RegistryObject<Block> MIRV_TEST_1 = REGISTRY.register("mirv_test_1", () -> new MIRVTest1Block());
 	public static final RegistryObject<Block> DYNAMITE_TEST_BLOCK = REGISTRY.register("dynamite_test_block", () -> new DynamiteTestBlockBlock());
+	public static final RegistryObject<Block> CAUTION_SIGN_BOTTOM = REGISTRY.register("caution_sign_bottom", () -> new CautionSignBottomBlock());
+	public static final RegistryObject<Block> CAUTION_SIGN_UPPER = REGISTRY.register("caution_sign_upper", () -> new CautionSignUpperBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "create_pyrotechnics:block/caution_sign_upper"
+    },
+    "facing=east": {
+      "model": "create_pyrotechnics:block/caution_sign_upper",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "create_pyrotechnics:block/caution_sign_upper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_pyrotechnics:block/caution_sign_upper",
+      "y": 270
+    }
+  }
+}

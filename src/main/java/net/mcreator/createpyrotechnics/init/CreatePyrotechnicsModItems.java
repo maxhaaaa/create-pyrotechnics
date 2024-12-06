@@ -86,6 +86,8 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> MIRV_TEST_1 = block(CreatePyrotechnicsModBlocks.MIRV_TEST_1);
 	public static final RegistryObject<Item> MIRV_TESTER = REGISTRY.register("mirv_tester", () -> new MIRVTesterItem());
 	public static final RegistryObject<Item> DYNAMITE_TEST_BLOCK = block(CreatePyrotechnicsModBlocks.DYNAMITE_TEST_BLOCK);
+	public static final RegistryObject<Item> CAUTION_SIGN_BOTTOM = block(CreatePyrotechnicsModBlocks.CAUTION_SIGN_BOTTOM);
+	public static final RegistryObject<Item> CAUTION_SIGN_UPPER = block(CreatePyrotechnicsModBlocks.CAUTION_SIGN_UPPER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

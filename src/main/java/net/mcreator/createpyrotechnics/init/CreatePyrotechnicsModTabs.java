@@ -58,6 +58,8 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.ICBM_GUIDANCE_SYSTEM.get().asItem());
 				tabData.accept(CreatePyrotechnicsModItems.MIRV_TESTER.get());
 				tabData.accept(CreatePyrotechnicsModBlocks.DYNAMITE_TEST_BLOCK.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.CAUTION_SIGN_BOTTOM.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.CAUTION_SIGN_UPPER.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

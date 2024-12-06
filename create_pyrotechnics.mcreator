@@ -8090,6 +8090,133 @@
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "CautionSignBottom",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caution_sign_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/caution_sign_bottom.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/CautionSignBottomBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/caution_sign_bottom.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/caution_sign_bottom.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/caution_sign_bottom.json"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "CautionSignUpper",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caution_sign_upper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/block/caution_sign_upper.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/caution_sign_upper.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/CautionSignUpperBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/caution_sign_upper.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/caution_sign_upper.json"
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "CautionSignBottomBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caution_sign_bottom_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CautionSignBottomBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "CautionSignBottomBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caution_sign_bottom_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CautionSignBottomBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "CautionSignUpperBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caution_sign_upper_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CautionSignUpperBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeadGamers Shiz"
     }
   ],
   "variable_elements": [
@@ -8149,6 +8276,8 @@
       "~CUSTOM:NuclearCore"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CautionSignUpper",
+      "~CUSTOM:CautionSignBottom",
       "~CUSTOM:NuclearCore"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -8162,18 +8291,19 @@
       "item.create_pyrotechnics.big_red_button": "Big Red Button",
       "gui.create_pyrotechnics.pumping.label_placeholder1": "placeholder",
       "gui.create_pyrotechnics.radar_test.button_dx_01": "dx + 0.1",
+      "block.create_pyrotechnics.caution_sign_bottom": "Caution Sign stand",
       "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
       "gamerule.treeCharcoal": "nukes turn trees into charcoal",
-      "gamerule.saltedNukes": "salted nukes",
       "item.create_pyrotechnics.datawiretester": "Datawiretester",
+      "gamerule.saltedNukes": "salted nukes",
       "block.create_pyrotechnics.radar": "Radar",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
-      "gamerule.villageDestroyerNukes.description": "targets blocks specificly found in villages(may make nukes laggier and slower)",
-      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
-      "attribute.create_pyrotechnics.blinded": "Blinded",
       "gui.create_pyrotechnics.fallout_state.label_fallout": "FALLOUT!",
+      "attribute.create_pyrotechnics.blinded": "Blinded",
+      "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
+      "gamerule.villageDestroyerNukes.description": "targets blocks specificly found in villages(may make nukes laggier and slower)",
       "gui.create_pyrotechnics.launch.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
@@ -8235,6 +8365,7 @@
       "block.create_pyrotechnics.trinitytest": "Trinitytest",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
       "gui.create_pyrotechnics.radar_test.button_dy_011": "dy - 0.1",
+      "block.create_pyrotechnics.caution_sign_upper": "Caution Sign Upper",
       "gui.create_pyrotechnics.bomb_bench.label_bombbench": "BombBench",
       "gui.create_pyrotechnics.radar_test.button_check_cords": "check cords",
       "item.create_pyrotechnics.core": "fission core",
