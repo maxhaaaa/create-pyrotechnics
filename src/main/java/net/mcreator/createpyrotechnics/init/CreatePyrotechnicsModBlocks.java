@@ -43,6 +43,8 @@ import net.mcreator.createpyrotechnics.block.DesignatorblockBlock;
 import net.mcreator.createpyrotechnics.block.DatawirestopperBlock;
 import net.mcreator.createpyrotechnics.block.DatawireblockBlock;
 import net.mcreator.createpyrotechnics.block.ComputerblockBlock;
+import net.mcreator.createpyrotechnics.block.CautionSignUpperBlock;
+import net.mcreator.createpyrotechnics.block.CautionSignBottomBlock;
 import net.mcreator.createpyrotechnics.block.BombBenchP2Block;
 import net.mcreator.createpyrotechnics.block.BombBenchP1Block;
 import net.mcreator.createpyrotechnics.block.BodyCTestBlock;
@@ -78,14 +80,16 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> ICBM_GUIDANCE_SYSTEM = REGISTRY.register("icbm_guidance_system", () -> new ICBMGuidanceSystemBlock());
 	public static final RegistryObject<Block> MIRV_TEST_1 = REGISTRY.register("mirv_test_1", () -> new MIRVTest1Block());
 	public static final RegistryObject<Block> DYNAMITE_TEST_BLOCK = REGISTRY.register("dynamite_test_block", () -> new DynamiteTestBlockBlock());
-	public static final RegistryObject<Block> TEST_CUSTOM_MISSILE = REGISTRY.register("test_custom_missile", () -> new TestCustomMissileBlock());
-	public static final RegistryObject<Block> LAUNCH_PAD = REGISTRY.register("launch_pad", () -> new LaunchPadBlock());
-	public static final RegistryObject<Block> ENGINE_C_TEST = REGISTRY.register("engine_c_test", () -> new EngineCTestBlock());
-	public static final RegistryObject<Block> THRUSTER_C_TEST = REGISTRY.register("thruster_c_test", () -> new ThrusterCTestBlock());
-	public static final RegistryObject<Block> LINKER_C_TEST = REGISTRY.register("linker_c_test", () -> new LinkerCTestBlock());
-	public static final RegistryObject<Block> BODY_C_TEST = REGISTRY.register("body_c_test", () -> new BodyCTestBlock());
 	public static final RegistryObject<Block> ENRICHMENT = REGISTRY.register("enrichment", () -> new EnrichmentBlock());
 	public static final RegistryObject<Block> TEST_SALTED_NUKES = REGISTRY.register("test_salted_nukes", () -> new TestSaltedNukesBlock());
+	public static final RegistryObject<Block> ENGINE_C_TEST = REGISTRY.register("engine_c_test", () -> new EngineCTestBlock());
+	public static final RegistryObject<Block> LINKER_C_TEST = REGISTRY.register("linker_c_test", () -> new LinkerCTestBlock());
+	public static final RegistryObject<Block> LAUNCH_PAD = REGISTRY.register("launch_pad", () -> new LaunchPadBlock());
+	public static final RegistryObject<Block> TEST_CUSTOM_MISSILE = REGISTRY.register("test_custom_missile", () -> new TestCustomMissileBlock());
+	public static final RegistryObject<Block> BODY_C_TEST = REGISTRY.register("body_c_test", () -> new BodyCTestBlock());
+	public static final RegistryObject<Block> THRUSTER_C_TEST = REGISTRY.register("thruster_c_test", () -> new ThrusterCTestBlock());
+	public static final RegistryObject<Block> CAUTION_SIGN_BOTTOM = REGISTRY.register("caution_sign_bottom", () -> new CautionSignBottomBlock());
+	public static final RegistryObject<Block> CAUTION_SIGN_UPPER = REGISTRY.register("caution_sign_upper", () -> new CautionSignUpperBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -56,13 +56,13 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_BODY_PLACEHOLDER = register("missile_body_placeholder", CreatePyrotechnicsModBlocks.MISSILE_BODY_PLACEHOLDER, MissileBodyPlaceholderBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ICBM_GUIDANCE_SYSTEM = register("icbm_guidance_system", CreatePyrotechnicsModBlocks.ICBM_GUIDANCE_SYSTEM, ICBMGuidanceSystemBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MIRV_TEST_1 = register("mirv_test_1", CreatePyrotechnicsModBlocks.MIRV_TEST_1, MIRVTest1BlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> TEST_CUSTOM_MISSILE = register("test_custom_missile", CreatePyrotechnicsModBlocks.TEST_CUSTOM_MISSILE, TestCustomMissileBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> LAUNCH_PAD = register("launch_pad", CreatePyrotechnicsModBlocks.LAUNCH_PAD, LaunchPadBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> ENGINE_C_TEST = register("engine_c_test", CreatePyrotechnicsModBlocks.ENGINE_C_TEST, EngineCTestBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> THRUSTER_C_TEST = register("thruster_c_test", CreatePyrotechnicsModBlocks.THRUSTER_C_TEST, ThrusterCTestBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> LINKER_C_TEST = register("linker_c_test", CreatePyrotechnicsModBlocks.LINKER_C_TEST, LinkerCTestBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> BODY_C_TEST = register("body_c_test", CreatePyrotechnicsModBlocks.BODY_C_TEST, BodyCTestBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ENRICHMENT = register("enrichment", CreatePyrotechnicsModBlocks.ENRICHMENT, EnrichmentBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ENGINE_C_TEST = register("engine_c_test", CreatePyrotechnicsModBlocks.ENGINE_C_TEST, EngineCTestBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> LINKER_C_TEST = register("linker_c_test", CreatePyrotechnicsModBlocks.LINKER_C_TEST, LinkerCTestBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> LAUNCH_PAD = register("launch_pad", CreatePyrotechnicsModBlocks.LAUNCH_PAD, LaunchPadBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> TEST_CUSTOM_MISSILE = register("test_custom_missile", CreatePyrotechnicsModBlocks.TEST_CUSTOM_MISSILE, TestCustomMissileBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BODY_C_TEST = register("body_c_test", CreatePyrotechnicsModBlocks.BODY_C_TEST, BodyCTestBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> THRUSTER_C_TEST = register("thruster_c_test", CreatePyrotechnicsModBlocks.THRUSTER_C_TEST, ThrusterCTestBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

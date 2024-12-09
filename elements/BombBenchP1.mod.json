@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "bombbench_p1_",
+    "texture": "bombbench_p1",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -66,7 +66,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:BombBenchBlock"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -80,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "ANVIL"
     },
     "breakSound": {
       "value": ""

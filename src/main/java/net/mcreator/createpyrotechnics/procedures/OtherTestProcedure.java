@@ -1,20 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
-
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class OtherTestProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -43,6 +29,5 @@ public class OtherTestProcedure {
 		});
 		OtherStemTestProcedure.execute(world, x, y, z);
 		ShockwaveProcedure.execute(world, x, y + 5, z);
-		OtherCapTestProcedure.execute(world, x, y + 5, z);
 	}
 }
