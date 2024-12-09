@@ -27,4 +27,5 @@ public class CreatePyrotechnicsModParticleTypes {
 	public static final RegistryObject<SimpleParticleType> STRATEGIC_FLASH = REGISTRY.register("strategic_flash", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> STRATEGIC_CLOUD = REGISTRY.register("strategic_cloud", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> NUCLEAR_EXPLOSION = REGISTRY.register("nuclear_explosion", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> OTHER_CLOUD_TEST = REGISTRY.register("other_cloud_test", () -> new SimpleParticleType(true));
 }

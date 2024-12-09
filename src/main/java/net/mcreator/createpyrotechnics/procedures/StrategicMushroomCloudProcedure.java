@@ -34,8 +34,8 @@ public class StrategicMushroomCloudProcedure {
 				}
 			}
 		});
-		StrategicNukeStemProcedure.execute(world, x, y, z);
-		StrategicNukeShockwaveProcedure.execute(world, x, y + 5, z);
-		StrategicNukeCapProcedure.execute(world, x, y + 5, z);
+		StrategicNukeStemRandomProcedure.execute(world, x, y, z);
+		StrategicNukeShockwaveRandomProcedure.execute(world, x, y + 5, z);
+		StrategicNukeCapRandomProcedure.execute(world, x, y + 5, z);
 	}
 }

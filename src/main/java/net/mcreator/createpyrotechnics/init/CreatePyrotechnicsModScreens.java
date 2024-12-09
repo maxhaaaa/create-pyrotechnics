@@ -21,6 +21,7 @@ import net.mcreator.createpyrotechnics.client.gui.PumpingScreen;
 import net.mcreator.createpyrotechnics.client.gui.LaunchScreen;
 import net.mcreator.createpyrotechnics.client.gui.Launch3Screen;
 import net.mcreator.createpyrotechnics.client.gui.Launch2Screen;
+import net.mcreator.createpyrotechnics.client.gui.EnrichmentguiScreen;
 import net.mcreator.createpyrotechnics.client.gui.ComputernavigatorScreen;
 import net.mcreator.createpyrotechnics.client.gui.BombBenchScreen;
 import net.mcreator.createpyrotechnics.client.gui.BevsslotsguiScreen;
@@ -45,6 +46,7 @@ public class CreatePyrotechnicsModScreens {
 			MenuScreens.register(CreatePyrotechnicsModMenus.BOMB_BENCH.get(), BombBenchScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.RADAR_TEST.get(), RadarTestScreen::new);
 			MenuScreens.register(CreatePyrotechnicsModMenus.LAUNCH_3.get(), Launch3Screen::new);
+			MenuScreens.register(CreatePyrotechnicsModMenus.ENRICHMENTGUI.get(), EnrichmentguiScreen::new);
 		});
 	}
 }
