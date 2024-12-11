@@ -60,6 +60,15 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.DYNAMITE_TEST_BLOCK.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.CAUTION_SIGN_BOTTOM.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.CAUTION_SIGN_UPPER.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.ENRICHMENT.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.TEST_SALTED_NUKES.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.ENGINE_C_TEST.get().asItem());
+				tabData.accept(CreatePyrotechnicsModItems.FIREBALL_TEST_SPAWN_EGG.get());
+				tabData.accept(CreatePyrotechnicsModBlocks.LINKER_C_TEST.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.LAUNCH_PAD.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.TEST_CUSTOM_MISSILE.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.BODY_C_TEST.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.THRUSTER_C_TEST.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -67,6 +76,7 @@ public class CreatePyrotechnicsModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(CreatePyrotechnicsModItems.COCKROACH_SPAWN_EGG.get());
+			tabData.accept(CreatePyrotechnicsModItems.FIREBALL_TEST_SPAWN_EGG.get());
 
 		}
 	}

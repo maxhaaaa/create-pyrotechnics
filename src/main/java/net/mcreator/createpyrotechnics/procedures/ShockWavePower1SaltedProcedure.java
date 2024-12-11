@@ -6,7 +6,7 @@ import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class ShockWavePower1SaltedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		OgMushroomCloudProcedure.execute(world, x, y, z);
+		MushroomCloud2TestProcedure.execute(world, x, y, z);
 		CreatePyrotechnicsMod.queueServerWork(10, () -> {
 			E1ogProcedure.execute(world, x, y, z);
 			E3SRProcedure.execute(world, x, y, z);

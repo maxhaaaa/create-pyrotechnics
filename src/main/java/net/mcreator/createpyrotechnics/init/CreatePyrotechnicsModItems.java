@@ -88,6 +88,15 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> DYNAMITE_TEST_BLOCK = block(CreatePyrotechnicsModBlocks.DYNAMITE_TEST_BLOCK);
 	public static final RegistryObject<Item> CAUTION_SIGN_BOTTOM = block(CreatePyrotechnicsModBlocks.CAUTION_SIGN_BOTTOM);
 	public static final RegistryObject<Item> CAUTION_SIGN_UPPER = block(CreatePyrotechnicsModBlocks.CAUTION_SIGN_UPPER);
+	public static final RegistryObject<Item> ENRICHMENT = block(CreatePyrotechnicsModBlocks.ENRICHMENT);
+	public static final RegistryObject<Item> TEST_SALTED_NUKES = block(CreatePyrotechnicsModBlocks.TEST_SALTED_NUKES);
+	public static final RegistryObject<Item> ENGINE_C_TEST = block(CreatePyrotechnicsModBlocks.ENGINE_C_TEST);
+	public static final RegistryObject<Item> FIREBALL_TEST_SPAWN_EGG = REGISTRY.register("fireball_test_spawn_egg", () -> new ForgeSpawnEggItem(CreatePyrotechnicsModEntities.FIREBALL_TEST, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> LINKER_C_TEST = block(CreatePyrotechnicsModBlocks.LINKER_C_TEST);
+	public static final RegistryObject<Item> LAUNCH_PAD = block(CreatePyrotechnicsModBlocks.LAUNCH_PAD);
+	public static final RegistryObject<Item> TEST_CUSTOM_MISSILE = block(CreatePyrotechnicsModBlocks.TEST_CUSTOM_MISSILE);
+	public static final RegistryObject<Item> BODY_C_TEST = block(CreatePyrotechnicsModBlocks.BODY_C_TEST);
+	public static final RegistryObject<Item> THRUSTER_C_TEST = block(CreatePyrotechnicsModBlocks.THRUSTER_C_TEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items

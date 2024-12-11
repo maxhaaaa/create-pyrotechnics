@@ -25,6 +25,7 @@ import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
 import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
 import net.mcreator.createpyrotechnics.entity.MIRVTestEntity;
 import net.mcreator.createpyrotechnics.entity.ICBMPlaceHolder1Entity;
+import net.mcreator.createpyrotechnics.entity.FireballTestEntity;
 import net.mcreator.createpyrotechnics.entity.DESIGNATOREntity;
 import net.mcreator.createpyrotechnics.entity.CockroachEntity;
 import net.mcreator.createpyrotechnics.entity.AidsEntity;
@@ -64,6 +65,8 @@ public class CreatePyrotechnicsModEntities {
 			.setCustomClientFactory(StrategicWarheadEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<MIRVTestEntity>> MIRV_TEST = register("mirv_test",
 			EntityType.Builder.<MIRVTestEntity>of(MIRVTestEntity::new, MobCategory.MISC).setCustomClientFactory(MIRVTestEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<FireballTestEntity>> FIREBALL_TEST = register("fireball_test", EntityType.Builder.<FireballTestEntity>of(FireballTestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(FireballTestEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -75,6 +78,7 @@ public class CreatePyrotechnicsModEntities {
 			MortarormissleshooterEntity.init();
 			DESIGNATOREntity.init();
 			CockroachEntity.init();
+			FireballTestEntity.init();
 		});
 	}
 
@@ -83,5 +87,6 @@ public class CreatePyrotechnicsModEntities {
 		event.put(MORTARORMISSLESHOOTER.get(), MortarormissleshooterEntity.createAttributes().build());
 		event.put(DESIGNATOR.get(), DESIGNATOREntity.createAttributes().build());
 		event.put(COCKROACH.get(), CockroachEntity.createAttributes().build());
+		event.put(FIREBALL_TEST.get(), FireballTestEntity.createAttributes().build());
 	}
 }

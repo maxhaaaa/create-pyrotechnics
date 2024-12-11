@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "create_pyrotechnics:blocks/launch_pad",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_pyrotechnics:launch_pad"
+        }
+      ]
+    }
+  ]
+}

@@ -123,7 +123,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onDestroyedByExplosion": {
-      "name": "TestDynamite"
+      "name": "OtherTest"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

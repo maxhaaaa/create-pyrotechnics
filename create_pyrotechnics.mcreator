@@ -4130,7 +4130,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_2.json"
         ]
       },
-      "path": "~/DeadGamers Shiz/BombBench"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "BombBenchBlock",
@@ -4144,7 +4144,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_block.json"
         ]
       },
-      "path": "~/DeadGamers Shiz/BombBench"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "CockroachPlayerCollidesWithThisEntity",
@@ -4238,7 +4238,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz/BombBench"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "BombBench",
@@ -4252,7 +4252,7 @@
           "src/main/java/net/mcreator/createpyrotechnics/client/gui/BombBenchScreen.java"
         ]
       },
-      "path": "~/DeadGamers Shiz/BombBench"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "CockroachTargetedEntity",
@@ -4342,7 +4342,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz/BombBench"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "BombBenchBlockRightclickedOnBlock",
@@ -4377,7 +4377,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz/BombBench"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "BombBenchP1BlockAdded",
@@ -4408,7 +4408,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz/BombBench"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "BombBenchP1",
@@ -4425,7 +4425,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json"
         ]
       },
-      "path": "~/DeadGamers Shiz/BombBench"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "IsCockroachSpooked",
@@ -8106,7 +8106,7 @@
           "src/main/resources/assets/create_pyrotechnics/blockstates/caution_sign_bottom.json"
         ]
       },
-      "path": "~/DeadGamers Shiz/CautionSign"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "CautionSignUpper",
@@ -8123,7 +8123,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/item/caution_sign_upper.json"
         ]
       },
-      "path": "~/DeadGamers Shiz/CautionSign"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "CautionSignBottomBlockAdded",
@@ -8154,7 +8154,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz/CautionSign"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "CautionSignBottomBlockDestroyedByPlayer",
@@ -8185,7 +8185,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz/CautionSign"
+      "path": "~/DeadGamers Shiz"
     },
     {
       "name": "CautionSignUpperBlockDestroyedByPlayer",
@@ -8216,7 +8216,1116 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz/CautionSign"
+      "path": "~/DeadGamers Shiz"
+    },
+    {
+      "name": "Enrichment",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/enrichment.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/enrichment.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/EnrichmentBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/enrichment.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/EnrichmentBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/enrichment.json"
+        ]
+      },
+      "path": "~/kaczorros shit/recepies/uranium"
+    },
+    {
+      "name": "MushroomCloud2Test",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_cloud_2_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MushroomCloud2TestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "FillAlternativeBig",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_alternative_big",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FillAlternativeBigProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "StrategicNukeCapRandom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strategic_nuke_cap_random",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/StrategicNukeCapRandomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Backup",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BackupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "LinkerCTestOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "linker_c_test_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/LinkerCTestOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "Shockwave2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockwave_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Shockwave2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "E3SRFATest1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_3_srfa_test_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E3SRFATest1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "FillAlternative",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_alternative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FillAlternativeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "OtherStemTest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "other_stem_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/OtherStemTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "OtherTest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "other_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/OtherTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "ThrusterCTestOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thruster_c_test_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ThrusterCTestOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "EnrichmentOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/EnrichmentOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/recepies/uranium"
+    },
+    {
+      "name": "TestSaltedNukes",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_salted_nukes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/blockstates/test_salted_nukes.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/test_salted_nukes.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/test_salted_nukes.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/test_salted_nukes.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/TestSaltedNukesBlock.java"
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/salted testing"
+    },
+    {
+      "name": "OtherCapTest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "other_cap_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/OtherCapTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Cap3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cap_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Cap3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "LaunchPadOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/LaunchPadOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "Cap2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cap_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Cap2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "TestCustomMissileOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_custom_missile_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestCustomMissileOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "OtherCloudTest",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "other_cloud_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/OtherCloudTestParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/other_cloud_test.json"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "StrategicNukeShockwaveRandom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strategic_nuke_shockwave_random",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/StrategicNukeShockwaveRandomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "EngineCTestOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engine_c_test_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/EngineCTestOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "TestCustomMissle",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_custom_missle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestCustomMissleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "EngineCTest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engine_c_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/blockstates/engine_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/engine_c_test.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/EngineCTestBlock.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/engine_c_test.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/EngineCTestBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/engine_c_test.json"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "Enrichmentgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichmentgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/EnrichmentguiScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/EnrichmentguiMenu.java"
+        ]
+      },
+      "path": "~/kaczorros shit/recepies/uranium"
+    },
+    {
+      "name": "FillAlternativeY",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_alternative_y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FillAlternativeYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "Stem3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stem_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Stem3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "FillAlternativeBig2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_alternative_big_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FillAlternativeBig2Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "BodyCTestOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "body_c_test_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BodyCTestOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "FireballTest",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/FireballTestRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/FireballTestEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/fireball_test_spawn_egg.json"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Stem2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stem_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/Stem2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "StrategicNukeStemRandom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strategic_nuke_stem_random",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/StrategicNukeStemRandomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "LinkerCTest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "linker_c_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/block/LinkerCTestBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/linker_c_test.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/LinkerCTestBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/linker_c_test.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/linker_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/linker_c_test.json"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "FillAlternativeBigY",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_alternative_big_y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FillAlternativeBigYProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "LaunchPad",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/launch_pad.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/LaunchPadBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/launch_pad.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/launch_pad.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/LaunchPadBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/launch_pad.json"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "Ring",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/RingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Fuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FuelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/recepies/uranium"
+    },
+    {
+      "name": "TestCustomMissile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_custom_missile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/blockstates/test_custom_missile.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/test_custom_missile.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/TestCustomMissileBlockEntity.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/TestCustomMissileBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/test_custom_missile.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/test_custom_missile.json"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "BodyCTest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "body_c_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/block/body_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/body_c_test.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/BodyCTestBlockEntity.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/body_c_test.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BodyCTestBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/body_c_test.json"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "FireballTestModelVisualScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball_test_model_visual_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FireballTestModelVisualScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "ThrusterCTest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thruster_c_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/block/ThrusterCTestBlock.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ThrusterCTestBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/thruster_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/thruster_c_test.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/thruster_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/thruster_c_test.json"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "ThrusterCTestOnBlockHitByProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thruster_c_test_on_block_hit_by_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ThrusterCTestOnBlockHitByProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "FireballTestOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball_test_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FireballTestOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
     }
   ],
   "variable_elements": [
@@ -8296,8 +9405,8 @@
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
       "gamerule.treeCharcoal": "nukes turn trees into charcoal",
-      "item.create_pyrotechnics.datawiretester": "Datawiretester",
       "gamerule.saltedNukes": "salted nukes",
+      "item.create_pyrotechnics.datawiretester": "Datawiretester",
       "block.create_pyrotechnics.radar": "Radar",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
       "gui.create_pyrotechnics.fallout_state.label_fallout": "FALLOUT!",
@@ -8546,6 +9655,14 @@
             "children": []
           },
           {
+            "name": "fallout",
+            "children": []
+          },
+          {
+            "name": "custom missiles test",
+            "children": []
+          },
+          {
             "name": "strategic nuke mushroom cloud",
             "children": []
           },
@@ -8571,17 +9688,21 @@
                 "children": []
               },
               {
+                "name": "C1",
+                "children": []
+              },
+              {
                 "name": "A1",
                 "children": [
                   {
                     "name": "explosion part 1",
                     "children": []
+                  },
+                  {
+                    "name": "salted testing",
+                    "children": []
                   }
                 ]
-              },
-              {
-                "name": "C1",
-                "children": []
               }
             ]
           },
@@ -8590,6 +9711,15 @@
             "children": [
               {
                 "name": "aids",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "recepies",
+            "children": [
+              {
+                "name": "uranium",
                 "children": []
               }
             ]
@@ -8609,14 +9739,6 @@
           },
           {
             "name": "shockwave test",
-            "children": []
-          },
-          {
-            "name": "recepies",
-            "children": []
-          },
-          {
-            "name": "fallout",
             "children": []
           }
         ]

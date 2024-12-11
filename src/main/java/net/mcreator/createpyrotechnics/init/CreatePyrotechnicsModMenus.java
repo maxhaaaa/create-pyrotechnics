@@ -21,6 +21,7 @@ import net.mcreator.createpyrotechnics.world.inventory.PumpingMenu;
 import net.mcreator.createpyrotechnics.world.inventory.LaunchMenu;
 import net.mcreator.createpyrotechnics.world.inventory.Launch3Menu;
 import net.mcreator.createpyrotechnics.world.inventory.Launch2Menu;
+import net.mcreator.createpyrotechnics.world.inventory.EnrichmentguiMenu;
 import net.mcreator.createpyrotechnics.world.inventory.ComputernavigatorMenu;
 import net.mcreator.createpyrotechnics.world.inventory.BombBenchMenu;
 import net.mcreator.createpyrotechnics.world.inventory.BevsslotsguiMenu;
@@ -43,4 +44,5 @@ public class CreatePyrotechnicsModMenus {
 	public static final RegistryObject<MenuType<BombBenchMenu>> BOMB_BENCH = REGISTRY.register("bomb_bench", () -> IForgeMenuType.create(BombBenchMenu::new));
 	public static final RegistryObject<MenuType<RadarTestMenu>> RADAR_TEST = REGISTRY.register("radar_test", () -> IForgeMenuType.create(RadarTestMenu::new));
 	public static final RegistryObject<MenuType<Launch3Menu>> LAUNCH_3 = REGISTRY.register("launch_3", () -> IForgeMenuType.create(Launch3Menu::new));
+	public static final RegistryObject<MenuType<EnrichmentguiMenu>> ENRICHMENTGUI = REGISTRY.register("enrichmentgui", () -> IForgeMenuType.create(EnrichmentguiMenu::new));
 }
