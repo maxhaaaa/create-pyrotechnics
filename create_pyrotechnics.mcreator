@@ -4118,7 +4118,7 @@
     {
       "name": "BombBenchP2",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bomb_bench_p_2",
       "metadata": {
@@ -4130,7 +4130,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_2.json"
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/BombBench"
     },
     {
       "name": "BombBenchBlock",
@@ -4144,7 +4144,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_block.json"
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/BombBench"
     },
     {
       "name": "CockroachPlayerCollidesWithThisEntity",
@@ -4238,7 +4238,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/BombBench"
     },
     {
       "name": "BombBench",
@@ -4252,7 +4252,7 @@
           "src/main/java/net/mcreator/createpyrotechnics/client/gui/BombBenchScreen.java"
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/BombBench"
     },
     {
       "name": "CockroachTargetedEntity",
@@ -4342,7 +4342,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/BombBench"
     },
     {
       "name": "BombBenchBlockRightclickedOnBlock",
@@ -4377,7 +4377,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/BombBench"
     },
     {
       "name": "BombBenchP1BlockAdded",
@@ -4408,12 +4408,12 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/BombBench"
     },
     {
       "name": "BombBenchP1",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bomb_bench_p_1",
       "metadata": {
@@ -4425,7 +4425,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json"
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/BombBench"
     },
     {
       "name": "IsCockroachSpooked",
@@ -8094,7 +8094,7 @@
     {
       "name": "CautionSignBottom",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "caution_sign_bottom",
       "metadata": {
@@ -8106,7 +8106,7 @@
           "src/main/resources/assets/create_pyrotechnics/blockstates/caution_sign_bottom.json"
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/CautionSign"
     },
     {
       "name": "CautionSignUpper",
@@ -8123,7 +8123,7 @@
           "src/main/resources/assets/create_pyrotechnics/models/item/caution_sign_upper.json"
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/CautionSign"
     },
     {
       "name": "CautionSignBottomBlockAdded",
@@ -8154,7 +8154,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/CautionSign"
     },
     {
       "name": "CautionSignBottomBlockDestroyedByPlayer",
@@ -8185,7 +8185,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/CautionSign"
     },
     {
       "name": "CautionSignUpperBlockDestroyedByPlayer",
@@ -8216,7 +8216,7 @@
           }
         ]
       },
-      "path": "~/DeadGamers Shiz"
+      "path": "~/DeadGamers Shiz/CautionSign"
     },
     {
       "name": "Enrichment",
@@ -9220,7 +9220,7 @@
     {
       "name": "BodyCTest",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "body_c_test",
       "metadata": {
@@ -9405,8 +9405,8 @@
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
       "gamerule.treeCharcoal": "nukes turn trees into charcoal",
-      "gamerule.saltedNukes": "salted nukes",
       "item.create_pyrotechnics.datawiretester": "Datawiretester",
+      "gamerule.saltedNukes": "salted nukes",
       "block.create_pyrotechnics.radar": "Radar",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
       "gui.create_pyrotechnics.fallout_state.label_fallout": "FALLOUT!",
