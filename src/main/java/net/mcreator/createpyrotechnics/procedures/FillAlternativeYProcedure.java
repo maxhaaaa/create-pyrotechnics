@@ -1,6 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
 
 public class FillAlternativeYProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

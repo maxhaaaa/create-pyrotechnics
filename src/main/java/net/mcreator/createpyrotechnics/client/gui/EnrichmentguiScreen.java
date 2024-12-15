@@ -1,9 +1,22 @@
 package net.mcreator.createpyrotechnics.client.gui;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.createpyrotechnics.world.inventory.EnrichmentguiMenu;
+import net.mcreator.createpyrotechnics.procedures.FuelProcedure;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
 public class EnrichmentguiScreen extends AbstractContainerScreen<EnrichmentguiMenu> {
-
 	private final static HashMap<String, Object> guistate = EnrichmentguiMenu.guistate;
-
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -24,11 +37,8 @@ public class EnrichmentguiScreen extends AbstractContainerScreen<EnrichmentguiMe
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -36,9 +46,7 @@ public class EnrichmentguiScreen extends AbstractContainerScreen<EnrichmentguiMe
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -48,7 +56,6 @@ public class EnrichmentguiScreen extends AbstractContainerScreen<EnrichmentguiMe
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -56,13 +63,11 @@ public class EnrichmentguiScreen extends AbstractContainerScreen<EnrichmentguiMe
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font,
 
-				FuelProcedure.execute(), 24, 25, -12829636, false);
+				FuelProcedure.execute(world, x, y, z), 24, 25, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-
 	}
-
 }

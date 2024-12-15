@@ -1,7 +1,37 @@
 
 package net.mcreator.createpyrotechnics.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraftforge.network.NetworkHooks;
+
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.createpyrotechnics.world.inventory.EnrichmentguiMenu;
+import net.mcreator.createpyrotechnics.procedures.EnrichmentOnTickUpdateProcedure;
+import net.mcreator.createpyrotechnics.block.entity.EnrichmentBlockEntity;
+
+import io.netty.buffer.Unpooled;
 
 public class EnrichmentBlock extends Block implements EntityBlock {
 	public EnrichmentBlock() {
@@ -25,7 +55,7 @@ public class EnrichmentBlock extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		EnrichmentOnTickUpdateProcedure.execute();
+		EnrichmentOnTickUpdateProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 1);
 	}
 
