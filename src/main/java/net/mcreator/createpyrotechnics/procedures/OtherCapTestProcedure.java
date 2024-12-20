@@ -29,7 +29,7 @@ public class OtherCapTestProcedure {
 								+ ((z + 0.5 + Math.sin((Math.PI * 2 + pa) * loop) * zr) - (z + 0.5)) + " 0.3 0 force"));
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						("particle create_pyrotechnics:other_cloud_test ~ ~ ~ 0 " + Mth.nextDouble(RandomSource.create(), 17, 19) + " 0 " + "0.6 0 force"));
+						("particle create_pyrotechnics:other_cloud_test ~ ~ ~ 0 " + Mth.nextDouble(RandomSource.create(), 17, 19) + " 0 " + "0.3 0 force"));
 			loop = loop + 1;
 		}
 	}

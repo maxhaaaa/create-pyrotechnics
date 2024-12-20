@@ -39,7 +39,7 @@ public class OtherCloudTestParticle extends TextureSheetParticle {
 		this.quadSize *= 200f;
 		this.lifetime = 920;
 		this.gravity = 0f;
-		this.hasPhysics = true;
+		this.hasPhysics = false;
 		this.xd = vx * 0.3;
 		this.yd = vy * 0.3;
 		this.zd = vz * 0.3;
@@ -55,7 +55,7 @@ public class OtherCloudTestParticle extends TextureSheetParticle {
 	public void tick() {
 		super.tick();
 		if (!this.removed) {
-			this.setSprite(this.spriteSet.get((this.age / 20) % 48 + 1, 48));
+			this.setSprite(this.spriteSet.get((this.age / 80) % 12 + 1, 12));
 		}
 	}
 }

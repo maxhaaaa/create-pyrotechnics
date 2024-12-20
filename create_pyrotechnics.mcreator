@@ -8150,7 +8150,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/FillAlternativeBigProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/C1"
     },
@@ -8987,7 +9004,24 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/procedures/FillAlternativeBigYProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/kaczorros shit/explosion/C1"
     },
@@ -9419,6 +9453,227 @@
         ]
       },
       "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "Variation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "variation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/VariationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/C1"
+    },
+    {
+      "name": "TestFireballOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_fireball_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestFireballOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "TestFireball",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_fireball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/TestFireballEntity.java",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/model/TestFireballModel.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/test_fireball_spawn_egg.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/TestFireballRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/layer/TestFireballLayer.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "Fireball",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/FireballParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/fireball.json"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "FireballSphere",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireball_sphere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/FireballSphereProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "ShockwavePower2Test",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockwave_power_2_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ShockwavePower2TestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1/explosion part 1"
+    },
+    {
+      "name": "E3shockwaveHigh",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_3shockwave_high",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E3shockwaveHighProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "E3SH",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_3_sh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/E3SHProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "radius",
+            "type": "number"
+          },
+          {
+            "name": "shockwave",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/explosion/A1"
     }
   ],
   "variable_elements": [
@@ -9623,6 +9878,7 @@
       "gui.create_pyrotechnics.launch.button_launch": "launch",
       "gui.create_pyrotechnics.launch_2.button_dx_011": "dx - 0.1",
       "gui.create_pyrotechnics.launch_3.button_dy_01": "dy + 0.1",
+      "item.create_pyrotechnics.test_fireball_spawn_egg": "Test Fireball Spawn Egg",
       "gui.create_pyrotechnics.radar_test.button_dz_011": "dz - 0.1",
       "item.create_pyrotechnics.fireball_test_spawn_egg": "Fireball Test Spawn Egg",
       "death.attack.squished.item": "%1$s was squished by %2$s using %3$s",
@@ -9653,6 +9909,7 @@
       "gui.create_pyrotechnics.launch_2.button_dx_01": "dx + 0.1",
       "gui.create_pyrotechnics.launch_2.button_launch": "launch",
       "gui.create_pyrotechnics.pumping.button_seal": "seal/unseal",
+      "entity.create_pyrotechnics.test_fireball": "Test Fireball",
       "block.create_pyrotechnics.explosivesphereworkbench": "Explosivesphereworkbench",
       "gui.create_pyrotechnics.toxifier_lab.label_potency": "Potency:",
       "death.attack.squished.player": "%1$s was squished whilst trying to escape %2$s"

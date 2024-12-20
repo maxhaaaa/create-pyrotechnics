@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.createpyrotechnics.client.renderer.TestFireballRenderer;
 import net.mcreator.createpyrotechnics.client.renderer.MortarormissleshooterRenderer;
 import net.mcreator.createpyrotechnics.client.renderer.FireballTestRenderer;
 import net.mcreator.createpyrotechnics.client.renderer.DESIGNATORRenderer;
@@ -33,5 +34,6 @@ public class CreatePyrotechnicsModEntityRenderers {
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.STRATEGIC_WARHEAD.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.MIRV_TEST.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.FIREBALL_TEST.get(), FireballTestRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.TEST_FIREBALL.get(), TestFireballRenderer::new);
 	}
 }

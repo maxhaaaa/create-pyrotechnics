@@ -132,6 +132,7 @@
   "gui.create_pyrotechnics.launch.button_launch": "launch",
   "gui.create_pyrotechnics.launch_2.button_dx_011": "dx - 0.1",
   "gui.create_pyrotechnics.launch_3.button_dy_01": "dy + 0.1",
+  "item.create_pyrotechnics.test_fireball_spawn_egg": "Test Fireball Spawn Egg",
   "gui.create_pyrotechnics.radar_test.button_dz_011": "dz - 0.1",
   "item.create_pyrotechnics.fireball_test_spawn_egg": "Fireball Test Spawn Egg",
   "death.attack.squished.item": "%1$s was squished by %2$s using %3$s",
@@ -162,6 +163,7 @@
   "gui.create_pyrotechnics.launch_2.button_dx_01": "dx + 0.1",
   "gui.create_pyrotechnics.launch_2.button_launch": "launch",
   "gui.create_pyrotechnics.pumping.button_seal": "seal/unseal",
+  "entity.create_pyrotechnics.test_fireball": "Test Fireball",
   "block.create_pyrotechnics.explosivesphereworkbench": "Explosivesphereworkbench",
   "gui.create_pyrotechnics.toxifier_lab.label_potency": "Potency:",
   "death.attack.squished.player": "%1$s was squished whilst trying to escape %2$s"

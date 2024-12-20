@@ -10,7 +10,7 @@ import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.createpyrotechnics.procedures.OtherTestProcedure;
+import net.mcreator.createpyrotechnics.procedures.ShockwavePower2TestProcedure;
 
 public class DynamiteTestBlockBlock extends Block {
 	public DynamiteTestBlockBlock() {
@@ -25,6 +25,6 @@ public class DynamiteTestBlockBlock extends Block {
 	@Override
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
-		OtherTestProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ShockwavePower2TestProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

@@ -19,6 +19,7 @@ import net.mcreator.createpyrotechnics.client.particle.OtherCloudTestParticle;
 import net.mcreator.createpyrotechnics.client.particle.NuclearExplosionParticle;
 import net.mcreator.createpyrotechnics.client.particle.FlashParticle;
 import net.mcreator.createpyrotechnics.client.particle.FirepillarparticleParticle;
+import net.mcreator.createpyrotechnics.client.particle.FireballParticle;
 import net.mcreator.createpyrotechnics.client.particle.ExplosionParticle;
 import net.mcreator.createpyrotechnics.client.particle.CloudParticle;
 import net.mcreator.createpyrotechnics.client.particle.CapParticleParticle;
@@ -40,5 +41,6 @@ public class CreatePyrotechnicsModParticles {
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.STRATEGIC_CLOUD.get(), StrategicCloudParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.NUCLEAR_EXPLOSION.get(), NuclearExplosionParticle::provider);
 		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.OTHER_CLOUD_TEST.get(), OtherCloudTestParticle::provider);
+		event.registerSpriteSet(CreatePyrotechnicsModParticleTypes.FIREBALL.get(), FireballParticle::provider);
 	}
 }

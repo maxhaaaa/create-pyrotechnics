@@ -2,9 +2,9 @@
   "_fv": 69,
   "_type": "particle",
   "definition": {
-    "texture": "cloudtest",
+    "texture": "important",
     "animate": true,
-    "frameDuration": 20,
+    "frameDuration": 80,
     "width": 0.2,
     "height": 0.2,
     "scale": {
@@ -16,7 +16,7 @@
     "maxAgeDiff": 0,
     "angularVelocity": 0.0,
     "angularAcceleration": 0.0,
-    "canCollide": true,
+    "canCollide": false,
     "alwaysShow": true,
     "renderType": "OPAQUE"
   }
