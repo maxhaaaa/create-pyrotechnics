@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "particle",
   "definition": {
-    "texture": "important",
+    "texture": "dark",
     "animate": true,
     "frameDuration": 80,
     "width": 0.2,

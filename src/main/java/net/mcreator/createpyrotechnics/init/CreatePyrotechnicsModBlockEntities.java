@@ -34,6 +34,7 @@ import net.mcreator.createpyrotechnics.block.entity.EnrichmentBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.EngineCTestBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.DatawireblockBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.ComputerblockBlockEntity;
+import net.mcreator.createpyrotechnics.block.entity.BodySlabCTestBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.BodyCTestBlockEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
@@ -63,6 +64,7 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> TEST_CUSTOM_MISSILE = register("test_custom_missile", CreatePyrotechnicsModBlocks.TEST_CUSTOM_MISSILE, TestCustomMissileBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> BODY_C_TEST = register("body_c_test", CreatePyrotechnicsModBlocks.BODY_C_TEST, BodyCTestBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> THRUSTER_C_TEST = register("thruster_c_test", CreatePyrotechnicsModBlocks.THRUSTER_C_TEST, ThrusterCTestBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BODY_SLAB_C_TEST = register("body_slab_c_test", CreatePyrotechnicsModBlocks.BODY_SLAB_C_TEST, BodySlabCTestBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

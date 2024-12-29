@@ -98,6 +98,8 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> CAUTION_SIGN_BOTTOM = block(CreatePyrotechnicsModBlocks.CAUTION_SIGN_BOTTOM);
 	public static final RegistryObject<Item> CAUTION_SIGN_UPPER = block(CreatePyrotechnicsModBlocks.CAUTION_SIGN_UPPER);
 	public static final RegistryObject<Item> TEST_FIREBALL_SPAWN_EGG = REGISTRY.register("test_fireball_spawn_egg", () -> new ForgeSpawnEggItem(CreatePyrotechnicsModEntities.TEST_FIREBALL, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> MR_MOTIVATOR_SPAWN_EGG = REGISTRY.register("mr_motivator_spawn_egg", () -> new ForgeSpawnEggItem(CreatePyrotechnicsModEntities.MR_MOTIVATOR, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BODY_SLAB_C_TEST = block(CreatePyrotechnicsModBlocks.BODY_SLAB_C_TEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items

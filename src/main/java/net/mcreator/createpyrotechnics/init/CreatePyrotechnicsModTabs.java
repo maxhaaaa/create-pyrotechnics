@@ -69,6 +69,7 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.THRUSTER_C_TEST.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.CAUTION_SIGN_BOTTOM.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.CAUTION_SIGN_UPPER.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.BODY_SLAB_C_TEST.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -77,6 +78,7 @@ public class CreatePyrotechnicsModTabs {
 
 			tabData.accept(CreatePyrotechnicsModItems.COCKROACH_SPAWN_EGG.get());
 			tabData.accept(CreatePyrotechnicsModItems.FIREBALL_TEST_SPAWN_EGG.get());
+			tabData.accept(CreatePyrotechnicsModItems.MR_MOTIVATOR_SPAWN_EGG.get());
 
 		}
 	}

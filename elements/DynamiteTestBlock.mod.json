@@ -123,7 +123,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onDestroyedByExplosion": {
-      "name": "ShockwavePower2Test"
+      "name": "TestShockwaveProjectaile"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

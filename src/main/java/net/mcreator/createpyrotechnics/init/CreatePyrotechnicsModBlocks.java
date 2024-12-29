@@ -47,6 +47,7 @@ import net.mcreator.createpyrotechnics.block.CautionSignUpperBlock;
 import net.mcreator.createpyrotechnics.block.CautionSignBottomBlock;
 import net.mcreator.createpyrotechnics.block.BombBenchP2Block;
 import net.mcreator.createpyrotechnics.block.BombBenchP1Block;
+import net.mcreator.createpyrotechnics.block.BodySlabCTestBlock;
 import net.mcreator.createpyrotechnics.block.BodyCTestBlock;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
@@ -90,6 +91,7 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> THRUSTER_C_TEST = REGISTRY.register("thruster_c_test", () -> new ThrusterCTestBlock());
 	public static final RegistryObject<Block> CAUTION_SIGN_BOTTOM = REGISTRY.register("caution_sign_bottom", () -> new CautionSignBottomBlock());
 	public static final RegistryObject<Block> CAUTION_SIGN_UPPER = REGISTRY.register("caution_sign_upper", () -> new CautionSignUpperBlock());
+	public static final RegistryObject<Block> BODY_SLAB_C_TEST = REGISTRY.register("body_slab_c_test", () -> new BodySlabCTestBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

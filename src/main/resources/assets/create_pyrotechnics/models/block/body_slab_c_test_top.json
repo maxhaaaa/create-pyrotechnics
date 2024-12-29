@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "minecraft:block/cyan_terracotta",
+    "bottom": "minecraft:block/cyan_terracotta",
+    "top": "minecraft:block/cyan_terracotta",
+    "side": "minecraft:block/cyan_terracotta"
+  },
+  "render_type": "solid"
+}

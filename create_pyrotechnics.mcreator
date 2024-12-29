@@ -9674,6 +9674,287 @@
         ]
       },
       "path": "~/kaczorros shit/explosion/A1"
+    },
+    {
+      "name": "TestShockwaveWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_shockwave_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestShockwaveWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "TestShockwaveProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_shockwave_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestShockwaveProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "TestShockwave",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/TestShockwaveEntity.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "TestShockwaveProjectaile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_shockwave_projectaile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestShockwaveProjectaileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "RocketBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/RocketBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "MrMotivatorOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_motivator_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/MrMotivatorOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "MrMotivator",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_motivator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/MrMotivatorEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/mr_motivator_spawn_egg.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/MrMotivatorRenderer.java"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "BodySlabCTest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "body_slab_c_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/body_slab_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test_full.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/body_slab_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test_top.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BodySlabCTestBlock.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/BodySlabCTestBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/body_slab_c_test.json"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "SlabCTest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slab_c_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SlabCTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "LaunchPadOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/LaunchPadOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
     }
   ],
   "variable_elements": [
@@ -9736,6 +10017,9 @@
       "~CUSTOM:CautionSignUpper",
       "~CUSTOM:CautionSignBottom",
       "~CUSTOM:NuclearCore"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:BodySlabCTest"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:RadarTester",
@@ -9851,7 +10135,9 @@
       "item.create_pyrotechnics.ballisticsbuildingtool": "Ballisticsbuildingtool",
       "gui.create_pyrotechnics.pumping.label_psi": "PSI:",
       "block.create_pyrotechnics.dynamite_test_block": "Dynamite Test Block",
+      "entity.create_pyrotechnics.mr_motivator": "Mr Motivator",
       "block.create_pyrotechnics.nuclear_core": "Nuclear Core",
+      "block.create_pyrotechnics.body_slab_c_test": "body C Test",
       "gui.create_pyrotechnics.pumping.label_vent": "vent:",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
       "gui.create_pyrotechnics.launch_3.button_dx_011": "dx - 0.1",
@@ -9867,6 +10153,7 @@
       "gui.create_pyrotechnics.siloguinew.label_currently_listening_for_launch_p": "listening for arming",
       "gui.create_pyrotechnics.toxifier_lab.label_duration": "duration:",
       "gui.create_pyrotechnics.launch.button_dy_011": "dy - 0.1",
+      "item.create_pyrotechnics.mr_motivator_spawn_egg": "Mr Motivator Spawn Egg",
       "gui.create_pyrotechnics.launch_3.button_link_code": "link code",
       "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics",
       "gui.create_pyrotechnics.launch_3.button_dz_011": "dz - 0.1",
@@ -10099,6 +10386,10 @@
           },
           {
             "name": "shockwave test",
+            "children": []
+          },
+          {
+            "name": "nuke crafting",
             "children": []
           }
         ]

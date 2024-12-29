@@ -21,8 +21,8 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.createpyrotechnics.procedures.TestCustomMissleProcedure;
 import net.mcreator.createpyrotechnics.procedures.LaunchPadOnTickUpdateProcedure;
+import net.mcreator.createpyrotechnics.procedures.LaunchPadOnBlockRightClickedProcedure;
 import net.mcreator.createpyrotechnics.block.entity.LaunchPadBlockEntity;
 
 public class LaunchPadBlock extends Block implements EntityBlock {
@@ -61,7 +61,7 @@ public class LaunchPadBlock extends Block implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		TestCustomMissleProcedure.execute(world, x, y, z);
+		LaunchPadOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 
