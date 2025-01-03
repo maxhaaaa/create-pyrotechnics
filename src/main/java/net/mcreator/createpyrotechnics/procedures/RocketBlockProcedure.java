@@ -35,5 +35,8 @@ public class RocketBlockProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"particle large_smoke ~ ~-1 ~ 0 0 0 0.05 1 force");
 		}
+		if (entity.getPersistentData().getBoolean("rocket1") == true) {
+			entity.setDeltaMovement(new Vec3(0, (entity.getDeltaMovement().y() + 0.5), 0));
+		}
 	}
 }
