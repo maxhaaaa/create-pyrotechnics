@@ -47,10 +47,10 @@ public class EasterEggOverlay {
 		if (HihiProcedure.execute(entity)) {
 			event.getGuiGraphics().blit(new ResourceLocation("create_pyrotechnics:textures/screens/untitled105_20250103121901.png"), w / 2 + -227, h / 2 + -195, 0, 0, 319, 500, 319, 500);
 
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.create_pyrotechnics.easter_egg.label_i_am_steevee"), w / 2 + 7, h / 2 + -115, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.create_pyrotechnics.easter_egg.label_i_am_steevee"), w / 2 + 142, h / 2 + 157, -1, false);
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.create_pyrotechnics.easter_egg.label_and_crazy_condoms_rule"), w / 2 + 6, h / 2 + -98, -1, false);
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.create_pyrotechnics.easter_egg.label_its_just_a_dream"), w / 2 + 110, h / 2 + 60, -1, false);
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.create_pyrotechnics.easter_egg.label_you_will_never_wake_up"), w / 2 + 90, h / 2 + 74, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.create_pyrotechnics.easter_egg.label_its_just_a_dream"), w / 2 + 146, h / 2 + 153, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.create_pyrotechnics.easter_egg.label_you_will_never_wake_up"), w / 2 + 137, h / 2 + 151, -1, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

@@ -2,14 +2,14 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:barrel_bottom",
-    "textureTop": "minecraft:tnt_top",
-    "textureLeft": "minecraft:barrel_side",
-    "textureFront": "minecraft:barrel_side",
-    "textureRight": "minecraft:barrel_side",
-    "textureBack": "minecraft:barrel_side",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "minecraft:scaffolding_top",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Dynamite Test Block",
+    "name": "Launch Pad",
     "specialInformation": {
       "fixedValue": []
     },
@@ -61,7 +61,7 @@
     "material": {
       "value": "NONE"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -105,7 +105,7 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -122,8 +122,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByExplosion": {
-      "name": "OtherTest"
+    "onRightClicked": {
+      "name": "TestSize2"
+    },
+    "onHitByProjectile": {
+      "name": "CustomRocket"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

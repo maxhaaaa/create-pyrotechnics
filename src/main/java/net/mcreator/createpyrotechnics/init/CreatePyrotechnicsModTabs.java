@@ -70,6 +70,7 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.CAUTION_SIGN_BOTTOM.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.CAUTION_SIGN_UPPER.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.BODY_SLAB_C_TEST.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.SIZE_TESTER.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

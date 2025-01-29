@@ -26,8 +26,8 @@
             "falpha": 0.0
           },
           "anchorPoint": "CENTER",
-          "x": 220,
-          "y": 5
+          "x": 355,
+          "y": 277
         }
       },
       {
@@ -35,7 +35,7 @@
         "data": {
           "name": "label_and_crazy_condoms_rule",
           "text": {
-            "fixedValue": "AND CRAZY CONDOMS RULE!"
+            "fixedValue": "CRAZY CONDOMS RULE!"
           },
           "color": {
             "value": -1,
@@ -58,8 +58,8 @@
             "falpha": 0.0
           },
           "anchorPoint": "CENTER",
-          "x": 323,
-          "y": 180
+          "x": 359,
+          "y": 273
         }
       },
       {
@@ -74,8 +74,8 @@
             "falpha": 0.0
           },
           "anchorPoint": "CENTER",
-          "x": 303,
-          "y": 194
+          "x": 350,
+          "y": 271
         }
       }
     ],

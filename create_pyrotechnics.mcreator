@@ -9988,6 +9988,170 @@
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud/aids"
+    },
+    {
+      "name": "O2",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/particles/o2.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/O2Particle.java"
+        ]
+      },
+      "path": "~/kaczorros shit/mushroom cloud"
+    },
+    {
+      "name": "BigRocket",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_rocket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/BigRocketProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "TestSize",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_size",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestSizeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "CustomRocket",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_rocket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CustomRocketProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "SizeTester",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "size_tester",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/size_tester.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/SizeTesterBlockEntity.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/SizeTesterBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/size_tester.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/size_tester.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/size_tester.json"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "TestSize2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_size_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/TestSize2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
     }
   ],
   "variable_elements": [
@@ -10132,7 +10296,7 @@
       "gui.create_pyrotechnics.warheadcraftinggui.tooltip_warning_if_warhead_sphere_is_not": "WARNING IF WARHEAD SPHERE IS NOT SEALED, AND STATION IS BROKEN, THERE WILL RESULT IN PARTIAL DETONATION OF YOUR WARHEAD",
       "block.create_pyrotechnics.missile_controll_panel": "Missile Controll Panel",
       "gui.create_pyrotechnics.fallout_alert.label_fallout": "FALLOUT INCOMING!",
-      "gui.create_pyrotechnics.easter_egg.label_and_crazy_condoms_rule": "AND CRAZY CONDOMS RULE!",
+      "gui.create_pyrotechnics.easter_egg.label_and_crazy_condoms_rule": "CRAZY CONDOMS RULE!",
       "item.create_pyrotechnics.handheld_toxifier_lab": "Handheld Toxifier Lab",
       "block.create_pyrotechnics.silo_block": "Silo Block",
       "gamerule.evaporateWater.description": "if true nukes evaporate water",
@@ -10143,6 +10307,7 @@
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "gui.create_pyrotechnics.launch_3.button_dx_01": "dx + 0.1",
       "gamerule.villageDestroyerNukes": "Village destroyer nukes",
+      "block.create_pyrotechnics.size_tester": "Launch Pad",
       "block.create_pyrotechnics.trinitytest": "Trinitytest",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
       "gui.create_pyrotechnics.radar_test.button_dy_011": "dy - 0.1",

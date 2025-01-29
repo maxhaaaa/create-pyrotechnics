@@ -19,6 +19,7 @@ import net.mcreator.createpyrotechnics.block.TestSaltedNukesBlock;
 import net.mcreator.createpyrotechnics.block.TestCustomMissileBlock;
 import net.mcreator.createpyrotechnics.block.StrategicNukePlaceholderBlock;
 import net.mcreator.createpyrotechnics.block.StrategicNukePlaceholder2Block;
+import net.mcreator.createpyrotechnics.block.SizeTesterBlock;
 import net.mcreator.createpyrotechnics.block.SiloBlockBlock;
 import net.mcreator.createpyrotechnics.block.ShockwaveTesterBlock;
 import net.mcreator.createpyrotechnics.block.RadarBlock;
@@ -92,6 +93,7 @@ public class CreatePyrotechnicsModBlocks {
 	public static final RegistryObject<Block> CAUTION_SIGN_BOTTOM = REGISTRY.register("caution_sign_bottom", () -> new CautionSignBottomBlock());
 	public static final RegistryObject<Block> CAUTION_SIGN_UPPER = REGISTRY.register("caution_sign_upper", () -> new CautionSignUpperBlock());
 	public static final RegistryObject<Block> BODY_SLAB_C_TEST = REGISTRY.register("body_slab_c_test", () -> new BodySlabCTestBlock());
+	public static final RegistryObject<Block> SIZE_TESTER = REGISTRY.register("size_tester", () -> new SizeTesterBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

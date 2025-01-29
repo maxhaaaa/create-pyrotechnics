@@ -11,22 +11,21 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
-import net.minecraft.util.RandomSource;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.createpyrotechnics.procedures.LaunchPadOnTickUpdateProcedure;
-import net.mcreator.createpyrotechnics.procedures.BigRocketProcedure;
-import net.mcreator.createpyrotechnics.block.entity.LaunchPadBlockEntity;
+import net.mcreator.createpyrotechnics.procedures.TestSize2Procedure;
+import net.mcreator.createpyrotechnics.procedures.CustomRocketProcedure;
+import net.mcreator.createpyrotechnics.block.entity.SizeTesterBlockEntity;
 
-public class LaunchPadBlock extends Block implements EntityBlock {
-	public LaunchPadBlock() {
+public class SizeTesterBlock extends Block implements EntityBlock {
+	public SizeTesterBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
@@ -36,19 +35,8 @@ public class LaunchPadBlock extends Block implements EntityBlock {
 	}
 
 	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1);
-	}
-
-	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		LaunchPadOnTickUpdateProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 1);
+	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
+		CustomRocketProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
 	}
 
 	@Override
@@ -61,7 +49,7 @@ public class LaunchPadBlock extends Block implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		BigRocketProcedure.execute(world, x, y, z);
+		TestSize2Procedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 
@@ -73,7 +61,7 @@ public class LaunchPadBlock extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new LaunchPadBlockEntity(pos, state);
+		return new SizeTesterBlockEntity(pos, state);
 	}
 
 	@Override
@@ -87,7 +75,7 @@ public class LaunchPadBlock extends Block implements EntityBlock {
 	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if (state.getBlock() != newState.getBlock()) {
 			BlockEntity blockEntity = world.getBlockEntity(pos);
-			if (blockEntity instanceof LaunchPadBlockEntity be) {
+			if (blockEntity instanceof SizeTesterBlockEntity be) {
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
@@ -103,7 +91,7 @@ public class LaunchPadBlock extends Block implements EntityBlock {
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof LaunchPadBlockEntity be)
+		if (tileentity instanceof SizeTesterBlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
