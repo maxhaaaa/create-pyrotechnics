@@ -80,6 +80,7 @@ public class CreatePyrotechnicsModTabs {
 			tabData.accept(CreatePyrotechnicsModItems.COCKROACH_SPAWN_EGG.get());
 			tabData.accept(CreatePyrotechnicsModItems.FIREBALL_TEST_SPAWN_EGG.get());
 			tabData.accept(CreatePyrotechnicsModItems.MR_MOTIVATOR_SPAWN_EGG.get());
+			tabData.accept(CreatePyrotechnicsModItems.THRUSTER_ENTITY_SPAWN_EGG.get());
 
 		}
 	}

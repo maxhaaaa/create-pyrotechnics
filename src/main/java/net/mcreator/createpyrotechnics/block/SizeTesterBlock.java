@@ -21,7 +21,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.createpyrotechnics.procedures.TestSize2Procedure;
-import net.mcreator.createpyrotechnics.procedures.CustomRocketProcedure;
+import net.mcreator.createpyrotechnics.procedures.SizeTesterBlockAddedProcedure;
+import net.mcreator.createpyrotechnics.procedures.CustomRocket2Procedure;
 import net.mcreator.createpyrotechnics.block.entity.SizeTesterBlockEntity;
 
 public class SizeTesterBlock extends Block implements EntityBlock {
@@ -35,8 +36,14 @@ public class SizeTesterBlock extends Block implements EntityBlock {
 	}
 
 	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		SizeTesterBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
 	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
-		CustomRocketProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
+		CustomRocket2Procedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
 	}
 
 	@Override

@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.createpyrotechnics.entity.ThrusterEntityEntity;
 import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
 import net.mcreator.createpyrotechnics.entity.TestShockwaveEntity;
 import net.mcreator.createpyrotechnics.entity.TestFireballEntity;
@@ -78,6 +79,10 @@ public class CreatePyrotechnicsModEntities {
 			EntityType.Builder.<MrMotivatorEntity>of(MrMotivatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(MrMotivatorEntity::new)
 
 					.sized(0.1f, 0.1f));
+	public static final RegistryObject<EntityType<ThrusterEntityEntity>> THRUSTER_ENTITY = register("thruster_entity",
+			EntityType.Builder.<ThrusterEntityEntity>of(ThrusterEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(ThrusterEntityEntity::new)
+
+					.sized(1f, 1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -92,6 +97,7 @@ public class CreatePyrotechnicsModEntities {
 			FireballTestEntity.init();
 			TestFireballEntity.init();
 			MrMotivatorEntity.init();
+			ThrusterEntityEntity.init();
 		});
 	}
 
@@ -103,5 +109,6 @@ public class CreatePyrotechnicsModEntities {
 		event.put(FIREBALL_TEST.get(), FireballTestEntity.createAttributes().build());
 		event.put(TEST_FIREBALL.get(), TestFireballEntity.createAttributes().build());
 		event.put(MR_MOTIVATOR.get(), MrMotivatorEntity.createAttributes().build());
+		event.put(THRUSTER_ENTITY.get(), ThrusterEntityEntity.createAttributes().build());
 	}
 }

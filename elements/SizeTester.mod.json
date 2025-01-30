@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Launch Pad",
+    "name": "Resizer",
     "specialInformation": {
       "fixedValue": []
     },
@@ -125,8 +125,11 @@
     "onRightClicked": {
       "name": "TestSize2"
     },
+    "onBlockAdded": {
+      "name": "SizeTesterBlockAdded"
+    },
     "onHitByProjectile": {
-      "name": "CustomRocket"
+      "name": "CustomRocket2"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

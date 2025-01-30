@@ -10152,6 +10152,149 @@
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "CustomRocketTweaks",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_rocket_tweaks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CustomRocketTweaksProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "CustomRocket2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_rocket_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/CustomRocket2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "SizeTesterBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "size_tester_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/SizeTesterBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "ThrusterEntity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thruster_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/entity/ThrusterEntityEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/thruster_entity_spawn_egg.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/ThrusterEntityRenderer.java"
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "ThrusterEntityOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thruster_entity_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ThrusterEntityOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/custom missiles test"
     }
   ],
   "variable_elements": [
@@ -10307,7 +10450,7 @@
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "gui.create_pyrotechnics.launch_3.button_dx_01": "dx + 0.1",
       "gamerule.villageDestroyerNukes": "Village destroyer nukes",
-      "block.create_pyrotechnics.size_tester": "Launch Pad",
+      "block.create_pyrotechnics.size_tester": "Resizer",
       "block.create_pyrotechnics.trinitytest": "Trinitytest",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
       "gui.create_pyrotechnics.radar_test.button_dy_011": "dy - 0.1",
@@ -10339,6 +10482,7 @@
       "block.create_pyrotechnics.nuclear_core": "Nuclear Core",
       "block.create_pyrotechnics.body_slab_c_test": "body C Test",
       "gui.create_pyrotechnics.pumping.label_vent": "vent:",
+      "entity.create_pyrotechnics.thruster_entity": "Thruster Entity",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
       "gui.create_pyrotechnics.launch_3.button_dx_011": "dx - 0.1",
       "gui.create_pyrotechnics.radar_test.button_dy_01": "dy + 0.1",
@@ -10359,6 +10503,7 @@
       "gui.create_pyrotechnics.launch_3.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.warheadcraftinggui.label_air_tank_level": "tank psi",
       "gui.create_pyrotechnics.launch_3.button_launch": "launch",
+      "item.create_pyrotechnics.thruster_entity_spawn_egg": "Thruster Entity Spawn Egg",
       "block.create_pyrotechnics.missile_body_stage_3": "Missile Body Stage 3",
       "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
       "item.create_pyrotechnics.mirv_tester": "MIRV Tester",

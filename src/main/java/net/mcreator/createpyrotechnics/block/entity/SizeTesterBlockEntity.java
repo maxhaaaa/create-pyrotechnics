@@ -91,7 +91,7 @@ public class SizeTesterBlockEntity extends RandomizableContainerBlockEntity impl
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Launch Pad");
+		return Component.literal("Resizer");
 	}
 
 	@Override
