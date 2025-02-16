@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/gray_glazed_terracotta",
+    "up": "minecraft:block/gray_glazed_terracotta",
+    "north": "create_pyrotechnics:block/radar",
+    "east": "minecraft:block/furnace_side",
+    "south": "minecraft:block/furnace_side",
+    "west": "minecraft:block/furnace_side",
+    "particle": "minecraft:block/gray_glazed_terracotta"
+  },
+  "render_type": "solid"
+}

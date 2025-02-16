@@ -3,7 +3,7 @@
   "textures": {
     "all": "create_pyrotechnics:block/bombbench_p1",
     "particle": "create_pyrotechnics:block/bombbench_p1",
-    "0": "create_pyrotechnics:block/bombbench_p1"
+    "1": "create_pyrotechnics:block/bombbench_p1"
   },
   "render_type": "solid"
 }

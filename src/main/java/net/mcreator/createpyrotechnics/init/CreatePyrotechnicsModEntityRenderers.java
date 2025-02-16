@@ -11,8 +11,13 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.createpyrotechnics.client.renderer.ThrusterEntityRenderer;
+import net.mcreator.createpyrotechnics.client.renderer.TestFireballRenderer;
+import net.mcreator.createpyrotechnics.client.renderer.MrMotivatorRenderer;
 import net.mcreator.createpyrotechnics.client.renderer.MortarormissleshooterRenderer;
+import net.mcreator.createpyrotechnics.client.renderer.FireballTestRenderer;
 import net.mcreator.createpyrotechnics.client.renderer.DESIGNATORRenderer;
+import net.mcreator.createpyrotechnics.client.renderer.CockroachRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CreatePyrotechnicsModEntityRenderers {
@@ -25,5 +30,15 @@ public class CreatePyrotechnicsModEntityRenderers {
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.AIDS.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.SUPER_AIDS.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CreatePyrotechnicsModEntities.ICBM_PLACE_HOLDER_1.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.RADAR_LASER.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.FIREBALL_TEST.get(), FireballTestRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.MIRV_TEST.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.RADAR_LASER_2.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.TEST_SHOCKWAVE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.TEST_FIREBALL.get(), TestFireballRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.COCKROACH.get(), CockroachRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.THRUSTER_ENTITY.get(), ThrusterEntityRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.STRATEGIC_WARHEAD.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CreatePyrotechnicsModEntities.MR_MOTIVATOR.get(), MrMotivatorRenderer::new);
 	}
 }

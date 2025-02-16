@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "create_pyrotechnics:radar_tester",
     "create_pyrotechnics:tester"
   ]
 }

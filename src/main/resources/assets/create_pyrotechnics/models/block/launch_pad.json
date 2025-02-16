@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecraft:block/scaffolding_top",
+    "particle": "minecraft:block/scaffolding_top"
+  },
+  "render_type": "solid"
+}

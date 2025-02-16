@@ -1,16 +1,7 @@
 
 package net.mcreator.createpyrotechnics.block;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.Explosion;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.createpyrotechnics.procedures.KacNukeExplosionProcedure;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class PlaceholderBlock extends Block {
 	public PlaceholderBlock() {
@@ -25,6 +16,6 @@ public class PlaceholderBlock extends Block {
 	@Override
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
-		KacNukeExplosionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ShockWavePower1SaltedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

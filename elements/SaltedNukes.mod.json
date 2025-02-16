@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "salted nukes",
+    "description": "If enabled nukes will remove grass and leaves from nearby blocks and set the biome to badlands(note that it may make the explosions laggier and slower)",
+    "category": "UPDATES",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

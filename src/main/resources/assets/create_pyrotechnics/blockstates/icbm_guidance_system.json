@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "create_pyrotechnics:block/icbm_guidance_system"
+    },
+    "facing=east": {
+      "model": "create_pyrotechnics:block/icbm_guidance_system",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "create_pyrotechnics:block/icbm_guidance_system",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_pyrotechnics:block/icbm_guidance_system",
+      "y": 270
+    }
+  }
+}

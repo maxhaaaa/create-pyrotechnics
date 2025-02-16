@@ -1,43 +1,11 @@
 
 package net.mcreator.createpyrotechnics.block;
 
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.Shapes;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.EntityBlock;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.MenuProvider;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.world.Containers;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.createpyrotechnics.world.inventory.WarheadcraftingguiMenu;
-import net.mcreator.createpyrotechnics.procedures.BombBenchP1BlockDestroyedProcedure;
-import net.mcreator.createpyrotechnics.procedures.BombBenchP1BlockAddedProcedure;
-import net.mcreator.createpyrotechnics.block.entity.BombBenchP1BlockEntity;
-
-import io.netty.buffer.Unpooled;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class BombBenchP1Block extends Block implements EntityBlock {
 	public BombBenchP1Block() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.ANVIL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -53,6 +21,11 @@ public class BombBenchP1Block extends Block implements EntityBlock {
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(CreatePyrotechnicsModItems.BOMB_BENCH_BLOCK.get());
 	}
 
 	@Override

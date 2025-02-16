@@ -1,0 +1,9 @@
+{
+  "parent": "create_pyrotechnics:custom/signbasebottomblock",
+  "textures": {
+    "all": "create_pyrotechnics:block/cautionsignbottom",
+    "particle": "create_pyrotechnics:block/cautionsignbottom",
+    "1": "create_pyrotechnics:block/signbasetexture"
+  },
+  "render_type": "solid"
+}

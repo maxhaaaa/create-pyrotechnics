@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "create_pyrotechnics:blocks/body_slab_c_test",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_pyrotechnics:body_slab_c_test",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "create_pyrotechnics:body_slab_c_test",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ],
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create_pyrotechnics:block/body_slab_c_test"
+    },
+    "type=top": {
+      "model": "create_pyrotechnics:block/body_slab_c_test_top"
+    },
+    "type=double": {
+      "model": "create_pyrotechnics:block/body_slab_c_test_full"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "create_pyrotechnics:displaysettings/geckolib_item",
+  "textures": {
+    "particle": "create_pyrotechnics:block/nuclearcore"
+  }
+}

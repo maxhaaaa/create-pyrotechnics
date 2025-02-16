@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#9"
+      },
+      {
+        "value": "Items.DYE#10"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "Items.DYE#2"
+      },
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": "Items.DYE#13"
+      },
+      {
+        "value": "Items.DYE#4"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.SKULL#4"
+    },
+    "name": "core_craft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "_fv": 69,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "untitled105_20250103121901.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": -14,
+          "y": -75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_i_am_steevee",
+          "text": {
+            "fixedValue": "I... AM STEEVEE!"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 355,
+          "y": 277
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_crazy_condoms_rule",
+          "text": {
+            "fixedValue": "CRAZY CONDOMS RULE!"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 219,
+          "y": 22
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_its_just_a_dream",
+          "text": {
+            "fixedValue": "ITS JUST A DREAM"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 359,
+          "y": 273
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_will_never_wake_up",
+          "text": {
+            "fixedValue": "YOU WILL NEVER WAKE UP!"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 350,
+          "y": 271
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "Hihi"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

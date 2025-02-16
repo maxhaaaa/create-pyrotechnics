@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "nukes turn trees into charcoal",
+    "description": "nukes turn trees into charcoal(may make nukes laggier and slower)",
+    "category": "UPDATES",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

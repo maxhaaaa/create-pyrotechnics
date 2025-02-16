@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_pyrotechnics:block/thruster_c_test"
+    }
+  }
+}

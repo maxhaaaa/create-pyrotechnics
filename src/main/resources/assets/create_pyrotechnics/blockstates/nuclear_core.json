@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_pyrotechnics:custom/nuclear_core_particle"
+    }
+  }
+}

@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "BREAKS COLLIDING BLOCKS"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

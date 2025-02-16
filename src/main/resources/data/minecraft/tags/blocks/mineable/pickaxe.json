@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create_pyrotechnics:caution_sign_upper",
+    "create_pyrotechnics:nuclear_core",
+    "create_pyrotechnics:caution_sign_bottom"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_pyrotechnics:block/we_test_falling_blocks"
+    }
+  }
+}

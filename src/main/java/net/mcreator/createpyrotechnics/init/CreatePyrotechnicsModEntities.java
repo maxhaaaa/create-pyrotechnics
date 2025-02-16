@@ -16,12 +16,22 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.createpyrotechnics.entity.ThrusterEntityEntity;
 import net.mcreator.createpyrotechnics.entity.TestingMortarEntity;
+import net.mcreator.createpyrotechnics.entity.TestShockwaveEntity;
+import net.mcreator.createpyrotechnics.entity.TestFireballEntity;
 import net.mcreator.createpyrotechnics.entity.SuperAidsEntity;
+import net.mcreator.createpyrotechnics.entity.StrategicWarheadEntity;
+import net.mcreator.createpyrotechnics.entity.RadarLaserEntity;
+import net.mcreator.createpyrotechnics.entity.RadarLaser2Entity;
 import net.mcreator.createpyrotechnics.entity.NukeprojEntity;
+import net.mcreator.createpyrotechnics.entity.MrMotivatorEntity;
 import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
+import net.mcreator.createpyrotechnics.entity.MIRVTestEntity;
 import net.mcreator.createpyrotechnics.entity.ICBMPlaceHolder1Entity;
+import net.mcreator.createpyrotechnics.entity.FireballTestEntity;
 import net.mcreator.createpyrotechnics.entity.DESIGNATOREntity;
+import net.mcreator.createpyrotechnics.entity.CockroachEntity;
 import net.mcreator.createpyrotechnics.entity.AidsEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
@@ -47,6 +57,32 @@ public class CreatePyrotechnicsModEntities {
 			EntityType.Builder.<SuperAidsEntity>of(SuperAidsEntity::new, MobCategory.MISC).setCustomClientFactory(SuperAidsEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ICBMPlaceHolder1Entity>> ICBM_PLACE_HOLDER_1 = register("icbm_place_holder_1", EntityType.Builder.<ICBMPlaceHolder1Entity>of(ICBMPlaceHolder1Entity::new, MobCategory.MISC)
 			.setCustomClientFactory(ICBMPlaceHolder1Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RadarLaserEntity>> RADAR_LASER = register("radar_laser",
+			EntityType.Builder.<RadarLaserEntity>of(RadarLaserEntity::new, MobCategory.MISC).setCustomClientFactory(RadarLaserEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<FireballTestEntity>> FIREBALL_TEST = register("fireball_test", EntityType.Builder.<FireballTestEntity>of(FireballTestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(FireballTestEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<MIRVTestEntity>> MIRV_TEST = register("mirv_test",
+			EntityType.Builder.<MIRVTestEntity>of(MIRVTestEntity::new, MobCategory.MISC).setCustomClientFactory(MIRVTestEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RadarLaser2Entity>> RADAR_LASER_2 = register("radar_laser_2",
+			EntityType.Builder.<RadarLaser2Entity>of(RadarLaser2Entity::new, MobCategory.MISC).setCustomClientFactory(RadarLaser2Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<TestShockwaveEntity>> TEST_SHOCKWAVE = register("test_shockwave",
+			EntityType.Builder.<TestShockwaveEntity>of(TestShockwaveEntity::new, MobCategory.MISC).setCustomClientFactory(TestShockwaveEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(100f, 100f));
+	public static final RegistryObject<EntityType<TestFireballEntity>> TEST_FIREBALL = register("test_fireball", EntityType.Builder.<TestFireballEntity>of(TestFireballEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(TestFireballEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CockroachEntity>> COCKROACH = register("cockroach",
+			EntityType.Builder.<CockroachEntity>of(CockroachEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CockroachEntity::new)
+
+					.sized(0.2f, 0.1f));
+	public static final RegistryObject<EntityType<ThrusterEntityEntity>> THRUSTER_ENTITY = register("thruster_entity",
+			EntityType.Builder.<ThrusterEntityEntity>of(ThrusterEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(ThrusterEntityEntity::new)
+
+					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<StrategicWarheadEntity>> STRATEGIC_WARHEAD = register("strategic_warhead", EntityType.Builder.<StrategicWarheadEntity>of(StrategicWarheadEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(StrategicWarheadEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<MrMotivatorEntity>> MR_MOTIVATOR = register("mr_motivator",
+			EntityType.Builder.<MrMotivatorEntity>of(MrMotivatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(MrMotivatorEntity::new)
+
+					.sized(0.1f, 0.1f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -59,6 +95,11 @@ public class CreatePyrotechnicsModEntities {
 		event.enqueueWork(() -> {
 			MortarormissleshooterEntity.init();
 			DESIGNATOREntity.init();
+			FireballTestEntity.init();
+			TestFireballEntity.init();
+			CockroachEntity.init();
+			ThrusterEntityEntity.init();
+			MrMotivatorEntity.init();
 		});
 	}
 
@@ -66,5 +107,10 @@ public class CreatePyrotechnicsModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(MORTARORMISSLESHOOTER.get(), MortarormissleshooterEntity.createAttributes().build());
 		event.put(DESIGNATOR.get(), DESIGNATOREntity.createAttributes().build());
+		event.put(FIREBALL_TEST.get(), FireballTestEntity.createAttributes().build());
+		event.put(TEST_FIREBALL.get(), TestFireballEntity.createAttributes().build());
+		event.put(COCKROACH.get(), CockroachEntity.createAttributes().build());
+		event.put(THRUSTER_ENTITY.get(), ThrusterEntityEntity.createAttributes().build());
+		event.put(MR_MOTIVATOR.get(), MrMotivatorEntity.createAttributes().build());
 	}
 }

@@ -1,29 +1,13 @@
 package net.mcreator.createpyrotechnics.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.ImageButton;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.createpyrotechnics.world.inventory.WarheadcraftingguiMenu;
-import net.mcreator.createpyrotechnics.procedures.ReturnexplosivecurrentProcedure;
-import net.mcreator.createpyrotechnics.procedures.ReturnExplosivepowerProcedure;
-import net.mcreator.createpyrotechnics.network.WarheadcraftingguiButtonMessage;
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class WarheadcraftingguiScreen extends AbstractContainerScreen<WarheadcraftingguiMenu> {
+
 	private final static HashMap<String, Object> guistate = WarheadcraftingguiMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+
 	ImageButton imagebutton_gui_launch_button_red;
 	ImageButton imagebutton_gui_arrow_left;
 
@@ -43,8 +27,11 @@ public class WarheadcraftingguiScreen extends AbstractContainerScreen<Warheadcra
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
+
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
 		if (mouseX > leftPos + 87 && mouseX < leftPos + 111 && mouseY > topPos + 9 && mouseY < topPos + 33)
 			guiGraphics.renderTooltip(font, Component.translatable("gui.create_pyrotechnics.warheadcraftinggui.tooltip_warning_if_warhead_sphere_is_not"), mouseX, mouseY);
 	}
@@ -54,6 +41,7 @@ public class WarheadcraftingguiScreen extends AbstractContainerScreen<Warheadcra
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("create_pyrotechnics:textures/screens/warhead_ball.png"), this.leftPos + 82, this.topPos + 40, 0, 0, 32, 32, 32, 32);
@@ -83,6 +71,7 @@ public class WarheadcraftingguiScreen extends AbstractContainerScreen<Warheadcra
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -101,21 +90,27 @@ public class WarheadcraftingguiScreen extends AbstractContainerScreen<Warheadcra
 	@Override
 	public void init() {
 		super.init();
+
 		imagebutton_gui_launch_button_red = new ImageButton(this.leftPos + 87, this.topPos + 97, 20, 19, 0, 0, 19, new ResourceLocation("create_pyrotechnics:textures/screens/atlas/imagebutton_gui_launch_button_red.png"), 20, 38, e -> {
 			if (true) {
 				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new WarheadcraftingguiButtonMessage(0, x, y, z));
 				WarheadcraftingguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		});
+
 		guistate.put("button:imagebutton_gui_launch_button_red", imagebutton_gui_launch_button_red);
 		this.addRenderableWidget(imagebutton_gui_launch_button_red);
+
 		imagebutton_gui_arrow_left = new ImageButton(this.leftPos + 130, this.topPos + 47, 16, 15, 0, 0, 15, new ResourceLocation("create_pyrotechnics:textures/screens/atlas/imagebutton_gui_arrow_left.png"), 16, 30, e -> {
 			if (true) {
 				CreatePyrotechnicsMod.PACKET_HANDLER.sendToServer(new WarheadcraftingguiButtonMessage(1, x, y, z));
 				WarheadcraftingguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		});
+
 		guistate.put("button:imagebutton_gui_arrow_left", imagebutton_gui_arrow_left);
 		this.addRenderableWidget(imagebutton_gui_arrow_left);
+
 	}
+
 }
