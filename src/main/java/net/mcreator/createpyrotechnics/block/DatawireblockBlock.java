@@ -1,29 +1,7 @@
 
 package net.mcreator.createpyrotechnics.block;
 
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.Shapes;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.Mirror;
-import net.minecraft.world.level.block.EntityBlock;
-import net.minecraft.world.level.block.DirectionalBlock;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.MenuProvider;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.createpyrotechnics.block.entity.DatawireblockBlockEntity;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class DatawireblockBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;

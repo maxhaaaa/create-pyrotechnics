@@ -1,29 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.phys.AABB;
-import net.minecraft.world.level.block.state.properties.Property;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
-
-import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
-
-import java.util.List;
-import java.util.Comparator;
+import net.minecraftforge.eventbus.api.Event;
 
 public class CustomRocket2Procedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -164,7 +141,7 @@ public class CustomRocket2Procedure {
 							}
 						}.getValue(world, BlockPos.containing(x + sx, y + sy, z + sz), "thruster")) == true) {
 							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = CreatePyrotechnicsModEntities.THRUSTER_ENTITY.get().spawn(_level, BlockPos.containing(x + sx, y + sy, z + sz), MobSpawnType.MOB_SUMMONED);
+								Entity entityToSpawn = CreatePyrotechnicsModEntities.DELETED_MOD_ELEMENT.get().spawn(_level, BlockPos.containing(x + sx, y + sy, z + sz), MobSpawnType.MOB_SUMMONED);
 								if (entityToSpawn != null) {
 									entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 								}

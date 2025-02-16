@@ -1,9 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.core.BlockPos;
+import net.minecraftforge.eventbus.api.Event;
 
 public class Shockwavetest1Procedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

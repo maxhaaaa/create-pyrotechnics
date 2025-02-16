@@ -1,21 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.AABB;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.core.particles.ParticleTypes;
-
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
-
-import java.util.List;
-import java.util.Comparator;
+import net.minecraftforge.eventbus.api.Event;
 
 public class TestShockwaveWhileProjectileFlyingTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity immediatesourceentity) {

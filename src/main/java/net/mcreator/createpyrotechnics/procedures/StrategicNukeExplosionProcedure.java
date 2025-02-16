@@ -1,10 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
-
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class StrategicNukeExplosionProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -13,7 +9,6 @@ public class StrategicNukeExplosionProcedure {
 		if (random > 5) {
 			StrategicMushroomCloudProcedure.execute(world, x, y, z);
 		} else {
-			StrategicMushroomCloud2Procedure.execute(world, x, y, z);
 		}
 		CreatePyrotechnicsMod.queueServerWork(10, () -> {
 			E1ogProcedure.execute(world, x, y, z);

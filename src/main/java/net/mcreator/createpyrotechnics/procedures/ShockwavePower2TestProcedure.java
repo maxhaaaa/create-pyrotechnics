@@ -1,8 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ShockwavePower2TestProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -34,7 +32,6 @@ public class ShockwavePower2TestProcedure {
 							E3SHProcedure.execute(world, x, y, z, 45, 50, 45);
 							E3SHProcedure.execute(world, x, y, z, 50, 50, 35);
 							E3SHProcedure.execute(world, x, y, z, 75, 50, 20);
-							E5shockwaveProcedure.execute(world, x, y, z);
 							CreatePyrotechnicsMod.queueServerWork(30, () -> {
 								E3SHProcedure.execute(world, x, y, z, 25, 60, 75);
 								E3SHProcedure.execute(world, x, y, z, 35, 60, 65);
@@ -55,12 +52,10 @@ public class ShockwavePower2TestProcedure {
 										E3SHProcedure.execute(world, x, y, z, 45, 80, 45);
 										E3SHProcedure.execute(world, x, y, z, 50, 80, 35);
 										E3SHProcedure.execute(world, x, y, z, 75, 80, 20);
-										E8shockwaveProcedure.execute(world, x, y, z);
 										CreatePyrotechnicsMod.queueServerWork(15, () -> {
 											E3SHProcedure.execute(world, x, y, z, 45, 90, 45);
 											E3SHProcedure.execute(world, x, y, z, 50, 90, 35);
 											E3SHProcedure.execute(world, x, y, z, 75, 90, 20);
-											E9shockwaveProcedure.execute(world, x, y, z);
 											CreatePyrotechnicsMod.queueServerWork(20, () -> {
 												E3SHProcedure.execute(world, x, y, z, 50, 100, 35);
 												E3SHProcedure.execute(world, x, y, z, 75, 100, 20);

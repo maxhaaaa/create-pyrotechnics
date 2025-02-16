@@ -1,17 +1,17 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
+import net.minecraftforge.eventbus.api.Event;
 
 public class FillAlternativeBigProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
-		FillAlternativeYProcedure.execute(world, x, y, z);
-		FillAlternativeYProcedure.execute(world, x + 3, y, z);
-		FillAlternativeYProcedure.execute(world, x - 3, y, z);
-		FillAlternativeYProcedure.execute(world, x, y, z - 3);
-		FillAlternativeYProcedure.execute(world, x, y, z + 3);
-		FillAlternativeYProcedure.execute(world, x + 3, y, z + 3);
-		FillAlternativeYProcedure.execute(world, x + 3, y, z - 3);
-		FillAlternativeYProcedure.execute(world, x - 3, y, z - 3);
-		FillAlternativeYProcedure.execute(world, x - 3, y, z + 3);
+	public static void execute() {
+		FillAlternativeYProcedure.execute();
+		FillAlternativeYProcedure.execute();
+		FillAlternativeYProcedure.execute();
+		FillAlternativeYProcedure.execute();
+		FillAlternativeYProcedure.execute();
+		FillAlternativeYProcedure.execute();
+		FillAlternativeYProcedure.execute();
+		FillAlternativeYProcedure.execute();
+		FillAlternativeYProcedure.execute();
 	}
 }

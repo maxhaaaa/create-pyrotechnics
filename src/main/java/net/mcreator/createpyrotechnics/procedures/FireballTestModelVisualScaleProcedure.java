@@ -1,6 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class FireballTestModelVisualScaleProcedure {
 	public static double execute(Entity entity) {

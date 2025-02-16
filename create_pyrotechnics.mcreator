@@ -8,8 +8,8 @@
       "registry_name": "bevsguitestingidk",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsguitestingidkScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsguitestingidkMenu.java"
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsguitestingidkMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsguitestingidkScreen.java"
         ]
       },
       "path": "~/basic setup"
@@ -22,8 +22,8 @@
       "registry_name": "bevsslotsgui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsslotsguiMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsslotsguiScreen.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsslotsguiScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsslotsguiMenu.java"
         ]
       },
       "path": "~/basic setup"
@@ -138,8 +138,8 @@
       "registry_name": "debugstick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/item/DebugstickItem.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/debugstick.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/debugstick.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/DebugstickItem.java"
         ]
       },
       "path": "~/salvage"
@@ -669,8 +669,8 @@
       "registry_name": "particleheavy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/particles/particleheavy.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ParticleheavyParticle.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ParticleheavyParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/particleheavy.json"
         ]
       },
       "path": "~/explosions"
@@ -1228,8 +1228,8 @@
       "registry_name": "datawiretester",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/item/DatawiretesterItem.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/datawiretester.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/datawiretester.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/DatawiretesterItem.java"
         ]
       },
       "path": "~/computer stuff"
@@ -1366,8 +1366,8 @@
       "registry_name": "flash",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/FlashParticle.java",
-          "src/main/resources/assets/create_pyrotechnics/particles/flash.json"
+          "src/main/resources/assets/create_pyrotechnics/particles/flash.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/FlashParticle.java"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -1629,9 +1629,9 @@
       "registry_name": "igiveuaids",
       "metadata": {
         "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/igiveuaids.json",
           "src/main/java/net/mcreator/createpyrotechnics/item/IgiveuaidsItem.java",
           "src/main/java/net/mcreator/createpyrotechnics/item/renderer/IgiveuaidsItemRenderer.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/igiveuaids.json",
           "src/main/java/net/mcreator/createpyrotechnics/item/model/IgiveuaidsItemModel.java"
         ]
       },
@@ -2395,9 +2395,9 @@
       "registry_name": "handheld_toxifier_lab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/handheld_toxifier_lab.json",
           "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldToxifierLabInventoryCapability.java",
-          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldToxifierLabItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldToxifierLabItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/handheld_toxifier_lab.json"
         ]
       },
       "path": "~/tools/concept handheld toxifier lab"
@@ -2460,8 +2460,8 @@
       "registry_name": "gas_canister",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/gas_canister.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/GasCanisterItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/GasCanisterItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/gas_canister.json"
         ]
       },
       "path": "~/tools/concept handheld toxifier lab"
@@ -2601,8 +2601,8 @@
       "registry_name": "shockwave_particle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/particles/shockwave_particle.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ShockwaveParticleParticle.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ShockwaveParticleParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/shockwave_particle.json"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -4248,8 +4248,8 @@
       "registry_name": "bomb_bench",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BombBenchScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BombBenchMenu.java"
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BombBenchMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BombBenchScreen.java"
         ]
       },
       "path": "~/DeadGamers Shiz"
@@ -4419,6 +4419,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_1.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/BombBenchP1BlockEntity.java",
           "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP1Block.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_1.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json",
@@ -4487,8 +4488,8 @@
       "registry_name": "radar_tester",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/item/RadarTesterItem.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/radar_tester.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/radar_tester.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/RadarTesterItem.java"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -5319,8 +5320,8 @@
       "registry_name": "radar_test",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/RadarTestMenu.java",
           "src/main/java/net/mcreator/createpyrotechnics/client/gui/RadarTestScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/RadarTestMenu.java",
           "src/main/java/net/mcreator/createpyrotechnics/network/RadarTestButtonMessage.java"
         ]
       },
@@ -8907,9 +8908,9 @@
       "registry_name": "fireball_test",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/fireball_test_spawn_egg.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/FireballTestRenderer.java",
           "src/main/java/net/mcreator/createpyrotechnics/entity/FireballTestEntity.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/FireballTestRenderer.java"
+          "src/main/resources/assets/create_pyrotechnics/models/item/fireball_test_spawn_egg.json"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -10295,6 +10296,54 @@
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
+    },
+    {
+      "name": "ModdedExplosionparticle1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_explosionparticle_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/procedures/ModdedExplosionparticle1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/kaczorros shit/non nuclear explosions/modded shisse"
+    },
+    {
+      "name": "Moddedparticletest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moddedparticletest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/moddedparticletest.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/moddedparticletest.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/moddedparticletest.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/ModdedparticletestBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/moddedparticletest.json"
+        ]
+      },
+      "path": "~/kaczorros shit/non nuclear explosions/modded shisse"
     }
   ],
   "variable_elements": [
@@ -10372,23 +10421,16 @@
       "item.create_pyrotechnics.big_red_button": "Big Red Button",
       "gui.create_pyrotechnics.pumping.label_placeholder1": "placeholder",
       "block.create_pyrotechnics.test_custom_missile": "Test Custom Missile",
-      "gui.create_pyrotechnics.radar_test.button_dx_01": "dx + 0.1",
       "block.create_pyrotechnics.caution_sign_bottom": "Caution Sign stand",
-      "entity.create_pyrotechnics.fireball_test": "Fireball Test",
       "gui.create_pyrotechnics.siloguinew.label_return_pin": "",
       "gui.create_pyrotechnics.valueenteringgui.input": "your custom variable name here",
       "block.create_pyrotechnics.engine_c_test": "Engine C Test",
       "item.create_pyrotechnics.igiveuaids": "use this to get rid of shit",
-      "gamerule.treeCharcoal": "nukes turn trees into charcoal",
-      "gamerule.saltedNukes": "salted nukes",
       "item.create_pyrotechnics.datawiretester": "Datawiretester",
       "block.create_pyrotechnics.radar": "Radar",
       "gui.create_pyrotechnics.computernavigator.button_empty1": "\\ /",
-      "gamerule.villageDestroyerNukes.description": "targets blocks specificly found in villages(may make nukes laggier and slower)",
       "gui.create_pyrotechnics.computernavigator.button_empty2": "\u003c",
       "attribute.create_pyrotechnics.blinded": "Blinded",
-      "gui.create_pyrotechnics.fallout_state.label_fallout": "FALLOUT!",
-      "gui.create_pyrotechnics.easter_egg.label_you_will_never_wake_up": "YOU WILL NEVER WAKE UP!",
       "gui.create_pyrotechnics.launch.button_dz_011": "dz - 0.1",
       "gui.create_pyrotechnics.valueenteringgui.label_current_varb_number": "current:",
       "gui.create_pyrotechnics.computernavigator.label_proc_returnvirtualblock": "testing",
@@ -10398,13 +10440,12 @@
       "gui.create_pyrotechnics.launch_2.button_check_cords": "check cords",
       "gui.create_pyrotechnics.launch.button_dx_011": "dx - 0.1",
       "block.create_pyrotechnics.datawirestopper": "Datawiresswitcher",
-      "item.create_pyrotechnics.nuclear_ink": "Nuclear Ink",
       "block.create_pyrotechnics.missile_body": "Missile Body",
       "gui.create_pyrotechnics.launch_2.button_dz_011": "dz - 0.1",
+      "item.create_pyrotechnics.nuclear_ink": "Nuclear Ink",
       "gui.create_pyrotechnics.launch_2.button_dz_01": "dz + 0.1",
       "gui.create_pyrotechnics.toxifier_lab.button_empty1": "-",
       "gui.create_pyrotechnics.trinitytestgui.label_bomb_sphere_here": "bomb sphere here",
-      "subtitles.nuclear_alarm": "",
       "item.create_pyrotechnics.handheld_pump": "Handheld Pump",
       "gui.create_pyrotechnics.siloguinew.button_launch": "launch",
       "entity.create_pyrotechnics.mortarormissleshooter": "Mortarormissleshooter",
@@ -10414,15 +10455,11 @@
       "item.create_pyrotechnics.lazerdesignator": "Lazerdesignator",
       "block.create_pyrotechnics.bomb_bench_p_1": "Bomb Bench P 1",
       "block.create_pyrotechnics.bomb_bench_p_2": "Bomb Bench P 2",
-      "death.attack.squished": "%1$s was squished to death",
       "block.create_pyrotechnics.mirv_test_1": "MIRV Test 1",
-      "gamerule.saltedNukes.description": "If enabled nukes will remove grass and leaves from nearby blocks and set the biome to badlands(note that it may make the explosions laggier and slower)",
-      "gamerule.saltedNukesBadlands": "salted nukes badlands",
-      "block.create_pyrotechnics.strategic_nuke_placeholder_2": "Strategic Nuke Placeholder - kaczorro\u0027s startegic nukr testing block B",
       "item.create_pyrotechnics.cockroach_spawn_egg": "Cockroach Spawn Egg",
+      "block.create_pyrotechnics.strategic_nuke_placeholder_2": "Strategic Nuke Placeholder - kaczorro\u0027s startegic nukr testing block B",
       "subtitles.explosion": "",
       "block.create_pyrotechnics.valuestorageblock": "Valuestorageblock",
-      "gui.create_pyrotechnics.radar_test.button_dz_01": "dz + 0.1",
       "block.create_pyrotechnics.launch_pad": "Launch Pad",
       "block.create_pyrotechnics.designatorblock": "Designatorblock",
       "gui.create_pyrotechnics.launch.button_dy_01": "dy + 0.1",
@@ -10432,41 +10469,30 @@
       "gui.create_pyrotechnics.siloguinew.label_pin": "pin 5",
       "gui.create_pyrotechnics.launch_2.button_dy_011": "dy - 0.1",
       "block.create_pyrotechnics.datawireblock": "Datawireblock",
-      "gamerule.treeCharcoal.description": "nukes turn trees into charcoal(may make nukes laggier and slower)",
       "block.create_pyrotechnics.shockwave_tester": "Shockwave Tester - i use this to develop a new shockwave system",
       "gui.create_pyrotechnics.toxifier_lab.button_empty": "+",
       "block.create_pyrotechnics.fuel_tank": "Fuel Tank",
       "gui.create_pyrotechnics.warheadcraftinggui.tooltip_warning_if_warhead_sphere_is_not": "WARNING IF WARHEAD SPHERE IS NOT SEALED, AND STATION IS BROKEN, THERE WILL RESULT IN PARTIAL DETONATION OF YOUR WARHEAD",
       "block.create_pyrotechnics.missile_controll_panel": "Missile Controll Panel",
-      "gui.create_pyrotechnics.fallout_alert.label_fallout": "FALLOUT INCOMING!",
-      "gui.create_pyrotechnics.easter_egg.label_and_crazy_condoms_rule": "CRAZY CONDOMS RULE!",
       "item.create_pyrotechnics.handheld_toxifier_lab": "Handheld Toxifier Lab",
       "block.create_pyrotechnics.silo_block": "Silo Block",
-      "gamerule.evaporateWater.description": "if true nukes evaporate water",
       "gui.create_pyrotechnics.computernavigator.button_down_y_axis": "down y axis",
       "block.create_pyrotechnics.placeholder": "Placeholder - use to test kaczorro\u0027s nukes",
-      "gui.create_pyrotechnics.fallout_alert.label_do_not_stand_in_the_rain": "stay in doors!",
       "gui.create_pyrotechnics.valueenteringgui.valueentering": "value here (0)",
       "gui.create_pyrotechnics.pumping.button_pump": "Pump",
       "gui.create_pyrotechnics.launch_3.button_dx_01": "dx + 0.1",
-      "gamerule.villageDestroyerNukes": "Village destroyer nukes",
       "block.create_pyrotechnics.size_tester": "Resizer",
       "block.create_pyrotechnics.trinitytest": "Trinitytest",
       "gui.create_pyrotechnics.pumping.label_placeholder": "placeholder",
-      "gui.create_pyrotechnics.radar_test.button_dy_011": "dy - 0.1",
       "block.create_pyrotechnics.caution_sign_upper": "Caution Sign Upper",
       "gui.create_pyrotechnics.bomb_bench.label_bombbench": "BombBench",
-      "gui.create_pyrotechnics.radar_test.button_check_cords": "check cords",
-      "item.create_pyrotechnics.core": "fission core",
       "item.create_pyrotechnics.tester": "Tester",
-      "gamerule.evaporateWater": "nukes evaporate water",
       "item.create_pyrotechnics.bomb_bench_block": "Bomb Bench",
-      "gui.create_pyrotechnics.radar_test.button_launch": "locate",
       "block.create_pyrotechnics.computerblock": "ballisitics computer",
       "gui.create_pyrotechnics.toxifier_lab.label_flame": "flame:",
       "gui.create_pyrotechnics.computernavigator.button_empty": "^",
-      "item.create_pyrotechnics.blank_nuclear_card": "Blank Nuclear Card",
       "block.create_pyrotechnics.linker_c_test": "linker C Test",
+      "item.create_pyrotechnics.blank_nuclear_card": "Blank Nuclear Card",
       "gui.create_pyrotechnics.toxifier_lab.button_seal": "Seal",
       "gui.create_pyrotechnics.warheadcraftinggui.label_seal": "SEAL",
       "gui.create_pyrotechnics.computernavigator.button_down_on_the_y_axis": "down- on the y axis",
@@ -10485,7 +10511,6 @@
       "entity.create_pyrotechnics.thruster_entity": "Thruster Entity",
       "gui.create_pyrotechnics.computernavigator.label_exectuable_block_detected": "exectuable block detected!",
       "gui.create_pyrotechnics.launch_3.button_dx_011": "dx - 0.1",
-      "gui.create_pyrotechnics.radar_test.button_dy_01": "dy + 0.1",
       "gui.create_pyrotechnics.launch.button_dz_01": "dz + 0.1",
       "block.create_pyrotechnics.missile_navigation": "Missile Controll Panel",
       "block.create_pyrotechnics.test_salted_nukes": "Test Salted Nukes",
@@ -10507,32 +10532,23 @@
       "item.create_pyrotechnics.thruster_entity_spawn_egg": "Thruster Entity Spawn Egg",
       "block.create_pyrotechnics.missile_body_stage_3": "Missile Body Stage 3",
       "item.create_pyrotechnics.mortarormissleshooter_spawn_egg": "Mortarormissleshooter Spawn Egg",
-      "item.create_pyrotechnics.mirv_tester": "MIRV Tester",
       "gui.create_pyrotechnics.launch.button_launch": "launch",
       "gui.create_pyrotechnics.launch_2.button_dx_011": "dx - 0.1",
       "gui.create_pyrotechnics.launch_3.button_dy_01": "dy + 0.1",
       "item.create_pyrotechnics.test_fireball_spawn_egg": "Test Fireball Spawn Egg",
-      "gui.create_pyrotechnics.radar_test.button_dz_011": "dz - 0.1",
-      "item.create_pyrotechnics.fireball_test_spawn_egg": "Fireball Test Spawn Egg",
-      "death.attack.squished.item": "%1$s was squished by %2$s using %3$s",
       "effect.create_pyrotechnics.burntretnas": "Burntretnas",
       "block.create_pyrotechnics.icbm_guidance_system": "ICBM Guidance System",
       "gui.create_pyrotechnics.computernavigator.button_execute": "open",
       "item.create_pyrotechnics.debugstick": "Debugstick",
       "gui.create_pyrotechnics.computernavigator.button_error_infinite_dataloop_detecte": "error! infinite dataloop detected!, fix crash loop",
       "block.create_pyrotechnics.missile_body_placeholder": "Missile Body Placeholder",
-      "gamerule.saltedNukesBadlands.description": "if false nukes won\u0027t set the biome to badlands(works only if salted nukes is true, make sure to note that this can make nukes laggier and slower)",
-      "item.create_pyrotechnics.radar_tester": "Tester",
       "gui.create_pyrotechnics.siloguinew.listening": "listening for launch pin",
       "entity.create_pyrotechnics.cockroach": "Cockroach",
       "block.create_pyrotechnics.body_c_test": "body C Test",
-      "gui.create_pyrotechnics.easter_egg.label_i_am_steevee": "I... AM STEEVEE!",
-      "gui.create_pyrotechnics.radar_test.button_dx_011": "dx - 0.1",
       "gui.create_pyrotechnics.computernavigator.button_return_to_original_block": "return to original block",
-      "gui.create_pyrotechnics.easter_egg.label_its_just_a_dream": "ITS JUST A DREAM",
       "block.create_pyrotechnics.thruster": "Thruster",
-      "block.create_pyrotechnics.we_test_falling_blocks": "Test Falling Blocks",
       "block.create_pyrotechnics.strategic_nuke_placeholder": "Strategic Nuke Placeholder - kaczorro\u0027s startegic nukr testing block",
+      "block.create_pyrotechnics.we_test_falling_blocks": "Test Falling Blocks",
       "gui.create_pyrotechnics.launch.button_dx_01": "dx + 0.1",
       "gui.create_pyrotechnics.launch_2.button_link_code": "link code",
       "gui.create_pyrotechnics.launch.button_check_cords": "check cords",
@@ -10546,8 +10562,7 @@
       "gui.create_pyrotechnics.pumping.button_seal": "seal/unseal",
       "entity.create_pyrotechnics.test_fireball": "Test Fireball",
       "block.create_pyrotechnics.explosivesphereworkbench": "Explosivesphereworkbench",
-      "gui.create_pyrotechnics.toxifier_lab.label_potency": "Potency:",
-      "death.attack.squished.player": "%1$s was squished whilst trying to escape %2$s"
+      "gui.create_pyrotechnics.toxifier_lab.label_potency": "Potency:"
     }
   },
   "foldersRoot": {
@@ -10559,23 +10574,10 @@
       },
       {
         "name": "DeadGamers Shiz",
-        "children": [
-          {
-            "name": "BombBench",
-            "children": []
-          },
-          {
-            "name": "CautionSign",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "basic setup",
         "children": []
       },
       {
-        "name": "createPT and BT crossover",
+        "name": "basic setup",
         "children": []
       },
       {
@@ -10647,54 +10649,21 @@
         "children": [
           {
             "name": "non nuclear explosions",
-            "children": []
-          },
-          {
-            "name": "fallout",
-            "children": []
-          },
-          {
-            "name": "custom missiles test",
-            "children": []
-          },
-          {
-            "name": "strategic nuke mushroom cloud",
-            "children": []
+            "children": [
+              {
+                "name": "modded shisse",
+                "children": []
+              }
+            ]
           },
           {
             "name": "explosion",
             "children": [
               {
-                "name": "falling blocks test",
-                "children": [
-                  {
-                    "name": "fallingTest",
-                    "children": [
-                      {
-                        "name": "test1",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "B1",
-                "children": []
-              },
-              {
-                "name": "C1",
-                "children": []
-              },
-              {
                 "name": "A1",
                 "children": [
                   {
                     "name": "explosion part 1",
-                    "children": []
-                  },
-                  {
-                    "name": "salted testing",
                     "children": []
                   }
                 ]
@@ -10711,49 +10680,19 @@
             ]
           },
           {
-            "name": "recepies",
-            "children": [
-              {
-                "name": "uranium",
-                "children": []
-              }
-            ]
-          },
-          {
             "name": "ICBMs",
             "children": [
               {
                 "name": "gui shit",
                 "children": []
-              },
-              {
-                "name": "ICBM2",
-                "children": []
               }
             ]
-          },
-          {
-            "name": "shockwave test",
-            "children": []
-          },
-          {
-            "name": "nuke crafting",
-            "children": []
           }
         ]
       },
       {
         "name": "salvage",
         "children": []
-      },
-      {
-        "name": "entities",
-        "children": [
-          {
-            "name": "Cockroach",
-            "children": []
-          }
-        ]
       },
       {
         "name": "crafting",
@@ -10784,5 +10723,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.createpyrotechnics"
   },
-  "mcreatorVersion": 202400452410
+  "mcreatorVersion": 202400342716
 }

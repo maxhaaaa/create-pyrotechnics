@@ -1,10 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.createpyrotechnics.network.CreatePyrotechnicsModVariables;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ICBMGuidanceSystemOnTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -16,7 +12,6 @@ public class ICBMGuidanceSystemOnTickUpdateProcedure {
 				return -1;
 			}
 		}.getValue(world, BlockPos.containing(x, y, z), "link")) {
-			ICBMLaunchProcedureProcedure.execute(world, x, y, z);
 		}
 	}
 }

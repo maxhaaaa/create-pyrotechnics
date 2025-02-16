@@ -1,24 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
-
-import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
+import net.minecraftforge.eventbus.api.Event;
 
 public class LaunchPadOnTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -42,7 +24,7 @@ public class LaunchPadOnTickUpdateProcedure {
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + sy), z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								("summon block_display ~ ~ ~ {block_state:{Name:" + (ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y + sy, z))).getBlock()).toString()).substring(10) + "}}"));
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = CreatePyrotechnicsModEntities.MR_MOTIVATOR.get().spawn(_level, BlockPos.containing(x, y + sy, z), MobSpawnType.MOB_SUMMONED);
+						Entity entityToSpawn = CreatePyrotechnicsModEntities.DELETED_MOD_ELEMENT.get().spawn(_level, BlockPos.containing(x, y + sy, z), MobSpawnType.MOB_SUMMONED);
 						if (entityToSpawn != null) {
 							entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 						}

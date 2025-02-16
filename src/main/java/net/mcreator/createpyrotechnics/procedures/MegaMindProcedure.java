@@ -1,9 +1,9 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
+import net.minecraftforge.eventbus.api.Event;
 
 public class MegaMindProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
+	public static void execute() {
 		double pa = 0;
 		double loop = 0;
 		double zr = 0;
@@ -13,7 +13,6 @@ public class MegaMindProcedure {
 		xr = 60;
 		zr = 60;
 		while (loop < pa) {
-			ThisMayBeItProcedure.execute(world, x + 0.5 + Math.cos((Math.PI * 2 + pa) * loop) * xr, y, z + 0.5 + Math.sin((Math.PI * 2 + pa) * loop) * zr);
 			loop = loop + 1;
 		}
 	}

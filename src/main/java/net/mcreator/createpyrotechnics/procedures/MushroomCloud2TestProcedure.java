@@ -1,22 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
-
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class MushroomCloud2TestProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -47,8 +31,6 @@ public class MushroomCloud2TestProcedure {
 		});
 		if (5 < mushroom) {
 			Stem2Procedure.execute(world, x, y, z);
-			Shockwave2Procedure.execute(world, x, y + 5, z);
-			Cap2Procedure.execute(world, x, y + 5, z);
 			if (7.5 < mushroom) {
 				CreatePyrotechnicsMod.queueServerWork(40, () -> {
 					RingProcedure.execute(world, x, y + 35, z);
@@ -57,8 +39,6 @@ public class MushroomCloud2TestProcedure {
 			}
 		} else {
 			Stem3Procedure.execute(world, x, y, z);
-			Shockwave2Procedure.execute(world, x, y + 5, z);
-			Cap3Procedure.execute(world, x, y + 5, z);
 			if (2.5 < mushroom) {
 				CreatePyrotechnicsMod.queueServerWork(40, () -> {
 					RingProcedure.execute(world, x, y + 55, z);

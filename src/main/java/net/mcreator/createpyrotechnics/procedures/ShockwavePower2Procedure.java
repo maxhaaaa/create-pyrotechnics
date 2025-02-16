@@ -1,8 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ShockwavePower2Procedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -16,7 +14,6 @@ public class ShockwavePower2Procedure {
 					CreatePyrotechnicsMod.queueServerWork(20, () -> {
 						E4shockwaveProcedure.execute(world, x, y, z);
 						CreatePyrotechnicsMod.queueServerWork(20, () -> {
-							E5shockwaveProcedure.execute(world, x, y, z);
 							CreatePyrotechnicsMod.queueServerWork(30, () -> {
 								E6shockwaveProcedure.execute(world, x, y, z);
 								CreatePyrotechnicsMod.queueServerWork(10, () -> {

@@ -1,6 +1,6 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ParticleTestingRedstoneOnProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

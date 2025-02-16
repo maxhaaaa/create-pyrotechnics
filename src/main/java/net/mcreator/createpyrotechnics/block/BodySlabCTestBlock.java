@@ -1,26 +1,11 @@
 
 package net.mcreator.createpyrotechnics.block;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.EntityBlock;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.MenuProvider;
-import net.minecraft.world.Containers;
-import net.minecraft.util.RandomSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.createpyrotechnics.procedures.SlabCTestProcedure;
-import net.mcreator.createpyrotechnics.block.entity.BodySlabCTestBlockEntity;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class BodySlabCTestBlock extends SlabBlock implements EntityBlock {
 	public BodySlabCTestBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).dynamicShape());
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
 	@Override

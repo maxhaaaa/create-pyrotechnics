@@ -1,33 +1,11 @@
 
 package net.mcreator.createpyrotechnics.entity;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.ai.navigation.PathNavigation;
-import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
-import net.minecraft.world.entity.ai.control.FlyingMoveControl;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.PathfinderMob;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.createpyrotechnics.procedures.ThrusterEntityOnEntityTickUpdateProcedure;
-import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
+import net.minecraft.nbt.Tag;
+import net.minecraft.network.syncher.EntityDataAccessor;
 
 public class ThrusterEntityEntity extends PathfinderMob {
+
 	public ThrusterEntityEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(CreatePyrotechnicsModEntities.THRUSTER_ENTITY.get(), world);
 	}
@@ -37,8 +15,11 @@ public class ThrusterEntityEntity extends PathfinderMob {
 		setMaxUpStep(0f);
 		xpReward = 0;
 		setNoAi(false);
+
 		setPersistenceRequired();
+
 		this.moveControl = new FlyingMoveControl(this, 10, true);
+
 	}
 
 	@Override
@@ -84,6 +65,7 @@ public class ThrusterEntityEntity extends PathfinderMob {
 
 	@Override
 	public boolean causeFallDamage(float l, float d, DamageSource source) {
+
 		return false;
 	}
 
@@ -117,10 +99,12 @@ public class ThrusterEntityEntity extends PathfinderMob {
 
 	public void aiStep() {
 		super.aiStep();
+
 		this.setNoGravity(true);
 	}
 
 	public static void init() {
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -130,7 +114,10 @@ public class ThrusterEntityEntity extends PathfinderMob {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 0);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 0);
+
 		builder = builder.add(Attributes.FLYING_SPEED, 0);
+
 		return builder;
 	}
+
 }

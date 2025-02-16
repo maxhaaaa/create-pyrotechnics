@@ -1,25 +1,9 @@
 
 package net.mcreator.createpyrotechnics.client.renderer;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.texture.OverlayTexture;
-import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.EntityModel;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.createpyrotechnics.entity.FireballTestEntity;
-import net.mcreator.createpyrotechnics.client.model.Modelfireball;
-
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class FireballTestRenderer extends MobRenderer<FireballTestEntity, Modelfireball<FireballTestEntity>> {
 	public FireballTestRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelfireball(context.bakeLayer(Modelfireball.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelfireball<FireballTestEntity>(context.bakeLayer(Modelfireball.LAYER_LOCATION)), 0.5f);
 		this.addLayer(new RenderLayer<FireballTestEntity, Modelfireball<FireballTestEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("create_pyrotechnics:textures/entities/fireball.png");
 

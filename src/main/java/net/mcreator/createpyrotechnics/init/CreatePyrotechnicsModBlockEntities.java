@@ -35,6 +35,7 @@ import net.mcreator.createpyrotechnics.block.entity.EnrichmentBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.EngineCTestBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.DatawireblockBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.ComputerblockBlockEntity;
+import net.mcreator.createpyrotechnics.block.entity.BombBenchP1BlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.BodySlabCTestBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.BodyCTestBlockEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
@@ -53,6 +54,7 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_CONTROLL_PANEL = register("missile_controll_panel", CreatePyrotechnicsModBlocks.MISSILE_CONTROLL_PANEL, MissileControllPanelBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_NAVIGATION = register("missile_navigation", CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION, MissileNavigationBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_BODY_STAGE_3 = register("missile_body_stage_3", CreatePyrotechnicsModBlocks.MISSILE_BODY_STAGE_3, MissileBodyStage3BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BOMB_BENCH_P_1 = register("bomb_bench_p_1", CreatePyrotechnicsModBlocks.BOMB_BENCH_P_1, BombBenchP1BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> RADAR = register("radar", CreatePyrotechnicsModBlocks.RADAR, RadarBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<NuclearCoreTileEntity>> NUCLEAR_CORE = REGISTRY.register("nuclear_core", () -> BlockEntityType.Builder.of(NuclearCoreTileEntity::new, CreatePyrotechnicsModBlocks.NUCLEAR_CORE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_BODY_PLACEHOLDER = register("missile_body_placeholder", CreatePyrotechnicsModBlocks.MISSILE_BODY_PLACEHOLDER, MissileBodyPlaceholderBlockEntity::new);

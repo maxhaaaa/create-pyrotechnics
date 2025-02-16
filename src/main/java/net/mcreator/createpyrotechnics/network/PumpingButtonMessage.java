@@ -1,28 +1,9 @@
 
 package net.mcreator.createpyrotechnics.network;
 
-import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.createpyrotechnics.world.inventory.PumpingMenu;
-import net.mcreator.createpyrotechnics.procedures.VentPlusProcedure;
-import net.mcreator.createpyrotechnics.procedures.VentMinusProcedure;
-import net.mcreator.createpyrotechnics.procedures.SealPressedProcedure;
-import net.mcreator.createpyrotechnics.procedures.PumpPressedProcedure;
-import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
-
-import java.util.function.Supplier;
-import java.util.HashMap;
-
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class PumpingButtonMessage {
+
 	private final int buttonID, x, y, z;
 
 	public PumpingButtonMessage(FriendlyByteBuf buffer) {
@@ -54,6 +35,7 @@ public class PumpingButtonMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
+
 			handleButtonAction(entity, buttonID, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -62,9 +44,11 @@ public class PumpingButtonMessage {
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level();
 		HashMap guistate = PumpingMenu.guistate;
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
+
 		if (buttonID == 0) {
 
 			PumpPressedProcedure.execute(entity);
@@ -87,4 +71,5 @@ public class PumpingButtonMessage {
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		CreatePyrotechnicsMod.addNetworkMessage(PumpingButtonMessage.class, PumpingButtonMessage::buffer, PumpingButtonMessage::new, PumpingButtonMessage::handler);
 	}
+
 }
