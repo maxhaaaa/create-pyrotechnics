@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "overlay",
   "definition": {
     "priority": "HIGHEST",
@@ -11,7 +11,8 @@
           "use1Xscale": true,
           "anchorPoint": "CENTER",
           "x": -14,
-          "y": -75
+          "y": -75,
+          "locked": false
         }
       },
       {
@@ -27,7 +28,8 @@
           },
           "anchorPoint": "CENTER",
           "x": 355,
-          "y": 277
+          "y": 277,
+          "locked": false
         }
       },
       {
@@ -43,7 +45,8 @@
           },
           "anchorPoint": "CENTER",
           "x": 219,
-          "y": 22
+          "y": 22,
+          "locked": false
         }
       },
       {
@@ -59,7 +62,8 @@
           },
           "anchorPoint": "CENTER",
           "x": 359,
-          "y": 273
+          "y": 273,
+          "locked": false
         }
       },
       {
@@ -75,7 +79,8 @@
           },
           "anchorPoint": "CENTER",
           "x": 350,
-          "y": 271
+          "y": 271,
+          "locked": false
         }
       }
     ],

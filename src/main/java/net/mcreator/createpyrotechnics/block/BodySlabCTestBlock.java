@@ -20,7 +20,7 @@ import net.mcreator.createpyrotechnics.block.entity.BodySlabCTestBlockEntity;
 
 public class BodySlabCTestBlock extends SlabBlock implements EntityBlock {
 	public BodySlabCTestBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).dynamicShape());
 	}
 
 	@Override

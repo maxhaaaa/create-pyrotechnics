@@ -11,7 +11,7 @@ import net.mcreator.createpyrotechnics.entity.MortarormissleshooterEntity;
 
 public class MortarormissleshooterRenderer extends MobRenderer<MortarormissleshooterEntity, ChickenModel<MortarormissleshooterEntity>> {
 	public MortarormissleshooterRenderer(EntityRendererProvider.Context context) {
-		super(context, new ChickenModel(context.bakeLayer(ModelLayers.CHICKEN)), 0.5f);
+		super(context, new ChickenModel<MortarormissleshooterEntity>(context.bakeLayer(ModelLayers.CHICKEN)), 0.5f);
 	}
 
 	@Override

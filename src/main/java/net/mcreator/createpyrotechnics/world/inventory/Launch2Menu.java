@@ -82,6 +82,8 @@ public class Launch2Menu extends AbstractContainerMenu implements Supplier<Map<I
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 227, 31) {
 			private final int slot = 0;
+			private int x = Launch2Menu.this.x;
+			private int y = Launch2Menu.this.y;
 
 			@Override
 			public void setChanged() {

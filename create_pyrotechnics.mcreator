@@ -8,8 +8,8 @@
       "registry_name": "bevsguitestingidk",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsguitestingidkMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsguitestingidkScreen.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsguitestingidkScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsguitestingidkMenu.java"
         ]
       },
       "path": "~/basic setup"
@@ -22,8 +22,8 @@
       "registry_name": "bevsslotsgui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsslotsguiScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsslotsguiMenu.java"
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BevsslotsguiMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BevsslotsguiScreen.java"
         ]
       },
       "path": "~/basic setup"
@@ -138,8 +138,8 @@
       "registry_name": "debugstick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/debugstick.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/DebugstickItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/DebugstickItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/debugstick.json"
         ]
       },
       "path": "~/salvage"
@@ -162,11 +162,11 @@
       "registry_name": "computerblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/computerblock.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/computerblock.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/computerblock.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/computerblock.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/ComputerblockBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/computerblock.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/computerblock.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/computerblock.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/ComputerblockBlock.java"
         ]
       },
@@ -180,11 +180,11 @@
       "registry_name": "datawireblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/datawireblock.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/datawireblock.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/DatawireblockBlock.java",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawireblock.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/datawireblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/DatawireblockBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/datawireblock.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawireblock.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/datawireblock.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/DatawireblockBlockEntity.java"
         ]
       },
@@ -198,9 +198,9 @@
       "registry_name": "computernavigator",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ComputernavigatorMenu.java",
           "src/main/java/net/mcreator/createpyrotechnics/client/gui/ComputernavigatorScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/network/ComputernavigatorButtonMessage.java"
+          "src/main/java/net/mcreator/createpyrotechnics/network/ComputernavigatorButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ComputernavigatorMenu.java"
         ]
       },
       "path": "~/computer stuff"
@@ -343,11 +343,11 @@
       "registry_name": "datawirestopper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/block/datawirestopper.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawirestopper.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/datawirestopper.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/datawirestopper.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/DatawirestopperBlock.java"
+          "src/main/resources/assets/create_pyrotechnics/models/block/datawirestopper.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/DatawirestopperBlock.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/datawirestopper.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/datawirestopper.json"
         ]
       },
       "path": "~/computer stuff"
@@ -405,12 +405,12 @@
       "registry_name": "silo_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/silo_block.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/silo_block.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/silo_block.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/silo_block.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/SiloBlockBlockEntity.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/silo_block.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/SiloBlockBlock.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/SiloBlockBlockEntity.java"
+          "src/main/resources/assets/create_pyrotechnics/blockstates/silo_block.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/SiloBlockBlock.java"
         ]
       },
       "path": "~/ballisitics/silo"
@@ -482,8 +482,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/client/gui/ValueenteringguiScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ValueenteringguiMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/network/ValueenteringguiButtonMessage.java"
+          "src/main/java/net/mcreator/createpyrotechnics/network/ValueenteringguiButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ValueenteringguiMenu.java"
         ]
       },
       "path": "~/tools/pin assigner"
@@ -568,11 +568,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/valuestorageblock.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/valuestorageblock.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/ValuestorageblockBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/valuestorageblock.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ValuestorageblockBlockEntity.java",
           "src/main/resources/assets/create_pyrotechnics/blockstates/valuestorageblock.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/valuestorageblock.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ValuestorageblockBlockEntity.java"
+          "src/main/resources/assets/create_pyrotechnics/models/item/valuestorageblock.json"
         ]
       },
       "path": "~/computer stuff"
@@ -669,8 +669,8 @@
       "registry_name": "particleheavy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ParticleheavyParticle.java",
-          "src/main/resources/assets/create_pyrotechnics/particles/particleheavy.json"
+          "src/main/resources/assets/create_pyrotechnics/particles/particleheavy.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ParticleheavyParticle.java"
         ]
       },
       "path": "~/explosions"
@@ -784,8 +784,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/client/renderer/MortarormissleshooterRenderer.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/mortarormissleshooter_spawn_egg.json",
-          "src/main/java/net/mcreator/createpyrotechnics/entity/MortarormissleshooterEntity.java"
+          "src/main/java/net/mcreator/createpyrotechnics/entity/MortarormissleshooterEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/mortarormissleshooter_spawn_egg.json"
         ]
       },
       "path": "~/ballisitics/silo/mortar_shooter_entity"
@@ -829,9 +829,9 @@
       "registry_name": "designator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/designator_spawn_egg.json",
           "src/main/java/net/mcreator/createpyrotechnics/entity/DESIGNATOREntity.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/DESIGNATORRenderer.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/DESIGNATORRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/designator_spawn_egg.json"
         ]
       },
       "path": "~/computer stuff"
@@ -1147,11 +1147,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/explosivesphereworkbench.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/explosivesphereworkbench.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ExplosivesphereworkbenchBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/explosivesphereworkbench.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/explosivesphereworkbench.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/ExplosivesphereworkbenchBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/explosivesphereworkbench.json"
+          "src/main/resources/assets/create_pyrotechnics/models/block/explosivesphereworkbench.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ExplosivesphereworkbenchBlockEntity.java"
         ]
       },
       "path": "~/crafting"
@@ -1179,8 +1179,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/world/inventory/WarheadcraftingguiMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/WarheadcraftingguiScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/network/WarheadcraftingguiButtonMessage.java"
+          "src/main/java/net/mcreator/createpyrotechnics/network/WarheadcraftingguiButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/WarheadcraftingguiScreen.java"
         ]
       },
       "path": "~/crafting"
@@ -1228,8 +1228,8 @@
       "registry_name": "datawiretester",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/datawiretester.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/DatawiretesterItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/DatawiretesterItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/datawiretester.json"
         ]
       },
       "path": "~/computer stuff"
@@ -1242,10 +1242,10 @@
       "registry_name": "placeholder",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/placeholder.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/PlaceholderBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/block/placeholder.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/placeholder.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/placeholder.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/PlaceholderBlock.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/placeholder.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/placeholder.json"
         ]
       },
@@ -1366,8 +1366,8 @@
       "registry_name": "flash",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/particles/flash.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/FlashParticle.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/FlashParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/flash.json"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -1518,9 +1518,9 @@
       "registry_name": "handheld_pump",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldPumpItem.java",
+          "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldPumpInventoryCapability.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/handheld_pump.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldPumpInventoryCapability.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldPumpItem.java"
         ]
       },
       "path": "~/tools/handheld pump"
@@ -1629,9 +1629,9 @@
       "registry_name": "igiveuaids",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/igiveuaids.json",
           "src/main/java/net/mcreator/createpyrotechnics/item/IgiveuaidsItem.java",
           "src/main/java/net/mcreator/createpyrotechnics/item/renderer/IgiveuaidsItemRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/igiveuaids.json",
           "src/main/java/net/mcreator/createpyrotechnics/item/model/IgiveuaidsItemModel.java"
         ]
       },
@@ -2242,10 +2242,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_pyrotechnics/models/item/designatorblock.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/designatorblock.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/DesignatorblockBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/block/designatorblock.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/designatorblock.json"
+          "src/main/resources/assets/create_pyrotechnics/blockstates/designatorblock.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/designatorblock.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/designatorblock.json"
         ]
       },
       "path": "~/computer stuff"
@@ -2337,8 +2337,8 @@
       "registry_name": "toxifier_lab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/network/ToxifierLabButtonMessage.java",
           "src/main/java/net/mcreator/createpyrotechnics/world/inventory/ToxifierLabMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/network/ToxifierLabButtonMessage.java",
           "src/main/java/net/mcreator/createpyrotechnics/client/gui/ToxifierLabScreen.java"
         ]
       },
@@ -2395,9 +2395,9 @@
       "registry_name": "handheld_toxifier_lab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/handheld_toxifier_lab.json",
           "src/main/java/net/mcreator/createpyrotechnics/item/inventory/HandheldToxifierLabInventoryCapability.java",
-          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldToxifierLabItem.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/handheld_toxifier_lab.json"
+          "src/main/java/net/mcreator/createpyrotechnics/item/HandheldToxifierLabItem.java"
         ]
       },
       "path": "~/tools/concept handheld toxifier lab"
@@ -2460,8 +2460,8 @@
       "registry_name": "gas_canister",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/item/GasCanisterItem.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/gas_canister.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/gas_canister.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/GasCanisterItem.java"
         ]
       },
       "path": "~/tools/concept handheld toxifier lab"
@@ -2601,8 +2601,8 @@
       "registry_name": "shockwave_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ShockwaveParticleParticle.java",
-          "src/main/resources/assets/create_pyrotechnics/particles/shockwave_particle.json"
+          "src/main/resources/assets/create_pyrotechnics/particles/shockwave_particle.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/ShockwaveParticleParticle.java"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -2868,8 +2868,8 @@
       "registry_name": "trinitytestgui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/TrinitytestguiScreen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/TrinitytestguiMenu.java"
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/TrinitytestguiMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/TrinitytestguiScreen.java"
         ]
       },
       "path": "~/basic setup"
@@ -2917,16 +2917,16 @@
       "registry_name": "trinitytest",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestDisplayItemRenderer.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/trinitytest.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestTileRenderer.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/trinitytest.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/display/TrinitytestDisplayItem.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestDisplayModel.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/TrinitytestTileEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/models/custom/trinitytest_particle.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestBlockModel.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/TrinitytestBlock.java"
+          "src/main/java/net/mcreator/createpyrotechnics/block/TrinitytestBlock.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/TrinitytestTileEntity.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/model/TrinitytestDisplayModel.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/TrinitytestTileRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/trinitytest.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/display/TrinitytestDisplayItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/custom/trinitytest_particle.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/trinitytest.json"
         ]
       },
       "path": "~/basic setup"
@@ -3038,11 +3038,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_pyrotechnics/models/block/thruster.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ThrusterBlockEntity.java",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/thruster.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/ThrusterBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/thruster.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/thruster.json"
+          "src/main/resources/assets/create_pyrotechnics/blockstates/thruster.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/thruster.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/ThrusterBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/thruster.json"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -3086,12 +3086,12 @@
       "registry_name": "fuel_tank",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/fuel_tank.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/fuel_tank.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/FuelTankBlock.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/FuelTankBlockEntity.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/fuel_tank.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/fuel_tank.json"
+          "src/main/resources/assets/create_pyrotechnics/models/block/fuel_tank.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/fuel_tank.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/FuelTankBlockEntity.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/FuelTankBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/fuel_tank.json"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -3135,12 +3135,12 @@
       "registry_name": "missile_body",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/block/MissileBodyBlock.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/missile_body.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/MissileBodyBlockEntity.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/missile_body.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_body.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/MissileBodyBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/missile_body.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_body.json"
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/MissileBodyBlockEntity.java"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -3184,12 +3184,12 @@
       "registry_name": "missile_controll_panel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/missile_controll_panel.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_controll_panel.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/MissileControllPanelBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/missile_controll_panel.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/MissileControllPanelBlockEntity.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/missile_controll_panel.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/MissileControllPanelBlock.java"
+          "src/main/resources/assets/create_pyrotechnics/models/item/missile_controll_panel.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_controll_panel.json"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -3203,10 +3203,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/missile_navigation.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/missile_navigation.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/MissileNavigationBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/missile_navigation.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/missile_navigation.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/MissileNavigationBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/missile_navigation.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/MissileNavigationBlockEntity.java"
         ]
       },
@@ -3282,12 +3282,12 @@
       "registry_name": "missile_body_stage_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_body_stage_3.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/missile_body_stage_3.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_body_stage_3.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/MissileBodyStage3BlockEntity.java",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/missile_body_stage_3.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/MissileBodyStage3Block.java",
-          "src/main/resources/assets/create_pyrotechnics/models/block/missile_body_stage_3.json"
+          "src/main/resources/assets/create_pyrotechnics/models/block/missile_body_stage_3.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/missile_body_stage_3.json"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -3380,9 +3380,9 @@
       "registry_name": "launch",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/LaunchScreen.java",
           "src/main/java/net/mcreator/createpyrotechnics/world/inventory/LaunchMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/network/LaunchButtonMessage.java"
+          "src/main/java/net/mcreator/createpyrotechnics/network/LaunchButtonMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/LaunchScreen.java"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -3784,10 +3784,10 @@
       "registry_name": "launch_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/Launch2Menu.java",
           "src/main/java/net/mcreator/createpyrotechnics/network/Launch2ButtonMessage.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/Launch2Screen.java",
-          "src/main/java/net/mcreator/createpyrotechnics/network/Launch2SlotMessage.java"
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/Launch2Menu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/network/Launch2SlotMessage.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/Launch2Screen.java"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -4031,11 +4031,11 @@
       "registry_name": "particle_testing",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/particle_testing.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/particle_testing.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/particle_testing.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/particle_testing.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/ParticleTestingBlock.java"
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/particle_testing.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/particle_testing.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/ParticleTestingBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/particle_testing.json"
         ]
       },
       "path": "~/kaczorros shit/non nuclear explosions"
@@ -4123,11 +4123,11 @@
       "registry_name": "bomb_bench_p_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_2.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_2.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_2.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP2Block.java",
           "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_2.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP2Block.java"
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_2.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_2.json"
         ]
       },
       "path": "~/DeadGamers Shiz"
@@ -4201,10 +4201,10 @@
       "registry_name": "cockroach",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/cockroach_spawn_egg.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/CockroachRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/CockroachEntity.java",
           "src/main/java/net/mcreator/createpyrotechnics/entity/model/CockroachModel.java",
-          "src/main/java/net/mcreator/createpyrotechnics/entity/CockroachEntity.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/CockroachRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/cockroach_spawn_egg.json"
         ]
       },
       "path": "~/entities/Cockroach"
@@ -4248,8 +4248,8 @@
       "registry_name": "bomb_bench",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BombBenchMenu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BombBenchScreen.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/BombBenchScreen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/world/inventory/BombBenchMenu.java"
         ]
       },
       "path": "~/DeadGamers Shiz"
@@ -4418,10 +4418,10 @@
       "registry_name": "bomb_bench_p_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP1Block.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/bomb_bench_p_1.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BombBenchP1Block.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/bomb_bench_p_1.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/bomb_bench_p_1.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/bomb_bench_p_1.json"
         ]
       },
@@ -4487,8 +4487,8 @@
       "registry_name": "radar_tester",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/radar_tester.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/RadarTesterItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/RadarTesterItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/radar_tester.json"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -4546,11 +4546,11 @@
       "registry_name": "strategic_nuke_placeholder",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/strategic_nuke_placeholder.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/strategic_nuke_placeholder.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/strategic_nuke_placeholder.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/strategic_nuke_placeholder.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/StrategicNukePlaceholderBlock.java"
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/strategic_nuke_placeholder.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/StrategicNukePlaceholderBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/strategic_nuke_placeholder.json"
         ]
       },
       "path": "~/kaczorros shit/strategic nuke mushroom cloud"
@@ -4607,11 +4607,11 @@
       "registry_name": "we_test_falling_blocks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/block/we_test_falling_blocks.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/we_test_falling_blocks.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/we_test_falling_blocks.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/we_test_falling_blocks.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/WeTestFallingBlocksBlock.java"
+          "src/main/java/net/mcreator/createpyrotechnics/block/WeTestFallingBlocksBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/we_test_falling_blocks.json"
         ]
       },
       "path": "~/kaczorros shit/explosion/falling blocks test"
@@ -4961,11 +4961,11 @@
       "registry_name": "strategic_nuke_placeholder_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/strategic_nuke_placeholder_2.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/strategic_nuke_placeholder_2.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/strategic_nuke_placeholder_2.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/StrategicNukePlaceholder2Block.java",
-          "src/main/resources/assets/create_pyrotechnics/models/block/strategic_nuke_placeholder_2.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/strategic_nuke_placeholder_2.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/strategic_nuke_placeholder_2.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/strategic_nuke_placeholder_2.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/StrategicNukePlaceholder2Block.java"
         ]
       },
       "path": "~/kaczorros shit/strategic nuke mushroom cloud"
@@ -5319,8 +5319,8 @@
       "registry_name": "radar_test",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/RadarTestScreen.java",
           "src/main/java/net/mcreator/createpyrotechnics/world/inventory/RadarTestMenu.java",
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/RadarTestScreen.java",
           "src/main/java/net/mcreator/createpyrotechnics/network/RadarTestButtonMessage.java"
         ]
       },
@@ -5458,11 +5458,11 @@
       "registry_name": "shockwave_tester",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/shockwave_tester.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/shockwave_tester.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/shockwave_tester.json",
           "src/main/resources/assets/create_pyrotechnics/blockstates/shockwave_tester.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/ShockwaveTesterBlock.java"
+          "src/main/java/net/mcreator/createpyrotechnics/block/ShockwaveTesterBlock.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/shockwave_tester.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/shockwave_tester.json"
         ]
       },
       "path": "~/kaczorros shit/shockwave test"
@@ -5630,8 +5630,8 @@
       "registry_name": "strategic_flash",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/StrategicFlashParticle.java",
-          "src/main/resources/assets/create_pyrotechnics/particles/strategic_flash.json"
+          "src/main/resources/assets/create_pyrotechnics/particles/strategic_flash.json",
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/StrategicFlashParticle.java"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -5861,12 +5861,12 @@
       "registry_name": "radar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/block/radar.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/RadarBlockEntity.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/RadarBlock.java",
           "src/main/resources/assets/create_pyrotechnics/blockstates/radar.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/radar.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/radar.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/radar.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/radar.json"
+          "src/main/java/net/mcreator/createpyrotechnics/block/RadarBlock.java"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -6300,8 +6300,8 @@
       "registry_name": "nuclear_ink",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/nuclear_ink.json",
-          "src/main/java/net/mcreator/createpyrotechnics/item/NuclearInkItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/item/NuclearInkItem.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/nuclear_ink.json"
         ]
       },
       "path": "~/createPT and BT crossover"
@@ -6345,16 +6345,16 @@
       "registry_name": "nuclear_core",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/nuclear_core.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/NuclearCoreBlock.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/model/NuclearCoreDisplayModel.java",
-          "src/main/resources/assets/create_pyrotechnics/models/custom/nuclear_core_particle.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/model/NuclearCoreBlockModel.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/NuclearCoreTileEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/nuclear_core.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/NuclearCoreTileRenderer.java",
           "src/main/java/net/mcreator/createpyrotechnics/block/renderer/NuclearCoreDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/display/NuclearCoreDisplayItem.java"
+          "src/main/java/net/mcreator/createpyrotechnics/block/model/NuclearCoreDisplayModel.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/nuclear_core.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/nuclear_core.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/model/NuclearCoreBlockModel.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/renderer/NuclearCoreTileRenderer.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/NuclearCoreBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/custom/nuclear_core_particle.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/display/NuclearCoreDisplayItem.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/NuclearCoreTileEntity.java"
         ]
       },
       "path": "~/createPT and BT crossover"
@@ -6367,8 +6367,8 @@
       "registry_name": "nuclear_explosion",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/particles/nuclear_explosion.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/NuclearExplosionParticle.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/NuclearExplosionParticle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/nuclear_explosion.json"
         ]
       },
       "path": "~/createPT and BT crossover"
@@ -6407,8 +6407,8 @@
       "registry_name": "blank_nuclear_card",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/item/BlankNuclearCardItem.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/blank_nuclear_card.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/blank_nuclear_card.json",
+          "src/main/java/net/mcreator/createpyrotechnics/item/BlankNuclearCardItem.java"
         ]
       },
       "path": "~/createPT and BT crossover"
@@ -7006,12 +7006,12 @@
       "registry_name": "missile_body_placeholder",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/MissileBodyPlaceholderBlockEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_body_placeholder.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/MissileBodyPlaceholderBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/missile_body_placeholder.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/missile_body_placeholder.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/missile_body_placeholder.json"
+          "src/main/resources/assets/create_pyrotechnics/blockstates/missile_body_placeholder.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/MissileBodyPlaceholderBlockEntity.java",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/missile_body_placeholder.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/MissileBodyPlaceholderBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/block/missile_body_placeholder.json"
         ]
       },
       "path": "~/kaczorros shit/ICBMs/ICBM2"
@@ -7024,12 +7024,12 @@
       "registry_name": "icbm_guidance_system",
       "metadata": {
         "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/icbm_guidance_system.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/ICBMGuidanceSystemBlockEntity.java",
           "src/main/java/net/mcreator/createpyrotechnics/block/ICBMGuidanceSystemBlock.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/icbm_guidance_system.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/icbm_guidance_system.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/icbm_guidance_system.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/icbm_guidance_system.json"
+          "src/main/resources/assets/create_pyrotechnics/blockstates/icbm_guidance_system.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/icbm_guidance_system.json"
         ]
       },
       "path": "~/kaczorros shit/ICBMs/ICBM2"
@@ -7044,8 +7044,8 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/network/Launch3SlotMessage.java",
           "src/main/java/net/mcreator/createpyrotechnics/world/inventory/Launch3Menu.java",
-          "src/main/java/net/mcreator/createpyrotechnics/network/Launch3ButtonMessage.java",
-          "src/main/java/net/mcreator/createpyrotechnics/client/gui/Launch3Screen.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/gui/Launch3Screen.java",
+          "src/main/java/net/mcreator/createpyrotechnics/network/Launch3ButtonMessage.java"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -7922,12 +7922,12 @@
       "registry_name": "mirv_test_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/mirv_test_1.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/mirv_test_1.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/mirv_test_1.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/MIRVTest1Block.java",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/MIRVTest1BlockEntity.java",
           "src/main/resources/assets/create_pyrotechnics/models/item/mirv_test_1.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/MIRVTest1BlockEntity.java"
+          "src/main/resources/assets/create_pyrotechnics/models/block/mirv_test_1.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/mirv_test_1.json"
         ]
       },
       "path": "~/kaczorros shit/ICBMs"
@@ -8082,11 +8082,11 @@
       "registry_name": "dynamite_test_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/dynamite_test_block.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/DynamiteTestBlockBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/dynamite_test_block.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/dynamite_test_block.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/dynamite_test_block.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/dynamite_test_block.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/dynamite_test_block.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/dynamite_test_block.json"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -8099,12 +8099,12 @@
       "registry_name": "enrichment",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/block/EnrichmentBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/enrichment.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/enrichment.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/EnrichmentBlock.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/enrichment.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/enrichment.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/EnrichmentBlockEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/enrichment.json"
+          "src/main/resources/assets/create_pyrotechnics/models/item/enrichment.json"
         ]
       },
       "path": "~/kaczorros shit/recepies/uranium"
@@ -8490,10 +8490,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/create_pyrotechnics/models/item/test_salted_nukes.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/test_salted_nukes.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/test_salted_nukes.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/test_salted_nukes.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/TestSaltedNukesBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/test_salted_nukes.json"
+          "src/main/java/net/mcreator/createpyrotechnics/block/TestSaltedNukesBlock.java"
         ]
       },
       "path": "~/kaczorros shit/explosion/A1/salted testing"
@@ -8768,11 +8768,11 @@
       "registry_name": "engine_c_test",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/engine_c_test.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/EngineCTestBlock.java",
           "src/main/resources/assets/create_pyrotechnics/blockstates/engine_c_test.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/EngineCTestBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/engine_c_test.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/engine_c_test.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/EngineCTestBlock.java",
           "src/main/resources/assets/create_pyrotechnics/models/block/engine_c_test.json"
         ]
       },
@@ -8907,9 +8907,9 @@
       "registry_name": "fireball_test",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/FireballTestRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/fireball_test_spawn_egg.json",
           "src/main/java/net/mcreator/createpyrotechnics/entity/FireballTestEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/fireball_test_spawn_egg.json"
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/FireballTestRenderer.java"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -8985,11 +8985,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/LinkerCTestBlockEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/models/block/linker_c_test.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/linker_c_test.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/linker_c_test.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/LinkerCTestBlock.java",
           "src/main/resources/assets/create_pyrotechnics/blockstates/linker_c_test.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/LinkerCTestBlock.java"
+          "src/main/resources/assets/create_pyrotechnics/models/block/linker_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/linker_c_test.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/linker_c_test.json"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -9033,12 +9033,12 @@
       "registry_name": "launch_pad",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/launch_pad.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/launch_pad.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/LaunchPadBlock.java",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/LaunchPadBlockEntity.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/launch_pad.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/launch_pad.json"
+          "src/main/resources/assets/create_pyrotechnics/models/block/launch_pad.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/LaunchPadBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/launch_pad.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/launch_pad.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/LaunchPadBlock.java"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -9114,12 +9114,12 @@
       "registry_name": "test_custom_missile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/createpyrotechnics/block/TestCustomMissileBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/test_custom_missile.json",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/test_custom_missile.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/test_custom_missile.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/test_custom_missile.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/test_custom_missile.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/TestCustomMissileBlockEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/models/block/test_custom_missile.json"
+          "src/main/java/net/mcreator/createpyrotechnics/block/TestCustomMissileBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/test_custom_missile.json"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -9132,12 +9132,12 @@
       "registry_name": "body_c_test",
       "metadata": {
         "files": [
+          "src/main/resources/assets/create_pyrotechnics/models/item/body_c_test.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/body_c_test.json",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/body_c_test.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/entity/BodyCTestBlockEntity.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/body_c_test.json",
-          "src/main/java/net/mcreator/createpyrotechnics/block/BodyCTestBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/body_c_test.json"
+          "src/main/java/net/mcreator/createpyrotechnics/block/entity/BodyCTestBlockEntity.java",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/body_c_test.json",
+          "src/main/java/net/mcreator/createpyrotechnics/block/BodyCTestBlock.java"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -9170,12 +9170,12 @@
       "registry_name": "thruster_c_test",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/thruster_c_test.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/ThrusterCTestBlockEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/thruster_c_test.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/thruster_c_test.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/thruster_c_test.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/ThrusterCTestBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/block/thruster_c_test.json"
+          "src/main/resources/assets/create_pyrotechnics/models/block/thruster_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/thruster_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/thruster_c_test.json"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -9304,10 +9304,10 @@
       "registry_name": "caution_sign_bottom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/caution_sign_bottom.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/CautionSignBottomBlock.java",
           "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/caution_sign_bottom.json",
           "src/main/resources/assets/create_pyrotechnics/models/block/caution_sign_bottom.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/caution_sign_bottom.json",
           "src/main/resources/assets/create_pyrotechnics/models/item/caution_sign_bottom.json"
         ]
       },
@@ -9321,11 +9321,11 @@
       "registry_name": "caution_sign_upper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/blockstates/caution_sign_upper.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/caution_sign_upper.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/caution_sign_upper.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/caution_sign_upper.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/CautionSignUpperBlock.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/caution_sign_upper.json"
+          "src/main/resources/assets/create_pyrotechnics/blockstates/caution_sign_upper.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/caution_sign_upper.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/caution_sign_upper.json"
         ]
       },
       "path": "~/DeadGamers Shiz"
@@ -9518,9 +9518,9 @@
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/entity/TestFireballEntity.java",
           "src/main/java/net/mcreator/createpyrotechnics/entity/model/TestFireballModel.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/test_fireball_spawn_egg.json",
+          "src/main/java/net/mcreator/createpyrotechnics/entity/layer/TestFireballLayer.java",
           "src/main/java/net/mcreator/createpyrotechnics/client/renderer/TestFireballRenderer.java",
-          "src/main/java/net/mcreator/createpyrotechnics/entity/layer/TestFireballLayer.java"
+          "src/main/resources/assets/create_pyrotechnics/models/item/test_fireball_spawn_egg.json"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -9868,8 +9868,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/createpyrotechnics/entity/MrMotivatorEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/mr_motivator_spawn_egg.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/MrMotivatorRenderer.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/MrMotivatorRenderer.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/mr_motivator_spawn_egg.json"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -9882,14 +9882,14 @@
       "registry_name": "body_slab_c_test",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/models/item/body_slab_c_test.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test_full.json",
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/body_slab_c_test.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test_top.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/BodySlabCTestBlock.java",
+          "src/main/resources/assets/create_pyrotechnics/models/item/body_slab_c_test.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/BodySlabCTestBlockEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/blockstates/body_slab_c_test.json"
+          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test.json",
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/body_slab_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/blockstates/body_slab_c_test.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test_full.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/body_slab_c_test_top.json"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -9997,8 +9997,8 @@
       "registry_name": "o2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_pyrotechnics/particles/o2.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/particle/O2Particle.java"
+          "src/main/java/net/mcreator/createpyrotechnics/client/particle/O2Particle.java",
+          "src/main/resources/assets/create_pyrotechnics/particles/o2.json"
         ]
       },
       "path": "~/kaczorros shit/mushroom cloud"
@@ -10108,12 +10108,12 @@
       "registry_name": "size_tester",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/size_tester.json",
+          "src/main/resources/assets/create_pyrotechnics/models/item/size_tester.json",
+          "src/main/resources/assets/create_pyrotechnics/models/block/size_tester.json",
           "src/main/java/net/mcreator/createpyrotechnics/block/entity/SizeTesterBlockEntity.java",
           "src/main/java/net/mcreator/createpyrotechnics/block/SizeTesterBlock.java",
           "src/main/resources/assets/create_pyrotechnics/blockstates/size_tester.json",
-          "src/main/resources/assets/create_pyrotechnics/models/block/size_tester.json",
-          "src/main/resources/assets/create_pyrotechnics/models/item/size_tester.json"
+          "src/main/resources/data/create_pyrotechnics/loot_tables/blocks/size_tester.json"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -10254,9 +10254,9 @@
       "registry_name": "thruster_entity",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/ThrusterEntityRenderer.java",
           "src/main/java/net/mcreator/createpyrotechnics/entity/ThrusterEntityEntity.java",
-          "src/main/resources/assets/create_pyrotechnics/models/item/thruster_entity_spawn_egg.json",
-          "src/main/java/net/mcreator/createpyrotechnics/client/renderer/ThrusterEntityRenderer.java"
+          "src/main/resources/assets/create_pyrotechnics/models/item/thruster_entity_spawn_egg.json"
         ]
       },
       "path": "~/kaczorros shit/custom missiles test"
@@ -10501,6 +10501,7 @@
       "gui.create_pyrotechnics.launch_3.button_link_code": "link code",
       "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics",
       "gui.create_pyrotechnics.launch_3.button_dz_011": "dz - 0.1",
+      "item.create_pyrotechnics.bomb_bench_block.description_0": "BREAKS COLLIDING BLOCKS",
       "gui.create_pyrotechnics.warheadcraftinggui.label_air_tank_level": "tank psi",
       "gui.create_pyrotechnics.launch_3.button_launch": "launch",
       "item.create_pyrotechnics.thruster_entity_spawn_egg": "Thruster Entity Spawn Egg",
@@ -10783,5 +10784,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.createpyrotechnics"
   },
-  "mcreatorVersion": 202400342716
+  "mcreatorVersion": 202400452410
 }

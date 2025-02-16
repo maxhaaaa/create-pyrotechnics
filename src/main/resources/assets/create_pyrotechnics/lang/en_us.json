@@ -131,6 +131,7 @@
   "gui.create_pyrotechnics.launch_3.button_link_code": "link code",
   "item_group.create_pyrotechnics.createpyrotechnics": "Create pyrotechnics",
   "gui.create_pyrotechnics.launch_3.button_dz_011": "dz - 0.1",
+  "item.create_pyrotechnics.bomb_bench_block.description_0": "BREAKS COLLIDING BLOCKS",
   "gui.create_pyrotechnics.warheadcraftinggui.label_air_tank_level": "tank psi",
   "gui.create_pyrotechnics.launch_3.button_launch": "launch",
   "item.create_pyrotechnics.thruster_entity_spawn_egg": "Thruster Entity Spawn Egg",

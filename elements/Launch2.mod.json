@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -22,7 +22,8 @@
           "width": 56,
           "height": 20,
           "x": 249,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -37,7 +38,8 @@
           "width": 66,
           "height": 20,
           "x": 96,
-          "y": 35
+          "y": 35,
+          "locked": false
         }
       },
       {
@@ -52,7 +54,8 @@
           "width": 66,
           "height": 20,
           "x": 159,
-          "y": 35
+          "y": 35,
+          "locked": false
         }
       },
       {
@@ -67,7 +70,8 @@
           "width": 66,
           "height": 20,
           "x": 96,
-          "y": 53
+          "y": 53,
+          "locked": false
         }
       },
       {
@@ -82,7 +86,8 @@
           "width": 66,
           "height": 20,
           "x": 159,
-          "y": 53
+          "y": 53,
+          "locked": false
         }
       },
       {
@@ -97,7 +102,8 @@
           "width": 66,
           "height": 20,
           "x": 96,
-          "y": 71
+          "y": 71,
+          "locked": false
         }
       },
       {
@@ -112,7 +118,8 @@
           "width": 66,
           "height": 20,
           "x": 159,
-          "y": 71
+          "y": 71,
+          "locked": false
         }
       },
       {
@@ -127,7 +134,8 @@
           "width": 82,
           "height": 20,
           "x": 249,
-          "y": 35
+          "y": 35,
+          "locked": false
         }
       },
       {
@@ -148,7 +156,8 @@
             "name": "BindButton"
           },
           "x": 312,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -163,7 +172,8 @@
           "width": 72,
           "height": 20,
           "x": 249,
-          "y": 89
+          "y": 89,
+          "locked": false
         }
       }
     ],

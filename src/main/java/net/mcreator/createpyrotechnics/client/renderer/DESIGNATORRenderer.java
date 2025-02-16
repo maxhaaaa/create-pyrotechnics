@@ -11,7 +11,7 @@ import net.mcreator.createpyrotechnics.entity.DESIGNATOREntity;
 
 public class DESIGNATORRenderer extends MobRenderer<DESIGNATOREntity, SilverfishModel<DESIGNATOREntity>> {
 	public DESIGNATORRenderer(EntityRendererProvider.Context context) {
-		super(context, new SilverfishModel(context.bakeLayer(ModelLayers.SILVERFISH)), 0.5f);
+		super(context, new SilverfishModel<DESIGNATOREntity>(context.bakeLayer(ModelLayers.SILVERFISH)), 0.5f);
 	}
 
 	@Override

@@ -79,6 +79,8 @@ public class SiloguinewMenu extends AbstractContainerMenu implements Supplier<Ma
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 126, 50) {
 			private final int slot = 0;
+			private int x = SiloguinewMenu.this.x;
+			private int y = SiloguinewMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

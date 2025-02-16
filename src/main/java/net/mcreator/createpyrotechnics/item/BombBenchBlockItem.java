@@ -22,7 +22,7 @@ public class BombBenchBlockItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("BREAKS COLLIDING BLOCKS"));
+		list.add(Component.translatable("item.create_pyrotechnics.bomb_bench_block.description_0"));
 	}
 
 	@Override
