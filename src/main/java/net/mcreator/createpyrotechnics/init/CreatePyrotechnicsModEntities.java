@@ -48,6 +48,8 @@ public class CreatePyrotechnicsModEntities {
 	public static final RegistryObject<EntityType<ICBMPlaceHolder1Entity>> ICBM_PLACE_HOLDER_1 = register("icbm_place_holder_1", EntityType.Builder.<ICBMPlaceHolder1Entity>of(ICBMPlaceHolder1Entity::new, MobCategory.MISC)
 			.setCustomClientFactory(ICBMPlaceHolder1Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
+	// Start of user code block custom entities
+	// End of user code block custom entities
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}

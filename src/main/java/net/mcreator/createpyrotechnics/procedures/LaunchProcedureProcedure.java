@@ -1,52 +1,73 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.projectile.Projectile;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.BlockPos;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
+
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModEntities;
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlocks;
+import net.mcreator.createpyrotechnics.entity.ICBMPlaceHolder1Entity;
+import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class LaunchProcedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == CreatePyrotechnicsModItems.DELETED_MOD_ELEMENT.get() && (new Object() {
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == CreatePyrotechnicsModBlocks.MISSILE_CONTROLL_PANEL.get() && (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
 					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, BlockPos.containing(x, y, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == CreatePyrotechnicsModItems.DELETED_MOD_ELEMENT.get() && (new Object() {
+		}.getValue(world, BlockPos.containing(x, y, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION.get() && (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
 					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, BlockPos.containing(x, y + 1, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y + 2, z))).getBlock() == CreatePyrotechnicsModItems.DELETED_MOD_ELEMENT.get() && (new Object() {
+		}.getValue(world, BlockPos.containing(x, y + 1, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y + 2, z))).getBlock() == CreatePyrotechnicsModBlocks.MISSILE_BODY_STAGE_3.get() && (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
 					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, BlockPos.containing(x, y + 2, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == CreatePyrotechnicsModItems.DELETED_MOD_ELEMENT.get() && (new Object() {
+		}.getValue(world, BlockPos.containing(x, y + 2, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == CreatePyrotechnicsModBlocks.MISSILE_BODY.get() && (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
 					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, BlockPos.containing(x, y - 1, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y - 2, z))).getBlock() == CreatePyrotechnicsModItems.DELETED_MOD_ELEMENT.get() && (new Object() {
+		}.getValue(world, BlockPos.containing(x, y - 1, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y - 2, z))).getBlock() == CreatePyrotechnicsModBlocks.FUEL_TANK.get() && (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
 					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, BlockPos.containing(x, y - 2, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y - 3, z))).getBlock() == CreatePyrotechnicsModItems.DELETED_MOD_ELEMENT.get() && (new Object() {
+		}.getValue(world, BlockPos.containing(x, y - 2, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y - 3, z))).getBlock() == CreatePyrotechnicsModBlocks.FUEL_TANK.get() && (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
 					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, BlockPos.containing(x, y - 3, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y - 4, z))).getBlock() == CreatePyrotechnicsModItems.DELETED_MOD_ELEMENT.get() && (new Object() {
+		}.getValue(world, BlockPos.containing(x, y - 3, z), "linked")) == true && (world.getBlockState(BlockPos.containing(x, y - 4, z))).getBlock() == CreatePyrotechnicsModBlocks.THRUSTER.get() && (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)

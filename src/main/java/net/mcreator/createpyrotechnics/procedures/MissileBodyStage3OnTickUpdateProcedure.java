@@ -1,10 +1,17 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlocks;
 
 public class MissileBodyStage3OnTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.POLISHED_BLACKSTONE_WALL && (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == CreatePyrotechnicsModItems.DELETED_MOD_ELEMENT.get()
+		if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.POLISHED_BLACKSTONE_WALL && (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION.get()
 				&& (new Object() {
 					public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);

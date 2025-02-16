@@ -1,6 +1,9 @@
 package net.mcreator.createpyrotechnics.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.createpyrotechnics.init.CreatePyrotechnicsModBlocks;
 
 public class BombBenchP1BlockAddedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

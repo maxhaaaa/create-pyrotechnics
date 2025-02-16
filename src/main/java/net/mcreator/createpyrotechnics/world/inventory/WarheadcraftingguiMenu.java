@@ -79,9 +79,13 @@ public class WarheadcraftingguiMenu extends AbstractContainerMenu implements Sup
 		}
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 160, 47) {
 			private final int slot = 1;
+			private int x = WarheadcraftingguiMenu.this.x;
+			private int y = WarheadcraftingguiMenu.this.y;
 		}));
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 90, 48) {
 			private final int slot = 0;
+			private int x = WarheadcraftingguiMenu.this.x;
+			private int y = WarheadcraftingguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

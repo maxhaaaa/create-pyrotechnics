@@ -42,5 +42,6 @@ public class CreatePyrotechnicsModTabs {
 				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_CONTROLL_PANEL.get().asItem());
 				tabData.accept(CreatePyrotechnicsModBlocks.MISSILE_BODY.get().asItem());
+				tabData.accept(CreatePyrotechnicsModBlocks.MODDEDPARTICLETEST.get().asItem());
 			}).withSearchBar().build());
 }

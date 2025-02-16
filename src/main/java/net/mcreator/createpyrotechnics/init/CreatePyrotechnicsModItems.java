@@ -64,6 +64,7 @@ public class CreatePyrotechnicsModItems {
 	public static final RegistryObject<Item> MISSILE_CONTROLL_PANEL = block(CreatePyrotechnicsModBlocks.MISSILE_CONTROLL_PANEL);
 	public static final RegistryObject<Item> BOMB_BENCH_P_1 = block(CreatePyrotechnicsModBlocks.BOMB_BENCH_P_1);
 	public static final RegistryObject<Item> MISSILE_BODY = block(CreatePyrotechnicsModBlocks.MISSILE_BODY);
+	public static final RegistryObject<Item> MODDEDPARTICLETEST = block(CreatePyrotechnicsModBlocks.MODDEDPARTICLETEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -23,6 +23,7 @@ import net.mcreator.createpyrotechnics.block.entity.FuelTankBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.ExplosivesphereworkbenchBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.DatawireblockBlockEntity;
 import net.mcreator.createpyrotechnics.block.entity.ComputerblockBlockEntity;
+import net.mcreator.createpyrotechnics.block.entity.BombBenchP1BlockEntity;
 import net.mcreator.createpyrotechnics.CreatePyrotechnicsMod;
 
 public class CreatePyrotechnicsModBlockEntities {
@@ -38,8 +39,11 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> FUEL_TANK = register("fuel_tank", CreatePyrotechnicsModBlocks.FUEL_TANK, FuelTankBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_NAVIGATION = register("missile_navigation", CreatePyrotechnicsModBlocks.MISSILE_NAVIGATION, MissileNavigationBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_CONTROLL_PANEL = register("missile_controll_panel", CreatePyrotechnicsModBlocks.MISSILE_CONTROLL_PANEL, MissileControllPanelBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BOMB_BENCH_P_1 = register("bomb_bench_p_1", CreatePyrotechnicsModBlocks.BOMB_BENCH_P_1, BombBenchP1BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MISSILE_BODY = register("missile_body", CreatePyrotechnicsModBlocks.MISSILE_BODY, MissileBodyBlockEntity::new);
 
+	// Start of user code block custom block entities
+	// End of user code block custom block entities
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}

@@ -1,7 +1,23 @@
 
 package net.mcreator.createpyrotechnics.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.createpyrotechnics.procedures.MissileBodyStage3OnTickUpdateProcedure;
+import net.mcreator.createpyrotechnics.block.entity.MissileBodyStage3BlockEntity;
 
 public class MissileBodyStage3Block extends Block implements EntityBlock {
 	public MissileBodyStage3Block() {
@@ -25,7 +41,7 @@ public class MissileBodyStage3Block extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		MissileBodyStage3OnTickUpdateProcedure.execute();
+		MissileBodyStage3OnTickUpdateProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 1);
 	}
 

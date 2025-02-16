@@ -79,6 +79,8 @@ public class TrinitytestguiMenu extends AbstractContainerMenu implements Supplie
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 84, 42) {
 			private final int slot = 0;
+			private int x = TrinitytestguiMenu.this.x;
+			private int y = TrinitytestguiMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

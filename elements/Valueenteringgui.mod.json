@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -18,7 +18,8 @@
           "width": 120,
           "height": 20,
           "x": 153,
-          "y": 95
+          "y": 95,
+          "locked": false
         }
       },
       {
@@ -29,7 +30,8 @@
           "width": 120,
           "height": 20,
           "x": 153,
-          "y": 69
+          "y": 69,
+          "locked": false
         }
       },
       {
@@ -45,7 +47,8 @@
             "falpha": 0.0
           },
           "x": 190,
-          "y": 48
+          "y": 48,
+          "locked": false
         }
       },
       {
@@ -60,7 +63,8 @@
           "width": 51,
           "height": 20,
           "x": 187,
-          "y": 157
+          "y": 157,
+          "locked": false
         }
       },
       {
@@ -75,7 +79,8 @@
             "falpha": 0.0
           },
           "x": 142,
-          "y": 49
+          "y": 49,
+          "locked": false
         }
       },
       {
@@ -86,7 +91,8 @@
           "width": 120,
           "height": 20,
           "x": 153,
-          "y": 124
+          "y": 124,
+          "locked": false
         }
       }
     ],
