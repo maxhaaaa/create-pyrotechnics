@@ -75,11 +75,9 @@ public class CreatePyrotechnicsModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-
 			tabData.accept(CreatePyrotechnicsModItems.COCKROACH_SPAWN_EGG.get());
 			tabData.accept(CreatePyrotechnicsModItems.FIREBALL_TEST_SPAWN_EGG.get());
 			tabData.accept(CreatePyrotechnicsModItems.MR_MOTIVATOR_SPAWN_EGG.get());
-
 		}
 	}
 }

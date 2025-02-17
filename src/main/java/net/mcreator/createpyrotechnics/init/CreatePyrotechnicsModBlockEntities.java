@@ -66,6 +66,8 @@ public class CreatePyrotechnicsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> THRUSTER_C_TEST = register("thruster_c_test", CreatePyrotechnicsModBlocks.THRUSTER_C_TEST, ThrusterCTestBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> BODY_SLAB_C_TEST = register("body_slab_c_test", CreatePyrotechnicsModBlocks.BODY_SLAB_C_TEST, BodySlabCTestBlockEntity::new);
 
+	// Start of user code block custom block entities
+	// End of user code block custom block entities
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}
